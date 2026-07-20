@@ -1,2 +1,4 @@
 # Quantum-Machine-Learning
-Analysis
+
+
+Analysis of quantum machine learning algorithms. 
