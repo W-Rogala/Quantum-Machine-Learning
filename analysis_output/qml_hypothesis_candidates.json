@@ -1,0 +1,503 @@
+{
+  "WDBC breast cancer: malignant vs benign": [
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.5,
+      "alignment": 0.6612441545776082,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.7038677680177498,
+      "offdiag_std": 0.27465876502039777,
+      "kernel_time_s": 0.0011166000001594512
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.5,
+      "alignment": 0.6443011292309011,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.8014568029920293,
+      "offdiag_std": 0.2191557608803933,
+      "kernel_time_s": 0.0009660000000621949
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.75,
+      "entanglement": 0.5,
+      "alignment": 0.6367472717768576,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.5864588966218593,
+      "offdiag_std": 0.30981101881040946,
+      "kernel_time_s": 0.0010594999998829735
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 1.0,
+      "alignment": 0.622859074684723,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.6428149400165029,
+      "offdiag_std": 0.32355661994508783,
+      "kernel_time_s": 0.0009918999999172229
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.25,
+      "alignment": 0.6225728514227856,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.791131744974689,
+      "offdiag_std": 0.2083798578985452,
+      "kernel_time_s": 0.0009804999999687425
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.25,
+      "alignment": 0.6179236475513615,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.8751270469459937,
+      "offdiag_std": 0.14562782005527702,
+      "kernel_time_s": 0.0009933999999702792
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.75,
+      "entanglement": 0.25,
+      "alignment": 0.6094177073090409,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.6633855280020597,
+      "offdiag_std": 0.2768387281768363,
+      "kernel_time_s": 0.0010545000000092841
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 1.0,
+      "alignment": 0.6070084818903029,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.5507044533074273,
+      "offdiag_std": 0.3379595600191666,
+      "kernel_time_s": 0.001036600000134058
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.75,
+      "entanglement": 0.1,
+      "alignment": 0.6000423307258033,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.6827373052747332,
+      "offdiag_std": 0.2749020748547496,
+      "kernel_time_s": 0.0010466999999607651
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.75,
+      "entanglement": 0.0,
+      "alignment": 0.5981177963254761,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.6848915069049065,
+      "offdiag_std": 0.2793313593073883,
+      "kernel_time_s": 0.0013058000001819892
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.75,
+      "entanglement": 1.0,
+      "alignment": 0.5957266841349333,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.45985461895759416,
+      "offdiag_std": 0.33322546528180347,
+      "kernel_time_s": 0.0010111999999935506
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.1,
+      "alignment": 0.5951748430084328,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.820064606785847,
+      "offdiag_std": 0.19006277623688067,
+      "kernel_time_s": 0.0009133000000929314
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.0,
+      "alignment": 0.5863620062410586,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.825685293713375,
+      "offdiag_std": 0.18798900277701291,
+      "kernel_time_s": 0.0008504999998422136
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.1,
+      "alignment": 0.5813806643476563,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.900204593488303,
+      "offdiag_std": 0.1191113812055182,
+      "kernel_time_s": 0.0008394000001317181
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 1.0,
+      "entanglement": 0.1,
+      "alignment": 0.5809484135305273,
+      "pca_explained": 0.6281958408957616,
+      "offdiag_mean": 0.5642724358348723,
+      "offdiag_std": 0.31643869037774264,
+      "kernel_time_s": 0.0010841000000709755
+    }
+  ],
+  "Wine: class 1 vs class 2": [
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.1,
+      "alignment": 0.664291211348134,
+      "pca_explained": 0.5311826686147257,
+      "offdiag_mean": 0.6393766762870384,
+      "offdiag_std": 0.259255623024463,
+      "kernel_time_s": 0.0003268000000389293
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.0,
+      "alignment": 0.6631814694340695,
+      "pca_explained": 0.5311826686147257,
+      "offdiag_mean": 0.6490233890356572,
+      "offdiag_std": 0.2569850893799972,
+      "kernel_time_s": 0.00018099999988407944
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.25,
+      "alignment": 0.6611533893750898,
+      "pca_explained": 0.5311826686147257,
+      "offdiag_mean": 0.7404942302353035,
+      "offdiag_std": 0.20181435319666446,
+      "kernel_time_s": 0.00017960000013772515
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.25,
+      "alignment": 0.6588447490947897,
+      "pca_explained": 0.5311826686147257,
+      "offdiag_mean": 0.592790727702059,
+      "offdiag_std": 0.27294372228652874,
+      "kernel_time_s": 0.00037739999993391393
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.1,
+      "alignment": 0.654683607688055,
+      "pca_explained": 0.5311826686147257,
+      "offdiag_mean": 0.7894528318666597,
+      "offdiag_std": 0.1700424092667922,
+      "kernel_time_s": 0.00020040000003973546
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.75,
+      "entanglement": 0.0,
+      "alignment": 0.6509884933757526,
+      "pca_explained": 0.5311826686147257,
+      "offdiag_mean": 0.4382796240596131,
+      "offdiag_std": 0.32802282009727723,
+      "kernel_time_s": 0.0005525999999917985
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.0,
+      "alignment": 0.6500914577334209,
+      "pca_explained": 0.5311826686147257,
+      "offdiag_mean": 0.7994431351144273,
+      "offdiag_std": 0.16405882819184064,
+      "kernel_time_s": 0.0005604000000403175
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.75,
+      "entanglement": 0.1,
+      "alignment": 0.6425241166712711,
+      "pca_explained": 0.5311826686147257,
+      "offdiag_mean": 0.4380596006786312,
+      "offdiag_std": 0.320722559815045,
+      "kernel_time_s": 0.0006811999999172258
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.5,
+      "entanglement": 0.1,
+      "alignment": 0.6387513405412155,
+      "pca_explained": 0.7291155693849445,
+      "offdiag_mean": 0.456419948953872,
+      "offdiag_std": 0.23921583829477774,
+      "kernel_time_s": 0.0005330999999841879
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.5,
+      "entanglement": 0.0,
+      "alignment": 0.637184493836049,
+      "pca_explained": 0.7291155693849445,
+      "offdiag_mean": 0.47360433507424554,
+      "offdiag_std": 0.25214286482558335,
+      "kernel_time_s": 0.00030900000001565786
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.5,
+      "alignment": 0.6336453449053452,
+      "pca_explained": 0.5311826686147257,
+      "offdiag_mean": 0.6065996236066047,
+      "offdiag_std": 0.28746613307238644,
+      "kernel_time_s": 0.00021579999997811683
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.75,
+      "entanglement": 0.1,
+      "alignment": 0.6181035049391016,
+      "pca_explained": 0.7291155693849445,
+      "offdiag_mean": 0.2526300870553869,
+      "offdiag_std": 0.2352348816920165,
+      "kernel_time_s": 0.00045560000012301316
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.35,
+      "entanglement": 0.0,
+      "alignment": 0.6139513352272702,
+      "pca_explained": 0.7291155693849445,
+      "offdiag_mean": 0.6776107643063541,
+      "offdiag_std": 0.18544954310846978,
+      "kernel_time_s": 0.0004079000000274391
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.35,
+      "entanglement": 0.1,
+      "alignment": 0.6132047809830357,
+      "pca_explained": 0.7291155693849445,
+      "offdiag_mean": 0.645167344257023,
+      "offdiag_std": 0.19062676876182458,
+      "kernel_time_s": 0.0006914999999025895
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.75,
+      "entanglement": 0.0,
+      "alignment": 0.6119146789362768,
+      "pca_explained": 0.7291155693849445,
+      "offdiag_mean": 0.24167966125038787,
+      "offdiag_std": 0.2556736607451425,
+      "kernel_time_s": 0.00028539999993881793
+    }
+  ],
+  "OptDigits: digit 3 vs digit 8, capped at 220/class": [
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.0,
+      "alignment": 0.7705751304865892,
+      "pca_explained": 0.24718308814753745,
+      "offdiag_mean": 0.6973857125416258,
+      "offdiag_std": 0.24234856679457373,
+      "kernel_time_s": 0.0009414999999535212
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.1,
+      "alignment": 0.767439383052884,
+      "pca_explained": 0.24718308814753745,
+      "offdiag_mean": 0.6866292977106729,
+      "offdiag_std": 0.2470017889021485,
+      "kernel_time_s": 0.0007611000000906643
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.75,
+      "entanglement": 0.0,
+      "alignment": 0.7641585719182663,
+      "pca_explained": 0.24718308814753745,
+      "offdiag_mean": 0.4978428421594043,
+      "offdiag_std": 0.3296892356241616,
+      "kernel_time_s": 0.0006565000001046428
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.0,
+      "alignment": 0.7597675404693632,
+      "pca_explained": 0.24718308814753745,
+      "offdiag_mean": 0.8307218827143746,
+      "offdiag_std": 0.1484764716109442,
+      "kernel_time_s": 0.0006190999999944324
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.75,
+      "entanglement": 0.1,
+      "alignment": 0.7585382076454226,
+      "pca_explained": 0.24718308814753745,
+      "offdiag_mean": 0.49361893111026195,
+      "offdiag_std": 0.3254825246500493,
+      "kernel_time_s": 0.0007501000000047497
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.5,
+      "entanglement": 0.0,
+      "alignment": 0.7584305814725293,
+      "pca_explained": 0.3879450263435101,
+      "offdiag_mean": 0.629700468932838,
+      "offdiag_std": 0.23967320764859693,
+      "kernel_time_s": 0.0010457000000769767
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.5,
+      "entanglement": 0.1,
+      "alignment": 0.7564815126345459,
+      "pca_explained": 0.3879450263435101,
+      "offdiag_mean": 0.6014382207294147,
+      "offdiag_std": 0.2427605898127778,
+      "kernel_time_s": 0.0014547000000675325
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.1,
+      "alignment": 0.7563538158614624,
+      "pca_explained": 0.24718308814753745,
+      "offdiag_mean": 0.8211343587765143,
+      "offdiag_std": 0.15556198958035986,
+      "kernel_time_s": 0.0006746999999904801
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.35,
+      "entanglement": 0.1,
+      "alignment": 0.7514773661309564,
+      "pca_explained": 0.3879450263435101,
+      "offdiag_mean": 0.7584707541186203,
+      "offdiag_std": 0.16992096992791403,
+      "kernel_time_s": 0.0011073999999098305
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.35,
+      "entanglement": 0.0,
+      "alignment": 0.7488331692577013,
+      "pca_explained": 0.3879450263435101,
+      "offdiag_mean": 0.7882150440178091,
+      "offdiag_std": 0.15566761276305027,
+      "kernel_time_s": 0.0007820000000720029
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.5,
+      "entanglement": 0.25,
+      "alignment": 0.7453409737941707,
+      "pca_explained": 0.24718308814753745,
+      "offdiag_mean": 0.6350440705149273,
+      "offdiag_std": 0.2712725290132423,
+      "kernel_time_s": 0.0007035999999516207
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.35,
+      "entanglement": 0.25,
+      "alignment": 0.7451364208566865,
+      "pca_explained": 0.3879450263435101,
+      "offdiag_mean": 0.6316942512222707,
+      "offdiag_std": 0.22329322098019985,
+      "kernel_time_s": 0.0011978999998518702
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.75,
+      "entanglement": 0.0,
+      "alignment": 0.7416654476847113,
+      "pca_explained": 0.3879450263435101,
+      "offdiag_mean": 0.40503050964977877,
+      "offdiag_std": 0.2951996154597697,
+      "kernel_time_s": 0.001348900000039066
+    },
+    {
+      "qubits": 4,
+      "state_dimension": 16,
+      "angle_scale": 0.5,
+      "entanglement": 0.25,
+      "alignment": 0.7351216329325557,
+      "pca_explained": 0.3879450263435101,
+      "offdiag_mean": 0.48317420795973964,
+      "offdiag_std": 0.257744595236276,
+      "kernel_time_s": 0.0013480000000072323
+    },
+    {
+      "qubits": 2,
+      "state_dimension": 4,
+      "angle_scale": 0.35,
+      "entanglement": 0.25,
+      "alignment": 0.7339704505099146,
+      "pca_explained": 0.24718308814753745,
+      "offdiag_mean": 0.7739962868883101,
+      "offdiag_std": 0.19189442997169592,
+      "kernel_time_s": 0.0005960000000868604
+    }
+  ]
+}
