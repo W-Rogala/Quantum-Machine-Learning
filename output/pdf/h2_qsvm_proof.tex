@@ -1,0 +1,71 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\geometry{margin=2.35cm}
+
+\newtheorem{lemma}{Lemat}
+\newtheorem{theorem}{Twierdzenie}
+\newtheorem*{remark}{Uwaga}
+
+\title{Opis i dowÃ³d matematyczny hipotezy H2\\
+\large Kalibracja jÄ…dra QSVM z minimalnym limitem 4 kubitÃ³w}
+\author{ZespÃ³Å‚: fizyk kwantowy, specjalista ML, statystyk, inÅ¼ynier obliczeÅ„}
+\date{11 lipca 2026}
+
+\begin{document}
+\maketitle
+
+\section{TreÅ›Ä‡ hipotezy H2}
+
+Hipoteza H2 dotyczy modelu QSVM-like, czyli klasyfikatora jÄ…drowego, w ktÃ³rym czÄ™Å›Ä‡ kwantowa odpowiada za macierz podobieÅ„stwa miÄ™dzy prÃ³bkami.
+
+\medskip
+\noindent
+\textbf{H2.} ZachowaÄ‡ kalibracjÄ™ jÄ…dra przez kernel-target alignment, ale narzuciÄ‡ minimalnÄ… pojemnoÅ›Ä‡ czterech kubitÃ³w. Wtedy model powinien zachowaÄ‡ lub poprawiÄ‡ jakoÅ›Ä‡ wzglÄ™dem bazowego jÄ…dra szeÅ›ciokubitowego, a jednoczeÅ›nie zuÅ¼ywaÄ‡ mniej zasobÃ³w obliczeniowych, poniewaÅ¼ stan czterokubitowy ma
+\[
+2^4 = 16
+\]
+amplitud zamiast
+\[
+2^6 = 64.
+\]
+
+Intuicja zespoÅ‚u jest nastÄ™pujÄ…ca. Z punktu widzenia fizyki kwantowej dwa kubity tworzÄ… zbyt maÅ‚Ä… przestrzeÅ„ Hilberta dla czÄ™Å›ci danych, natomiast cztery kubity dajÄ… jeszcze taniÄ…, ale juÅ¼ wyraÅºnie bogatszÄ… geometriÄ™. Z punktu widzenia uczenia maszynowego PCA do czterech skÅ‚adowych zachowuje nie mniej informacji liniowej niÅ¼ PCA do dwÃ³ch skÅ‚adowych. Statystycznie alignment dobiera jÄ…dro zgodne z etykietami, ale poprawÄ™ jakoÅ›ci trzeba potwierdziÄ‡ empirycznie. Obliczeniowo koszt symulacji jÄ…dra skaluje siÄ™ z wymiarem stanu, wiÄ™c przejÅ›cie z szeÅ›ciu do czterech kubitÃ³w daje czterokrotnÄ… redukcjÄ™ wymiaru.
+
+\section{Formalizacja}
+
+Niech dany bÄ™dzie zbiÃ³r uczÄ…cy
+\[
+D = \{(x_i,y_i)\}_{i=1}^{n}, \qquad y_i \in \{-1,+1\}.
+\]
+Po standaryzacji wykonujemy PCA i zostawiamy $q$ skÅ‚adowych:
+\[
+z_i^{(q)} = P_q x_i \in \mathbb{R}^q.
+\]
+NastÄ™pnie skÅ‚adowe sÄ… skalowane do przedziaÅ‚u $[0,1]$ i kodowane w obwodzie kwantowym typu ZZFeatureMap. Feature mapÄ™ oznaczmy przez
+\[
+\Phi_{q,\alpha,e}:\mathbb{R}^q \to \mathbb{C}^{2^q},
+\]
+gdzie $q$ to liczba kubitÃ³w, $\alpha$ to skala kÄ…tÃ³w, a $e$ to siÅ‚a sprzÄ™Å¼enia dwukubitowego. Dla prÃ³bki)ÚIİ[ˆİØ[İŞHŞ›˜XŞ˜[^B—ÂŸÚWÚW˜[™ÛHHWŞÜK[K_WWY
+—ÚWÊJ_WšYÚ
+K‚—B’±!Y›ÈİØ[İÙHXHÜİq!Â—Â’×ŞÚZŸWÊK[KJ_BB—Y[™ÛHÚWÚHZYÚWÚˆ˜[™ÛWšYÚŒ‹‚—B‚•Ø\šX[˜^›İŞHqo]ØH	OM‰ˆ\İ^˜HˆÜ\Ş˜Ş˜Hİ›Ú™[šYH	[IÜ˜^ˆ	I[HŞ[]\Ş˜B—ÂœHÙH‚—B•ÈZÜÜ\[Y[˜ÚYHˆŞXšY\˜HÛÛ™šYİ\˜XÚ±&H›\Úñ!H˜Z›\Ş™[]HÙ\›™[]\™Ù][YÛ›Y[‚—ÂŠW—İ\‹[W—İ\‹W—İ\ŠBB—\™×Z[—ŞÜK[K_HB—BœHØ\[šİB—ÂWWY
+×ÊK[KJ_K^W•šYÚ
+B—ÙBŒMB—X^Ş×[HK[W[K[H_BWWY
+×Ê[HK[W[K[HJ_K^W•šYÚ
+K—\]XYWÙH‚—B‚—ÙXİ[ÛÔÜ˜]Û›ñfñ!È±!Y˜HİØ[İÙYÛßB‚—™YÚ[Û[[X_B“XXÚY\‚—Â’×ŞÚZŸOWY[™ÛWÚWÚWZYÚWÚ—˜[™ÛWšYÚŒ‚—Bš™\İÙ]š[È0ìñ`›ÚÜ™qfÛÛ˜KÚq&XÈ™\İÜ˜]Û[H±!Y™[HHÛ\ŞYšZØ]Ü˜H±!Y›İÙYÛË‚—[™Û[[X_B‚—™YÚ[Ü›ÛÙŸB–˜]]Øqo^K1oB—Â—Y[™ÛWÚWÚWZYÚWÚ—˜[™ÛWšYÚŒ‚B—[™ÛWÚWÚWZYÚWÚ—˜[™ÛB—[™ÛWÚWÚ—ZYÚWÚW˜[™ÛK‚—B•Ş\˜qo[šYHÈ[ño˜H™\\Øq!È˜ZÛÈ[ØŞ[ˆÚØ[\›HÈ™\İ™[šH[œÛÜ›İÙZ‚—Â—Y[™ÛWÚWÚWZYÚWÚ—˜[™ÛWšYÚŒ‚B—Y[™ÛB—ÚWÚWİ[Y\×ÚWÚW—\İ—ZY_—ÚWÚ—İ[Y\×ÚWÚ——\İ—šYÚ˜[™ÛK‚—B‘Yš[š]Z™[^B—ÂŸ˜\œWÚW˜[™ÛHHÚWÚW˜[™ÛHİ[Y\ÈÚWÚW—\İ˜[™ÛK‚—B•İYB—Â’×ŞÚZŸOW[™ÛW˜\œWÚWZY˜\œWÚ—˜[™ÛK‚—B‘HİÛÛ™YÛÈÙZİÜ˜HÜÜ0ìñ`˜Ş[›šZğìİÈ	×[—X]˜ÔŸW›‰X[^B—Â˜×•ÈÂB—İ[WŞÚKŸH×ÚH×Úˆ[™ÛW˜\œWÚWZY˜\œWÚ—˜[™ÛBB—Y—İ[WÚH×Ú_˜\œWÚW˜[™ÛB—šYÚŒ‚—ÙH‚—B–˜][H	É™\İÙ]š[È0ìñ`›ÚÜ™qfÛÛ˜K‚—[™Ü›ÛÙŸB‚—ÙXİ[ÛÔ™YZØÚ˜HÛÜŞHŞ™Û1&Y[H˜\Ù[[™_B‚—™YÚ[Û[[X_B•Ø\šX[ˆˆŞ\™[XHİXš][ZHXHŞ\›ÚÜ›İšYH[šYZœŞHŞ[ZX\ˆİ[Hšqo˜\Ù[[™HˆŞ™qfØÚ[ÛXHİXš][ZK‚—[™Û[[X_B‚—™YÚ[Ü›ÛÙŸB‘H	IİXš]0ìİÈŞ[ZX\ˆ™\İ™[šH[™\HŞ[›ÜÚB—Â—[HX]Ø[ÒWÜHH—œK‚—B‘H˜\Ù[[™H‚—Â—[HX]Ø[ÒWÍˆH—ˆH‚—B‘H‚—Â—[HX]Ø[ÒWÍH—HM‹‚—B”İ1!Y—Â—œ˜XŞ×[HX]Ø[ÒWÍ^×[HX]Ø[ÒWÍŸBB—œ˜XŞÌMŸ^ÍBB—œ˜XÌM‚—B’™qo[HÛÜŞŞ[][XÚšHXXÚY\H±!Y˜H™\İ™ÛZ[›İØ[H™^ˆXŞ™[šYHİ™\›\0ìİÈİ[°ìİËÂ—Â•
+JOSÊ—Œˆ—œJK‚—B‘]YÛÂ—Â—œ˜XŞÕ
+
+_^Õ
+Š_B—\›Ş—œ˜XŞÛ—Œˆ—^Û—Œˆ—ŸBB—œ˜XÌM‚—B•ÈİÛÙšH˜\ÛØ›İÙZˆŞ±&qfØÚH\İ^H‹‚—[™Ü›ÛÙŸB‚—ÙXİ[ÛÑXŞ™YÛÈ[Z]Ş\™XÚİXš]0ìİÈ˜\˜]ÚXH™YZØÚ±&HİZİXš]İñ!_B‚—™YÚ[Û[[X_B”ĞHÈŞ\™XÚÚñ`˜YİŞXÚ˜XÚİİZ™HšYH[šYZˆ[™›Ü›XXÚšH[š[İÙZˆšqoĞHÈğìØÚÚñ`˜YİŞXÚ‚—[™Û[[X_B‚—™YÚ[Ü›ÛÙŸB“šYXÚ—Â—[X™WÌWÙH[X™WÌ—ÙHÙİÈÙH[X™WÙÙH—B˜±&Y1!HØ\ñfØÚX[ZHñ`˜\Û[ZHXXÚY\HÛİØ\šX[˜ÚšH[XÚÈİ[™\^˜XÚšKˆˆÚY\™™[šXHXÚØ\KV[İ[™ØH±`±!Y™ZÛÛœİZØÚšHĞH±&YH	IŞ[›ÜÚB—Â‘WÜOWİ[WŞÚÏ\JÌ_WÙW[X™WÚË‚—B‘H	OL‰‚—Â‘WÌWİ[WŞÚÏLßWÙW[X™WÚË‚—B‘H	OM	‚—Â‘WÍWİ[WŞÚÏM_WÙW[X™WÚË‚—B”ÛšY]ØqoØ\ñfØÚHñ`˜\Û™Hñ!HšY]Z™[[™K—Â‘WÌ‹QWÍW[X™WÌÊ×[X™WÍÙH‚—B–˜][B—Â‘WÍHWÌ‹‚—B”°ìİÛ›İØqošYKYšXq`ˆ˜XÚİØ[™ZˆØ\šX[˜ÚšB—Â”—ÜOB—œ˜XŞ×İ[WŞÚÏL_WÜ_W[X™WÚßB×İ[WŞÚÏL_WÙW[X™WÚßB—BœÜq`›šXB—Â”—ÍÙH—Ì‹‚—B•Ø\šX[‹Ş[]\Ş˜Z±!XŞHÛÈ˜Z›[šYZˆŞ\HİXš]KšYH[ñoHÚq&XÈ˜XÚİØq!È[šYZˆ[š[İÙZˆ[™›Ü›XXÚšHĞHšqoYÜ™\Ş]ÛHØ\šX[İZİXš]İŞK‚—[™Ü›ÛÙŸB‚—ÙXİ[ÛÔ›ÛHÙ\›™[]\™Ù][YÛ›Y[B‚“šYXÚ—Â–O^^W•—B˜±&YšYHXXÚY\±!H]ZÚY]H	×ØÉH	WØÉŞ›˜XŞ˜Z±!HÙ\œÚ™HŞXÙ[›İØ[™KˆÙ\›™[]\™Ù][YÛ›Y[Yš[š]Z™[^H˜ZÛÂ—ÂJËJBB—œ˜XŞ×[™ÛH×ØËWØ×˜[™ÛWÑŸB××Ø×Ñ—WØ×ÑŸK‚—B‘H\İ[Û™YÛÈ˜š[ÜH]ZÚY]	WØÉ™\İİq`™Kˆ™qo[HÜ°ìİÛZ™[^H±!Y˜H››Ü›X[^›İØ[™HÈÙØ›™Zˆ›Ü›^Hœ›Ø™[š]\ØKXZÜŞ[X[^˜XÚ˜H[YÛ›Y[H™\İ°ìİÛ›İØqo˜HXZÜŞ[X[^˜XÚšB—Â—[™ÛH×ØË^W•˜[™ÛWÑ‚BW•×ØÈK‚—B•Ø\ñfñ!È	W•×ØÈIZY\K˜ZÈÚ[šYHÙ[ÛY]šXH™Yš[š[İØ[˜H™^ˆ±!Y›ÈŞ›XXÛšXHÚY\[™ZÈ]ZÚY]‚‚‘HÛ\ŞYšZØ]Ü°ìİÈ\HÙ\›™[šYÙHXˆËTÕ“H™YZØÚ˜H˜H˜š[Ü™HXŞ±!XŞ[HXHYX[^›İØ[±!HÜİq!Â—Â—]HHÊÊ×[X™HJWËL_^K‚—B’™qfÛB—ÂOWİ[WÛH™]WÛHWÛK\]XYİWÛOW]WÛHWÛK—BÂ—Â—]BB—İ[WÛB—œ˜XŞ×]WÛ_^×]WÛJ×[X™_B—™]WÛHWÛK‚—B±`±!Y™[š[™ÛİŞHÈZˆ[˜[^šYHŞ[›ÜÚB—Â—KW]WŒ‚B—İ[WÛB—Y
+—œ˜XŞ×[X™_^×]WÛJ×[X™_B—šYÚ
+WŒ‚—™]WÛWŒ‹‚—B’™qo[H]ZÚY]HXZ±!HÚq&ZÜŞ±!H›Ú™ZØÚ±&H˜HÚY\[šÚHñ`˜\Û™H±!Y˜HÈÚq&ZÜŞXÚ	]WÛIŞ[›šZÂ—Â—œ˜XŞ×[X™_^×]WÛJ×[X™_B—B›X[Z™KH±`±!Y™\İ[šYZœŞKˆ[YÛ›Y[™\İÚq&XÈX][X]XŞ›šYH^˜\ØYš[Û±!H]\\İZñ!HŞX›ÜH±!Y˜Kİ0ìÜ™YÛÈÙ[ÛY]šXH™\İ™ÛÙ˜Hˆ]ZÚY][ZK‚‚—ÙXİ[ÛÕÚY\™™[šYHñ`°ìİÛ™_B‚—™YÚ[İ[Ü™[_B”H˜q`›ño[šXXÚ1oHqo]Ø[^H±!Y˜B—Â’×ŞÚZŸO_[™ÛWÚWÚWZYÚWÚ—˜[™Û_Œ‹—BšÛÜŞŞ[][XÚšH™\İ™ÛZ[›İØ[H™^ˆİ™\›\Hİ[°ìİË[™H™YZÛİØ[™Hñ!H™^ˆĞKHÛÛ™šYİ\˜XÚ˜HŞXšY\˜[˜H™\İ™^ˆÙ\›™[]\™Ù][YÛ›Y[ˆÙÜ˜[šXŞ™[šY[H	WÙM	\İ^˜HˆXH˜\İ1&\Z±!XÙHñ`˜\Û›ñfØÚN‚—™YÚ[Ù[[Y\˜]_B—][HZ™HÜ˜]Û™H±!Y›ÈÙ]š[È0ìñ`›ÚÜ™qfÛÛ™NÂ—][H™YZİZ™HŞ[ZX\ˆİ[HŞ™Û1&Y[H˜\Ù[[™HŞ™qfØÚ[ÚİXš]İÙYÛÈÚñ`˜YšYHÈ	KÍ	Â—][H˜XÚİİZ™HšYH[šYZˆ[™›Ü›XXÚšHĞHšqoØ\šX[İZİXš]İŞNÂ—][HŞXšY\˜H±!Y›Ëİ0ìÜ™HñfÜ°ìÙ›ŞØqo[XÚØ[™Y]0ìİÈXZÜŞ[X[^Z™H™ÛÙ›ñfñ!ÈÙ[ÛY]šZH±!Y˜HˆÚY\[šÚY[H]ZÚY]‚—[™Ù[[Y\˜]_B—[™İ[Ü™[_B‚—™YÚ[Ü›ÛÙŸB”[šİY\ÜŞHŞ[šZØHˆ[X]HKˆ[šİYÚHŞ[šZØHˆ[X]H‹ˆ[šİ™XÚHŞ[šZØHˆ[X]HËˆ[šİŞØ\HŞ[šZØHˆYš[šXÚšHÙ\›™[]\™Ù][YÛ›Y[H™Yİq`HŞX›ÜH‹ˆ˜][HÜŞ\İÚYHŞ[ZY[š[Û™Hñ`˜\Û›ñfØÚHˆñ!HÜq`›š[Û™K‚—[™Ü›ÛÙŸB‚—ÙXİ[ÛÑÜ˜[šXØHİÛÙ_B‚“šYHHÚq&HXŞ˜Ú]ÚYHYİÛÙšq!ÈŞ\İÈX][X]XŞ›šYK1oHˆ˜]ÜŞ™HÜ˜]ÚHXØİ\˜XŞH˜HİÛÛ[H˜š[Ü™H[XÚˆXØİ\˜XŞH˜[qoHÙ›Şšñ`˜YH[XÚŞ[]KÙšXq`H˜Z[‹İ\İ™Yİ[\^˜XÚšHH™ÛÙ›ñfØÚH™X]\™HX\Hˆ˜]Ùš]ñ!HÜ˜[šXñ!HXŞ^Z›±!K‚‚‘]YÛÈŞ[šZÈXHÚYHŞ±&qfØÚKˆŞ±&qfñ!ÈX][X]XŞ›˜HİÛÙšK1oHˆ™\İÜ˜]Û[KqaŞ[HH\YZˆ^˜\ØYš[Û[HØ\šX[[HšqoYÜ™\Ş]Û™HØHİXš]KˆŞ±&qfñ!È[\\XŞ›˜HÜ˜]Ù˜KŞHHÛÛœİZØÚ˜H™XŞ]ÚqfØÚYHÜ˜]ÚXHY]ZÚK‚‚—ÙXİ[ÛÔİÚY\™™[šYH[\\XŞ›™_B‚•ÈšY\Úq&XÚ]Hİİ0ìÜ™[šXXÚ\İH^\ÚØ[›È˜\İ1&\Z±!XÙH˜[[˜ÙYXØİ\˜XŞN‚‚—™YÚ[ØÙ[\ŸB—™YÚ[İX[\Ÿ^ÛØØßB—Ü[B–˜špìÜˆ	ˆˆ˜\Ù[[™HœH	ˆˆH[YÛ›Y[	ˆ°ìñošXØH—ZY[B•ÑÈ	ˆLˆ	ˆMˆ	ˆ
+ÌŒ•Ú[™H	ˆMLH	ˆMÎH	ˆ
+ÌŒÈ“ÜYÚ]ÈË]œËN	ˆMH	ˆMÍˆ	ˆ
+ÌŒÌH—›İÛ\[B—[™İX[\ŸB—[™ØÙ[\ŸB‚•ÈØqo[H\YİHˆ˜XÚİØq`˜HİÜİ[™ZÈŞ[ZX\Hİ[B—Â—œ˜XŞÌ—^Ì—ŸOLŒK‚—B“Üİ]XŞ›HÛš[ÜÙZÈœ›ZNˆX][X]XŞ›šYHˆ™\İÜ˜]Û±!HH˜\ÛØ›İÛÈ\Ş±!HÛÛœİZØÚ±!H±!Y˜HTÕ“KH[\\XŞ›šYHÈ˜Y[[HÛÜšÜÜXÙHÜ˜]Úq`˜H˜[[˜ÙYXØİ\˜XŞH˜HÜŞ\İÚXÚ™XÚ˜Y[šXXÚ‚‚—[™ÙØİ[Y[B
