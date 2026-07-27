@@ -1,0 +1,224 @@
+{
+  "WDBC breast cancer: malignant vs benign": [
+    {
+      "seed": 20260709,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.35,
+      "h2_entanglement": 0.25,
+      "h2_selection_alignment": 0.525233579297199,
+      "h2_best_alignment": 0.525233579297199,
+      "h2_threshold": 0.49897190033233907
+    },
+    {
+      "seed": 20260710,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.5683567916048897,
+      "h2_best_alignment": 0.5710523723333996,
+      "h2_threshold": 0.5424997537167295
+    },
+    {
+      "seed": 20260711,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.49689107134334837,
+      "h2_best_alignment": 0.5019104529191064,
+      "h2_threshold": 0.4768149302731511
+    },
+    {
+      "seed": 20260712,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.35,
+      "h2_entanglement": 0.25,
+      "h2_selection_alignment": 0.557469201597951,
+      "h2_best_alignment": 0.557469201597951,
+      "h2_threshold": 0.5295957415180534
+    },
+    {
+      "seed": 20260713,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.35,
+      "h2_entanglement": 0.25,
+      "h2_selection_alignment": 0.5870382895812242,
+      "h2_best_alignment": 0.5870382895812242,
+      "h2_threshold": 0.5576863751021629
+    },
+    {
+      "seed": 20260714,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.35,
+      "h2_entanglement": 0.25,
+      "h2_selection_alignment": 0.547906018415645,
+      "h2_best_alignment": 0.547906018415645,
+      "h2_threshold": 0.5205107174948628
+    },
+    {
+      "seed": 20260715,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.5772243133727475,
+      "h2_best_alignment": 0.5794943789454219,
+      "h2_threshold": 0.5505196599981508
+    },
+    {
+      "seed": 20260716,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.35,
+      "h2_entanglement": 0.25,
+      "h2_selection_alignment": 0.43843321929911505,
+      "h2_best_alignment": 0.43843321929911505,
+      "h2_threshold": 0.41651155833415926
+    }
+  ],
+  "Wine: class 1 vs class 2": [
+    {
+      "seed": 20260709,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.637184493836049,
+      "h2_best_alignment": 0.6387513405412155,
+      "h2_threshold": 0.6068137735141547
+    },
+    {
+      "seed": 20260710,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.598835514856845,
+      "h2_best_alignment": 0.6037648880537131,
+      "h2_threshold": 0.5735766436510275
+    },
+    {
+      "seed": 20260711,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.6554840193321915,
+      "h2_best_alignment": 0.6554840193321915,
+      "h2_threshold": 0.6227098183655818
+    },
+    {
+      "seed": 20260712,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.6522173360417247,
+      "h2_best_alignment": 0.6522173360417247,
+      "h2_threshold": 0.6196064692396385
+    },
+    {
+      "seed": 20260713,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.5567343304775704,
+      "h2_best_alignment": 0.5567343304775704,
+      "h2_threshold": 0.5288976139536918
+    },
+    {
+      "seed": 20260714,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.6107342542113067,
+      "h2_best_alignment": 0.6118475186826382,
+      "h2_threshold": 0.5812551427485063
+    },
+    {
+      "seed": 20260715,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.6385990483252716,
+      "h2_best_alignment": 0.6449417456648339,
+      "h2_threshold": 0.6126946583815921
+    },
+    {
+      "seed": 20260716,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.5910131829141285,
+      "h2_best_alignment": 0.5910131829141285,
+      "h2_threshold": 0.5614625237684221
+    }
+  ],
+  "OptDigits: digit 3 vs digit 8, capped at 220/class": [
+    {
+      "seed": 20260709,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.7584305814725293,
+      "h2_best_alignment": 0.7584305814725293,
+      "h2_threshold": 0.7205090523989028
+    },
+    {
+      "seed": 20260710,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.6734565790465554,
+      "h2_best_alignment": 0.6734565790465554,
+      "h2_threshold": 0.6397837500942276
+    },
+    {
+      "seed": 20260711,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.7357863358749942,
+      "h2_best_alignment": 0.7377793746227336,
+      "h2_threshold": 0.7008904058915969
+    },
+    {
+      "seed": 20260712,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.648532196306741,
+      "h2_best_alignment": 0.648532196306741,
+      "h2_threshold": 0.6161055864914039
+    },
+    {
+      "seed": 20260713,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.7206081385200407,
+      "h2_best_alignment": 0.7417169737281977,
+      "h2_threshold": 0.7046311250417877
+    },
+    {
+      "seed": 20260714,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.7005376872129544,
+      "h2_best_alignment": 0.7005376872129544,
+      "h2_threshold": 0.6655108028523067
+    },
+    {
+      "seed": 20260715,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.7220802360284817,
+      "h2_best_alignment": 0.7220802360284817,
+      "h2_threshold": 0.6859762242270576
+    },
+    {
+      "seed": 20260716,
+      "h2_qubits": 4,
+      "h2_angle_scale": 0.5,
+      "h2_entanglement": 0.0,
+      "h2_selection_alignment": 0.6905077790625288,
+      "h2_best_alignment": 0.6965528633986372,
+      "h2_threshold": 0.6617252202287053
+    }
+  ]
+}
