@@ -1,0 +1,458 @@
+{
+  "WDBC breast cancer: malignant vs benign": [
+    {
+      "seed": 20260709,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.5
+      },
+      "H1_selection_alignment": 0.6612441545776082,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.35,
+        "entanglement": 0.25
+      },
+      "H2_selection_alignment": 0.525233579297199
+    },
+    {
+      "seed": 20260710,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.25
+      },
+      "H1_selection_alignment": 0.6681176760041969,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.5683567916048897
+    },
+    {
+      "seed": 20260711,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.5
+      },
+      "H1_selection_alignment": 0.6857524484712307,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.49689107134334837
+    },
+    {
+      "seed": 20260712,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.5
+      },
+      "H1_selection_alignment": 0.6866650244211683,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.35,
+        "entanglement": 0.25
+      },
+      "H2_selection_alignment": 0.557469201597951
+    },
+    {
+      "seed": 20260713,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.25
+      },
+      "H1_selection_alignment": 0.6608454477530539,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.35,
+        "entanglement": 0.25
+      },
+      "H2_selection_alignment": 0.5870382895812242
+    },
+    {
+      "seed": 20260714,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.5
+      },
+      "H1_selection_alignment": 0.6611430682371509,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.35,
+        "entanglement": 0.25
+      },
+      "H2_selection_alignment": 0.547906018415645
+    },
+    {
+      "seed": 20260715,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.25
+      },
+      "H1_selection_alignment": 0.6949065028484211,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.5772243133727475
+    },
+    {
+      "seed": 20260716,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.5
+      },
+      "H1_selection_alignment": 0.6383859165881557,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.35,
+        "entanglement": 0.25
+      },
+      "H2_selection_alignment": 0.43843321929911505
+    },
+    {
+      "seed": 20260717,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.5
+      },
+      "H1_selection_alignment": 0.6535826013653254,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.35,
+        "entanglement": 0.25
+      },
+      "H2_selection_alignment": 0.5218766044965958
+    },
+    {
+      "seed": 20260718,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.5
+      },
+      "H1_selection_alignment": 0.6010116864573862,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.46962289509675453
+    }
+  ],
+  "Wine: class 1 vs class 2": [
+    {
+      "seed": 20260709,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.6631814694340695,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.637184493836049
+    },
+    {
+      "seed": 20260710,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.6558508040398128,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.598835514856845
+    },
+    {
+      "seed": 20260711,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.6749471710203424,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6554840193321915
+    },
+    {
+      "seed": 20260712,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.7430955767920482,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6522173360417247
+    },
+    {
+      "seed": 20260713,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.58712351945156,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.5567343304775704
+    },
+    {
+      "seed": 20260714,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.6237626779139713,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6107342542113067
+    },
+    {
+      "seed": 20260715,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.6679866387822658,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6385990483252716
+    },
+    {
+      "seed": 20260716,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.658720938063814,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.5910131829141285
+    },
+    {
+      "seed": 20260717,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.6806149822946063,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6179491270678529
+    },
+    {
+      "seed": 20260718,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.6475111270693892,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6115228737173587
+    }
+  ],
+  "OptDigits: digit 3 vs digit 8, capped at 220/class": [
+    {
+      "seed": 20260709,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.7705751304865892,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.7584305814725293
+    },
+    {
+      "seed": 20260710,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.6967800942746927,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6734565790465554
+    },
+    {
+      "seed": 20260711,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.7424156942721054,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.7357863358749942
+    },
+    {
+      "seed": 20260712,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.6818993690467992,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.648532196306741
+    },
+    {
+      "seed": 20260713,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.7240969805536045,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.7206081385200407
+    },
+    {
+      "seed": 20260714,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.7003242135786761,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.7005376872129544
+    },
+    {
+      "seed": 20260715,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.7298260878684684,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.7220802360284817
+    },
+    {
+      "seed": 20260716,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.7061359686319526,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6905077790625288
+    },
+    {
+      "seed": 20260717,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.7234335812498918,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6517077567289499
+    },
+    {
+      "seed": 20260718,
+      "H1": {
+        "qubits": 2,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H1_selection_alignment": 0.7566444944770506,
+      "H2": {
+        "qubits": 4,
+        "angle_scale": 0.5,
+        "entanglement": 0.0
+      },
+      "H2_selection_alignment": 0.6985845725096
+    }
+  ]
+}
