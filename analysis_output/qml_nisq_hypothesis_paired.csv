@@ -1,0 +1,25 @@
+dataset,scenario,variant,runs,mean_delta_balanced_accuracy,median_delta_balanced_accuracy,wins,losses,ties,mean_delta_generalization_gap,median_delta_generalization_gap,runs_without_extra_overfit_margin_0_02
+"OptDigits: digit 3 vs digit 8, capped at 220/class",ideal_exact,H2_4q_alignment_floor,8,0.02556818181818185,0.017045454545454586,7,0,1,-0.041548295454545484,-0.03977272727272724,8
+"OptDigits: digit 3 vs digit 8, capped at 220/class",ideal_exact,H3_nisq_validation_gap_penalty,8,0.02556818181818185,0.022727272727272707,6,0,2,-0.04190340909090917,-0.04403409090909094,8
+"OptDigits: digit 3 vs digit 8, capped at 220/class",nisq_1024_medium_noise,H2_4q_alignment_floor,8,-0.39346590909090906,-0.37499999999999994,0,8,0,0.08025568181818182,0.04829545454545453,3
+"OptDigits: digit 3 vs digit 8, capped at 220/class",nisq_1024_medium_noise,H3_nisq_validation_gap_penalty,8,-0.009943181818181823,0.022727272727272707,7,1,0,-0.05433238636363638,-0.04829545454545453,8
+"OptDigits: digit 3 vs digit 8, capped at 220/class",nisq_4096_low_noise,H2_4q_alignment_floor,8,-0.4517045454545454,-0.46022727272727265,0,8,0,-0.006036931818181844,-0.005681818181818288,7
+"OptDigits: digit 3 vs digit 8, capped at 220/class",nisq_4096_low_noise,H3_nisq_validation_gap_penalty,8,0.02556818181818185,0.022727272727272763,6,0,2,-0.04651988636363642,-0.046875000000000056,8
+"OptDigits: digit 3 vs digit 8, capped at 220/class",nisq_512_high_noise,H2_4q_alignment_floor,8,-0.3806818181818181,-0.43749999999999994,1,7,0,0.03977272727272725,0.09232954545454544,3
+"OptDigits: digit 3 vs digit 8, capped at 220/class",nisq_512_high_noise,H3_nisq_validation_gap_penalty,8,0.08806818181818185,0.0511363636363637,7,0,1,-0.0795454545454546,-0.07812500000000011,8
+WDBC breast cancer: malignant vs benign,ideal_exact,H2_4q_alignment_floor,8,0.04933785529715762,0.034802971576227415,8,0,0,-0.094941509402836,-0.07880276395658659,8
+WDBC breast cancer: malignant vs benign,ideal_exact,H3_nisq_validation_gap_penalty,8,0.053980943152454774,0.03827519379844957,8,0,0,-0.0920077779910305,-0.08375427611963715,8
+WDBC breast cancer: malignant vs benign,nisq_1024_medium_noise,H2_4q_alignment_floor,8,-0.3044250645994832,-0.34326550387596905,1,7,0,-0.09942887498320128,-0.11583090205100838,7
+WDBC breast cancer: malignant vs benign,nisq_1024_medium_noise,H3_nisq_validation_gap_penalty,8,0.12992571059431524,0.09060077519379839,8,0,0,-0.15787780236219645,-0.13103989073412847,8
+WDBC breast cancer: malignant vs benign,nisq_4096_low_noise,H2_4q_alignment_floor,8,-0.3800670219638243,-0.39769056847545226,0,8,0,-0.08172188076637396,-0.08610891822924582,7
+WDBC breast cancer: malignant vs benign,nisq_4096_low_noise,H3_nisq_validation_gap_penalty,8,0.05719072997416018,0.04408914728682167,7,1,0,-0.10928768834642222,-0.09886586765294048,8
+WDBC breast cancer: malignant vs benign,nisq_512_high_noise,H2_4q_alignment_floor,8,-0.10616521317829458,-0.12419250645994837,1,7,0,-0.12291581038653461,-0.12092671187624571,8
+WDBC breast cancer: malignant vs benign,nisq_512_high_noise,H3_nisq_validation_gap_penalty,8,0.3415495801033591,0.3410045219638243,8,0,0,-0.28680676893342244,-0.2966432963802561,8
+Wine: class 1 vs class 2,ideal_exact,H2_4q_alignment_floor,8,0.017857142857142877,0.002976190476190521,4,1,3,-0.02333959899749377,-0.011748120300751952,7
+Wine: class 1 vs class 2,ideal_exact,H3_nisq_validation_gap_penalty,8,0.017113095238095247,0.02083333333333337,4,2,2,-0.026188309870420742,-0.02083333333333337,7
+Wine: class 1 vs class 2,nisq_1024_medium_noise,H2_4q_alignment_floor,8,-0.31770833333333337,-0.34226190476190477,0,8,0,-0.0699596397909668,-0.014960939583000099,4
+Wine: class 1 vs class 2,nisq_1024_medium_noise,H3_nisq_validation_gap_penalty,8,0.011904761904761904,0.0,3,2,3,-0.0209799765370874,-0.005319148936170248,7
+Wine: class 1 vs class 2,nisq_4096_low_noise,H2_4q_alignment_floor,8,-0.026041666666666657,0.0,3,3,2,-0.02248390257558794,-0.03443449048152297,6
+Wine: class 1 vs class 2,nisq_4096_low_noise,H3_nisq_validation_gap_penalty,8,0.012648809523809507,0.002976190476190521,4,2,2,-0.026343285074388087,-0.022386418173092393,7
+Wine: class 1 vs class 2,nisq_512_high_noise,H2_4q_alignment_floor,8,-0.390625,-0.37202380952380953,0,8,0,0.0288528835386338,0.028865381538953683,4
+Wine: class 1 vs class 2,nisq_512_high_noise,H3_nisq_validation_gap_penalty,8,0.03199404761904763,0.02083333333333337,4,1,3,-0.03864298378926041,-0.02615248226950362,7
