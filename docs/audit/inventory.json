@@ -1,0 +1,39 @@
+{
+  "files": 12306,
+  "bytes": 4627430678,
+  "by_root": {
+    "1905.10876v1.pdf": 1,
+    "2402.15879v1.pdf": 1,
+    "QML_algorithms_critical_analysis.md": 1,
+    "qml_algorithms_data.js": 1,
+    "qml_interactive_graph.html": 1,
+    "qml_relation_metrics.md": 1,
+    "requirements-hamiltonian-kernel.txt": 1,
+    "requirements-qml-hardware.txt": 1,
+    "requirements-xanadu-x8.txt": 1,
+    "analysis_output": 12126,
+    "audits": 8,
+    "datasets": 8,
+    "hamiltonian_kernel": 26,
+    "output": 43,
+    "photonic_kernel": 8,
+    "qml_model_modules": 20,
+    "quantum_reservoir": 18,
+    "scripts": 2,
+    "tests": 12,
+    "tools": 26
+  },
+  "excluded_directories": [
+    ".agents",
+    ".codex",
+    ".git",
+    ".mypy_cache",
+    ".next",
+    ".pnpm-store",
+    ".pytest_cache",
+    "__pycache__",
+    "node_modules",
+    "personal-project-crm",
+    "tmp"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "hiddenBeforeDelay": true,
+  "visibleAfterDelay": true,
+  "cancelledOnLeave": true,
+  "hoverColors": {
+    "text": "rgb(255, 255, 255)",
+    "background": "rgb(20, 62, 86)"
+  },
+  "selectedColors": {
+    "text": "rgb(19, 45, 64)",
+    "background": "rgb(230, 239, 245)"
+  },
+  "typography": {
+    "font": "Cambria, Georgia, \"Times New Roman\", serif",
+    "size": "18px",
+    "lineHeight": "30.96px",
+    "width": 676
+  },
+  "nativeTitles": 0,
+  "mobileOverflow": false
+}

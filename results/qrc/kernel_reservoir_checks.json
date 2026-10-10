@@ -1,0 +1,13 @@
+{
+  "status": "executed algebraic sanity checks; no predictive kernel benchmark",
+  "common_unitary_HS_max_error": 6.661338147750939e-16,
+  "projected_linear_gram_change_F": 2.8626769670048997,
+  "pauli_identity_pure_max_error": 2.220446049250313e-16,
+  "pauli_identity_mixed_max_error": 1.6653345369377348e-16,
+  "primal_dual_prediction_max_error": 4.274358644806853e-15,
+  "data_dependent_encoding_relative_gram_error_r1": 0.0726336210098716,
+  "data_dependent_encoding_relative_gram_error_r8": 0.0006653320259409955,
+  "seed": 20260907,
+  "qubits": 2,
+  "source_sha256": "3154fab094b582310ce8aaeecd860d7138172da63a57afa8237c05f6ce947bb1"
+}

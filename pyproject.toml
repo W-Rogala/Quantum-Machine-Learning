@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qml-research-workbench"
+version = "0.1.0"
+description = "Research code for Hamiltonian quantum kernels, Trotter scaling, quantum reservoirs and photonic kernels"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.0", "scipy>=1.13", "matplotlib>=3.9", "scikit-learn>=1.7,<1.8"]
+
+[project.optional-dependencies]
+simulation = ["qiskit>=2.0", "qiskit-aer>=0.17", "qiskit-ibm-runtime>=0.40"]
+documents = ["pypdf>=5", "reportlab>=4"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hamiltonian_kernel*", "quantum_reservoir*", "photonic_kernel*", "experiments*"]
+
+[tool.setuptools]
+include-package-data = false

@@ -77,3 +77,4 @@ Rotacje typu `R_Y(x)` odpowiadaja ewolucji pod Hamiltonianem Pauliego, zgodnie z
 - Szum NISQ zaburza prawdopodobienstwa klas.
 - Barren plateaus moga powodowac zanik gradientu wraz ze wzrostem liczby kubitow.
 - VQC nie ma automatycznej przewagi nad klasycznym klasyfikatorem; potrzebny jest baseline.
+

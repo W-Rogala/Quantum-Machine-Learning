@@ -1,0 +1,58 @@
+[
+  {
+    "original": "analysis_output/ansatz_hardware_dataset_benchmark.py",
+    "canonical": "experiments/legacy/ansatz_hardware_dataset_benchmark.py",
+    "original_sha256": "12abcc0bc92d298615fbe64b2152428501b99a1b8fbe5d5d8f17b7cc90fc8e49",
+    "canonical_sha256": "80b412c9d25eabd495c92017e19dc72b99197145972f5c5277601d95cfb89de0",
+    "changes": "ROOT depth and sibling imports only; old path becomes compatibility adapter"
+  },
+  {
+    "original": "analysis_output/generate_scar_circuit_visualization_png.py",
+    "canonical": "experiments/legacy/generate_scar_circuit_visualization_png.py",
+    "original_sha256": "5fc6616a13ffad806421755811607dcca5add7a932aaad1fa6248292fbc6e488",
+    "canonical_sha256": "36943377972a96c6ba1dd3b960daa5aca395685938f171cdf6e32ee6950fa2a1",
+    "changes": "ROOT depth and sibling imports only; old path becomes compatibility adapter"
+  },
+  {
+    "original": "analysis_output/qml_hypothesis_experiment.py",
+    "canonical": "experiments/legacy/qml_hypothesis_experiment.py",
+    "original_sha256": "0d04e38eb472be1defaf4d76664a9e03636618cd09ee58ba348f35b4a671b041",
+    "canonical_sha256": "ff45681d5d5d21aac2466ab99ddd889b5ed858e954f2e30144a3c28e364aa40e",
+    "changes": "ROOT depth and sibling imports only; old path becomes compatibility adapter"
+  },
+  {
+    "original": "analysis_output/qml_iterative_hypothesis_experiment.py",
+    "canonical": "experiments/legacy/qml_iterative_hypothesis_experiment.py",
+    "original_sha256": "113f0c9b562a7efebbf1ccef84c23268a0ea2099c04b7032c0c2c5a52ec1801f",
+    "canonical_sha256": "2f8a151a014b3a5c0e53e0a9bb1f1fe0dce319c716c58d10c5c64d1150ad1c8a",
+    "changes": "ROOT depth and sibling imports only; old path becomes compatibility adapter"
+  },
+  {
+    "original": "analysis_output/qml_nisq_hypothesis_experiment.py",
+    "canonical": "experiments/legacy/qml_nisq_hypothesis_experiment.py",
+    "original_sha256": "2739bf9fc9fdb326e54a4513487d394bb33542c030f8f5ff08f1e179fd1630ba",
+    "canonical_sha256": "1073c5f05f08ebda0fd931ee190c346184063c6e49b6474156ac82139ea65196",
+    "changes": "ROOT depth and sibling imports only; old path becomes compatibility adapter"
+  },
+  {
+    "original": "analysis_output/qsvm_hypothesis_experiment.py",
+    "canonical": "experiments/legacy/qsvm_hypothesis_experiment.py",
+    "original_sha256": "4d146419dce4ee7e8f99570c48d6b9fa7e181974514ee54e4bab91e7bb47cd6f",
+    "canonical_sha256": "fec9cb0ee3fc5a04273b9067f79fa6d1df10660e8359044fed617c59870af6c9",
+    "changes": "ROOT depth and sibling imports only; old path becomes compatibility adapter"
+  },
+  {
+    "original": "analysis_output/scar_wine_qnn_benchmark.py",
+    "canonical": "experiments/legacy/scar_wine_qnn_benchmark.py",
+    "original_sha256": "bca738d2cc0f5123af59755804ebe4805f6a470fab3dfe2b0caff0434cb2bfe6",
+    "canonical_sha256": "5b7d36aa87e328979b89d51793af91231c797de08558770111e828ee238fb263",
+    "changes": "ROOT depth and sibling imports only; old path becomes compatibility adapter"
+  },
+  {
+    "original": "analysis_output/vqe_scar_ansatz_experiment.py",
+    "canonical": "experiments/legacy/vqe_scar_ansatz_experiment.py",
+    "original_sha256": "44ffe9ba2dedffb15d7912f18de3b9985fb2d16c2b8b67ca3ec99ca88b632dd1",
+    "canonical_sha256": "e2b17fcb4ddcac3b097b9ac845d5ff5df66172049343728c1373b3a2e19031dc",
+    "changes": "ROOT depth and sibling imports only; old path becomes compatibility adapter"
+  }
+]

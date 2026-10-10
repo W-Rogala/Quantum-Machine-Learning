@@ -1,0 +1,3085 @@
+[
+  {
+    "path": "analysis_output/ansatz_hardware_dataset_benchmark.py",
+    "lines": 11,
+    "definitions": [],
+    "imports": [
+      "importlib",
+      "pathlib",
+      "sys"
+    ]
+  },
+  {
+    "path": "analysis_output/generate_scar_circuit_visualization_png.py",
+    "lines": 11,
+    "definitions": [],
+    "imports": [
+      "importlib",
+      "pathlib",
+      "sys"
+    ]
+  },
+  {
+    "path": "analysis_output/qml_hypothesis_experiment.py",
+    "lines": 11,
+    "definitions": [],
+    "imports": [
+      "importlib",
+      "pathlib",
+      "sys"
+    ]
+  },
+  {
+    "path": "analysis_output/qml_iterative_hypothesis_experiment.py",
+    "lines": 11,
+    "definitions": [],
+    "imports": [
+      "importlib",
+      "pathlib",
+      "sys"
+    ]
+  },
+  {
+    "path": "analysis_output/qml_nisq_hypothesis_experiment.py",
+    "lines": 11,
+    "definitions": [],
+    "imports": [
+      "importlib",
+      "pathlib",
+      "sys"
+    ]
+  },
+  {
+    "path": "analysis_output/qsvm_hypothesis_experiment.py",
+    "lines": 11,
+    "definitions": [],
+    "imports": [
+      "importlib",
+      "pathlib",
+      "sys"
+    ]
+  },
+  {
+    "path": "analysis_output/scar_wine_qnn_benchmark.py",
+    "lines": 11,
+    "definitions": [],
+    "imports": [
+      "importlib",
+      "pathlib",
+      "sys"
+    ]
+  },
+  {
+    "path": "analysis_output/vqe_scar_ansatz_experiment.py",
+    "lines": 11,
+    "definitions": [],
+    "imports": [
+      "importlib",
+      "pathlib",
+      "sys"
+    ]
+  },
+  {
+    "path": "audits/hamiltonian_kernel_grid_output_audit.py",
+    "lines": 343,
+    "definitions": [
+      "Check",
+      "load_csv",
+      "expected_candidates",
+      "unique_count",
+      "run_audit",
+      "write_results",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "ast",
+      "csv",
+      "dataclasses",
+      "json",
+      "math",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "audits/hamiltonian_kernel_hardware_audit.py",
+    "lines": 840,
+    "definitions": [
+      "Check",
+      "read_json",
+      "file_sha256",
+      "independent_workload_id",
+      "independent_edges",
+      "local_operator",
+      "independent_trotter_state",
+      "state_distance_up_to_phase",
+      "validation_binding_matches",
+      "selected_model_matches",
+      "expected_circuit_count",
+      "has_secret_key",
+      "execution_state_paths",
+      "validate_local_artifacts",
+      "compile_for_fake_ibm",
+      "run_audit",
+      "write_results",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "collections",
+      "csv",
+      "dataclasses",
+      "hamiltonian_kernel.hardware_circuits",
+      "hashlib",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "qiskit.quantum_info",
+      "qiskit.transpiler.preset_passmanagers",
+      "qiskit_ibm_runtime.fake_provider",
+      "scipy.linalg",
+      "typing"
+    ]
+  },
+  {
+    "path": "audits/hamiltonian_kernel_stage1_audit.py",
+    "lines": 401,
+    "definitions": [
+      "AuditCheck",
+      "independent_edges",
+      "local_operator",
+      "reference_hamiltonians",
+      "reference_plus_state",
+      "reference_evolution",
+      "state_distance_up_to_phase",
+      "audit_quantum_math",
+      "read_runs",
+      "audit_artifacts",
+      "audit_source_protocol",
+      "write_report",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "collections",
+      "csv",
+      "dataclasses",
+      "hamiltonian_kernel",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "scipy.linalg"
+    ]
+  },
+  {
+    "path": "audits/photonic_kernel_audit.py",
+    "lines": 575,
+    "definitions": [
+      "Check",
+      "_read_json",
+      "_independent_workload_id",
+      "_matrix",
+      "_independent_features",
+      "_standardize",
+      "_rbf",
+      "_compositions",
+      "_hafnian",
+      "_independent_ideal_features",
+      "_balanced_accuracy",
+      "_macro_f1",
+      "_predict_metrics",
+      "_FakeOperation",
+      "_FakeOps",
+      "_FakeProgram",
+      "_run_check",
+      "audit",
+      "_write_results",
+      "build_parser",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "dataclasses",
+      "functools",
+      "hashlib",
+      "inspect",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "photonic_kernel",
+      "photonic_kernel.experiment",
+      "types",
+      "typing",
+      "unittest.mock"
+    ]
+  },
+  {
+    "path": "audits/project_review_checks.py",
+    "lines": 55,
+    "definitions": [
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "experiments.legacy.vqe_scar_ansatz_experiment",
+      "hamiltonian_kernel.estimation",
+      "hamiltonian_kernel.trotter_scaling_v3",
+      "json",
+      "numpy",
+      "pathlib",
+      "quantum_reservoir.core"
+    ]
+  },
+  {
+    "path": "audits/resource_aware_benchmark_audit.py",
+    "lines": 286,
+    "definitions": [
+      "_read_csv",
+      "_assert_psd",
+      "_expected_two_qubit_gates_per_map",
+      "audit",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "collections",
+      "csv",
+      "hamiltonian_kernel.protocol",
+      "json",
+      "numpy",
+      "pathlib",
+      "re",
+      "typing"
+    ]
+  },
+  {
+    "path": "audits/trotter_scaling_full_audit.py",
+    "lines": 438,
+    "definitions": [
+      "Check",
+      "_canonical_json",
+      "_hash_without",
+      "_file_hash",
+      "_read_csv",
+      "_grid_key",
+      "_condition_key",
+      "run_audit",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "decimal",
+      "hashlib",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "typing"
+    ]
+  },
+  {
+    "path": "audits/trotter_scaling_output_audit.py",
+    "lines": 448,
+    "definitions": [
+      "Check",
+      "_canonical_json",
+      "_hash_without",
+      "_load_csv",
+      "_candidate_key",
+      "_selection_key",
+      "run_audit",
+      "write_results",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "decimal",
+      "hashlib",
+      "json",
+      "math",
+      "pathlib",
+      "typing"
+    ]
+  },
+  {
+    "path": "audits/trotter_scaling_v3_audit.py",
+    "lines": 108,
+    "definitions": [
+      "read_csv",
+      "audit",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "hamiltonian_kernel.trotter_scaling_v3",
+      "json",
+      "numpy",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "experiments/__init__.py",
+    "lines": 1,
+    "definitions": [],
+    "imports": []
+  },
+  {
+    "path": "experiments/legacy/__init__.py",
+    "lines": 1,
+    "definitions": [],
+    "imports": []
+  },
+  {
+    "path": "experiments/legacy/ansatz_hardware_dataset_benchmark.py",
+    "lines": 2070,
+    "definitions": [
+      "Dataset",
+      "PreparedDataset",
+      "AnsatzSpec",
+      "ProviderProfile",
+      "load_wine",
+      "load_breast_cancer",
+      "load_optdigits",
+      "load_mnist",
+      "balanced_subsample",
+      "stratified_split",
+      "fit_pca",
+      "project_and_scale",
+      "prepare_dataset",
+      "zero_state",
+      "basis_state",
+      "as_batch_angle",
+      "apply_ry",
+      "apply_rx",
+      "apply_rz",
+      "apply_h",
+      "apply_rot",
+      "apply_cnot",
+      "apply_cz",
+      "apply_rzz",
+      "apply_single_excitation",
+      "apply_double_excitation",
+      "angle_embedding",
+      "ring_edges",
+      "circuit_general_vqa",
+      "circuit_hardware_efficient",
+      "circuit_efficient_su2",
+      "circuit_uccsd_hf",
+      "circuit_qaoa",
+      "zz_feature_map",
+      "circuit_qnn_vqc",
+      "circuit_two_local",
+      "circuit_tree_tensor",
+      "circuit_strongly_entangling",
+      "circuit_qgan_u3",
+      "circuit_qgan_two_local",
+      "circuit_qgan_rot_cz",
+      "circuit_approx_amplitude",
+      "circuit_data_reuploading",
+      "quantum_features",
+      "profile_attenuation",
+      "apply_profile",
+      "softmax",
+      "cross_entropy",
+      "predictions",
+      "classification_metrics",
+      "Adam",
+      "stable_seed",
+      "train_configuration",
+      "hpo_trial_row",
+      "tune_configuration",
+      "write_csv",
+      "summarize",
+      "markdown_table",
+      "write_report",
+      "add_baseline_comparison",
+      "append_hpo_report",
+      "plot_summary",
+      "parse_selection",
+      "load_existing",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "hashlib",
+      "json",
+      "math",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "experiments/legacy/generate_scar_circuit_visualization_png.py",
+    "lines": 157,
+    "definitions": [
+      "font",
+      "xy",
+      "box",
+      "text",
+      "line",
+      "gate",
+      "arrow",
+      "draw_scar_pair",
+      "main"
+    ],
+    "imports": [
+      "PIL",
+      "__future__",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "experiments/legacy/qml_hypothesis_experiment.py",
+    "lines": 529,
+    "definitions": [
+      "DatasetSpec",
+      "KernelConfig",
+      "load_wdbc",
+      "load_wine_1_vs_2",
+      "load_optdigits_3_vs_8",
+      "stratified_split",
+      "standardize_fit",
+      "pca_fit",
+      "minmax_fit",
+      "preprocess_split",
+      "zz_feature_states",
+      "quantum_kernel",
+      "rbf_kernel",
+      "median_gamma",
+      "centered_alignment",
+      "offdiag_stats",
+      "train_lssvm",
+      "predict_lssvm",
+      "metrics",
+      "evaluate_quantum_model",
+      "select_alignment_config",
+      "evaluate_rbf_baseline",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "csv",
+      "dataclasses",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "time"
+    ]
+  },
+  {
+    "path": "experiments/legacy/qml_iterative_hypothesis_experiment.py",
+    "lines": 287,
+    "definitions": [
+      "select_alignment_config_with_floor",
+      "summarize",
+      "write_csv",
+      "write_markdown",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "collections",
+      "csv",
+      "experiments.legacy.qml_hypothesis_experiment",
+      "json",
+      "numpy",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "experiments/legacy/qml_nisq_hypothesis_experiment.py",
+    "lines": 600,
+    "definitions": [
+      "NisqScenario",
+      "stable_seed",
+      "feature_map_gate_counts",
+      "effective_survival",
+      "apply_nisq_channel",
+      "sample_probabilities",
+      "noisy_self_diagonal",
+      "diagonal_normalize_train",
+      "diagonal_normalize_cross",
+      "make_noisy_kernels",
+      "balanced_accuracy_from_metrics",
+      "evaluate_noisy_model",
+      "candidate_grid",
+      "select_nisq_validation_config",
+      "write_csv",
+      "summarize",
+      "paired_summary",
+      "fmt",
+      "write_report",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "collections",
+      "csv",
+      "dataclasses",
+      "experiments.legacy.qml_hypothesis_experiment",
+      "experiments.legacy.qml_iterative_hypothesis_experiment",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "typing"
+    ]
+  },
+  {
+    "path": "experiments/legacy/qsvm_hypothesis_experiment.py",
+    "lines": 558,
+    "definitions": [
+      "Dataset",
+      "Variant",
+      "load_wdbc",
+      "load_wine",
+      "stratified_split",
+      "standardize",
+      "pca_project",
+      "scale_to_unit_interval",
+      "class_targets",
+      "centered_kernel_alignment",
+      "zz_states",
+      "quantum_kernel",
+      "fit_kernel_classifier",
+      "predict_kernel_classifier",
+      "macro_f1",
+      "balanced_accuracy",
+      "select_scale_by_alignment",
+      "evaluate_variant",
+      "summarize",
+      "write_csv",
+      "format_metric",
+      "exact_one_sided_sign_pvalue",
+      "paired_comparisons",
+      "write_report",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "csv",
+      "dataclasses",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "time"
+    ]
+  },
+  {
+    "path": "experiments/legacy/scar_wine_qnn_benchmark.py",
+    "lines": 894,
+    "definitions": [
+      "Split",
+      "Adam",
+      "load_wine",
+      "stratified_split",
+      "pca_preprocess",
+      "prepare_split",
+      "ry_batch",
+      "rz_batch",
+      "ry",
+      "rz",
+      "apply_one_shared",
+      "apply_one_batched",
+      "apply_two_shared",
+      "scar_ring_features",
+      "initialize_qnn",
+      "unpack_qnn",
+      "softmax",
+      "cross_entropy",
+      "accuracy",
+      "qnn_probabilities",
+      "qnn_loss_and_gradient",
+      "initialize_mlp",
+      "unpack_mlp",
+      "mlp_probabilities",
+      "mlp_loss_and_gradient",
+      "confusion_matrix",
+      "macro_f1",
+      "evaluate",
+      "train_qnn",
+      "train_mlp",
+      "numeric_summary",
+      "csv_ready",
+      "write_csv",
+      "write_report",
+      "parse_seeds",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "experiments.legacy.vqe_scar_ansatz_experiment",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "experiments/legacy/vqe_scar_ansatz_experiment.py",
+    "lines": 234,
+    "definitions": [
+      "AnsatzSpec",
+      "ry",
+      "rz",
+      "crx",
+      "scar",
+      "apply_one_qubit",
+      "apply_two_qubit",
+      "ring_edges",
+      "prepare_state",
+      "one_qubit_purity",
+      "meyer_wallach_q",
+      "sample_states",
+      "haar_bin_probabilities",
+      "expressibility_kl",
+      "summarize",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "csv",
+      "dataclasses",
+      "math",
+      "numpy",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/__init__.py",
+    "lines": 33,
+    "definitions": [],
+    "imports": [
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.universal_hamiltonian"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/core.py",
+    "lines": 240,
+    "definitions": [
+      "EvolutionConfig",
+      "interaction_edges",
+      "z_eigenvalues",
+      "plus_state",
+      "diagonal_hamiltonian",
+      "_apply_diagonal",
+      "_apply_x_layer",
+      "evolve_trotter",
+      "_dense_transverse_hamiltonian",
+      "evolve_exact",
+      "evolve_batch",
+      "fidelity_kernel",
+      "bloch_vectors",
+      "projected_kernel",
+      "state_infidelity",
+      "circuit_resources"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "numpy"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/correct_resource_costs.py",
+    "lines": 131,
+    "definitions": [
+      "_sha256",
+      "correct_cost_rows",
+      "write_correction",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.protocol",
+      "hashlib",
+      "json",
+      "pathlib",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/data.py",
+    "lines": 172,
+    "definitions": [
+      "Dataset",
+      "PreparedData",
+      "load_wdbc",
+      "load_wine",
+      "make_moons",
+      "load_dataset",
+      "stratified_split",
+      "prepare_dataset"
+    ],
+    "imports": [
+      "__future__",
+      "csv",
+      "dataclasses",
+      "numpy",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/estimation.py",
+    "lines": 335,
+    "definitions": [
+      "ResourceCost",
+      "KernelStages",
+      "FidelityEstimate",
+      "ProjectedEstimate",
+      "resource_cost",
+      "kernel_stages",
+      "fidelity_estimation_circuit_count",
+      "estimate_fidelity_spectral",
+      "_apply_local_matrix",
+      "projected_basis_probabilities",
+      "estimate_projected_bloch"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "hamiltonian_kernel.core",
+      "numpy",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/experiment.py",
+    "lines": 728,
+    "definitions": [
+      "Variant",
+      "smoke_variants",
+      "full_variants",
+      "evolution_config",
+      "_stable_rng",
+      "_split_batch",
+      "_select_gamma",
+      "_measurement_cost",
+      "evaluate_variant",
+      "summarize",
+      "_two_sided_sign_pvalue",
+      "paired_comparisons",
+      "convergence_analysis",
+      "write_csv",
+      "_metric",
+      "write_report",
+      "make_plots",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.data",
+      "hamiltonian_kernel.learning",
+      "json",
+      "math",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "platform",
+      "time",
+      "typing",
+      "zlib"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/grid_experiment.py",
+    "lines": 1132,
+    "definitions": [
+      "HamiltonianCandidate",
+      "SelectedModel",
+      "BudgetAllocation",
+      "candidate_grid",
+      "stable_rng",
+      "allocate_exact_budget",
+      "select_gamma",
+      "select_regularization_eigendecomposition",
+      "_candidate_row",
+      "screen_and_select_candidates",
+      "split_states",
+      "evaluate_ideal_selected",
+      "evaluate_rbf",
+      "landmark_indices",
+      "fidelity_estimation_circuit_count",
+      "budgeted_nystrom_fidelity_features",
+      "budgeted_projected_bloch",
+      "evaluate_budgeted_model",
+      "summarize_ideal",
+      "summarize_budget",
+      "budget_comparisons",
+      "selection_frequencies",
+      "write_csv",
+      "make_plots",
+      "write_report",
+      "parse_args",
+      "configure_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "collections",
+      "csv",
+      "dataclasses",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.data",
+      "hamiltonian_kernel.estimation",
+      "hamiltonian_kernel.learning",
+      "json",
+      "math",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "platform",
+      "time",
+      "typing",
+      "zlib"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/hardware_circuits.py",
+    "lines": 579,
+    "definitions": [
+      "GateOperation",
+      "MeasurementEntry",
+      "config_to_dict",
+      "config_from_dict",
+      "_diagonal_operations",
+      "feature_map_operations",
+      "inverse_operations",
+      "measurement_operations",
+      "qiskit_circuit_from_operations",
+      "build_qiskit_feature_map",
+      "build_qiskit_measurement_circuit",
+      "build_braket_measurement_circuit",
+      "allocate_exact_shots",
+      "build_measurement_entries",
+      "workload_identifier",
+      "canonical_counts",
+      "zero_probability",
+      "local_pauli_expectations",
+      "validate_counts",
+      "_normalized_spectral_features",
+      "analyze_hardware_counts"
+    ],
+    "imports": [
+      "__future__",
+      "braket.circuits",
+      "dataclasses",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.estimation",
+      "hamiltonian_kernel.learning",
+      "hashlib",
+      "json",
+      "math",
+      "numpy",
+      "qiskit",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/hardware_experiment.py",
+    "lines": 802,
+    "definitions": [
+      "_read_json",
+      "_file_sha256",
+      "_validation_benchmark_source",
+      "_selected_model",
+      "_balanced_subset_indices",
+      "_float_override",
+      "_xanadu_compatibility",
+      "_workload_report",
+      "prepare_workload",
+      "_counts_payload",
+      "_analysis_report",
+      "analyze_and_write",
+      "run_workload",
+      "retrieve_workload",
+      "analyze_command",
+      "xanadu_plan",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "datetime",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.data",
+      "hamiltonian_kernel.hardware_circuits",
+      "hamiltonian_kernel.hardware_providers",
+      "hamiltonian_kernel.protocol",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "platform",
+      "qiskit",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/hardware_providers.py",
+    "lines": 1034,
+    "definitions": [
+      "_json_ready",
+      "write_json",
+      "_samples_and_config",
+      "_entries",
+      "_groups_by_shots",
+      "_qiskit_counts_from_pub_result",
+      "_backend_name",
+      "_compilation_metadata",
+      "_sha256_file",
+      "_layout_metadata",
+      "_target_snapshot",
+      "_backend_snapshot",
+      "_save_qiskit_reproducibility_bundle",
+      "_update_state_resource_axes",
+      "execute_aer",
+      "_apply_pennylane_operations",
+      "execute_pennylane",
+      "execute_braket_local",
+      "_new_remote_state",
+      "_load_resumable_state",
+      "_submitted_circuit_ids",
+      "_pending_entries",
+      "_record_submission_start",
+      "_record_submission_failure",
+      "submit_ibm",
+      "_resolve_ionq_backend",
+      "_offline_ionq_backend",
+      "submit_ionq",
+      "submit_braket",
+      "_ionq_result_counts",
+      "retrieve_remote"
+    ],
+    "imports": [
+      "__future__",
+      "braket.aws",
+      "braket.devices",
+      "collections",
+      "datetime",
+      "hamiltonian_kernel.hardware_circuits",
+      "hashlib",
+      "json",
+      "numpy",
+      "os",
+      "pathlib",
+      "pennylane",
+      "qiskit",
+      "qiskit.transpiler.preset_passmanagers",
+      "qiskit_aer",
+      "qiskit_ibm_runtime",
+      "qiskit_ionq",
+      "qiskit_ionq.ionq_backend",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/learning.py",
+    "lines": 143,
+    "definitions": [
+      "class_targets",
+      "fit_kernel_ridge",
+      "predict_kernel_ridge",
+      "balanced_accuracy",
+      "macro_f1",
+      "select_regularization",
+      "centered_kernel_alignment",
+      "kernel_diagnostics",
+      "rbf_kernel",
+      "sample_fidelity_kernel",
+      "sample_bloch_vectors",
+      "nearest_correlation_kernel"
+    ],
+    "imports": [
+      "__future__",
+      "numpy"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/protocol.py",
+    "lines": 307,
+    "definitions": [
+      "ConfirmatoryProtocol",
+      "protocol_for_profile",
+      "_canonical_protocol_payload",
+      "protocol_hash",
+      "freeze_protocol",
+      "load_frozen_protocol",
+      "_nested_cluster_mean",
+      "hierarchical_paired_interval",
+      "cluster_sign_flip_test"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/publication_benchmark.py",
+    "lines": 897,
+    "definitions": [
+      "FoldPreprocessor",
+      "_configuration_id",
+      "_fixed_search_sample",
+      "quantum_search_space",
+      "classical_search_space",
+      "_candidate_from_configuration",
+      "_kernel_prediction",
+      "_quantum_predict",
+      "_classical_estimator",
+      "_classical_predict",
+      "_nested_select",
+      "_metrics",
+      "_base_row",
+      "_save_quantum_artifact",
+      "_evaluate_quantum_outer",
+      "_evaluate_classical_outer",
+      "_write_csv",
+      "_paired_deltas",
+      "_summaries",
+      "run_benchmark",
+      "build_parser",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.data",
+      "hamiltonian_kernel.estimation",
+      "hamiltonian_kernel.grid_experiment",
+      "hamiltonian_kernel.learning",
+      "hamiltonian_kernel.protocol",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "platform",
+      "sklearn.decomposition",
+      "sklearn.ensemble",
+      "sklearn.kernel_approximation",
+      "sklearn.linear_model",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "sklearn.preprocessing",
+      "sklearn.svm",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/trotter_scaling.py",
+    "lines": 1088,
+    "definitions": [
+      "TrotterScalingProtocol",
+      "protocol_for_profile",
+      "_canonical_json",
+      "_payload_hash",
+      "protocol_payload",
+      "freeze_protocol",
+      "load_protocol",
+      "_teacher_score",
+      "make_perfectly_annotated_dataset",
+      "_terms_payload",
+      "_relative_frobenius",
+      "_candidate_key",
+      "_surrogate_pilot_rows",
+      "_quadratic_predictions",
+      "_surrogate_shortlist",
+      "one_hot_qubo_energies",
+      "one_hot_qubo_payload",
+      "_normalized_scores",
+      "simulated_annealing_one_hot_select",
+      "_apply_x_mixer",
+      "qaoa_one_hot_select",
+      "_objective",
+      "_test_accuracy",
+      "_dependence_analysis",
+      "_write_csv",
+      "run_benchmark",
+      "build_parser",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "decimal",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.data",
+      "hamiltonian_kernel.learning",
+      "hamiltonian_kernel.universal_hamiltonian",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/trotter_scaling_full.py",
+    "lines": 1801,
+    "definitions": [
+      "BudgetTier",
+      "FullScalingProtocol",
+      "protocol_for_profile",
+      "_canonical_json",
+      "_hash_payload",
+      "protocol_payload",
+      "freeze_protocol",
+      "load_protocol",
+      "topology_edges",
+      "_stable_rng",
+      "_make_terms",
+      "_ising_labels",
+      "_random_local_labels",
+      "_spectral_radius",
+      "_scale_terms",
+      "generate_terms",
+      "_anticommutes",
+      "hamiltonian_diagnostics",
+      "_hamiltonian_payload",
+      "_transpiled_slice_resources",
+      "_resource_row",
+      "_condition_key",
+      "_candidate_key",
+      "_outer_pair_counts",
+      "_candidate_feasible",
+      "_shortlist_rows",
+      "_stratified_folds",
+      "make_cv_manifest",
+      "_sample_symmetric_kernel",
+      "_sample_cross_kernel",
+      "_best_regularization_nested",
+      "_shot_allocation",
+      "_condition_rng_seed",
+      "_evaluate_condition",
+      "_write_csv",
+      "_read_csv",
+      "_file_sha256",
+      "_run_task",
+      "_merge_csv",
+      "_policy_response",
+      "_policy_design",
+      "_fit_policy_model",
+      "analyze_hypothesis",
+      "run_benchmark",
+      "build_parser",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "concurrent.futures",
+      "csv",
+      "dataclasses",
+      "decimal",
+      "functools",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.estimation",
+      "hamiltonian_kernel.learning",
+      "hamiltonian_kernel.trotter_scaling",
+      "hamiltonian_kernel.universal_hamiltonian",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "qiskit",
+      "qiskit.transpiler",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/trotter_scaling_summary.py",
+    "lines": 388,
+    "definitions": [
+      "_canonical_json",
+      "_read_csv",
+      "_file_hash",
+      "_package_version",
+      "_mean",
+      "_median",
+      "_aggregate",
+      "_group",
+      "_write_group_table",
+      "_replicate_agreement",
+      "summarize",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "collections",
+      "csv",
+      "hamiltonian_kernel.trotter_scaling_full",
+      "hashlib",
+      "importlib.metadata",
+      "json",
+      "numpy",
+      "pathlib",
+      "platform",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "lines": 844,
+    "definitions": [
+      "_source_hashes",
+      "_json_bytes",
+      "_digest",
+      "_write_json",
+      "_write_csv",
+      "V3Protocol",
+      "protocol_for_profile",
+      "_dataset",
+      "freeze_protocol",
+      "load_protocol",
+      "_logical_circuit",
+      "full_circuit_resources",
+      "_cost_screen",
+      "_grid_resource_scan",
+      "_candidate_budget",
+      "_feasible_candidates",
+      "select_policy",
+      "_score_kernel",
+      "_post_selection_diagnostics",
+      "_classical_models",
+      "_classical_baselines",
+      "run_condition",
+      "run_benchmark",
+      "_final_split",
+      "run_holdout",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "datetime",
+      "functools",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.estimation",
+      "hamiltonian_kernel.learning",
+      "hamiltonian_kernel.trotter_scaling",
+      "hamiltonian_kernel.trotter_scaling_full",
+      "hamiltonian_kernel.universal_hamiltonian",
+      "hashlib",
+      "itertools",
+      "json",
+      "numpy",
+      "pathlib",
+      "qiskit",
+      "qiskit.circuit",
+      "qiskit.transpiler",
+      "sklearn.base",
+      "sklearn.ensemble",
+      "sklearn.kernel_approximation",
+      "sklearn.linear_model",
+      "sklearn.model_selection",
+      "sklearn.pipeline",
+      "sklearn.preprocessing",
+      "sklearn.svm",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/trotter_scaling_v3_ibm.py",
+    "lines": 272,
+    "definitions": [
+      "_pilot_gate",
+      "freeze_pilot",
+      "_pilot_circuits",
+      "compile_or_submit",
+      "retrieve",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "hamiltonian_kernel.hardware_providers",
+      "hamiltonian_kernel.trotter_scaling_full",
+      "hamiltonian_kernel.trotter_scaling_v3",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "qiskit",
+      "qiskit.transpiler.preset_passmanagers",
+      "qiskit_ibm_runtime",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/trotter_scaling_v3_summary.py",
+    "lines": 243,
+    "definitions": [
+      "_read_csv",
+      "_condition_seed",
+      "compatible_set",
+      "_seed_cluster_interval",
+      "hypothesis_intervals",
+      "analyze",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "collections",
+      "csv",
+      "hamiltonian_kernel.trotter_scaling_v3",
+      "json",
+      "numpy",
+      "pathlib",
+      "typing"
+    ]
+  },
+  {
+    "path": "hamiltonian_kernel/universal_hamiltonian.py",
+    "lines": 438,
+    "definitions": [
+      "PauliTerm",
+      "UniversalHamiltonianConfig",
+      "_stable_rng",
+      "pauli_labels",
+      "generate_universal_terms",
+      "pauli_matrix",
+      "hamiltonian_matrix",
+      "plus_state",
+      "evolve_exact_pauli",
+      "evolve_exact_pauli_batch",
+      "_apply_pauli",
+      "_pauli_action",
+      "_apply_pauli_batch",
+      "apply_pauli_exponential",
+      "slice_schedule",
+      "_second_order_sequence",
+      "_slice_sequence",
+      "product_formula_sequence",
+      "evolve_product_formula",
+      "evolve_product_formula_batch",
+      "ProductFormulaResources",
+      "product_formula_resources"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "functools",
+      "hashlib",
+      "itertools",
+      "numpy"
+    ]
+  },
+  {
+    "path": "photonic_kernel/__init__.py",
+    "lines": 19,
+    "definitions": [],
+    "imports": [
+      "photonic_kernel.core"
+    ]
+  },
+  {
+    "path": "photonic_kernel/core.py",
+    "lines": 587,
+    "definitions": [
+      "X8GBSConfig",
+      "GBSDistribution",
+      "DetectorConfig",
+      "EventOrbitFeatures",
+      "config_to_dict",
+      "config_from_dict",
+      "_haar_unitary",
+      "_reservoir_unitaries",
+      "x8_interferometer",
+      "x8_adjacency",
+      "hafnian",
+      "_compositions",
+      "_pattern_tuples",
+      "photon_patterns",
+      "_gbs_pattern_probability",
+      "_gbs_normalization",
+      "gbs_pattern_probability",
+      "gbs_distribution",
+      "allocate_exact_shots",
+      "pattern_key",
+      "parse_pattern_key",
+      "sample_distribution",
+      "sample_record_from_array",
+      "apply_uniform_loss",
+      "apply_detector_model",
+      "_probability_features_from_records",
+      "photon_moment_basis",
+      "features_from_records",
+      "ideal_features",
+      "_event_key",
+      "_orbit_key",
+      "event_orbit_features",
+      "ideal_event_orbit_features",
+      "standardize_moments",
+      "hellinger_kernel",
+      "moment_kernel"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "functools",
+      "math",
+      "numpy",
+      "typing"
+    ]
+  },
+  {
+    "path": "photonic_kernel/experiment.py",
+    "lines": 951,
+    "definitions": [
+      "PhotonicCandidate",
+      "KernelSelection",
+      "SelectionResult",
+      "Profile",
+      "candidate_grid",
+      "balanced_subset_indices",
+      "select_gamma",
+      "_distributions",
+      "_selection_for_candidate",
+      "select_photonic_model",
+      "_prediction_metrics",
+      "_relative_frobenius",
+      "_select_classical_baseline",
+      "_complex_matrix_payload",
+      "workload_identifier",
+      "build_workload",
+      "_records_for_workload",
+      "analyze_records",
+      "_write_json",
+      "_write_screening",
+      "_write_kernel_csv",
+      "_report",
+      "run_experiment",
+      "build_parser",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "datetime",
+      "hamiltonian_kernel.data",
+      "hamiltonian_kernel.learning",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "photonic_kernel.core",
+      "platform",
+      "typing"
+    ]
+  },
+  {
+    "path": "photonic_kernel/robustness.py",
+    "lines": 146,
+    "definitions": [
+      "RobustnessScenario",
+      "RobustnessFeatures",
+      "process_sample_batches",
+      "robustness_kernel_matrices",
+      "cutoff_loss_detector_sweep"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "numpy",
+      "photonic_kernel.core",
+      "typing"
+    ]
+  },
+  {
+    "path": "photonic_kernel/strawberry_fields_robustness.py",
+    "lines": 182,
+    "definitions": [
+      "_load_strawberry_fields",
+      "build_lossy_gbs_program",
+      "run_strawberry_fields_samples",
+      "_write_csv",
+      "analyze_saved_samples",
+      "build_parser",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "json",
+      "numpy",
+      "pathlib",
+      "photonic_kernel.core",
+      "photonic_kernel.robustness",
+      "strawberryfields",
+      "typing"
+    ]
+  },
+  {
+    "path": "photonic_kernel/xanadu_x8.py",
+    "lines": 663,
+    "definitions": [
+      "_utc_now",
+      "_read_json",
+      "_write_json_atomic",
+      "_matrix_from_entry",
+      "program_specification",
+      "validate_workload",
+      "_load_strawberry_fields",
+      "_require_supported_remote_runtime",
+      "build_sf_program",
+      "compile_sf_program",
+      "_compiled_summary",
+      "validate_command",
+      "_initial_execution",
+      "_load_or_create_execution",
+      "_job_identifier",
+      "submit_command",
+      "_load_xcc",
+      "_status_text",
+      "_result_samples",
+      "_analyze_and_write",
+      "retrieve_command",
+      "analyze_command",
+      "build_parser",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "datetime",
+      "importlib.util",
+      "json",
+      "numpy",
+      "pathlib",
+      "photonic_kernel.core",
+      "photonic_kernel.experiment",
+      "platform",
+      "strawberryfields",
+      "sys",
+      "typing",
+      "xcc"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/__init__.py",
+    "lines": 22,
+    "definitions": [],
+    "imports": [
+      "quantum_reservoir.benchmarks",
+      "quantum_reservoir.core",
+      "quantum_reservoir.ibm_hardware"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/benchmarks.py",
+    "lines": 80,
+    "definitions": [
+      "BenchmarkSeries",
+      "narma10",
+      "mackey_glass",
+      "benchmark_suite"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "numpy"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/core.py",
+    "lines": 249,
+    "definitions": [
+      "ReservoirConfig",
+      "interaction_edges",
+      "_kron_all",
+      "operator_on_qubit",
+      "_local_fields",
+      "hamiltonian_parts",
+      "_hermitian_exponential",
+      "exact_unitary",
+      "trotter_unitary",
+      "process_infidelity",
+      "circuit_resources",
+      "_input_density",
+      "_trace_out_first_qubit",
+      "inject_input",
+      "_initial_density",
+      "_observable_set",
+      "QuantumReservoir"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "functools",
+      "numpy",
+      "time"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/experiment.py",
+    "lines": 613,
+    "definitions": [
+      "SplitConfig",
+      "nrmse",
+      "mae",
+      "r2_score",
+      "_fit_ridge",
+      "_predict_ridge",
+      "_split_arrays",
+      "evaluate_configuration",
+      "_mean_std",
+      "_candidate_statistics",
+      "select_trotter_configuration",
+      "_write_csv",
+      "_comparison_summary",
+      "_plot_validation_tradeoff",
+      "_plot_test_comparison",
+      "_plot_convergence",
+      "_plot_forecasts",
+      "run_experiment",
+      "build_parser",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "quantum_reservoir.benchmarks",
+      "quantum_reservoir.core",
+      "tempfile",
+      "typing"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/h3_memory_study.py",
+    "lines": 263,
+    "definitions": [
+      "pauli_basis",
+      "unitary",
+      "states",
+      "features",
+      "memory_targets",
+      "ridge_prepare",
+      "ridge_test",
+      "reduced_channel",
+      "impulse",
+      "summarize_profiles",
+      "run",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "dataclasses",
+      "hashlib",
+      "itertools",
+      "json",
+      "numpy",
+      "os",
+      "pathlib",
+      "quantum_reservoir.core",
+      "quantum_reservoir.spectral_h1_h2_study",
+      "scipy.linalg",
+      "time"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/h3_noise_diagnostics.py",
+    "lines": 61,
+    "definitions": [
+      "main"
+    ],
+    "imports": [
+      "dataclasses",
+      "json",
+      "numpy",
+      "os",
+      "pathlib",
+      "quantum_reservoir.h3_noise_study"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/h3_noise_report.py",
+    "lines": 149,
+    "definitions": [
+      "read",
+      "filt",
+      "values",
+      "interval",
+      "main"
+    ],
+    "imports": [
+      "csv",
+      "hashlib",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "quantum_reservoir.spectral_h1_h2_study",
+      "scipy.stats",
+      "tempfile"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/h3_noise_study.py",
+    "lines": 221,
+    "definitions": [
+      "Noise",
+      "ridge_prepare",
+      "thermal",
+      "gate",
+      "make_channel",
+      "injection_channel",
+      "trajectory",
+      "measurement_design",
+      "probabilities",
+      "sample_features",
+      "evaluate",
+      "run"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "dataclasses",
+      "hashlib",
+      "itertools",
+      "json",
+      "numpy",
+      "os",
+      "pathlib",
+      "qiskit",
+      "qiskit_aer",
+      "qiskit_aer.noise",
+      "quantum_reservoir.core",
+      "quantum_reservoir.h3_memory_study",
+      "quantum_reservoir.spectral_h1_h2_study",
+      "time"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/h3_readout_controls.py",
+    "lines": 70,
+    "definitions": [
+      "read",
+      "resolve",
+      "channel_apply",
+      "main"
+    ],
+    "imports": [
+      "csv",
+      "dataclasses",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "quantum_reservoir.core",
+      "quantum_reservoir.h3_memory_study",
+      "quantum_reservoir.spectral_h1_h2_study"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/h3_report.py",
+    "lines": 293,
+    "definitions": [
+      "read",
+      "table",
+      "ci",
+      "mean",
+      "select",
+      "main"
+    ],
+    "imports": [
+      "csv",
+      "hashlib",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "quantum_reservoir.spectral_h1_h2_study",
+      "scipy.stats",
+      "tempfile"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/h3_stationary_check.py",
+    "lines": 28,
+    "definitions": [
+      "main"
+    ],
+    "imports": [
+      "numpy",
+      "pathlib",
+      "quantum_reservoir.core",
+      "quantum_reservoir.h3_memory_study",
+      "quantum_reservoir.spectral_h1_h2_study"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/h3_washout_check.py",
+    "lines": 28,
+    "definitions": [
+      "main"
+    ],
+    "imports": [
+      "numpy",
+      "pathlib",
+      "quantum_reservoir.core",
+      "quantum_reservoir.h3_memory_study",
+      "quantum_reservoir.spectral_h1_h2_study"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/ibm_hardware.py",
+    "lines": 509,
+    "definitions": [
+      "HardwareExecutionConfig",
+      "_require_trotter",
+      "_logical_to_qiskit_wire",
+      "_local_fields",
+      "_append_diagonal_block",
+      "_append_transverse_block",
+      "append_trotter_evolution",
+      "build_replay_circuit",
+      "_measured_copy",
+      "build_feature_circuits",
+      "observable_names",
+      "_canonical_bitstring",
+      "_expectation",
+      "decode_feature_counts",
+      "_counts_from_pub_result",
+      "run_local_sampler",
+      "compile_for_backend",
+      "_chunks",
+      "_write_qpy",
+      "_json_ready",
+      "write_json",
+      "compilation_summary",
+      "select_ibm_backend",
+      "run_ibm_sampler",
+      "ridge_readout",
+      "save_feature_artifacts"
+    ],
+    "imports": [
+      "__future__",
+      "csv",
+      "dataclasses",
+      "json",
+      "numpy",
+      "pathlib",
+      "qiskit",
+      "qiskit.transpiler",
+      "qiskit_aer.primitives",
+      "qiskit_ibm_runtime",
+      "quantum_reservoir.core",
+      "typing"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/spectral_h1_h2_report.py",
+    "lines": 156,
+    "definitions": [
+      "read",
+      "interval",
+      "table",
+      "main"
+    ],
+    "imports": [
+      "csv",
+      "hashlib",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "quantum_reservoir.spectral_h1_h2_study",
+      "scipy.stats",
+      "tempfile"
+    ]
+  },
+  {
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "lines": 420,
+    "definitions": [
+      "save_csv",
+      "fit",
+      "predict",
+      "error",
+      "choose_alpha",
+      "evaluate",
+      "mg_data",
+      "data_for_block",
+      "spectral_metrics",
+      "memory_metrics",
+      "run_qubits",
+      "summarize_qubits",
+      "gaussian_step",
+      "gaussian_features",
+      "run_cv",
+      "cutoff_checks",
+      "hardware_checks",
+      "mathematical_checks",
+      "followup_controls",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "hashlib",
+      "json",
+      "numpy",
+      "os",
+      "pathlib",
+      "platform",
+      "qiskit",
+      "qiskit.quantum_info",
+      "qiskit_aer",
+      "qiskit_aer.noise",
+      "quantum_reservoir.benchmarks",
+      "quantum_reservoir.core",
+      "quantum_reservoir.ibm_hardware",
+      "scipy.linalg",
+      "scipy.stats",
+      "time"
+    ]
+  },
+  {
+    "path": "scripts/select_ibm_calibration_layout.py",
+    "lines": 143,
+    "definitions": [
+      "sha256",
+      "metric",
+      "simple_paths",
+      "rank_layouts",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "collections",
+      "hashlib",
+      "json",
+      "pathlib",
+      "typing"
+    ]
+  },
+  {
+    "path": "scripts/summarize_ibm_qpu_validation.py",
+    "lines": 241,
+    "definitions": [
+      "read_json",
+      "sha256",
+      "accepted_run",
+      "development_cost",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "typing"
+    ]
+  },
+  {
+    "path": "tests/test_h3_memory_study.py",
+    "lines": 57,
+    "definitions": [
+      "H3Checks"
+    ],
+    "imports": [
+      "dataclasses",
+      "numpy",
+      "quantum_reservoir.core",
+      "quantum_reservoir.h3_memory_study",
+      "quantum_reservoir.spectral_h1_h2_study",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_h3_noise_study.py",
+    "lines": 57,
+    "definitions": [
+      "NoiseStudyChecks"
+    ],
+    "imports": [
+      "numpy",
+      "qiskit.quantum_info",
+      "quantum_reservoir.core",
+      "quantum_reservoir.h3_memory_study",
+      "quantum_reservoir.h3_noise_study",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_hamiltonian_kernel.py",
+    "lines": 108,
+    "definitions": [
+      "HamiltonianEvolutionTests",
+      "KernelTests"
+    ],
+    "imports": [
+      "__future__",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.learning",
+      "numpy",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_hamiltonian_kernel_grid.py",
+    "lines": 208,
+    "definitions": [
+      "GridDefinitionTests",
+      "MeasurementBudgetTests",
+      "SelectionProtocolTests"
+    ],
+    "imports": [
+      "__future__",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.estimation",
+      "hamiltonian_kernel.grid_experiment",
+      "inspect",
+      "numpy",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_hamiltonian_kernel_hardware.py",
+    "lines": 604,
+    "definitions": [
+      "HardwareCircuitEquivalenceTests",
+      "HardwareBudgetAndCountsTests",
+      "HardwareLocalIntegrationTests"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.hardware_circuits",
+      "hamiltonian_kernel.hardware_experiment",
+      "hamiltonian_kernel.hardware_providers",
+      "hamiltonian_kernel.protocol",
+      "json",
+      "numpy",
+      "pathlib",
+      "qiskit",
+      "qiskit.providers.fake_provider",
+      "qiskit.quantum_info",
+      "tempfile",
+      "types",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_hamiltonian_kernel_protocol.py",
+    "lines": 127,
+    "definitions": [
+      "FrozenProtocolTests",
+      "EqualTuningBudgetTests",
+      "ResourceCostCorrectionTests",
+      "HierarchicalInferenceTests"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "hamiltonian_kernel.correct_resource_costs",
+      "hamiltonian_kernel.protocol",
+      "hamiltonian_kernel.publication_benchmark",
+      "json",
+      "pathlib",
+      "tempfile",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_photonic_kernel.py",
+    "lines": 225,
+    "definitions": [
+      "PhotonicKernelCoreTests"
+    ],
+    "imports": [
+      "__future__",
+      "math",
+      "numpy",
+      "photonic_kernel.core",
+      "photonic_kernel.robustness",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_photonic_kernel_experiment.py",
+    "lines": 161,
+    "definitions": [
+      "_FakeResultJob",
+      "PhotonicKernelExperimentTests"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "hamiltonian_kernel.data",
+      "inspect",
+      "numpy",
+      "photonic_kernel.core",
+      "photonic_kernel.experiment",
+      "photonic_kernel.xanadu_x8",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_qrc_ibm_hardware.py",
+    "lines": 111,
+    "definitions": [
+      "IBMHardwareCircuitTests",
+      "HardwareReadoutTests"
+    ],
+    "imports": [
+      "__future__",
+      "numpy",
+      "qiskit",
+      "qiskit.quantum_info",
+      "qiskit_ibm_runtime.fake_provider",
+      "quantum_reservoir.core",
+      "quantum_reservoir.ibm_hardware",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_quantum_reservoir.py",
+    "lines": 103,
+    "definitions": [
+      "BenchmarkTests",
+      "ReservoirEvolutionTests",
+      "ExperimentTests"
+    ],
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "numpy",
+      "quantum_reservoir.benchmarks",
+      "quantum_reservoir.core",
+      "quantum_reservoir.experiment",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_trotter_scaling.py",
+    "lines": 335,
+    "definitions": [
+      "UniversalHamiltonianTests",
+      "ScalingProtocolTests",
+      "FullScalingProtocolV2Tests",
+      "QuadraticAndQAOATests",
+      "EndToEndScalingFrameworkTests"
+    ],
+    "imports": [
+      "__future__",
+      "csv",
+      "dataclasses",
+      "hamiltonian_kernel.core",
+      "hamiltonian_kernel.trotter_scaling",
+      "hamiltonian_kernel.trotter_scaling_full",
+      "hamiltonian_kernel.universal_hamiltonian",
+      "json",
+      "numpy",
+      "pathlib",
+      "tempfile",
+      "unittest"
+    ]
+  },
+  {
+    "path": "tests/test_trotter_scaling_v3.py",
+    "lines": 150,
+    "definitions": [
+      "TrotterScalingV3Tests"
+    ],
+    "imports": [
+      "hamiltonian_kernel.trotter_scaling",
+      "hamiltonian_kernel.trotter_scaling_full",
+      "hamiltonian_kernel.trotter_scaling_v3",
+      "pathlib",
+      "tempfile",
+      "unittest",
+      "unittest.mock"
+    ]
+  },
+  {
+    "path": "tools/audit_documents.py",
+    "lines": 42,
+    "definitions": [
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "json",
+      "pathlib",
+      "pypdf",
+      "xml.etree.ElementTree",
+      "zipfile"
+    ]
+  },
+  {
+    "path": "tools/audit_qrc_results.py",
+    "lines": 144,
+    "definitions": [
+      "read",
+      "select",
+      "vec",
+      "stats",
+      "main"
+    ],
+    "imports": [
+      "csv",
+      "hashlib",
+      "itertools",
+      "json",
+      "numpy",
+      "os",
+      "pathlib",
+      "platform",
+      "quantum_reservoir.core",
+      "quantum_reservoir.h3_memory_study",
+      "scipy.linalg",
+      "scipy.stats",
+      "sys"
+    ]
+  },
+  {
+    "path": "tools/build_kernel_reservoir_report.py",
+    "lines": 305,
+    "definitions": [
+      "clean",
+      "p",
+      "sub",
+      "eq",
+      "page",
+      "table",
+      "footer"
+    ],
+    "imports": [
+      "hashlib",
+      "html",
+      "json",
+      "pathlib",
+      "pypdf",
+      "reportlab.lib",
+      "reportlab.lib.enums",
+      "reportlab.lib.pagesizes",
+      "reportlab.lib.styles",
+      "reportlab.pdfbase",
+      "reportlab.pdfbase.ttfonts",
+      "reportlab.platypus"
+    ]
+  },
+  {
+    "path": "tools/build_qml_achievements_charts.py",
+    "lines": 283,
+    "definitions": [
+      "setup",
+      "save",
+      "model_accuracy_chart",
+      "equal_budget_chart",
+      "trotter_scaling_chart",
+      "ibm_pilot_chart",
+      "photonic_chart",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "collections",
+      "csv",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "tools/build_qml_achievements_report.py",
+    "lines": 1199,
+    "definitions": [
+      "load_json",
+      "register_fonts",
+      "make_styles",
+      "CoverBand",
+      "on_page",
+      "p",
+      "bullet",
+      "eq",
+      "callout",
+      "section",
+      "make_table",
+      "chart",
+      "build_story",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "json",
+      "pathlib",
+      "reportlab.lib",
+      "reportlab.lib.enums",
+      "reportlab.lib.pagesizes",
+      "reportlab.lib.styles",
+      "reportlab.lib.units",
+      "reportlab.pdfbase",
+      "reportlab.pdfbase.ttfonts",
+      "reportlab.platypus"
+    ]
+  },
+  {
+    "path": "tools/build_qrc_audit_pdf.py",
+    "lines": 241,
+    "definitions": [
+      "para",
+      "head",
+      "sub",
+      "page",
+      "table",
+      "fmt",
+      "interval",
+      "local_csv",
+      "footer"
+    ],
+    "imports": [
+      "csv",
+      "html",
+      "json",
+      "pathlib",
+      "pypdf",
+      "reportlab.lib",
+      "reportlab.lib.enums",
+      "reportlab.lib.pagesizes",
+      "reportlab.lib.styles",
+      "reportlab.pdfbase",
+      "reportlab.pdfbase.ttfonts",
+      "reportlab.platypus"
+    ]
+  },
+  {
+    "path": "tools/build_qrc_trotter_notebook.py",
+    "lines": 222,
+    "definitions": [
+      "markdown",
+      "code",
+      "execute_cells",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "contextlib",
+      "io",
+      "json",
+      "os",
+      "pathlib",
+      "traceback"
+    ]
+  },
+  {
+    "path": "tools/build_source_catalog.py",
+    "lines": 52,
+    "definitions": [
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "ast",
+      "json",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "tools/check_kernel_reservoir_comparison.py",
+    "lines": 51,
+    "definitions": [
+      "gram",
+      "feat",
+      "encoding"
+    ],
+    "imports": [
+      "hashlib",
+      "itertools",
+      "json",
+      "numpy",
+      "os",
+      "pathlib",
+      "scipy.linalg"
+    ]
+  },
+  {
+    "path": "tools/check_publication.py",
+    "lines": 61,
+    "definitions": [
+      "publication_files",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "ast",
+      "json",
+      "pathlib",
+      "re"
+    ]
+  },
+  {
+    "path": "tools/configure_ibm_quantum_account.py",
+    "lines": 33,
+    "definitions": [
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "getpass",
+      "qiskit_ibm_runtime"
+    ]
+  },
+  {
+    "path": "tools/export_publication.py",
+    "lines": 31,
+    "definitions": [
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "check_publication",
+      "json",
+      "pathlib",
+      "zipfile"
+    ]
+  },
+  {
+    "path": "tools/extract_qml_pdfs.py",
+    "lines": 237,
+    "definitions": [
+      "flatten_outline",
+      "normalize",
+      "snippets_for",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "json",
+      "pathlib",
+      "pypdf",
+      "re"
+    ]
+  },
+  {
+    "path": "tools/finalize_best_hpo_composer_result.py",
+    "lines": 189,
+    "definitions": [
+      "normalize_counts",
+      "features_from_counts",
+      "write_samples",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "ansatz_hardware_dataset_benchmark",
+      "argparse",
+      "csv",
+      "json",
+      "numpy",
+      "pathlib",
+      "run_best_hpo_ibm_qpu",
+      "sys",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/generate_h2_proof_pdf.py",
+    "lines": 475,
+    "definitions": [
+      "register_fonts",
+      "p",
+      "h",
+      "sh",
+      "formula",
+      "bullets",
+      "proof_box",
+      "page_footer",
+      "build_story",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "pathlib",
+      "reportlab.lib",
+      "reportlab.lib.enums",
+      "reportlab.lib.pagesizes",
+      "reportlab.lib.styles",
+      "reportlab.lib.units",
+      "reportlab.pdfbase",
+      "reportlab.pdfbase.ttfonts",
+      "reportlab.platypus"
+    ]
+  },
+  {
+    "path": "tools/h2_hardware_common.py",
+    "lines": 199,
+    "definitions": [
+      "load_dataset",
+      "_selected_h2_config",
+      "resolve_h2_config",
+      "balanced_subset_indices",
+      "prepare_h2_problem",
+      "kernel_diagnostics",
+      "config_to_dict",
+      "json_ready",
+      "write_json"
+    ],
+    "imports": [
+      "__future__",
+      "json",
+      "numpy",
+      "pathlib",
+      "qml_hypothesis_experiment",
+      "sys",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/h2_pennylane_xanadu.py",
+    "lines": 148,
+    "definitions": [
+      "apply_h2_feature_map",
+      "pennylane_overlap_kernel",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "h2_hardware_common",
+      "numpy",
+      "pathlib",
+      "pennylane",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/h2_qiskit_ibm.py",
+    "lines": 267,
+    "definitions": [
+      "build_h2_feature_map",
+      "exact_statevector_kernel",
+      "build_overlap_circuit",
+      "upper_triangle_overlap_circuits",
+      "_is_zero_key",
+      "zero_probability_from_counts",
+      "counts_from_pub_result",
+      "ibm_runtime_kernel",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "h2_hardware_common",
+      "numpy",
+      "os",
+      "pathlib",
+      "qiskit",
+      "qiskit.quantum_info",
+      "qiskit.transpiler.preset_passmanagers",
+      "qiskit_ibm_runtime",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/ibm_composer_hardware_train.py",
+    "lines": 906,
+    "definitions": [
+      "now_iso",
+      "write_json",
+      "load_state",
+      "save_state",
+      "recreate_dataset",
+      "qasm_angle",
+      "append_tree_tensor_gate",
+      "build_qasm",
+      "adam_step",
+      "normalize_counts",
+      "features_from_counts",
+      "expand_counts",
+      "combine_chunk_counts",
+      "split_features",
+      "write_pending_job",
+      "write_chunk_jobs",
+      "prepare_training_job",
+      "prepare_final_job",
+      "append_history",
+      "advance_training",
+      "write_final_report",
+      "advance_final",
+      "command_init",
+      "command_advance",
+      "command_simulate",
+      "command_inspect",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "ansatz_hardware_dataset_benchmark",
+      "argparse",
+      "csv",
+      "datetime",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "qiskit",
+      "qiskit.providers.basic_provider",
+      "run_best_hpo_ibm_qpu",
+      "sys",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/plot_scar_wine_ibm_qpu.py",
+    "lines": 270,
+    "definitions": [
+      "load_csv",
+      "annotate_bars",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "csv",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "tools/prepare_best_hpo_composer_qasm.py",
+    "lines": 152,
+    "definitions": [
+      "qasm_angle",
+      "build_qasm",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "ansatz_hardware_dataset_benchmark",
+      "argparse",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "run_best_hpo_ibm_qpu",
+      "sys"
+    ]
+  },
+  {
+    "path": "tools/project_inventory.py",
+    "lines": 54,
+    "definitions": [
+      "files",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "collections",
+      "csv",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib"
+    ]
+  },
+  {
+    "path": "tools/qrc_ibm_hardware.py",
+    "lines": 257,
+    "definitions": [
+      "parser",
+      "_benchmark",
+      "_backend_name",
+      "_save_circuits",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "dataclasses",
+      "json",
+      "numpy",
+      "pathlib",
+      "qiskit",
+      "qiskit_ibm_runtime.fake_provider",
+      "quantum_reservoir.benchmarks",
+      "quantum_reservoir.core",
+      "quantum_reservoir.ibm_hardware",
+      "sys"
+    ]
+  },
+  {
+    "path": "tools/run_best_hpo_ibm_qpu.py",
+    "lines": 632,
+    "definitions": [
+      "read_csv",
+      "json_ready",
+      "write_json",
+      "backend_name",
+      "pending_jobs",
+      "coupling_edges",
+      "two_qubit_error",
+      "best_tree_layout",
+      "initialize_service",
+      "select_backend",
+      "select_best_ibm_case",
+      "recreate_model",
+      "build_tree_tensor_circuit",
+      "compile_circuit",
+      "confusion_matrix",
+      "evaluate",
+      "write_samples",
+      "write_report",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "ansatz_hardware_dataset_benchmark",
+      "argparse",
+      "csv",
+      "json",
+      "math",
+      "numpy",
+      "os",
+      "pathlib",
+      "qiskit",
+      "qiskit.circuit",
+      "qiskit.quantum_info",
+      "qiskit.transpiler.preset_passmanagers",
+      "qiskit_ibm_runtime",
+      "qiskit_ibm_runtime.fake_provider",
+      "sys",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/scar_ibm_fez_simulated_reproduction.py",
+    "lines": 881,
+    "definitions": [
+      "json_ready",
+      "load_json",
+      "write_json",
+      "read_csv",
+      "write_history",
+      "compact_compiled_circuit",
+      "heterogeneous_gate_error",
+      "build_compact_noise_model",
+      "validate_compaction",
+      "ExactFakeFezEvaluator",
+      "actual_qpu_result",
+      "mlp_from_real",
+      "plot_results",
+      "write_report",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "csv",
+      "json",
+      "math",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "qiskit",
+      "qiskit.quantum_info",
+      "qiskit_aer.noise",
+      "qiskit_aer.primitives",
+      "qiskit_ibm_runtime.fake_provider",
+      "scar_measurement_mitigation",
+      "scar_physical_qpu_wine_benchmark",
+      "scar_wine_ibm_qpu",
+      "scar_wine_qnn_benchmark",
+      "sys",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/scar_measurement_mitigation.py",
+    "lines": 154,
+    "definitions": [
+      "assignment_matrix",
+      "symmetric_assignment_matrix",
+      "regularized_inverse",
+      "MeasurementResponse"
+    ],
+    "imports": [
+      "__future__",
+      "numpy",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/scar_physical_qpu_wine_benchmark.py",
+    "lines": 1276,
+    "definitions": [
+      "QubitHardwareProfile",
+      "_json_ready",
+      "write_json",
+      "write_history",
+      "_target_matched_error",
+      "build_qubit_noise_model",
+      "QubitFeatureEvaluator",
+      "_mesh_unitary",
+      "X8FeatureEvaluator",
+      "classifier_loss",
+      "head_gradient",
+      "unpack_head",
+      "model_metrics",
+      "train_hardware_model",
+      "classical_result",
+      "plot_results",
+      "write_report",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "json",
+      "math",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "qiskit.quantum_info",
+      "qiskit_aer.noise",
+      "qiskit_aer.primitives",
+      "scar_measurement_mitigation",
+      "scar_wine_ibm_qpu",
+      "scar_wine_qnn_benchmark",
+      "sys",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/scar_qpu_error_matrix_mitigation.py",
+    "lines": 572,
+    "definitions": [
+      "json_ready",
+      "write_json",
+      "write_history",
+      "make_evaluators",
+      "hardware_metadata",
+      "train_all",
+      "build_comparison",
+      "plot_results",
+      "write_report",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "csv",
+      "dataclasses",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "scar_ibm_fez_simulated_reproduction",
+      "scar_physical_qpu_wine_benchmark",
+      "scar_wine_qnn_benchmark",
+      "sys",
+      "time",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/scar_rigetti_ionq_architecture.py",
+    "lines": 489,
+    "definitions": [
+      "matrix_error",
+      "two_qubit_depth",
+      "bind_reference",
+      "compile_rigetti",
+      "append_u_native",
+      "append_h_native",
+      "append_rx90_native",
+      "append_zz_native",
+      "to_ionq_forte_native",
+      "optimize_ionq_native",
+      "compile_ionq",
+      "workload_cost",
+      "cost_estimates",
+      "draw_topologies",
+      "plot_result",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "json",
+      "math",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "qiskit",
+      "qiskit.quantum_info",
+      "qiskit.transpiler",
+      "qiskit_ionq",
+      "qiskit_ionq.ionq_optimizer_plugin",
+      "qiskit_ionq.rewrite_rules",
+      "scar_wine_ibm_qpu",
+      "sys",
+      "typing"
+    ]
+  },
+  {
+    "path": "tools/scar_wine_ibm_qpu.py",
+    "lines": 817,
+    "definitions": [
+      "CompiledScarCircuit",
+      "append_scar",
+      "build_parameterized_scar_qnn",
+      "validate_scar_decomposition",
+      "_backend_name",
+      "_processor_type",
+      "_coupling_edges",
+      "_two_qubit_error",
+      "best_four_cycle",
+      "_pending_jobs",
+      "resolve_backend",
+      "compile_for_backend",
+      "fake_backend",
+      "_json_ready",
+      "write_json",
+      "write_history",
+      "initialize_service",
+      "estimator_features",
+      "classifier_loss",
+      "head_gradient",
+      "unpack_head",
+      "model_metrics",
+      "train_on_ibm_qpu",
+      "run_classical_reference",
+      "parse_args",
+      "main"
+    ],
+    "imports": [
+      "__future__",
+      "argparse",
+      "csv",
+      "dataclasses",
+      "json",
+      "math",
+      "numpy",
+      "os",
+      "pathlib",
+      "qiskit",
+      "qiskit.circuit",
+      "qiskit.quantum_info",
+      "qiskit.transpiler.preset_passmanagers",
+      "qiskit_ibm_runtime",
+      "qiskit_ibm_runtime.fake_provider",
+      "scar_wine_qnn_benchmark",
+      "sys",
+      "time",
+      "typing",
+      "vqe_scar_ansatz_experiment"
+    ]
+  }
+]

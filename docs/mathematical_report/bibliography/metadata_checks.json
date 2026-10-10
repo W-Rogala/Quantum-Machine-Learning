@@ -1,0 +1,375 @@
+{
+  "arrazola2021": {
+    "url": "https://arxiv.org/abs/2103.02109",
+    "title": "Quantum circuits with many photons on a programmable nanophotonic chip",
+    "authors": [
+      "Arrazola, J. M.",
+      "Bergholm, V.",
+      "Brádler, K.",
+      "Bromley, T. R.",
+      "Collins, M. J.",
+      "Dhand, I.",
+      "Fumagalli, A.",
+      "Gerrits, T.",
+      "Goussev, A.",
+      "Helt, L. G.",
+      "Hundal, J.",
+      "Isacsson, T.",
+      "Israel, R. B.",
+      "Izaac, J.",
+      "Jahangiri, S.",
+      "Janik, R.",
+      "Killoran, N.",
+      "Kumar, S. P.",
+      "Lavoie, J.",
+      "Lita, A. E.",
+      "Mahler, D. H.",
+      "Menotti, M.",
+      "Morrison, B.",
+      "Nam, S. W.",
+      "Neuhaus, L.",
+      "Qi, H. Y.",
+      "Quesada, N.",
+      "Repingon, A.",
+      "Sabapathy, K. K.",
+      "Schuld, M.",
+      "Su, D.",
+      "Swinarton, J.",
+      "Száva, A.",
+      "Tan, K.",
+      "Tan, P.",
+      "Vaidya, V. D.",
+      "Vernon, Z.",
+      "Zabaneh, Z.",
+      "Zhang, Y."
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "86b3b014961373d05f34120425eadbcb5884ae4da4064d5d5701b6e5023bc81f"
+  },
+  "benedetti2019": {
+    "url": "https://arxiv.org/abs/1906.07682",
+    "title": "Parameterized quantum circuits as machine learning models",
+    "authors": [
+      "Benedetti, Marcello",
+      "Lloyd, Erika",
+      "Sack, Stefan",
+      "Fiorentini, Mattia"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "98277ff86837859c4a12acd031a379f8e3af1594fc21a42a53b9b54d68fb67b5"
+  },
+  "childs2021": {
+    "url": "https://arxiv.org/abs/1912.08854",
+    "title": "A Theory of Trotter Error",
+    "authors": [
+      "Childs, Andrew M.",
+      "Su, Yuan",
+      "Tran, Minh C.",
+      "Wiebe, Nathan",
+      "Zhu, Shuchen"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "51c3908d50604c1773dd5eb81c16d5d4983500917b7c63deb2ea88a5c42f7f30"
+  },
+  "cong2019": {
+    "url": "https://arxiv.org/abs/1810.03787",
+    "title": "Quantum Convolutional Neural Networks",
+    "authors": [
+      "Cong, Iris",
+      "Choi, Soonwon",
+      "Lukin, Mikhail D."
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "12a6968b59657d8696bbd9d3286c64d6c16511fc02fc509823a28c92b60f1911"
+  },
+  "dunjko2016": {
+    "url": "https://arxiv.org/abs/1610.08251",
+    "title": "Quantum-enhanced machine learning",
+    "authors": [
+      "Dunjko, Vedran",
+      "Taylor, Jacob M.",
+      "Briegel, Hans J."
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "f9930b8f1356e3345720af726059c6a6d3e345c89387255f4a58811b63350891"
+  },
+  "durr1996": {
+    "url": "https://arxiv.org/abs/quant-ph/9607014",
+    "title": "A Quantum Algorithm for Finding the Minimum",
+    "authors": [
+      "Durr, Christoph",
+      "Hoyer, Peter"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "ea4ad12a98fed2386bc992ff03dcf510d62b15e67b625873a9858e1e00c7b109"
+  },
+  "farhi2014": {
+    "url": "https://arxiv.org/abs/1411.4028",
+    "title": "A Quantum Approximate Optimization Algorithm",
+    "authors": [
+      "Farhi, Edward",
+      "Goldstone, Jeffrey",
+      "Gutmann, Sam"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "8b6e84033f07ed5582b002bb5d2d3cdb7e2a6a2f43e131fcc389871bad930bad"
+  },
+  "fujii2017": {
+    "url": "https://arxiv.org/abs/1602.08159",
+    "title": "Harnessing disordered quantum dynamics for machine learning",
+    "authors": [
+      "Fujii, Keisuke",
+      "Nakajima, Kohei"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "ecb8a4e8e8b1ae05921d1da15b655d9d844f48dd42fa659f9352496944f8c16b"
+  },
+  "gilyen2019": {
+    "url": "https://arxiv.org/abs/1806.01838",
+    "title": "Quantum singular value transformation and beyond: exponential improvements for quantum matrix arithmetics",
+    "authors": [
+      "Gilyén, András",
+      "Su, Yuan",
+      "Low, Guang Hao",
+      "Wiebe, Nathan"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "2f0179b4e2912342d7cfe7107f821106eb1d71cc701fedf5370dfb84f53574af"
+  },
+  "grover1996": {
+    "url": "https://arxiv.org/abs/quant-ph/9605043",
+    "title": "A fast quantum mechanical algorithm for database search",
+    "authors": [
+      "Grover, Lov K."
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "8cb787f94305222534ab24322582dcd46e76c1c36b6f0d6d6e402a8c50235de9"
+  },
+  "hamilton2017": {
+    "url": "https://arxiv.org/abs/1612.01199",
+    "title": "Gaussian Boson Sampling",
+    "authors": [
+      "Hamilton, Craig S.",
+      "Kruse, Regina",
+      "Sansoni, Linda",
+      "Barkhofen, Sonja",
+      "Silberhorn, Christine",
+      "Jex, Igor"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "abe12ddaf56ddf063f22ce69753a72b1b84b94eb84ece873f1ae124386d8e775"
+  },
+  "harrow2009": {
+    "url": "https://arxiv.org/abs/0811.3171",
+    "title": "Quantum algorithm for solving linear systems of equations",
+    "authors": [
+      "Harrow, Aram W.",
+      "Hassidim, Avinatan",
+      "Lloyd, Seth"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "7134d1d0ee0c93a53b2e841e525b0f0b762a42d6f671c32db9b806237fa01be5"
+  },
+  "havlicek2019": {
+    "url": "https://arxiv.org/abs/1804.11326",
+    "title": "Supervised learning with quantum enhanced feature spaces",
+    "authors": [
+      "Havlicek, Vojtech",
+      "Córcoles, Antonio D.",
+      "Temme, Kristan",
+      "Harrow, Aram W.",
+      "Kandala, Abhinav",
+      "Chow, Jerry M.",
+      "Gambetta, Jay M."
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "71e744aaa64be390db8959b8427a711b910530d1dc1cedecfcfaed979ccd7f90"
+  },
+  "huang2021": {
+    "url": "https://arxiv.org/abs/2011.01938",
+    "title": "Power of data in quantum machine learning",
+    "authors": [
+      "Huang, Hsin-Yuan",
+      "Broughton, Michael",
+      "Mohseni, Masoud",
+      "Babbush, Ryan",
+      "Boixo, Sergio",
+      "Neven, Hartmut",
+      "McClean, Jarrod R."
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "ee11508bc89ad02ee2de0c4112c86cc876a562fb87ac8be97e44c999101f1e9d"
+  },
+  "kadowaki1998": {
+    "url": "https://arxiv.org/abs/cond-mat/9804280",
+    "title": "Quantum Annealing in the Transverse Ising Model",
+    "authors": [
+      "Kadowaki, Tadashi",
+      "Nishimori, Hidetoshi"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "1b7478b22959f7ed18300c35278d492c313fa46a95a4a8f921e9e24866cb1708"
+  },
+  "kerenidis2022": {
+    "url": "https://arxiv.org/abs/2209.08167",
+    "title": "Quantum Vision Transformers",
+    "authors": [
+      "Cherrat, El Amine",
+      "Kerenidis, Iordanis",
+      "Mathur, Natansh",
+      "Landman, Jonas",
+      "Strahm, Martin",
+      "Li, Yun Yvonna"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "0e80c7d56382dc5544d523efc35f0b23e4c82a0b92518ca750cabc86653645f4"
+  },
+  "killoran2019": {
+    "url": "https://arxiv.org/abs/1804.03159",
+    "title": "Strawberry Fields: A Software Platform for Photonic Quantum Computing",
+    "authors": [
+      "Killoran, Nathan",
+      "Izaac, Josh",
+      "Quesada, Nicolás",
+      "Bergholm, Ville",
+      "Amy, Matthew",
+      "Weedbrook, Christian"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "579584d0710c80180e594810da4d7f2add0f72bba99580246a3ebbc328fd23f7"
+  },
+  "lloyd2014": {
+    "url": "https://arxiv.org/abs/1307.0401",
+    "title": "Quantum principal component analysis",
+    "authors": [
+      "Lloyd, Seth",
+      "Mohseni, Masoud",
+      "Rebentrost, Patrick"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "dfa4fa9afc46285be91a91325432710263399416557bed311e171f4192f57df0"
+  },
+  "lloyd2018": {
+    "url": "https://arxiv.org/abs/1804.09139",
+    "title": "Quantum generative adversarial learning",
+    "authors": [
+      "Lloyd, Seth",
+      "Weedbrook, Christian"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "24eb59f192560b3afe6fcc694a3ca27c34adf2a3fa97c6153ed2981d23f182d9"
+  },
+  "peruzzo2014": {
+    "url": "https://arxiv.org/abs/1304.3061",
+    "title": "A variational eigenvalue solver on a quantum processor",
+    "authors": [
+      "Peruzzo, Alberto",
+      "McClean, Jarrod",
+      "Shadbolt, Peter",
+      "Yung, Man-Hong",
+      "Zhou, Xiao-Qi",
+      "Love, Peter J.",
+      "Aspuru-Guzik, Alán",
+      "O'Brien, Jeremy L."
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "d51cbdb5e29416f14fd0c151b4e45ef17fbc470ada62db68a417324499893cc7"
+  },
+  "romero2017": {
+    "url": "https://arxiv.org/abs/1612.02806",
+    "title": "Quantum autoencoders for efficient compression of quantum data",
+    "authors": [
+      "Romero, Jonathan",
+      "Olson, Jonathan P.",
+      "Aspuru-Guzik, Alan"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "c3aaaa4f5359030f7e59d9df0b5deb6206de60f673b7092470650cff6f03a9d2"
+  },
+  "schuld2019shift": {
+    "url": "https://arxiv.org/abs/1811.11184",
+    "title": "Evaluating analytic gradients on quantum hardware",
+    "authors": [
+      "Schuld, Maria",
+      "Bergholm, Ville",
+      "Gogolin, Christian",
+      "Izaac, Josh",
+      "Killoran, Nathan"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "9d64ca0580a3647be377002421098f90ed77d08b3fcbdfd18f7fae13046bfb65"
+  },
+  "schuld2021": {
+    "url": "https://arxiv.org/abs/2101.11020",
+    "title": "Supervised quantum machine learning models are kernel methods",
+    "authors": [
+      "Schuld, Maria"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "8000192c53bad80a4f591d562bea09f7d5552500a5bafa8b0a5bfe41f2f57e8f"
+  },
+  "sim2019": {
+    "url": "https://arxiv.org/abs/1905.10876",
+    "title": "Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms",
+    "authors": [
+      "Sim, Sukin",
+      "Johnson, Peter D.",
+      "Aspuru-Guzik, Alan"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "4780ed0b908c5e329fb876e6b0b26d664b4cd6740942ed04e7c1711b13507374"
+  },
+  "verdon2018": {
+    "url": "https://arxiv.org/abs/1806.09729",
+    "title": "A Universal Training Algorithm for Quantum Deep Learning",
+    "authors": [
+      "Verdon, Guillaume",
+      "Pye, Jason",
+      "Broughton, Michael"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "89fc3a4b37ce20d22d5fc1993d8f278578d1399471c264db5e1ecbde54b3436f"
+  },
+  "transformer2024": {
+    "url": "https://arxiv.org/abs/2402.16714",
+    "title": "Quantum Transformer: Accelerating model inference via quantum linear algebra",
+    "authors": [
+      "Guo, Naixu",
+      "Yu, Zhan",
+      "Choi, Matthew",
+      "Han, Yizhan",
+      "Agrawal, Aman",
+      "Nakaji, Kouhei",
+      "Aspuru-Guzik, Alán",
+      "Rebentrost, Patrick"
+    ],
+    "checked": "2026-10-05",
+    "status": "verified-primary-metadata",
+    "sha256": "b70326be36b6b30d2bab1951dad978135419206696dca344334d6e6749c4b371"
+  }
+}

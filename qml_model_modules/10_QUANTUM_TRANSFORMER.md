@@ -80,3 +80,4 @@ Fizycznie kluczowe jest zachowanie koherencji przez cala inferencje. Pomiar dopi
 - Przyspieszenie zalezy od silnych zalozen o dostepie do block encoding/oracles.
 - Odczyt pelnego wektora wyjscia zniszczylby przewage; sens ma czesciowy odczyt lub probkowanie tokenu.
 - Model dotyczy inferencji juz wytrenowanego klasycznego transformera, nie pelnego treningu end-to-end na obecnym sprzecie.
+

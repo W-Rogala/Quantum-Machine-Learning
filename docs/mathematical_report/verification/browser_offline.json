@@ -1,0 +1,29 @@
+{
+  "url": "file:///D:/Projects/QML/output/reports/QML_monografia_matematyczna_2026-10-05.html",
+  "counts": "21 027 słów · 1182 zapisów matematycznych · 118 precyzyjnych odnośników do kodu · 42 źródła",
+  "mathCount": 63,
+  "tooltip": "×HilbertPrzestrzeń z iloczynem skalarnym; Hilbert–Schmidt dotyczy operatorów.Rozwinięte wyjaśnienie →",
+  "glossaryOK": 1,
+  "codeTabOK": 1,
+  "codeHash": "#code-f0e8c0e56bf4-49-59",
+  "codeOK": 11,
+  "plotSections": 7,
+  "plotSVGs": 11,
+  "emptyPlot": false,
+  "classicalVisible": true,
+  "graphDetail": "math-edge-01: definiujez=T_train(x), ρ_z=E_z(ρ₀)Warunki i granice: T dopasowana tylko na train; rozmiary i zakres kodowania zapisane.Przejdź do wyprowadzenia →",
+  "graphLayers": {
+    "project": 49,
+    "theory": 30,
+    "curated": 19,
+    "imports": 137
+  },
+  "bibliographyCount": 42,
+  "hypothesesCount": 21,
+  "chapterCount": 12,
+  "duplicateIds": [],
+  "missingAnchors": [],
+  "mobileOverflow": false,
+  "errors": [],
+  "remoteRequests": []
+}

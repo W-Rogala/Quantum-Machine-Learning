@@ -1,0 +1,31 @@
+flowchart LR
+    QML["Teoria QML"] --> K["Metody jądrowe"]
+    K --> QSVM
+    QML --> V["Obwody wariacyjne"]
+    V --> PQC["QNN / PQC"]
+    PQC --> VQC
+    PQC --> HYB["Hybrid QNN"]
+    PQC --> QCNN
+    PQC --> AE["Quantum autoencoder"]
+    PQC --> QRL
+    QML --> GEN["Modele generatywne"]
+    GEN --> QGAN
+    GEN --> QCBM
+    GEN --> QBM
+    PQC --> QGAN
+    PQC --> QCBM
+    QML --> LA["Algorytmy algebry liniowej"]
+    LA --> HHL
+    LA --> QSVT
+    LA --> QPCA["qPCA"]
+    QSVT --> QT["Quantum transformer: wybrany model FTQC"]
+    QML --> CL["Quantum clustering"]
+    K -. "możliwy składnik" .-> CL
+    QML --> OPT["Optymalizacja i podprogramy"]
+    OPT --> QAOA
+    OPT --> VQE
+    OPT --> QA["Quantum annealing"]
+    OPT --> GAS["Grover adaptive search"]
+    V --> QAOA
+    V --> VQE
+    QA -. "przygotowanie / próbkowanie, z zastrzeżeniami" .-> QBM

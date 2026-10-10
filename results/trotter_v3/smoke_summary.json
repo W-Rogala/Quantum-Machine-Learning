@@ -1,0 +1,23 @@
+{
+  "candidate_rows": 1128,
+  "compatible_rows": 94,
+  "conditions_completed": 1,
+  "conditions_expected": 1,
+  "confirmatory_status": "not_confirmatory",
+  "development_complete": true,
+  "holdout_complete": true,
+  "inference_status": {
+    "status": "requires_complete_full_development_and_holdout"
+  },
+  "limitations": [
+    "0.01 grid is resource-screened before inner CV, not exhaustively numerically evaluated",
+    "Exact evolution is a simulator oracle, not an ISA-equivalent QPU circuit",
+    "Shot-matched comparisons isolate measurement noise but do not equalize exact-oracle gate cost",
+    "Split-level compatible sets are descriptive post-selection with only six outer split clusters"
+  ],
+  "outer_rows": 96,
+  "protocol_hash": "a97bec4e7d0d4778afe66a718b2d54677848e8d8551593b464abe4ede4d11526",
+  "resource_cells": 8,
+  "schema": "trotter-scaling.summary.v3",
+  "v2_p_value_status": "exploratory_not_confirmation"
+}

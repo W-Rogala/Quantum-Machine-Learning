@@ -1,0 +1,9 @@
+{
+  "schema": "trotter-scaling.audit.v3",
+  "protocol_hash": "9d7ff7e95f6ce458b4d997397ccaec8679783e8938d24301ba5734b56eca46af",
+  "status": "passed",
+  "conditions": 1,
+  "outer_rows": 96,
+  "checks": 995,
+  "confirmatory": false
+}

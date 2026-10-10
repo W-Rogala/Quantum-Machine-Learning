@@ -72,3 +72,4 @@ Jesli ewolucja jest wystarczajaco wolna wzgledem minimalnej szczeliny energetycz
 - Minor embedding moze znaczaco zwiekszyc liczbe kubitow fizycznych.
 - Wyniki sa probkami, nie gwarancja optimum.
 - Trzeba porownywac caly pipeline z klasycznymi heurystykami i solverami QUBO/MILP.
+

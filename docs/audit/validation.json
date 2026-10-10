@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-22",
+  "platform": "Windows",
+  "python": "3.12.14",
+  "baseline_tests": {"command": "python -m unittest discover -s tests -v", "passed": 107, "failed": 0, "seconds": 29.253},
+  "clean_export_tests": {"command": "python -m unittest discover -s tests -v", "passed": 107, "failed": 0, "seconds": 17.991, "imports_resolve_inside_export": true},
+  "legacy_compatibility": {"modules_checked": 8, "status": "passed", "checks": ["ROOT resolves to checkout", "legacy entry point resolves to canonical main"]},
+  "curated_results": {"files_checked": 14, "sha256_matches_originals": true},
+  "wheel": {"filename": "qml_research_workbench-0.1.0-py3-none-any.whl", "build_status": "success", "members": 56, "packages": ["hamiltonian_kernel", "quantum_reservoir", "photonic_kernel", "experiments"]},
+  "publication_checks": ["Python syntax", "10 MiB per-file limit", "limited known credential patterns", "new documentation relative links", "export files agree with Git visible file list"],
+  "limitations": ["Both test runs used the same existing local Python environment", "Fresh dependency installation and GitHub-hosted Linux CI were not run", "No new QPU jobs or full historical research runs", "Passing tests do not refute the scientific findings in the audit", "Credential scan is limited, not a proof that all sensitive data are absent"]
+}

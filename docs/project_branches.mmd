@@ -1,0 +1,51 @@
+flowchart TB
+    Q["QML: badania jakości, kosztu i dynamiki"]
+    Q --> T["Teoria: 19 kart algorytmów"]
+    Q --> L["Eksperymenty historyczne"]
+    Q --> H["Hamiltonian quantum kernels"]
+    Q --> R["Quantum reservoir computing"]
+    Q --> P["Fotonika CV / GBS"]
+    T --> G["Graf taksonomii algorytmów: HTML + JS"]
+    D["Dane: Wine, WDBC, OptDigits, MNIST, moons"] --> L
+    D --> H
+    D --> P
+    L --> L1["QSVM: PCA, alignment, H0/H1/H2"]
+    L1 --> L2["NISQ: szum efektywny, normalizacja, H3"]
+    L --> L3["SCAR: geometria ansatzu i QNN vs MLP"]
+    L --> L4["14 ansatzów: profile dostawców i HPO"]
+    L4 --> HW["Adaptery IBM / Composer / IonQ / Rigetti"]
+    L3 --> HW
+    H --> HC["H(x), ewolucja exact / Lie / Suzuki"]
+    HC --> HK["Fidelity i projected: estymacja + KRR"]
+    HK --> HB["Pilot → grid → benchmark publikacyjny"]
+    HC --> TS["Skalowanie Trottera v1 → full v2 → v3"]
+    TS --> V3["v3: nested CV, holdout, niezależne budżety"]
+    HB --> HW
+    V3 --> HW
+    B["Szeregi: NARMA10, Mackey–Glass, cele pamięci"] --> R
+    R --> RC["Reset wejścia + dynamika + cechy + ridge"]
+    RC --> RS["H1/H2: spektrum, kontrakcja, rezonanse, CV"]
+    RS --> RM["H3: pamięć, odczyty i washout"]
+    RM --> RN["Szum, stacjonarność, diagnostyka"]
+    RC --> RH["IBM: historia w oknie i pomiary X/Z"]
+    RH --> HW
+    P --> PC["TMSV → interferometr → hafnian / PNR"]
+    PC --> PK["Histogram, momenty, event/orbit → kernel"]
+    PK --> PR["Cutoff, overflow, straty i detektory"]
+    PR --> SF["Strawberry Fields / adapter historyczny X8"]
+    HK -. "dualność cech i kernela" .-> BR["Porównanie kernel–reservoir"]
+    RC -. "historie jako wejścia" .-> BR
+    PC -. "osobny model fizyczny" .-> BR
+    HW --> E["Artefakty lokalne analysis_output"]
+    HB --> E
+    V3 --> E
+    RN --> E
+    PK --> E
+    L1 --> E
+    E --> A["Testy, audyty, hashe i status wykonania"]
+    A --> O["Raporty PDF, prezentacje, notebook QRC"]
+    A --> REV["Audyt 22.09: błędy, ograniczenia, plan poprawek"]
+    E --> PUB["results: małe zestawienia do repozytorium"]
+    REV --> GH["GitHub: kod + dokumentacja + CI"]
+    PUB --> GH
+    X["SPLOT / personal-project-crm"] -. "projekt sąsiedni, wyłączony z repo QML" .-> Q

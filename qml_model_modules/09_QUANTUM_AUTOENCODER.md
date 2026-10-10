@@ -67,3 +67,4 @@ Fizycznie testem sukcesu jest pomiar rejestru trash: im czesciej daje `|0...0>`,
 - Model jest najbardziej naturalny dla danych kwantowych; dla danych klasycznych koszt przygotowania stanu moze dominowac.
 - Pomiar fidelity lub test trash-register wymaga wielu powtorzen.
 - Rekonstrukcja jest gwarantowana tylko w zakresie danych podobnych do treningowych i przy dobrze dobranym ansatzu.
+

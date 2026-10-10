@@ -1,0 +1,7 @@
+# Historical Xunitary compiler/client environment only. Use CPython 3.10.
+# The public Xanadu Quantum Cloud is no longer available; these pins preserve
+# reproducible compilation and support a separately confirmed private endpoint.
+numpy==1.26.4
+scipy==1.11.4
+strawberryfields==0.23.0
+xanadu-cloud-client==0.3.2

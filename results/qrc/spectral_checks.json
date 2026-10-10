@@ -1,0 +1,7 @@
+{
+  "commuting_operator_error": 2.482534153247273e-16,
+  "cv_exact_radius_tau3": 0.8944271909999144,
+  "cv_strang_r1_radius_tau3": 6.130495168499703,
+  "free_particle_split_error": 0.0,
+  "reset_channel_one_step_contraction_counterexample": 1.000000000000001
+}

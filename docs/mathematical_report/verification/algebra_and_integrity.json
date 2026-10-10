@@ -1,0 +1,229 @@
+{
+  "status": "PASS",
+  "classification": "algebraic-and-document-integrity-checks",
+  "not_benchmark": true,
+  "checks": [
+    {
+      "name": "SCAR exact generator, unitarity and local XY conjugacy",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "cases": 16,
+        "max_gate": 3.8811871167922846e-16,
+        "max_unit": 2.5923977697772235e-16,
+        "max_conjugacy": 2.9893669801409083e-16
+      }
+    },
+    {
+      "name": "One-slice first-order fidelity cancellation",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "cases": 9,
+        "max_error": 4.440892098500626e-16,
+        "expected": 0.38235098491261593
+      }
+    },
+    {
+      "name": "Finite matrix Trotter bounds r=1",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "r": 1,
+        "lie": 0.5345788143114341,
+        "strang": 0.18991251136034923,
+        "lie_bound": 0.6237,
+        "strang_bound": 0.27130950000000004
+      }
+    },
+    {
+      "name": "Finite matrix Trotter bounds r=2",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "r": 2,
+        "lie": 0.2506389577691006,
+        "strang": 0.044356543805917845,
+        "lie_bound": 0.31185,
+        "strang_bound": 0.06782737500000001
+      }
+    },
+    {
+      "name": "Finite matrix Trotter bounds r=4",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "r": 4,
+        "lie": 0.12322152056022041,
+        "strang": 0.010887743089793494,
+        "lie_bound": 0.155925,
+        "strang_bound": 0.016956843750000002
+      }
+    },
+    {
+      "name": "Finite matrix Trotter bounds r=8",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "r": 8,
+        "lie": 0.061349391218027,
+        "strang": 0.0027093286691539553,
+        "lie_bound": 0.0779625,
+        "strang_bound": 0.004239210937500001
+      }
+    },
+    {
+      "name": "Finite matrix Trotter bounds r=16",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "r": 16,
+        "lie": 0.03064206082277784,
+        "strang": 0.0006765441695443755,
+        "lie_bound": 0.03898125,
+        "strang_bound": 0.0010598027343750001
+      }
+    },
+    {
+      "name": "Indefinite KRR counterexample despite shifted positive matrix",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "min_eigenvalue": -0.2727922061357857,
+        "lambda_": 0.3,
+        "quadratic_coefficient": -0.007422074112306711
+      }
+    },
+    {
+      "name": "Ridge primal-dual on rank deficient Gram",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "max_error": 5.051514762044462e-15,
+        "rank": 4
+      }
+    },
+    {
+      "name": "Even QSVT zero singular subspace counted once",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "constant_error": 0.0,
+        "square_error": 0.0
+      }
+    },
+    {
+      "name": "CV symplectic but unstable Strang",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "exact_radius": 0.8944271909999144,
+        "strang_radius": 6.1304951684997055,
+        "strang_trace": -7.0
+      }
+    },
+    {
+      "name": "Standardized PCA retains variance and loses all label signal",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "retained_variance": 0.9900990099009901,
+        "label_projection": 0.0
+      }
+    },
+    {
+      "name": "Loss and threshold do not commute",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "correct": 0.75,
+        "threshold_first": 0.5
+      }
+    },
+    {
+      "name": "Cutoff commutator d=2",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "operator_error_from_identity": 2.0
+      }
+    },
+    {
+      "name": "Cutoff commutator d=4",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "operator_error_from_identity": 3.9999999999999996
+      }
+    },
+    {
+      "name": "Cutoff commutator d=8",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "operator_error_from_identity": 8.0
+      }
+    },
+    {
+      "name": "One-qubit reset coefficient is one for n>=2",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "before": 1.0,
+        "after": 1.0
+      }
+    },
+    {
+      "name": "Wilson accuracy interval",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "estimate": 0.4,
+        "low": 0.2555072885938059,
+        "high": 0.5642729098710749
+      }
+    },
+    {
+      "name": "Source snapshot integrity",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "files": 142,
+        "changed": []
+      }
+    },
+    {
+      "name": "Bibliographic keys resolve",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "sources": 42,
+        "citations": 51
+      }
+    },
+    {
+      "name": "SQLite matches reviewed sources and hypotheses",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "sources": 42,
+        "hypotheses": 21
+      }
+    },
+    {
+      "name": "Chart rows exist and memory components are paired",
+      "passed": true,
+      "classification": "algebraic-check",
+      "details": {
+        "rows": {
+          "hk-comparison": 10,
+          "qrc-spectral": 12,
+          "noise-ratio": 2,
+          "noise-difference": 2,
+          "memory-contrast": 3,
+          "memory-components": 9
+        }
+      }
+    }
+  ]
+}

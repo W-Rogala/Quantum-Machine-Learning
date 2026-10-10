@@ -1,0 +1,507 @@
+﻿id,facet,source_label,target_label,shared_values,score,weight,rank,visible_at_default_limit_58
+S-family-001,family,HHL / Quantum Linear Algebra,QSVT,Linear algebra; FTQC,0.6666666666666666,4.333333333333333,1,True
+S-family-002,family,Quantum Kernel Methods,QSVM,Metody jadrowe,0.5,3.5,2,True
+S-family-003,family,QSVM,VQC,Klasyfikatory,0.5,3.5,3,True
+S-family-004,family,QCNN / Quanvolution,Quantum Transformer,Architektury glebokie,0.5,3.5,4,True
+S-family-005,family,QAOA,VQE,Optymalizacja; VQA,0.5,3.5,5,True
+S-family-006,family,QGAN,QCBM,QNN; Generatywne,0.47619047619047616,3.380952380952381,6,True
+S-family-007,family,VQC,QNN / PQC,QNN; VQA,0.39285714285714285,2.9642857142857144,7,True
+S-family-008,family,QGAN,Quantum Boltzmann Machine,Generatywne,0.3333333333333333,2.6666666666666665,8,True
+S-family-009,family,QCBM,Quantum Boltzmann Machine,Generatywne,0.3333333333333333,2.6666666666666665,9,True
+S-family-010,family,Quantum Transformer,HHL / Quantum Linear Algebra,FTQC,0.3333333333333333,2.6666666666666665,10,True
+S-family-011,family,Quantum Transformer,QSVT,FTQC,0.3333333333333333,2.6666666666666665,11,True
+S-family-012,family,HHL / Quantum Linear Algebra,qPCA,Linear algebra,0.3333333333333333,2.6666666666666665,12,True
+S-family-013,family,QSVT,qPCA,Linear algebra,0.3333333333333333,2.6666666666666665,13,True
+S-family-014,family,VQC,QAOA,VQA,0.25,2.25,14,True
+S-family-015,family,VQC,VQE,VQA,0.25,2.25,15,True
+S-family-016,family,QNN / PQC,QAOA,VQA,0.25,2.25,16,True
+S-family-017,family,QNN / PQC,VQE,VQA,0.25,2.25,17,True
+S-family-018,family,QAOA,Quantum Annealing,Optymalizacja,0.25,2.25,18,True
+S-family-019,family,QAOA,GAS / Grover Adaptive Search,Optymalizacja,0.25,2.25,19,True
+S-family-020,family,Quantum Annealing,VQE,Optymalizacja,0.25,2.25,20,True
+S-family-021,family,Quantum Annealing,GAS / Grover Adaptive Search,Optymalizacja,0.25,2.25,21,True
+S-family-022,family,VQE,GAS / Grover Adaptive Search,Optymalizacja,0.25,2.25,22,True
+S-family-023,family,VQC,Hybrid QNN,QNN,0.14285714285714285,1.7142857142857142,23,True
+S-family-024,family,VQC,QGAN,QNN,0.14285714285714285,1.7142857142857142,24,True
+S-family-025,family,VQC,QCBM,QNN,0.14285714285714285,1.7142857142857142,25,True
+S-family-026,family,VQC,QCNN / Quanvolution,QNN,0.14285714285714285,1.7142857142857142,26,True
+S-family-027,family,VQC,Quantum Autoencoder,QNN,0.14285714285714285,1.7142857142857142,27,True
+S-family-028,family,QNN / PQC,Hybrid QNN,QNN,0.14285714285714285,1.7142857142857142,28,True
+S-family-029,family,QNN / PQC,QGAN,QNN,0.14285714285714285,1.7142857142857142,29,True
+S-family-030,family,QNN / PQC,QCBM,QNN,0.14285714285714285,1.7142857142857142,30,True
+S-family-031,family,QNN / PQC,QCNN / Quanvolution,QNN,0.14285714285714285,1.7142857142857142,31,True
+S-family-032,family,QNN / PQC,Quantum Autoencoder,QNN,0.14285714285714285,1.7142857142857142,32,True
+S-family-033,family,Hybrid QNN,QGAN,QNN,0.14285714285714285,1.7142857142857142,33,True
+S-family-034,family,Hybrid QNN,QCBM,QNN,0.14285714285714285,1.7142857142857142,34,True
+S-family-035,family,Hybrid QNN,QCNN / Quanvolution,QNN,0.14285714285714285,1.7142857142857142,35,True
+S-family-036,family,Hybrid QNN,Quantum Autoencoder,QNN,0.14285714285714285,1.7142857142857142,36,True
+S-family-037,family,QGAN,QCNN / Quanvolution,QNN,0.14285714285714285,1.7142857142857142,37,True
+S-family-038,family,QGAN,Quantum Autoencoder,QNN,0.14285714285714285,1.7142857142857142,38,True
+S-family-039,family,QCBM,QCNN / Quanvolution,QNN,0.14285714285714285,1.7142857142857142,39,True
+S-family-040,family,QCBM,Quantum Autoencoder,QNN,0.14285714285714285,1.7142857142857142,40,True
+S-family-041,family,QCNN / Quanvolution,Quantum Autoencoder,QNN,0.14285714285714285,1.7142857142857142,41,True
+S-learning-001,learning,Quantum Autoencoder,qPCA,nienadzorowane; reprezentacja,0.6666666666666666,4.333333333333333,1,True
+S-learning-002,learning,Quantum Kernel Methods,QNN / PQC,nadzorowane; regresja,0.375,2.875,2,True
+S-learning-003,learning,Quantum Kernel Methods,Hybrid QNN,nadzorowane; regresja,0.375,2.875,3,True
+S-learning-004,learning,Quantum Kernel Methods,HHL / Quantum Linear Algebra,nadzorowane; regresja,0.375,2.875,4,True
+S-learning-005,learning,QSVM,VQC,nadzorowane; klasyfikacja,0.375,2.875,5,True
+S-learning-006,learning,QSVM,Hybrid QNN,nadzorowane; klasyfikacja,0.375,2.875,6,True
+S-learning-007,learning,QSVM,QCNN / Quanvolution,nadzorowane; klasyfikacja,0.375,2.875,7,True
+S-learning-008,learning,VQC,Hybrid QNN,nadzorowane; klasyfikacja,0.375,2.875,8,True
+S-learning-009,learning,VQC,QCNN / Quanvolution,nadzorowane; klasyfikacja,0.375,2.875,9,True
+S-learning-010,learning,QNN / PQC,Hybrid QNN,nadzorowane; regresja,0.375,2.875,10,True
+S-learning-011,learning,QNN / PQC,HHL / Quantum Linear Algebra,nadzorowane; regresja,0.375,2.875,11,True
+S-learning-012,learning,Hybrid QNN,QCNN / Quanvolution,nadzorowane; klasyfikacja,0.375,2.875,12,True
+S-learning-013,learning,Hybrid QNN,HHL / Quantum Linear Algebra,nadzorowane; regresja,0.375,2.875,13,True
+S-learning-014,learning,QGAN,QCBM,generatywne; nienadzorowane,0.3666666666666667,2.8333333333333335,14,True
+S-learning-015,learning,QGAN,Quantum Boltzmann Machine,generatywne; nienadzorowane,0.3666666666666667,2.8333333333333335,15,True
+S-learning-016,learning,QCBM,Quantum Boltzmann Machine,generatywne; nienadzorowane,0.3666666666666667,2.8333333333333335,16,True
+S-learning-017,learning,HHL / Quantum Linear Algebra,QSVT,subroutine,0.3333333333333333,2.6666666666666665,17,True
+S-learning-018,learning,HHL / Quantum Linear Algebra,VQE,subroutine,0.3333333333333333,2.6666666666666665,18,True
+S-learning-019,learning,QSVT,VQE,subroutine,0.3333333333333333,2.6666666666666665,19,True
+S-learning-020,learning,QNN / PQC,Quantum Transformer,nadzorowane; generatywne,0.325,2.625,20,True
+S-learning-021,learning,QAOA,Quantum Annealing,optymalizacja,0.25,2.25,21,True
+S-learning-022,learning,QAOA,VQE,optymalizacja,0.25,2.25,22,True
+S-learning-023,learning,QAOA,GAS / Grover Adaptive Search,optymalizacja,0.25,2.25,23,True
+S-learning-024,learning,Quantum Annealing,VQE,optymalizacja,0.25,2.25,24,True
+S-learning-025,learning,Quantum Annealing,GAS / Grover Adaptive Search,optymalizacja,0.25,2.25,25,True
+S-learning-026,learning,VQE,GAS / Grover Adaptive Search,optymalizacja,0.25,2.25,26,True
+S-learning-027,learning,QNN / PQC,QGAN,generatywne,0.2,2.0,27,True
+S-learning-028,learning,QNN / PQC,QCBM,generatywne,0.2,2.0,28,True
+S-learning-029,learning,QNN / PQC,Quantum Boltzmann Machine,generatywne,0.2,2.0,29,True
+S-learning-030,learning,QGAN,Quantum Transformer,generatywne,0.2,2.0,30,True
+S-learning-031,learning,QCBM,Quantum Transformer,generatywne,0.2,2.0,31,True
+S-learning-032,learning,Quantum Boltzmann Machine,Quantum Transformer,generatywne,0.2,2.0,32,True
+S-learning-033,learning,QGAN,Quantum Autoencoder,nienadzorowane,0.16666666666666666,1.8333333333333333,33,True
+S-learning-034,learning,QGAN,qPCA,nienadzorowane,0.16666666666666666,1.8333333333333333,34,True
+S-learning-035,learning,QGAN,Quantum Clustering / q-k-means,nienadzorowane,0.16666666666666666,1.8333333333333333,35,True
+S-learning-036,learning,QCBM,Quantum Autoencoder,nienadzorowane,0.16666666666666666,1.8333333333333333,36,True
+S-learning-037,learning,QCBM,qPCA,nienadzorowane,0.16666666666666666,1.8333333333333333,37,True
+S-learning-038,learning,QCBM,Quantum Clustering / q-k-means,nienadzorowane,0.16666666666666666,1.8333333333333333,38,True
+S-learning-039,learning,Quantum Boltzmann Machine,Quantum Autoencoder,nienadzorowane,0.16666666666666666,1.8333333333333333,39,True
+S-learning-040,learning,Quantum Boltzmann Machine,qPCA,nienadzorowane,0.16666666666666666,1.8333333333333333,40,True
+S-learning-041,learning,Quantum Boltzmann Machine,Quantum Clustering / q-k-means,nienadzorowane,0.16666666666666666,1.8333333333333333,41,True
+S-learning-042,learning,Quantum Autoencoder,Quantum Clustering / q-k-means,nienadzorowane,0.16666666666666666,1.8333333333333333,42,True
+S-learning-043,learning,qPCA,Quantum Clustering / q-k-means,nienadzorowane,0.16666666666666666,1.8333333333333333,43,True
+S-learning-044,learning,Quantum Kernel Methods,QSVM,nadzorowane,0.125,1.625,44,True
+S-learning-045,learning,Quantum Kernel Methods,VQC,nadzorowane,0.125,1.625,45,True
+S-learning-046,learning,Quantum Kernel Methods,QCNN / Quanvolution,nadzorowane,0.125,1.625,46,True
+S-learning-047,learning,Quantum Kernel Methods,Quantum Transformer,nadzorowane,0.125,1.625,47,True
+S-learning-048,learning,QSVM,QNN / PQC,nadzorowane,0.125,1.625,48,True
+S-learning-049,learning,QSVM,Quantum Transformer,nadzorowane,0.125,1.625,49,True
+S-learning-050,learning,QSVM,HHL / Quantum Linear Algebra,nadzorowane,0.125,1.625,50,True
+S-learning-051,learning,VQC,QNN / PQC,nadzorowane,0.125,1.625,51,True
+S-learning-052,learning,VQC,Quantum Transformer,nadzorowane,0.125,1.625,52,True
+S-learning-053,learning,VQC,HHL / Quantum Linear Algebra,nadzorowane,0.125,1.625,53,True
+S-learning-054,learning,QNN / PQC,QCNN / Quanvolution,nadzorowane,0.125,1.625,54,True
+S-learning-055,learning,Hybrid QNN,Quantum Transformer,nadzorowane,0.125,1.625,55,True
+S-learning-056,learning,QCNN / Quanvolution,Quantum Transformer,nadzorowane,0.125,1.625,56,True
+S-learning-057,learning,QCNN / Quanvolution,HHL / Quantum Linear Algebra,nadzorowane,0.125,1.625,57,True
+S-learning-058,learning,Quantum Transformer,HHL / Quantum Linear Algebra,nadzorowane,0.125,1.625,58,True
+S-era-001,era,Quantum Boltzmann Machine,Quantum Annealing,annealing,0.5,3.5,1,True
+S-era-002,era,Quantum Kernel Methods,QSVM,NISQ; FTQC,0.16233766233766234,1.8116883116883118,2,True
+S-era-003,era,Quantum Kernel Methods,QNN / PQC,NISQ; FTQC,0.16233766233766234,1.8116883116883118,3,True
+S-era-004,era,Quantum Kernel Methods,QGAN,NISQ; FTQC,0.16233766233766234,1.8116883116883118,4,True
+S-era-005,era,Quantum Kernel Methods,Quantum Autoencoder,NISQ; FTQC,0.16233766233766234,1.8116883116883118,5,True
+S-era-006,era,Quantum Kernel Methods,Quantum Clustering / q-k-means,NISQ; FTQC,0.16233766233766234,1.8116883116883118,6,True
+S-era-007,era,QSVM,QNN / PQC,NISQ; FTQC,0.16233766233766234,1.8116883116883118,7,True
+S-era-008,era,QSVM,QGAN,NISQ; FTQC,0.16233766233766234,1.8116883116883118,8,True
+S-era-009,era,QSVM,Quantum Autoencoder,NISQ; FTQC,0.16233766233766234,1.8116883116883118,9,True
+S-era-010,era,QSVM,Quantum Clustering / q-k-means,NISQ; FTQC,0.16233766233766234,1.8116883116883118,10,True
+S-era-011,era,QNN / PQC,QGAN,NISQ; FTQC,0.16233766233766234,1.8116883116883118,11,True
+S-era-012,era,QNN / PQC,Quantum Autoencoder,NISQ; FTQC,0.16233766233766234,1.8116883116883118,12,True
+S-era-013,era,QNN / PQC,Quantum Clustering / q-k-means,NISQ; FTQC,0.16233766233766234,1.8116883116883118,13,True
+S-era-014,era,QGAN,Quantum Autoencoder,NISQ; FTQC,0.16233766233766234,1.8116883116883118,14,True
+S-era-015,era,QGAN,Quantum Clustering / q-k-means,NISQ; FTQC,0.16233766233766234,1.8116883116883118,15,True
+S-era-016,era,Quantum Autoencoder,Quantum Clustering / q-k-means,NISQ; FTQC,0.16233766233766234,1.8116883116883118,16,True
+S-era-017,era,Quantum Kernel Methods,Quantum Transformer,FTQC,0.09090909090909091,1.4545454545454546,17,True
+S-era-018,era,Quantum Kernel Methods,HHL / Quantum Linear Algebra,FTQC,0.09090909090909091,1.4545454545454546,18,True
+S-era-019,era,Quantum Kernel Methods,QSVT,FTQC,0.09090909090909091,1.4545454545454546,19,True
+S-era-020,era,Quantum Kernel Methods,qPCA,FTQC,0.09090909090909091,1.4545454545454546,20,True
+S-era-021,era,Quantum Kernel Methods,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,21,True
+S-era-022,era,QSVM,Quantum Transformer,FTQC,0.09090909090909091,1.4545454545454546,22,True
+S-era-023,era,QSVM,HHL / Quantum Linear Algebra,FTQC,0.09090909090909091,1.4545454545454546,23,True
+S-era-024,era,QSVM,QSVT,FTQC,0.09090909090909091,1.4545454545454546,24,True
+S-era-025,era,QSVM,qPCA,FTQC,0.09090909090909091,1.4545454545454546,25,True
+S-era-026,era,QSVM,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,26,True
+S-era-027,era,QNN / PQC,Quantum Transformer,FTQC,0.09090909090909091,1.4545454545454546,27,True
+S-era-028,era,QNN / PQC,HHL / Quantum Linear Algebra,FTQC,0.09090909090909091,1.4545454545454546,28,True
+S-era-029,era,QNN / PQC,QSVT,FTQC,0.09090909090909091,1.4545454545454546,29,True
+S-era-030,era,QNN / PQC,qPCA,FTQC,0.09090909090909091,1.4545454545454546,30,True
+S-era-031,era,QNN / PQC,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,31,True
+S-era-032,era,QGAN,Quantum Transformer,FTQC,0.09090909090909091,1.4545454545454546,32,True
+S-era-033,era,QGAN,HHL / Quantum Linear Algebra,FTQC,0.09090909090909091,1.4545454545454546,33,True
+S-era-034,era,QGAN,QSVT,FTQC,0.09090909090909091,1.4545454545454546,34,True
+S-era-035,era,QGAN,qPCA,FTQC,0.09090909090909091,1.4545454545454546,35,True
+S-era-036,era,QGAN,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,36,True
+S-era-037,era,Quantum Autoencoder,Quantum Transformer,FTQC,0.09090909090909091,1.4545454545454546,37,True
+S-era-038,era,Quantum Autoencoder,HHL / Quantum Linear Algebra,FTQC,0.09090909090909091,1.4545454545454546,38,True
+S-era-039,era,Quantum Autoencoder,QSVT,FTQC,0.09090909090909091,1.4545454545454546,39,True
+S-era-040,era,Quantum Autoencoder,qPCA,FTQC,0.09090909090909091,1.4545454545454546,40,True
+S-era-041,era,Quantum Autoencoder,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,41,True
+S-era-042,era,Quantum Transformer,HHL / Quantum Linear Algebra,FTQC,0.09090909090909091,1.4545454545454546,42,True
+S-era-043,era,Quantum Transformer,QSVT,FTQC,0.09090909090909091,1.4545454545454546,43,True
+S-era-044,era,Quantum Transformer,qPCA,FTQC,0.09090909090909091,1.4545454545454546,44,True
+S-era-045,era,Quantum Transformer,Quantum Clustering / q-k-means,FTQC,0.09090909090909091,1.4545454545454546,45,True
+S-era-046,era,Quantum Transformer,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,46,True
+S-era-047,era,HHL / Quantum Linear Algebra,QSVT,FTQC,0.09090909090909091,1.4545454545454546,47,True
+S-era-048,era,HHL / Quantum Linear Algebra,qPCA,FTQC,0.09090909090909091,1.4545454545454546,48,True
+S-era-049,era,HHL / Quantum Linear Algebra,Quantum Clustering / q-k-means,FTQC,0.09090909090909091,1.4545454545454546,49,True
+S-era-050,era,HHL / Quantum Linear Algebra,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,50,True
+S-era-051,era,QSVT,qPCA,FTQC,0.09090909090909091,1.4545454545454546,51,True
+S-era-052,era,QSVT,Quantum Clustering / q-k-means,FTQC,0.09090909090909091,1.4545454545454546,52,True
+S-era-053,era,QSVT,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,53,True
+S-era-054,era,qPCA,Quantum Clustering / q-k-means,FTQC,0.09090909090909091,1.4545454545454546,54,True
+S-era-055,era,qPCA,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,55,True
+S-era-056,era,Quantum Clustering / q-k-means,GAS / Grover Adaptive Search,FTQC,0.09090909090909091,1.4545454545454546,56,True
+S-era-057,era,Quantum Kernel Methods,VQC,NISQ,0.07142857142857142,1.3571428571428572,57,True
+S-era-058,era,Quantum Kernel Methods,Hybrid QNN,NISQ,0.07142857142857142,1.3571428571428572,58,True
+S-era-059,era,Quantum Kernel Methods,QCBM,NISQ,0.07142857142857142,1.3571428571428572,59,False
+S-era-060,era,Quantum Kernel Methods,Quantum Boltzmann Machine,NISQ,0.07142857142857142,1.3571428571428572,60,False
+S-era-061,era,Quantum Kernel Methods,QCNN / Quanvolution,NISQ,0.07142857142857142,1.3571428571428572,61,False
+S-era-062,era,Quantum Kernel Methods,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,62,False
+S-era-063,era,Quantum Kernel Methods,QAOA,NISQ,0.07142857142857142,1.3571428571428572,63,False
+S-era-064,era,Quantum Kernel Methods,VQE,NISQ,0.07142857142857142,1.3571428571428572,64,False
+S-era-065,era,QSVM,VQC,NISQ,0.07142857142857142,1.3571428571428572,65,False
+S-era-066,era,QSVM,Hybrid QNN,NISQ,0.07142857142857142,1.3571428571428572,66,False
+S-era-067,era,QSVM,QCBM,NISQ,0.07142857142857142,1.3571428571428572,67,False
+S-era-068,era,QSVM,Quantum Boltzmann Machine,NISQ,0.07142857142857142,1.3571428571428572,68,False
+S-era-069,era,QSVM,QCNN / Quanvolution,NISQ,0.07142857142857142,1.3571428571428572,69,False
+S-era-070,era,QSVM,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,70,False
+S-era-071,era,QSVM,QAOA,NISQ,0.07142857142857142,1.3571428571428572,71,False
+S-era-072,era,QSVM,VQE,NISQ,0.07142857142857142,1.3571428571428572,72,False
+S-era-073,era,VQC,QNN / PQC,NISQ,0.07142857142857142,1.3571428571428572,73,False
+S-era-074,era,VQC,Hybrid QNN,NISQ,0.07142857142857142,1.3571428571428572,74,False
+S-era-075,era,VQC,QGAN,NISQ,0.07142857142857142,1.3571428571428572,75,False
+S-era-076,era,VQC,QCBM,NISQ,0.07142857142857142,1.3571428571428572,76,False
+S-era-077,era,VQC,Quantum Boltzmann Machine,NISQ,0.07142857142857142,1.3571428571428572,77,False
+S-era-078,era,VQC,QCNN / Quanvolution,NISQ,0.07142857142857142,1.3571428571428572,78,False
+S-era-079,era,VQC,Quantum Autoencoder,NISQ,0.07142857142857142,1.3571428571428572,79,False
+S-era-080,era,VQC,Quantum Clustering / q-k-means,NISQ,0.07142857142857142,1.3571428571428572,80,False
+S-era-081,era,VQC,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,81,False
+S-era-082,era,VQC,QAOA,NISQ,0.07142857142857142,1.3571428571428572,82,False
+S-era-083,era,VQC,VQE,NISQ,0.07142857142857142,1.3571428571428572,83,False
+S-era-084,era,QNN / PQC,Hybrid QNN,NISQ,0.07142857142857142,1.3571428571428572,84,False
+S-era-085,era,QNN / PQC,QCBM,NISQ,0.07142857142857142,1.3571428571428572,85,False
+S-era-086,era,QNN / PQC,Quantum Boltzmann Machine,NISQ,0.07142857142857142,1.3571428571428572,86,False
+S-era-087,era,QNN / PQC,QCNN / Quanvolution,NISQ,0.07142857142857142,1.3571428571428572,87,False
+S-era-088,era,QNN / PQC,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,88,False
+S-era-089,era,QNN / PQC,QAOA,NISQ,0.07142857142857142,1.3571428571428572,89,False
+S-era-090,era,QNN / PQC,VQE,NISQ,0.07142857142857142,1.3571428571428572,90,False
+S-era-091,era,Hybrid QNN,QGAN,NISQ,0.07142857142857142,1.3571428571428572,91,False
+S-era-092,era,Hybrid QNN,QCBM,NISQ,0.07142857142857142,1.3571428571428572,92,False
+S-era-093,era,Hybrid QNN,Quantum Boltzmann Machine,NISQ,0.07142857142857142,1.3571428571428572,93,False
+S-era-094,era,Hybrid QNN,QCNN / Quanvolution,NISQ,0.07142857142857142,1.3571428571428572,94,False
+S-era-095,era,Hybrid QNN,Quantum Autoencoder,NISQ,0.07142857142857142,1.3571428571428572,95,False
+S-era-096,era,Hybrid QNN,Quantum Clustering / q-k-means,NISQ,0.07142857142857142,1.3571428571428572,96,False
+S-era-097,era,Hybrid QNN,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,97,False
+S-era-098,era,Hybrid QNN,QAOA,NISQ,0.07142857142857142,1.3571428571428572,98,False
+S-era-099,era,Hybrid QNN,VQE,NISQ,0.07142857142857142,1.3571428571428572,99,False
+S-era-100,era,QGAN,QCBM,NISQ,0.07142857142857142,1.3571428571428572,100,False
+S-era-101,era,QGAN,Quantum Boltzmann Machine,NISQ,0.07142857142857142,1.3571428571428572,101,False
+S-era-102,era,QGAN,QCNN / Quanvolution,NISQ,0.07142857142857142,1.3571428571428572,102,False
+S-era-103,era,QGAN,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,103,False
+S-era-104,era,QGAN,QAOA,NISQ,0.07142857142857142,1.3571428571428572,104,False
+S-era-105,era,QGAN,VQE,NISQ,0.07142857142857142,1.3571428571428572,105,False
+S-era-106,era,QCBM,Quantum Boltzmann Machine,NISQ,0.07142857142857142,1.3571428571428572,106,False
+S-era-107,era,QCBM,QCNN / Quanvolution,NISQ,0.07142857142857142,1.3571428571428572,107,False
+S-era-108,era,QCBM,Quantum Autoencoder,NISQ,0.07142857142857142,1.3571428571428572,108,False
+S-era-109,era,QCBM,Quantum Clustering / q-k-means,NISQ,0.07142857142857142,1.3571428571428572,109,False
+S-era-110,era,QCBM,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,110,False
+S-era-111,era,QCBM,QAOA,NISQ,0.07142857142857142,1.3571428571428572,111,False
+S-era-112,era,QCBM,VQE,NISQ,0.07142857142857142,1.3571428571428572,112,False
+S-era-113,era,Quantum Boltzmann Machine,QCNN / Quanvolution,NISQ,0.07142857142857142,1.3571428571428572,113,False
+S-era-114,era,Quantum Boltzmann Machine,Quantum Autoencoder,NISQ,0.07142857142857142,1.3571428571428572,114,False
+S-era-115,era,Quantum Boltzmann Machine,Quantum Clustering / q-k-means,NISQ,0.07142857142857142,1.3571428571428572,115,False
+S-era-116,era,Quantum Boltzmann Machine,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,116,False
+S-era-117,era,Quantum Boltzmann Machine,QAOA,NISQ,0.07142857142857142,1.3571428571428572,117,False
+S-era-118,era,Quantum Boltzmann Machine,VQE,NISQ,0.07142857142857142,1.3571428571428572,118,False
+S-era-119,era,QCNN / Quanvolution,Quantum Autoencoder,NISQ,0.07142857142857142,1.3571428571428572,119,False
+S-era-120,era,QCNN / Quanvolution,Quantum Clustering / q-k-means,NISQ,0.07142857142857142,1.3571428571428572,120,False
+S-era-121,era,QCNN / Quanvolution,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,121,False
+S-era-122,era,QCNN / Quanvolution,QAOA,NISQ,0.07142857142857142,1.3571428571428572,122,False
+S-era-123,era,QCNN / Quanvolution,VQE,NISQ,0.07142857142857142,1.3571428571428572,123,False
+S-era-124,era,Quantum Autoencoder,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,124,False
+S-era-125,era,Quantum Autoencoder,QAOA,NISQ,0.07142857142857142,1.3571428571428572,125,False
+S-era-126,era,Quantum Autoencoder,VQE,NISQ,0.07142857142857142,1.3571428571428572,126,False
+S-era-127,era,Quantum Clustering / q-k-means,Quantum Reinforcement Learning,NISQ,0.07142857142857142,1.3571428571428572,127,False
+S-era-128,era,Quantum Clustering / q-k-means,QAOA,NISQ,0.07142857142857142,1.3571428571428572,128,False
+S-era-129,era,Quantum Clustering / q-k-means,VQE,NISQ,0.07142857142857142,1.3571428571428572,129,False
+S-era-130,era,Quantum Reinforcement Learning,QAOA,NISQ,0.07142857142857142,1.3571428571428572,130,False
+S-era-131,era,Quantum Reinforcement Learning,VQE,NISQ,0.07142857142857142,1.3571428571428572,131,False
+S-era-132,era,QAOA,VQE,NISQ,0.07142857142857142,1.3571428571428572,132,False
+S-computing-001,computing,HHL / Quantum Linear Algebra,qPCA,QPE; block encoding,0.75,4.75,1,True
+S-computing-002,computing,QCBM,Quantum Boltzmann Machine,model bramkowy; sampling,0.5555555555555556,3.7777777777777777,2,True
+S-computing-003,computing,Quantum Boltzmann Machine,Quantum Annealing,annealer,0.5,3.5,3,True
+S-computing-004,computing,Quantum Transformer,HHL / Quantum Linear Algebra,model bramkowy; block encoding,0.3055555555555556,2.5277777777777777,4,True
+S-computing-005,computing,Quantum Transformer,QSVT,block encoding; model bramkowy,0.3055555555555556,2.5277777777777777,5,True
+S-computing-006,computing,HHL / Quantum Linear Algebra,QSVT,block encoding; model bramkowy,0.3055555555555556,2.5277777777777777,6,True
+S-computing-007,computing,Quantum Transformer,qPCA,block encoding,0.25,2.25,7,True
+S-computing-008,computing,QSVT,qPCA,block encoding,0.25,2.25,8,True
+S-computing-009,computing,Quantum Kernel Methods,QSVM,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,9,True
+S-computing-010,computing,Quantum Kernel Methods,VQC,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,10,True
+S-computing-011,computing,Quantum Kernel Methods,QNN / PQC,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,11,True
+S-computing-012,computing,Quantum Kernel Methods,Hybrid QNN,hybrydowy; model bramkowy,0.1388888888888889,1.6944444444444444,12,True
+S-computing-013,computing,Quantum Kernel Methods,QGAN,hybrydowy; model bramkowy,0.1388888888888889,1.6944444444444444,13,True
+S-computing-014,computing,Quantum Kernel Methods,QCNN / Quanvolution,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,14,True
+S-computing-015,computing,Quantum Kernel Methods,Quantum Autoencoder,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,15,True
+S-computing-016,computing,Quantum Kernel Methods,Quantum Clustering / q-k-means,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,16,True
+S-computing-017,computing,Quantum Kernel Methods,Quantum Reinforcement Learning,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,17,True
+S-computing-018,computing,Quantum Kernel Methods,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,18,True
+S-computing-019,computing,Quantum Kernel Methods,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,19,True
+S-computing-020,computing,QSVM,VQC,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,20,True
+S-computing-021,computing,QSVM,QNN / PQC,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,21,True
+S-computing-022,computing,QSVM,Hybrid QNN,hybrydowy; model bramkowy,0.1388888888888889,1.6944444444444444,22,True
+S-computing-023,computing,QSVM,QGAN,hybrydowy; model bramkowy,0.1388888888888889,1.6944444444444444,23,True
+S-computing-024,computing,QSVM,QCNN / Quanvolution,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,24,True
+S-computing-025,computing,QSVM,Quantum Autoencoder,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,25,True
+S-computing-026,computing,QSVM,Quantum Clustering / q-k-means,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,26,True
+S-computing-027,computing,QSVM,Quantum Reinforcement Learning,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,27,True
+S-computing-028,computing,QSVM,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,28,True
+S-computing-029,computing,QSVM,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,29,True
+S-computing-030,computing,VQC,QNN / PQC,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,30,True
+S-computing-031,computing,VQC,Hybrid QNN,hybrydowy; model bramkowy,0.1388888888888889,1.6944444444444444,31,True
+S-computing-032,computing,VQC,QGAN,hybrydowy; model bramkowy,0.1388888888888889,1.6944444444444444,32,True
+S-computing-033,computing,VQC,QCNN / Quanvolution,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,33,True
+S-computing-034,computing,VQC,Quantum Autoencoder,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,34,True
+S-computing-035,computing,VQC,Quantum Clustering / q-k-means,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,35,True
+S-computing-036,computing,VQC,Quantum Reinforcement Learning,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,36,True
+S-computing-037,computing,VQC,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,37,True
+S-computing-038,computing,VQC,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,38,True
+S-computing-039,computing,QNN / PQC,Hybrid QNN,hybrydowy; model bramkowy,0.1388888888888889,1.6944444444444444,39,True
+S-computing-040,computing,QNN / PQC,QGAN,hybrydowy; model bramkowy,0.1388888888888889,1.6944444444444444,40,True
+S-computing-041,computing,QNN / PQC,QCNN / Quanvolution,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,41,True
+S-computing-042,computing,QNN / PQC,Quantum Autoencoder,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,42,True
+S-computing-043,computing,QNN / PQC,Quantum Clustering / q-k-means,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,43,True
+S-computing-044,computing,QNN / PQC,Quantum Reinforcement Learning,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,44,True
+S-computing-045,computing,QNN / PQC,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,45,True
+S-computing-046,computing,QNN / PQC,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,46,True
+S-computing-047,computing,Hybrid QNN,QGAN,hybrydowy; model bramkowy,0.1388888888888889,1.6944444444444444,47,True
+S-computing-048,computing,Hybrid QNN,QCNN / Quanvolution,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,48,True
+S-computing-049,computing,Hybrid QNN,Quantum Autoencoder,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,49,True
+S-computing-050,computing,Hybrid QNN,Quantum Clustering / q-k-means,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,50,True
+S-computing-051,computing,Hybrid QNN,Quantum Reinforcement Learning,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,51,True
+S-computing-052,computing,Hybrid QNN,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,52,True
+S-computing-053,computing,Hybrid QNN,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,53,True
+S-computing-054,computing,QGAN,QCNN / Quanvolution,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,54,True
+S-computing-055,computing,QGAN,Quantum Autoencoder,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,55,True
+S-computing-056,computing,QGAN,Quantum Clustering / q-k-means,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,56,True
+S-computing-057,computing,QGAN,Quantum Reinforcement Learning,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,57,True
+S-computing-058,computing,QGAN,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,58,True
+S-computing-059,computing,QGAN,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,59,False
+S-computing-060,computing,QCNN / Quanvolution,Quantum Autoencoder,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,60,False
+S-computing-061,computing,QCNN / Quanvolution,Quantum Clustering / q-k-means,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,61,False
+S-computing-062,computing,QCNN / Quanvolution,Quantum Reinforcement Learning,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,62,False
+S-computing-063,computing,QCNN / Quanvolution,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,63,False
+S-computing-064,computing,QCNN / Quanvolution,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,64,False
+S-computing-065,computing,Quantum Autoencoder,Quantum Clustering / q-k-means,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,65,False
+S-computing-066,computing,Quantum Autoencoder,Quantum Reinforcement Learning,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,66,False
+S-computing-067,computing,Quantum Autoencoder,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,67,False
+S-computing-068,computing,Quantum Autoencoder,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,68,False
+S-computing-069,computing,Quantum Clustering / q-k-means,Quantum Reinforcement Learning,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,69,False
+S-computing-070,computing,Quantum Clustering / q-k-means,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,70,False
+S-computing-071,computing,Quantum Clustering / q-k-means,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,71,False
+S-computing-072,computing,Quantum Reinforcement Learning,QAOA,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,72,False
+S-computing-073,computing,Quantum Reinforcement Learning,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,73,False
+S-computing-074,computing,QAOA,VQE,model bramkowy; hybrydowy,0.1388888888888889,1.6944444444444444,74,False
+S-computing-075,computing,Quantum Kernel Methods,QCBM,model bramkowy,0.05555555555555555,1.2777777777777777,75,False
+S-computing-076,computing,Quantum Kernel Methods,Quantum Boltzmann Machine,model bramkowy,0.05555555555555555,1.2777777777777777,76,False
+S-computing-077,computing,Quantum Kernel Methods,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,77,False
+S-computing-078,computing,Quantum Kernel Methods,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,78,False
+S-computing-079,computing,Quantum Kernel Methods,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,79,False
+S-computing-080,computing,Quantum Kernel Methods,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,80,False
+S-computing-081,computing,QSVM,QCBM,model bramkowy,0.05555555555555555,1.2777777777777777,81,False
+S-computing-082,computing,QSVM,Quantum Boltzmann Machine,model bramkowy,0.05555555555555555,1.2777777777777777,82,False
+S-computing-083,computing,QSVM,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,83,False
+S-computing-084,computing,QSVM,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,84,False
+S-computing-085,computing,QSVM,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,85,False
+S-computing-086,computing,QSVM,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,86,False
+S-computing-087,computing,VQC,QCBM,model bramkowy,0.05555555555555555,1.2777777777777777,87,False
+S-computing-088,computing,VQC,Quantum Boltzmann Machine,model bramkowy,0.05555555555555555,1.2777777777777777,88,False
+S-computing-089,computing,VQC,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,89,False
+S-computing-090,computing,VQC,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,90,False
+S-computing-091,computing,VQC,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,91,False
+S-computing-092,computing,VQC,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,92,False
+S-computing-093,computing,QNN / PQC,QCBM,model bramkowy,0.05555555555555555,1.2777777777777777,93,False
+S-computing-094,computing,QNN / PQC,Quantum Boltzmann Machine,model bramkowy,0.05555555555555555,1.2777777777777777,94,False
+S-computing-095,computing,QNN / PQC,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,95,False
+S-computing-096,computing,QNN / PQC,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,96,False
+S-computing-097,computing,QNN / PQC,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,97,False
+S-computing-098,computing,QNN / PQC,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,98,False
+S-computing-099,computing,Hybrid QNN,QCBM,model bramkowy,0.05555555555555555,1.2777777777777777,99,False
+S-computing-100,computing,Hybrid QNN,Quantum Boltzmann Machine,model bramkowy,0.05555555555555555,1.2777777777777777,100,False
+S-computing-101,computing,Hybrid QNN,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,101,False
+S-computing-102,computing,Hybrid QNN,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,102,False
+S-computing-103,computing,Hybrid QNN,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,103,False
+S-computing-104,computing,Hybrid QNN,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,104,False
+S-computing-105,computing,QGAN,QCBM,model bramkowy,0.05555555555555555,1.2777777777777777,105,False
+S-computing-106,computing,QGAN,Quantum Boltzmann Machine,model bramkowy,0.05555555555555555,1.2777777777777777,106,False
+S-computing-107,computing,QGAN,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,107,False
+S-computing-108,computing,QGAN,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,108,False
+S-computing-109,computing,QGAN,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,109,False
+S-computing-110,computing,QGAN,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,110,False
+S-computing-111,computing,QCBM,QCNN / Quanvolution,model bramkowy,0.05555555555555555,1.2777777777777777,111,False
+S-computing-112,computing,QCBM,Quantum Autoencoder,model bramkowy,0.05555555555555555,1.2777777777777777,112,False
+S-computing-113,computing,QCBM,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,113,False
+S-computing-114,computing,QCBM,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,114,False
+S-computing-115,computing,QCBM,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,115,False
+S-computing-116,computing,QCBM,Quantum Clustering / q-k-means,model bramkowy,0.05555555555555555,1.2777777777777777,116,False
+S-computing-117,computing,QCBM,Quantum Reinforcement Learning,model bramkowy,0.05555555555555555,1.2777777777777777,117,False
+S-computing-118,computing,QCBM,QAOA,model bramkowy,0.05555555555555555,1.2777777777777777,118,False
+S-computing-119,computing,QCBM,VQE,model bramkowy,0.05555555555555555,1.2777777777777777,119,False
+S-computing-120,computing,QCBM,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,120,False
+S-computing-121,computing,Quantum Boltzmann Machine,QCNN / Quanvolution,model bramkowy,0.05555555555555555,1.2777777777777777,121,False
+S-computing-122,computing,Quantum Boltzmann Machine,Quantum Autoencoder,model bramkowy,0.05555555555555555,1.2777777777777777,122,False
+S-computing-123,computing,Quantum Boltzmann Machine,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,123,False
+S-computing-124,computing,Quantum Boltzmann Machine,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,124,False
+S-computing-125,computing,Quantum Boltzmann Machine,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,125,False
+S-computing-126,computing,Quantum Boltzmann Machine,Quantum Clustering / q-k-means,model bramkowy,0.05555555555555555,1.2777777777777777,126,False
+S-computing-127,computing,Quantum Boltzmann Machine,Quantum Reinforcement Learning,model bramkowy,0.05555555555555555,1.2777777777777777,127,False
+S-computing-128,computing,Quantum Boltzmann Machine,QAOA,model bramkowy,0.05555555555555555,1.2777777777777777,128,False
+S-computing-129,computing,Quantum Boltzmann Machine,VQE,model bramkowy,0.05555555555555555,1.2777777777777777,129,False
+S-computing-130,computing,Quantum Boltzmann Machine,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,130,False
+S-computing-131,computing,QCNN / Quanvolution,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,131,False
+S-computing-132,computing,QCNN / Quanvolution,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,132,False
+S-computing-133,computing,QCNN / Quanvolution,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,133,False
+S-computing-134,computing,QCNN / Quanvolution,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,134,False
+S-computing-135,computing,Quantum Autoencoder,Quantum Transformer,model bramkowy,0.05555555555555555,1.2777777777777777,135,False
+S-computing-136,computing,Quantum Autoencoder,HHL / Quantum Linear Algebra,model bramkowy,0.05555555555555555,1.2777777777777777,136,False
+S-computing-137,computing,Quantum Autoencoder,QSVT,model bramkowy,0.05555555555555555,1.2777777777777777,137,False
+S-computing-138,computing,Quantum Autoencoder,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,138,False
+S-computing-139,computing,Quantum Transformer,Quantum Clustering / q-k-means,model bramkowy,0.05555555555555555,1.2777777777777777,139,False
+S-computing-140,computing,Quantum Transformer,Quantum Reinforcement Learning,model bramkowy,0.05555555555555555,1.2777777777777777,140,False
+S-computing-141,computing,Quantum Transformer,QAOA,model bramkowy,0.05555555555555555,1.2777777777777777,141,False
+S-computing-142,computing,Quantum Transformer,VQE,model bramkowy,0.05555555555555555,1.2777777777777777,142,False
+S-computing-143,computing,Quantum Transformer,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,143,False
+S-computing-144,computing,HHL / Quantum Linear Algebra,Quantum Clustering / q-k-means,model bramkowy,0.05555555555555555,1.2777777777777777,144,False
+S-computing-145,computing,HHL / Quantum Linear Algebra,Quantum Reinforcement Learning,model bramkowy,0.05555555555555555,1.2777777777777777,145,False
+S-computing-146,computing,HHL / Quantum Linear Algebra,QAOA,model bramkowy,0.05555555555555555,1.2777777777777777,146,False
+S-computing-147,computing,HHL / Quantum Linear Algebra,VQE,model bramkowy,0.05555555555555555,1.2777777777777777,147,False
+S-computing-148,computing,HHL / Quantum Linear Algebra,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,148,False
+S-computing-149,computing,QSVT,Quantum Clustering / q-k-means,model bramkowy,0.05555555555555555,1.2777777777777777,149,False
+S-computing-150,computing,QSVT,Quantum Reinforcement Learning,model bramkowy,0.05555555555555555,1.2777777777777777,150,False
+S-computing-151,computing,QSVT,QAOA,model bramkowy,0.05555555555555555,1.2777777777777777,151,False
+S-computing-152,computing,QSVT,VQE,model bramkowy,0.05555555555555555,1.2777777777777777,152,False
+S-computing-153,computing,QSVT,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,153,False
+S-computing-154,computing,Quantum Clustering / q-k-means,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,154,False
+S-computing-155,computing,Quantum Reinforcement Learning,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,155,False
+S-computing-156,computing,QAOA,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,156,False
+S-computing-157,computing,VQE,GAS / Grover Adaptive Search,model bramkowy,0.05555555555555555,1.2777777777777777,157,False
+S-encoding-001,encoding,QAOA,Quantum Annealing,Ising; QUBO; Hamiltonian,1.25,5,1,True
+S-encoding-002,encoding,VQC,QNN / PQC,angle encoding; data re-uploading,0.6666666666666666,4.333333333333333,2,True
+S-encoding-003,encoding,HHL / Quantum Linear Algebra,qPCA,qRAM; amplitude encoding,0.6111111111111112,4.055555555555555,3,True
+S-encoding-004,encoding,Quantum Kernel Methods,QSVM,feature map; angle encoding; amplitude encoding,0.5277777777777778,3.638888888888889,4,True
+S-encoding-005,encoding,QNN / PQC,QCNN / Quanvolution,angle encoding; quantum data,0.5,3.5,5,True
+S-encoding-006,encoding,QNN / PQC,Quantum Autoencoder,quantum data; amplitude encoding,0.4444444444444444,3.2222222222222223,6,True
+S-encoding-007,encoding,Quantum Transformer,HHL / Quantum Linear Algebra,amplitude encoding; block encoding,0.4444444444444444,3.2222222222222223,7,True
+S-encoding-008,encoding,Quantum Kernel Methods,VQC,angle encoding; feature map,0.41666666666666663,3.083333333333333,8,True
+S-encoding-009,encoding,QSVM,VQC,angle encoding; feature map,0.41666666666666663,3.083333333333333,9,True
+S-encoding-010,encoding,Quantum Kernel Methods,Quantum Clustering / q-k-means,amplitude encoding; feature map,0.3611111111111111,2.8055555555555554,10,True
+S-encoding-011,encoding,QSVM,Quantum Clustering / q-k-means,amplitude encoding; feature map,0.3611111111111111,2.8055555555555554,11,True
+S-encoding-012,encoding,QCNN / Quanvolution,Quantum Autoencoder,quantum data,0.3333333333333333,2.6666666666666665,12,True
+S-encoding-013,encoding,Quantum Transformer,QSVT,block encoding,0.3333333333333333,2.6666666666666665,13,True
+S-encoding-014,encoding,HHL / Quantum Linear Algebra,QSVT,block encoding,0.3333333333333333,2.6666666666666665,14,True
+S-encoding-015,encoding,Quantum Kernel Methods,QNN / PQC,angle encoding; amplitude encoding,0.2777777777777778,2.388888888888889,15,True
+S-encoding-016,encoding,QSVM,QNN / PQC,angle encoding; amplitude encoding,0.2777777777777778,2.388888888888889,16,True
+S-encoding-017,encoding,VQC,Quantum Clustering / q-k-means,feature map,0.25,2.25,17,True
+S-encoding-018,encoding,Quantum Boltzmann Machine,QAOA,Hamiltonian,0.25,2.25,18,True
+S-encoding-019,encoding,Quantum Boltzmann Machine,Quantum Annealing,Hamiltonian,0.25,2.25,19,True
+S-encoding-020,encoding,Quantum Boltzmann Machine,VQE,Hamiltonian,0.25,2.25,20,True
+S-encoding-021,encoding,QAOA,VQE,Hamiltonian,0.25,2.25,21,True
+S-encoding-022,encoding,Quantum Annealing,VQE,Hamiltonian,0.25,2.25,22,True
+S-encoding-023,encoding,Quantum Kernel Methods,Hybrid QNN,angle encoding,0.16666666666666666,1.8333333333333333,23,True
+S-encoding-024,encoding,Quantum Kernel Methods,QCNN / Quanvolution,angle encoding,0.16666666666666666,1.8333333333333333,24,True
+S-encoding-025,encoding,QSVM,Hybrid QNN,angle encoding,0.16666666666666666,1.8333333333333333,25,True
+S-encoding-026,encoding,QSVM,QCNN / Quanvolution,angle encoding,0.16666666666666666,1.8333333333333333,26,True
+S-encoding-027,encoding,VQC,Hybrid QNN,angle encoding,0.16666666666666666,1.8333333333333333,27,True
+S-encoding-028,encoding,VQC,QCNN / Quanvolution,angle encoding,0.16666666666666666,1.8333333333333333,28,True
+S-encoding-029,encoding,QNN / PQC,Hybrid QNN,angle encoding,0.16666666666666666,1.8333333333333333,29,True
+S-encoding-030,encoding,Hybrid QNN,QCNN / Quanvolution,angle encoding,0.16666666666666666,1.8333333333333333,30,True
+S-encoding-031,encoding,Quantum Kernel Methods,QGAN,amplitude encoding,0.1111111111111111,1.5555555555555556,31,True
+S-encoding-032,encoding,Quantum Kernel Methods,Quantum Autoencoder,amplitude encoding,0.1111111111111111,1.5555555555555556,32,True
+S-encoding-033,encoding,Quantum Kernel Methods,Quantum Transformer,amplitude encoding,0.1111111111111111,1.5555555555555556,33,True
+S-encoding-034,encoding,Quantum Kernel Methods,HHL / Quantum Linear Algebra,amplitude encoding,0.1111111111111111,1.5555555555555556,34,True
+S-encoding-035,encoding,Quantum Kernel Methods,qPCA,amplitude encoding,0.1111111111111111,1.5555555555555556,35,True
+S-encoding-036,encoding,QSVM,QGAN,amplitude encoding,0.1111111111111111,1.5555555555555556,36,True
+S-encoding-037,encoding,QSVM,Quantum Autoencoder,amplitude encoding,0.1111111111111111,1.5555555555555556,37,True
+S-encoding-038,encoding,QSVM,Quantum Transformer,amplitude encoding,0.1111111111111111,1.5555555555555556,38,True
+S-encoding-039,encoding,QSVM,HHL / Quantum Linear Algebra,amplitude encoding,0.1111111111111111,1.5555555555555556,39,True
+S-encoding-040,encoding,QSVM,qPCA,amplitude encoding,0.1111111111111111,1.5555555555555556,40,True
+S-encoding-041,encoding,QNN / PQC,QGAN,amplitude encoding,0.1111111111111111,1.5555555555555556,41,True
+S-encoding-042,encoding,QNN / PQC,Quantum Transformer,amplitude encoding,0.1111111111111111,1.5555555555555556,42,True
+S-encoding-043,encoding,QNN / PQC,HHL / Quantum Linear Algebra,amplitude encoding,0.1111111111111111,1.5555555555555556,43,True
+S-encoding-044,encoding,QNN / PQC,qPCA,amplitude encoding,0.1111111111111111,1.5555555555555556,44,True
+S-encoding-045,encoding,QNN / PQC,Quantum Clustering / q-k-means,amplitude encoding,0.1111111111111111,1.5555555555555556,45,True
+S-encoding-046,encoding,QGAN,Quantum Autoencoder,amplitude encoding,0.1111111111111111,1.5555555555555556,46,True
+S-encoding-047,encoding,QGAN,Quantum Transformer,amplitude encoding,0.1111111111111111,1.5555555555555556,47,True
+S-encoding-048,encoding,QGAN,HHL / Quantum Linear Algebra,amplitude encoding,0.1111111111111111,1.5555555555555556,48,True
+S-encoding-049,encoding,QGAN,qPCA,amplitude encoding,0.1111111111111111,1.5555555555555556,49,True
+S-encoding-050,encoding,QGAN,Quantum Clustering / q-k-means,amplitude encoding,0.1111111111111111,1.5555555555555556,50,True
+S-encoding-051,encoding,Quantum Autoencoder,Quantum Transformer,amplitude encoding,0.1111111111111111,1.5555555555555556,51,True
+S-encoding-052,encoding,Quantum Autoencoder,HHL / Quantum Linear Algebra,amplitude encoding,0.1111111111111111,1.5555555555555556,52,True
+S-encoding-053,encoding,Quantum Autoencoder,qPCA,amplitude encoding,0.1111111111111111,1.5555555555555556,53,True
+S-encoding-054,encoding,Quantum Autoencoder,Quantum Clustering / q-k-means,amplitude encoding,0.1111111111111111,1.5555555555555556,54,True
+S-encoding-055,encoding,Quantum Transformer,qPCA,amplitude encoding,0.1111111111111111,1.5555555555555556,55,True
+S-encoding-056,encoding,Quantum Transformer,Quantum Clustering / q-k-means,amplitude encoding,0.1111111111111111,1.5555555555555556,56,True
+S-encoding-057,encoding,HHL / Quantum Linear Algebra,Quantum Clustering / q-k-means,amplitude encoding,0.1111111111111111,1.5555555555555556,57,True
+S-encoding-058,encoding,qPCA,Quantum Clustering / q-k-means,amplitude encoding,0.1111111111111111,1.5555555555555556,58,True
+S-training-001,training,Quantum Boltzmann Machine,Quantum Annealing,sampling,0.5,3.5,1,True
+S-training-002,training,QSVT,qPCA,nie trening,0.5,3.5,2,True
+S-training-003,training,Quantum Reinforcement Learning,GAS / Grover Adaptive Search,amplitude amplification,0.5,3.5,3,True
+S-training-004,training,Hybrid QNN,QGAN,classical optimizer; parameter shift,0.4,3.0,4,True
+S-training-005,training,VQC,QNN / PQC,parameter shift,0.2,2.0,5,True
+S-training-006,training,VQC,Hybrid QNN,parameter shift,0.2,2.0,6,True
+S-training-007,training,VQC,QGAN,parameter shift,0.2,2.0,7,True
+S-training-008,training,VQC,QCNN / Quanvolution,parameter shift,0.2,2.0,8,True
+S-training-009,training,QNN / PQC,Hybrid QNN,parameter shift,0.2,2.0,9,True
+S-training-010,training,QNN / PQC,QGAN,parameter shift,0.2,2.0,10,True
+S-training-011,training,QNN / PQC,QCNN / Quanvolution,parameter shift,0.2,2.0,11,True
+S-training-012,training,Hybrid QNN,QCNN / Quanvolution,parameter shift,0.2,2.0,12,True
+S-training-013,training,Hybrid QNN,Quantum Autoencoder,classical optimizer,0.2,2.0,13,True
+S-training-014,training,Hybrid QNN,QAOA,classical optimizer,0.2,2.0,14,True
+S-training-015,training,Hybrid QNN,VQE,classical optimizer,0.2,2.0,15,True
+S-training-016,training,QGAN,QCNN / Quanvolution,parameter shift,0.2,2.0,16,True
+S-training-017,training,QGAN,Quantum Autoencoder,classical optimizer,0.2,2.0,17,True
+S-training-018,training,QGAN,QAOA,classical optimizer,0.2,2.0,18,True
+S-training-019,training,QGAN,VQE,classical optimizer,0.2,2.0,19,True
+S-training-020,training,Quantum Autoencoder,QAOA,classical optimizer,0.2,2.0,20,True
+S-training-021,training,Quantum Autoencoder,VQE,classical optimizer,0.2,2.0,21,True
+S-training-022,training,QAOA,VQE,classical optimizer,0.2,2.0,22,True
+S-advantage-001,advantage,QCNN / Quanvolution,Quantum Autoencoder,redukcja wymiaru,0.3333333333333333,2.6666666666666665,1,True
+S-advantage-002,advantage,QCNN / Quanvolution,qPCA,redukcja wymiaru,0.3333333333333333,2.6666666666666665,2,True
+S-advantage-003,advantage,Quantum Autoencoder,qPCA,redukcja wymiaru,0.3333333333333333,2.6666666666666665,3,True
+S-limitations-001,limitations,Quantum Transformer,HHL / Quantum Linear Algebra,read-in/read-out,0.5,3.5,1,True
+S-limitations-002,limitations,HHL / Quantum Linear Algebra,qPCA,qRAM,0.5,3.5,2,True
+S-limitations-003,limitations,QNN / PQC,VQE,szum; barren plateaus,0.45,3.25,3,True
+S-limitations-004,limitations,QNN / PQC,Hybrid QNN,szum,0.25,2.25,4,True
+S-limitations-005,limitations,QNN / PQC,QAOA,szum,0.25,2.25,5,True
+S-limitations-006,limitations,Hybrid QNN,QAOA,szum,0.25,2.25,6,True
+S-limitations-007,limitations,Hybrid QNN,VQE,szum,0.25,2.25,7,True
+S-limitations-008,limitations,QAOA,VQE,szum,0.25,2.25,8,True
+S-limitations-009,limitations,VQC,QNN / PQC,barren plateaus,0.2,2.0,9,True
+S-limitations-010,limitations,VQC,QGAN,barren plateaus,0.2,2.0,10,True
+S-limitations-011,limitations,VQC,QCBM,barren plateaus,0.2,2.0,11,True
+S-limitations-012,limitations,VQC,VQE,barren plateaus,0.2,2.0,12,True
+S-limitations-013,limitations,QNN / PQC,QGAN,barren plateaus,0.2,2.0,13,True
+S-limitations-014,limitations,QNN / PQC,QCBM,barren plateaus,0.2,2.0,14,True
+S-limitations-015,limitations,QGAN,QCBM,barren plateaus,0.2,2.0,15,True
+S-limitations-016,limitations,QGAN,VQE,barren plateaus,0.2,2.0,16,True
+S-limitations-017,limitations,QCBM,VQE,barren plateaus,0.2,2.0,17,True
+S-applications-001,applications,QAOA,Quantum Annealing,portfolio; scheduling; logistyka; feature selection,1.8333333333333333,5,1,True
+S-applications-002,applications,Quantum Kernel Methods,QNN / PQC,klasyfikacja; regresja; obrazy,1.3333333333333333,5,2,True
+S-applications-003,applications,QSVM,VQC,klasyfikacja binarna,0.5,3.5,3,True
+S-applications-004,applications,Quantum Boltzmann Machine,HHL / Quantum Linear Algebra,rekomendacje,0.5,3.5,4,True
+S-applications-005,applications,Quantum Autoencoder,qPCA,redukcja wymiaru,0.5,3.5,5,True
+S-applications-006,applications,Quantum Autoencoder,VQE,chemia kwantowa,0.5,3.5,6,True
+S-applications-007,applications,Quantum Transformer,Quantum Reinforcement Learning,robotyka,0.5,3.5,7,True
+S-applications-008,applications,HHL / Quantum Linear Algebra,QSVT,PCA,0.5,3.5,8,True
+S-applications-009,applications,Quantum Kernel Methods,QCNN / Quanvolution,obrazy,0.3333333333333333,2.6666666666666665,9,True
+S-applications-010,applications,QNN / PQC,QCNN / Quanvolution,obrazy,0.3333333333333333,2.6666666666666665,10,True
+S-applications-011,applications,QAOA,GAS / Grover Adaptive Search,feature selection,0.3333333333333333,2.6666666666666665,11,True
+S-applications-012,applications,Quantum Annealing,GAS / Grover Adaptive Search,feature selection,0.3333333333333333,2.6666666666666665,12,True
+S-applications-013,applications,QSVM,QNN / PQC,finanse,0.25,2.25,13,True
+S-applications-014,applications,QSVM,Hybrid QNN,finanse,0.25,2.25,14,True
+S-applications-015,applications,QSVM,QGAN,finanse,0.25,2.25,15,True
+S-applications-016,applications,QNN / PQC,Hybrid QNN,finanse,0.25,2.25,16,True
+S-applications-017,applications,QNN / PQC,QGAN,finanse,0.25,2.25,17,True
+S-applications-018,applications,Hybrid QNN,QGAN,finanse,0.25,2.25,18,True

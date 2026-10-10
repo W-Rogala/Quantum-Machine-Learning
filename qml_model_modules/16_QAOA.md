@@ -86,3 +86,4 @@ Parametr `gamma` jest czasem/sila dzialania Hamiltonianu kosztu, a `beta` czasem
 - Dla duzych `p` rosnie glebokosc i wrazliwosc na szum.
 - Krajobraz optymalizacji moze miec lokalne minima.
 - QAOA jest algorytmem optymalizacji; w QML jest podprogramem, np. dla feature selection lub QUBO, a nie samodzielnym modelem klasyfikacji.
+

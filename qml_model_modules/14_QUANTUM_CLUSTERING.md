@@ -73,3 +73,4 @@ W tym sensie QPU nie "widzi" odleglosci jako liczby zapisanej jawnie. Odleglosc 
 - Przy danych klasycznych koszt encodingu moze zdominowac obliczenie odleglosci.
 - Klasyczne przyblizone nearest-neighbor/k-means sa bardzo szybkim baseline.
 - Aktualizacja centroidow zwykle pozostaje klasyczna i moze ograniczac calkowite przyspieszenie.
+

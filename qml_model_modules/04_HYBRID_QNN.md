@@ -75,3 +75,4 @@ Fizycznie wazne jest dopasowanie zakresu danych do bramek. PG, s. 470 ostrzega, 
 - Trudno przypisac sukces konkretnie czesci kwantowej, bo klasyczna i kwantowa czesc ucza sie razem.
 - Latencja QPU-CPU i liczba shotow sa kosztami niewidocznymi w zwyklym modelu klasycznym.
 - Wymagane sa ablation studies: bez warstwy kwantowej, z losowa warstwa i z porownywalna warstwa klasyczna.
+

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "output/pdf/Audyt_QRC_H1_H3_szum_2026-09-07.pdf",
+    "pages_or_slides": 12,
+    "extracted_text": "tmp/project_audit_documents/Audyt_QRC_H1_H3_szum_2026-09-07.txt"
+  },
+  {
+    "path": "output/pdf/h2_qsvm_proof.pdf",
+    "pages_or_slides": 5,
+    "extracted_text": "tmp/project_audit_documents/h2_qsvm_proof.txt"
+  },
+  {
+    "path": "output/pdf/raport_dotychczasowych_osiagniec_QML.pdf",
+    "pages_or_slides": 17,
+    "extracted_text": "tmp/project_audit_documents/raport_dotychczasowych_osiagniec_QML.txt"
+  },
+  {
+    "path": "output/pdf/raport_qml_trzy_tematy_i_kernel_hamiltonowski.pdf",
+    "pages_or_slides": 12,
+    "extracted_text": "tmp/project_audit_documents/raport_qml_trzy_tematy_i_kernel_hamiltonowski.txt"
+  },
+  {
+    "path": "output/pdf/Trotteryzacja_kernele_i_rezerwuary_raport_2026-09-07.pdf",
+    "pages_or_slides": 17,
+    "extracted_text": "tmp/project_audit_documents/Trotteryzacja_kernele_i_rezerwuary_raport_2026-09-07.txt"
+  },
+  {
+    "path": "output/presentation/prezentacja_qml_resource_aware_benchmark_v2.pptx",
+    "pages_or_slides": 12,
+    "extracted_text": "tmp/project_audit_documents/prezentacja_qml_resource_aware_benchmark_v2.txt"
+  },
+  {
+    "path": "output/presentation/prezentacja_qml_trzy_tematy_i_kernel_hamiltonowski.pptx",
+    "pages_or_slides": 15,
+    "extracted_text": "tmp/project_audit_documents/prezentacja_qml_trzy_tematy_i_kernel_hamiltonowski.txt"
+  },
+  {
+    "path": "output/QML_podsumowanie_projektu.pptx",
+    "pages_or_slides": 16,
+    "extracted_text": "tmp/project_audit_documents/QML_podsumowanie_projektu.txt"
+  }
+]

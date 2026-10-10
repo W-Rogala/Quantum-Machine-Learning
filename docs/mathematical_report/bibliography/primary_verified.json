@@ -1,0 +1,5 @@
+[
+ {"id":"transformer2024","verification":"arXiv v3 metadata, sections II and C.7 inspected; complete constructive proof not independently reproduced","relevance":"FTQC inference from block-encoded inputs; norm factors and output readout must be included. Local Born/softmax counterexample is independent."},
+ {"id":"dunjko2016","verification":"primary metadata and introduction inspected; oracularized-environment assumption identified","relevance":"Quantum RL claims depend on access to coherent environments, not just classical observation/reward API."},
+ {"id":"efron1993","url":"https://www.routledge.com/An-Introductionto-the-Bootstrap/Efron-Tibshirani/p/book/9780412042317","verification":"bibliographic metadata; publisher full text returned HTTP 403","relevance":"Bootstrap context; report's block-resampling description declares its own estimand and limitations."}
+]

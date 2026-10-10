@@ -65,3 +65,4 @@ To dlatego QSVT moze byc "parasolem" nad wieloma algorytmami: zmiana wielomianu 
 - Nie jest samodzielnym modelem ML, tylko podprogramem.
 - Funkcja musi byc dobrze przyblizalna wielomianem w dozwolonym zakresie.
 - Gdy singular values sa blisko zera, inwersja wymaga regularyzacji albo koszt rosnie.
+

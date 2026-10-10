@@ -1,0 +1,67 @@
+{
+  "counts": {
+    "project": 49,
+    "theory": 30,
+    "curated": 19,
+    "imports": 137
+  },
+  "automatic_relations": 506,
+  "facets": [
+    {
+      "id": "family",
+      "label": "rodzina algorytmiczna",
+      "all_edges": 41,
+      "shown_at_limit_58": 41
+    },
+    {
+      "id": "learning",
+      "label": "typ uczenia",
+      "all_edges": 58,
+      "shown_at_limit_58": 58
+    },
+    {
+      "id": "era",
+      "label": "era/sprzet",
+      "all_edges": 132,
+      "shown_at_limit_58": 58
+    },
+    {
+      "id": "computing",
+      "label": "model obliczen",
+      "all_edges": 157,
+      "shown_at_limit_58": 58
+    },
+    {
+      "id": "encoding",
+      "label": "kodowanie danych",
+      "all_edges": 58,
+      "shown_at_limit_58": 58
+    },
+    {
+      "id": "training",
+      "label": "trening/optymalizacja",
+      "all_edges": 22,
+      "shown_at_limit_58": 22
+    },
+    {
+      "id": "advantage",
+      "label": "zrodlo potencjalnej przewagi",
+      "all_edges": 3,
+      "shown_at_limit_58": 3
+    },
+    {
+      "id": "limitations",
+      "label": "wspolne ograniczenia",
+      "all_edges": 17,
+      "shown_at_limit_58": 17
+    },
+    {
+      "id": "applications",
+      "label": "zastosowania",
+      "all_edges": 18,
+      "shown_at_limit_58": 18
+    }
+  ],
+  "atlas_nodes": 20,
+  "import_nodes": 112
+}

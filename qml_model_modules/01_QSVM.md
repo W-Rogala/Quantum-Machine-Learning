@@ -84,3 +84,4 @@ LN, s. 31-32 omawia Hadamard test jako metode pomiaru overlapow i wartosci oczek
 - Feature map musi byc nietrywialna, ale nie moze prowadzic do nieinformatywnej koncentracji wartosci kernela.
 - LN i QMLB podkreslaja problem read-in/read-out: przewaga znika, jesli przygotowanie danych lub odczyt dominuja koszt.
 - AAL zaznacza, ze przewagi QML sa warunkowe i szczegolnie problematyczne w NISQ.
+

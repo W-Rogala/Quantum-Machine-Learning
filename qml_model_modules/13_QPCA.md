@@ -66,3 +66,4 @@ Jesli dane sa juz kwantowe, `rho` moze byc naturalnym stanem ukladu. Dla danych 
 - Pelny odczyt wielu komponentow moze wymagac tomografii.
 - Przewaga jest warunkowa; AAL, s. 61 ostrzega przed idealizowanymi zalozeniami.
 - Analizowane zrodla nie podaja pelnego algorytmu implementacyjnego qPCA.
+

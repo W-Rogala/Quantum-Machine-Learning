@@ -75,3 +75,4 @@ QNN nie jest "siecia neuronowa" w sensie doslownych neuronow. Jest ukladem kwant
 - Glebokie losowe ansatze moga prowadzic do barren plateaus.
 - Odczyt pelnego stanu wymaga tomografii i skaluje sie zle; praktyczne QNN mierza tylko wybrane obserwable.
 - QMLB ostrzega, ze koszty read-in/read-out moga zdominowac zysk.
+

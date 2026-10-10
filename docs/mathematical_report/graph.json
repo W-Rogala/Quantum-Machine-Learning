@@ -1,0 +1,265 @@
+{
+  "nodes": [
+    {
+      "id": "data",
+      "label": "Dane i preprocessing",
+      "chapter": "chapter-07"
+    },
+    {
+      "id": "state",
+      "label": "Stan / kanał",
+      "chapter": "chapter-01"
+    },
+    {
+      "id": "dynamics",
+      "label": "Hamiltonian i Trotter",
+      "chapter": "chapter-03"
+    },
+    {
+      "id": "measure",
+      "label": "Pomiar Borna",
+      "chapter": "chapter-01"
+    },
+    {
+      "id": "feature",
+      "label": "Cechy / histogram",
+      "chapter": "chapter-02"
+    },
+    {
+      "id": "gram",
+      "label": "Gram i PSD",
+      "chapter": "chapter-02"
+    },
+    {
+      "id": "ridge",
+      "label": "Ridge / RKHS",
+      "chapter": "chapter-02"
+    },
+    {
+      "id": "prediction",
+      "label": "Predykcja i metryki",
+      "chapter": "chapter-08"
+    },
+    {
+      "id": "reservoir",
+      "label": "Historia QRC",
+      "chapter": "chapter-04"
+    },
+    {
+      "id": "photon",
+      "label": "GBS / detektor",
+      "chapter": "chapter-05"
+    },
+    {
+      "id": "qsvt",
+      "label": "QSVT / algebra liniowa",
+      "chapter": "chapter-06"
+    },
+    {
+      "id": "variational",
+      "label": "PQC / VQE / QAOA",
+      "chapter": "chapter-06"
+    },
+    {
+      "id": "statistics",
+      "label": "Testy hipotez",
+      "chapter": "chapter-08"
+    },
+    {
+      "id": "resource",
+      "label": "Koszt zasobów",
+      "chapter": "chapter-03"
+    }
+  ],
+  "edges": [
+    {
+      "id": "math-edge-01",
+      "source": "data",
+      "target": "state",
+      "type": "definiuje",
+      "equation": "z=T_train(x), ρ_z=E_z(ρ₀)",
+      "conditions": "T dopasowana tylko na train; rozmiary i zakres kodowania zapisane.",
+      "chapter": "chapter-09"
+    },
+    {
+      "id": "math-edge-02",
+      "source": "state",
+      "target": "dynamics",
+      "type": "dokładna transformacja",
+      "equation": "ρ↦UρU†, U=exp(−itH)",
+      "conditions": "H hermitowski; ℏ=1; dla CV wymagane warunki operatorowe.",
+      "chapter": "chapter-01"
+    },
+    {
+      "id": "math-edge-03",
+      "source": "dynamics",
+      "target": "state",
+      "type": "warunkowe oszacowanie",
+      "equation": "D(UρU†,ŨρŨ†)≤‖U−Ũ‖₂",
+      "conditions": "Wspólny stan wejściowy i unitarne U,Ũ.",
+      "chapter": "chapter-03"
+    },
+    {
+      "id": "math-edge-04",
+      "source": "state",
+      "target": "measure",
+      "type": "definiuje",
+      "equation": "p_a=Tr(M_aρ)",
+      "conditions": "M_a≥0, ΣM_a=I; Born.",
+      "chapter": "chapter-01"
+    },
+    {
+      "id": "math-edge-05",
+      "source": "measure",
+      "target": "feature",
+      "type": "estymacja",
+      "equation": "f_j=Tr(O_jρ), Var f̂_j=(1−f_j²)/S",
+      "conditions": "Wspólne bitstringi zachowują kowariancję grup.",
+      "chapter": "chapter-01"
+    },
+    {
+      "id": "math-edge-06",
+      "source": "feature",
+      "target": "gram",
+      "type": "dokładna transformacja",
+      "equation": "K_ij=⟨Φ_i,Φ_j⟩ ⇒ c†Kc=‖Σc_iΦ_i‖²≥0",
+      "conditions": "Jedna wspólna przestrzeń cech i jedna transformacja train/cross.",
+      "chapter": "chapter-02"
+    },
+    {
+      "id": "math-edge-07",
+      "source": "gram",
+      "target": "ridge",
+      "type": "dokładna transformacja",
+      "equation": "α=(K+λI)⁻¹y",
+      "conditions": "PSD, λ>0; konwencja sumy albo średniej jawna.",
+      "chapter": "chapter-02"
+    },
+    {
+      "id": "math-edge-08",
+      "source": "ridge",
+      "target": "prediction",
+      "type": "dokładna transformacja",
+      "equation": "ŷ(x)=k(x,X)α",
+      "conditions": "Test nie użyty w preprocessingu ani selekcji.",
+      "chapter": "chapter-02"
+    },
+    {
+      "id": "math-edge-09",
+      "source": "reservoir",
+      "target": "state",
+      "type": "definiuje",
+      "equation": "ρ_t=U[η(u_t)⊗Tr₀ρ_{t−1}]U†",
+      "conditions": "Reset-injection jest CPTP, nie pełnym resetem pamięci.",
+      "chapter": "chapter-04"
+    },
+    {
+      "id": "math-edge-10",
+      "source": "reservoir",
+      "target": "feature",
+      "type": "definiuje",
+      "equation": "f_t=(Tr O_jρ_t)_j",
+      "conditions": "Zależy od całej historii; okno W zmienia tę mapę.",
+      "chapter": "chapter-04b"
+    },
+    {
+      "id": "math-edge-11",
+      "source": "reservoir",
+      "target": "ridge",
+      "type": "dokładna transformacja",
+      "equation": "w=Xᵀ(XXᵀ+λI)⁻¹y",
+      "conditions": "Primal–dual tylko przy tej samej normalizacji i intercept.",
+      "chapter": "chapter-09"
+    },
+    {
+      "id": "math-edge-12",
+      "source": "photon",
+      "target": "state",
+      "type": "definiuje",
+      "equation": "B=UB₀Uᵀ",
+      "conditions": "Czysty nieprzesunięty Gaussian state i singular values <1.",
+      "chapter": "chapter-05"
+    },
+    {
+      "id": "math-edge-13",
+      "source": "photon",
+      "target": "measure",
+      "type": "kolejność fizyczna",
+      "equation": "P(click|n)=1−(1−η)^n",
+      "conditions": "Loss przed threshold; kontrprzykład dla n=2.",
+      "chapter": "chapter-05"
+    },
+    {
+      "id": "math-edge-14",
+      "source": "photon",
+      "target": "feature",
+      "type": "projekcja",
+      "equation": "p↦Lp, ‖L(p−q)‖₁≤‖p−q‖₁",
+      "conditions": "L column-stochastic; postselekcja jest odrębną nieliniową mapą.",
+      "chapter": "chapter-09"
+    },
+    {
+      "id": "math-edge-15",
+      "source": "qsvt",
+      "target": "ridge",
+      "type": "podprogram",
+      "equation": "A⁻¹b / polynomial singular transform",
+      "conditions": "Output state, condition number, oracle i odczyt należą do kosztu.",
+      "chapter": "chapter-06"
+    },
+    {
+      "id": "math-edge-16",
+      "source": "variational",
+      "target": "dynamics",
+      "type": "wspólny aparat",
+      "equation": "exp(−iβB)exp(−iγA)",
+      "conditions": "Kąty QAOA są uczone; Trotter ma zadeklarowany harmonogram czasu.",
+      "chapter": "chapter-09"
+    },
+    {
+      "id": "math-edge-17",
+      "source": "variational",
+      "target": "prediction",
+      "type": "definiuje",
+      "equation": "p=softmax(Wf_θ+b)",
+      "conditions": "Gradient głowicy i kwantowych cech muszą być rozliczone osobno.",
+      "chapter": "chapter-07"
+    },
+    {
+      "id": "math-edge-18",
+      "source": "prediction",
+      "target": "statistics",
+      "type": "hipoteza empiryczna",
+      "equation": "d_b=log(E_candidate/E_ref)",
+      "conditions": "Niezależność bloków; progi i rodzina ustalone przed testem.",
+      "chapter": "chapter-08"
+    },
+    {
+      "id": "math-edge-19",
+      "source": "resource",
+      "target": "statistics",
+      "type": "hipoteza empiryczna",
+      "equation": "H5: quality<1.02 ∧ cost<0.75",
+      "conditions": "IUT: p=max(p_quality,p_cost); koszt wdrożenia ≠ koszt całego badania.",
+      "chapter": "chapter-08"
+    },
+    {
+      "id": "math-edge-20",
+      "source": "dynamics",
+      "target": "resource",
+      "type": "definiuje",
+      "equation": "C₂Q=Σ_c S_c G₂Q,c",
+      "conditions": "Rezerwacja, koszt faktyczny, reset, routing i QPU-time oddzielne.",
+      "chapter": "chapter-03"
+    },
+    {
+      "id": "math-edge-21",
+      "source": "gram",
+      "target": "statistics",
+      "type": "nie implikuje",
+      "equation": "PSD ⇏ lepsza BA",
+      "conditions": "Dopuszczalność modelu matematycznego nie dowodzi przewagi.",
+      "chapter": "chapter-08"
+    }
+  ]
+}

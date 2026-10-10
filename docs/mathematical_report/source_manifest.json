@@ -1,0 +1,996 @@
+[
+  {
+    "id": "776d240b9b94",
+    "path": "audits/hamiltonian_kernel_grid_output_audit.py",
+    "absolute": "D:\\Projects\\QML\\audits\\hamiltonian_kernel_grid_output_audit.py",
+    "sha256": "c6e8d2d18d62bfd88e4012fdea85ab317b86ebdf72a9a437ca4e7e122a7f6c9f",
+    "sha256_lf": "c6e8d2d18d62bfd88e4012fdea85ab317b86ebdf72a9a437ca4e7e122a7f6c9f"
+  },
+  {
+    "id": "58a966634ace",
+    "path": "audits/hamiltonian_kernel_hardware_audit.py",
+    "absolute": "D:\\Projects\\QML\\audits\\hamiltonian_kernel_hardware_audit.py",
+    "sha256": "f144f61efab124d7f54c5471d6af765d300a5dff7b7f0d107f3e1ef817c2bd62",
+    "sha256_lf": "f144f61efab124d7f54c5471d6af765d300a5dff7b7f0d107f3e1ef817c2bd62"
+  },
+  {
+    "id": "0846229db9b3",
+    "path": "audits/hamiltonian_kernel_stage1_audit.py",
+    "absolute": "D:\\Projects\\QML\\audits\\hamiltonian_kernel_stage1_audit.py",
+    "sha256": "13b2b92fce46abd60c60c3abb9caa154dcbaee2ba257ca19522fcc2eb0e88ca8",
+    "sha256_lf": "13b2b92fce46abd60c60c3abb9caa154dcbaee2ba257ca19522fcc2eb0e88ca8"
+  },
+  {
+    "id": "13e6af63cee8",
+    "path": "audits/photonic_kernel_audit.py",
+    "absolute": "D:\\Projects\\QML\\audits\\photonic_kernel_audit.py",
+    "sha256": "c84361c0f98b067976e942423c05d24ebe81ed73bc2398d6f641dd776fe99c98",
+    "sha256_lf": "c84361c0f98b067976e942423c05d24ebe81ed73bc2398d6f641dd776fe99c98"
+  },
+  {
+    "id": "e791390c7c2a",
+    "path": "audits/project_review_checks.py",
+    "absolute": "D:\\Projects\\QML\\audits\\project_review_checks.py",
+    "sha256": "72b48ddbf0c133814969274c27edd5084b93b42f5751eff012d082db42739600",
+    "sha256_lf": "72b48ddbf0c133814969274c27edd5084b93b42f5751eff012d082db42739600"
+  },
+  {
+    "id": "5d8df97ce714",
+    "path": "audits/resource_aware_benchmark_audit.py",
+    "absolute": "D:\\Projects\\QML\\audits\\resource_aware_benchmark_audit.py",
+    "sha256": "99375cf437d5a5bee5ca9f4650252ff79bac3692fd85169c9e55ce8a41a5e0f0",
+    "sha256_lf": "99375cf437d5a5bee5ca9f4650252ff79bac3692fd85169c9e55ce8a41a5e0f0"
+  },
+  {
+    "id": "394022df22e7",
+    "path": "audits/trotter_scaling_full_audit.py",
+    "absolute": "D:\\Projects\\QML\\audits\\trotter_scaling_full_audit.py",
+    "sha256": "ce7a556f41220b443cbd9c5f7a893f6b54afadefdee290cf49e9f6d22a47bf32",
+    "sha256_lf": "ce7a556f41220b443cbd9c5f7a893f6b54afadefdee290cf49e9f6d22a47bf32"
+  },
+  {
+    "id": "6c9870aa90f7",
+    "path": "audits/trotter_scaling_output_audit.py",
+    "absolute": "D:\\Projects\\QML\\audits\\trotter_scaling_output_audit.py",
+    "sha256": "7d13aa6aeefbcab1aace692ee89e5254f6a2cf0fb32ae3bbc29daf1ffdec3b3e",
+    "sha256_lf": "7d13aa6aeefbcab1aace692ee89e5254f6a2cf0fb32ae3bbc29daf1ffdec3b3e"
+  },
+  {
+    "id": "f7149855ff46",
+    "path": "audits/trotter_scaling_v3_audit.py",
+    "absolute": "D:\\Projects\\QML\\audits\\trotter_scaling_v3_audit.py",
+    "sha256": "cbd1d6d0c4101bae477cf1f8f8a2a5f92f0cd5825b7ef768297f3d8e64ab5ea4",
+    "sha256_lf": "cbd1d6d0c4101bae477cf1f8f8a2a5f92f0cd5825b7ef768297f3d8e64ab5ea4"
+  },
+  {
+    "id": "e18a9dcc1b17",
+    "path": "experiments/legacy/__init__.py",
+    "absolute": "D:\\Projects\\QML\\experiments\\legacy\\__init__.py",
+    "sha256": "c6642f2e2d8a54dd9ad83ccc038876d8dc61ece82d57d896dc8a1d4d90e21329",
+    "sha256_lf": "c6642f2e2d8a54dd9ad83ccc038876d8dc61ece82d57d896dc8a1d4d90e21329"
+  },
+  {
+    "id": "a109dbb86f4b",
+    "path": "experiments/legacy/ansatz_hardware_dataset_benchmark.py",
+    "absolute": "D:\\Projects\\QML\\experiments\\legacy\\ansatz_hardware_dataset_benchmark.py",
+    "sha256": "80b412c9d25eabd495c92017e19dc72b99197145972f5c5277601d95cfb89de0",
+    "sha256_lf": "80b412c9d25eabd495c92017e19dc72b99197145972f5c5277601d95cfb89de0"
+  },
+  {
+    "id": "0d4aff3c68c4",
+    "path": "experiments/legacy/generate_scar_circuit_visualization_png.py",
+    "absolute": "D:\\Projects\\QML\\experiments\\legacy\\generate_scar_circuit_visualization_png.py",
+    "sha256": "36943377972a96c6ba1dd3b960daa5aca395685938f171cdf6e32ee6950fa2a1",
+    "sha256_lf": "36943377972a96c6ba1dd3b960daa5aca395685938f171cdf6e32ee6950fa2a1"
+  },
+  {
+    "id": "1ea94d82b52e",
+    "path": "experiments/legacy/qml_hypothesis_experiment.py",
+    "absolute": "D:\\Projects\\QML\\experiments\\legacy\\qml_hypothesis_experiment.py",
+    "sha256": "ff45681d5d5d21aac2466ab99ddd889b5ed858e954f2e30144a3c28e364aa40e",
+    "sha256_lf": "ff45681d5d5d21aac2466ab99ddd889b5ed858e954f2e30144a3c28e364aa40e"
+  },
+  {
+    "id": "76735b21793a",
+    "path": "experiments/legacy/qml_iterative_hypothesis_experiment.py",
+    "absolute": "D:\\Projects\\QML\\experiments\\legacy\\qml_iterative_hypothesis_experiment.py",
+    "sha256": "2f8a151a014b3a5c0e53e0a9bb1f1fe0dce319c716c58d10c5c64d1150ad1c8a",
+    "sha256_lf": "2f8a151a014b3a5c0e53e0a9bb1f1fe0dce319c716c58d10c5c64d1150ad1c8a"
+  },
+  {
+    "id": "2622cf298cac",
+    "path": "experiments/legacy/qml_nisq_hypothesis_experiment.py",
+    "absolute": "D:\\Projects\\QML\\experiments\\legacy\\qml_nisq_hypothesis_experiment.py",
+    "sha256": "1073c5f05f08ebda0fd931ee190c346184063c6e49b6474156ac82139ea65196",
+    "sha256_lf": "1073c5f05f08ebda0fd931ee190c346184063c6e49b6474156ac82139ea65196"
+  },
+  {
+    "id": "c352500a3bbf",
+    "path": "experiments/legacy/qsvm_hypothesis_experiment.py",
+    "absolute": "D:\\Projects\\QML\\experiments\\legacy\\qsvm_hypothesis_experiment.py",
+    "sha256": "fec9cb0ee3fc5a04273b9067f79fa6d1df10660e8359044fed617c59870af6c9",
+    "sha256_lf": "fec9cb0ee3fc5a04273b9067f79fa6d1df10660e8359044fed617c59870af6c9"
+  },
+  {
+    "id": "5c0f1e269c23",
+    "path": "experiments/legacy/scar_wine_qnn_benchmark.py",
+    "absolute": "D:\\Projects\\QML\\experiments\\legacy\\scar_wine_qnn_benchmark.py",
+    "sha256": "5b7d36aa87e328979b89d51793af91231c797de08558770111e828ee238fb263",
+    "sha256_lf": "5b7d36aa87e328979b89d51793af91231c797de08558770111e828ee238fb263"
+  },
+  {
+    "id": "0a8d35d35fec",
+    "path": "experiments/legacy/vqe_scar_ansatz_experiment.py",
+    "absolute": "D:\\Projects\\QML\\experiments\\legacy\\vqe_scar_ansatz_experiment.py",
+    "sha256": "e2b17fcb4ddcac3b097b9ac845d5ff5df66172049343728c1373b3a2e19031dc",
+    "sha256_lf": "e2b17fcb4ddcac3b097b9ac845d5ff5df66172049343728c1373b3a2e19031dc"
+  },
+  {
+    "id": "daab1bb8e7d1",
+    "path": "hamiltonian_kernel/__init__.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\__init__.py",
+    "sha256": "5d8cf662db385dc7c2c233735bde5979d47ba64de31f545d4cb77967459ff762",
+    "sha256_lf": "5d8cf662db385dc7c2c233735bde5979d47ba64de31f545d4cb77967459ff762"
+  },
+  {
+    "id": "f0e8c0e56bf4",
+    "path": "hamiltonian_kernel/core.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\core.py",
+    "sha256": "cfa54bc346e5fd9c130e8d4966260e6342abed1ae6c0f688f5829127ef0fa365",
+    "sha256_lf": "cfa54bc346e5fd9c130e8d4966260e6342abed1ae6c0f688f5829127ef0fa365"
+  },
+  {
+    "id": "f4615ead6923",
+    "path": "hamiltonian_kernel/correct_resource_costs.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\correct_resource_costs.py",
+    "sha256": "87b284d88768fe295a3bb4b10f3999aa90c81d5735ab0228005483cb75258ba7",
+    "sha256_lf": "87b284d88768fe295a3bb4b10f3999aa90c81d5735ab0228005483cb75258ba7"
+  },
+  {
+    "id": "3ad3368289c7",
+    "path": "hamiltonian_kernel/data.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\data.py",
+    "sha256": "a3e142ae7a32636cc18ea54dc2d730d937fbe2ded7d3602000f4a0124f37ee33",
+    "sha256_lf": "a3e142ae7a32636cc18ea54dc2d730d937fbe2ded7d3602000f4a0124f37ee33"
+  },
+  {
+    "id": "1f768d7aaafe",
+    "path": "hamiltonian_kernel/estimation.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\estimation.py",
+    "sha256": "a55cc48d32ceca74b92c296a8801a0ee51e702034a8e41b0b17a6deae2c2fdde",
+    "sha256_lf": "a55cc48d32ceca74b92c296a8801a0ee51e702034a8e41b0b17a6deae2c2fdde"
+  },
+  {
+    "id": "8e3500a91bea",
+    "path": "hamiltonian_kernel/experiment.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\experiment.py",
+    "sha256": "5db941b03f259d578b2c326fe1a699e5e01f39b3d0a2ec581a056dc80061f07d",
+    "sha256_lf": "5db941b03f259d578b2c326fe1a699e5e01f39b3d0a2ec581a056dc80061f07d"
+  },
+  {
+    "id": "5a8a362fbc0c",
+    "path": "hamiltonian_kernel/grid_experiment.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\grid_experiment.py",
+    "sha256": "ccd90944688adeb202fdf132b7c90042636f2e4236a0bf7155003e80df12544b",
+    "sha256_lf": "ccd90944688adeb202fdf132b7c90042636f2e4236a0bf7155003e80df12544b"
+  },
+  {
+    "id": "274366f02b85",
+    "path": "hamiltonian_kernel/hardware_circuits.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\hardware_circuits.py",
+    "sha256": "91c2aaca7b4c92837ed94c9a1dd440c9d47ab817b76259725e99793f4712f5ec",
+    "sha256_lf": "91c2aaca7b4c92837ed94c9a1dd440c9d47ab817b76259725e99793f4712f5ec"
+  },
+  {
+    "id": "f8386eb327d6",
+    "path": "hamiltonian_kernel/hardware_experiment.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\hardware_experiment.py",
+    "sha256": "537781e8db17b196a1941679ada15dd3e74d34ab4afe4faec36630c4081a3f1d",
+    "sha256_lf": "537781e8db17b196a1941679ada15dd3e74d34ab4afe4faec36630c4081a3f1d"
+  },
+  {
+    "id": "3c803a27e1bb",
+    "path": "hamiltonian_kernel/hardware_providers.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\hardware_providers.py",
+    "sha256": "140e864207677944e65ac9ace540091ddbda503eeeabee86c5c9c8e6d1c2a37d",
+    "sha256_lf": "140e864207677944e65ac9ace540091ddbda503eeeabee86c5c9c8e6d1c2a37d"
+  },
+  {
+    "id": "8e802a211944",
+    "path": "hamiltonian_kernel/learning.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\learning.py",
+    "sha256": "297fa0ad92b6bd526429f9c290e76aca719e0aeebb5c76def4f7707dd5c5f5f4",
+    "sha256_lf": "297fa0ad92b6bd526429f9c290e76aca719e0aeebb5c76def4f7707dd5c5f5f4"
+  },
+  {
+    "id": "d968fae0fa2e",
+    "path": "hamiltonian_kernel/protocol.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\protocol.py",
+    "sha256": "1a6c031524a182e7b6d04cd29e8bf645057fedc2724ff0a05f2d50d1a65f1b45",
+    "sha256_lf": "1a6c031524a182e7b6d04cd29e8bf645057fedc2724ff0a05f2d50d1a65f1b45"
+  },
+  {
+    "id": "07e48f13ff00",
+    "path": "hamiltonian_kernel/publication_benchmark.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\publication_benchmark.py",
+    "sha256": "88669f290bf510cf4b8b7ada20e212fec23ed65f6e34f3a0e5f2187387a2bb5f",
+    "sha256_lf": "88669f290bf510cf4b8b7ada20e212fec23ed65f6e34f3a0e5f2187387a2bb5f"
+  },
+  {
+    "id": "f09d90f7d037",
+    "path": "hamiltonian_kernel/trotter_scaling.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\trotter_scaling.py",
+    "sha256": "424849956adefa2003c9afdde27e922bdc2c7c9d42b0b6b878dce515c9824d9f",
+    "sha256_lf": "424849956adefa2003c9afdde27e922bdc2c7c9d42b0b6b878dce515c9824d9f"
+  },
+  {
+    "id": "0ae54cf2f9a0",
+    "path": "hamiltonian_kernel/trotter_scaling_full.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\trotter_scaling_full.py",
+    "sha256": "f59d51e7a893485d3f89c4b3853701bc53b117c5f511cef273795f71d54f6ec4",
+    "sha256_lf": "f59d51e7a893485d3f89c4b3853701bc53b117c5f511cef273795f71d54f6ec4"
+  },
+  {
+    "id": "5abc0559ea75",
+    "path": "hamiltonian_kernel/trotter_scaling_summary.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\trotter_scaling_summary.py",
+    "sha256": "585d9b3e8a33fd913ebb11900917012c2d9c7ebb81943ce38947f18e1f5b9b38",
+    "sha256_lf": "585d9b3e8a33fd913ebb11900917012c2d9c7ebb81943ce38947f18e1f5b9b38"
+  },
+  {
+    "id": "7a91398da1b7",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\trotter_scaling_v3.py",
+    "sha256": "977c578c06513aeeb93e001cd89277c1d551adb93f4d4e82688d5e964260fa7e",
+    "sha256_lf": "977c578c06513aeeb93e001cd89277c1d551adb93f4d4e82688d5e964260fa7e"
+  },
+  {
+    "id": "48718960b801",
+    "path": "hamiltonian_kernel/trotter_scaling_v3_ibm.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\trotter_scaling_v3_ibm.py",
+    "sha256": "220356e7f8c61b6c5d76f4210b41a11ca0da3c582fd1d3a211502aceab6a5154",
+    "sha256_lf": "220356e7f8c61b6c5d76f4210b41a11ca0da3c582fd1d3a211502aceab6a5154"
+  },
+  {
+    "id": "19c152c09921",
+    "path": "hamiltonian_kernel/trotter_scaling_v3_summary.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\trotter_scaling_v3_summary.py",
+    "sha256": "d9edd83afac84589ef2845ce56062d140a1c9e022d2162423407bbf271ed054d",
+    "sha256_lf": "d9edd83afac84589ef2845ce56062d140a1c9e022d2162423407bbf271ed054d"
+  },
+  {
+    "id": "1b5559de9558",
+    "path": "hamiltonian_kernel/universal_hamiltonian.py",
+    "absolute": "D:\\Projects\\QML\\hamiltonian_kernel\\universal_hamiltonian.py",
+    "sha256": "52febf01cdd78a183765700a2ed98e09b66bca03dd2a556e12dcce0fd8ab8ce3",
+    "sha256_lf": "52febf01cdd78a183765700a2ed98e09b66bca03dd2a556e12dcce0fd8ab8ce3"
+  },
+  {
+    "id": "b8a1aa0a22c8",
+    "path": "photonic_kernel/__init__.py",
+    "absolute": "D:\\Projects\\QML\\photonic_kernel\\__init__.py",
+    "sha256": "b1671794d0ccce4b70c77504b0bb78c8638c5e22ccc92174ca9d18478eb15b1d",
+    "sha256_lf": "b1671794d0ccce4b70c77504b0bb78c8638c5e22ccc92174ca9d18478eb15b1d"
+  },
+  {
+    "id": "ae3d908ac93f",
+    "path": "photonic_kernel/core.py",
+    "absolute": "D:\\Projects\\QML\\photonic_kernel\\core.py",
+    "sha256": "761234ca4d54bf06c3028ff7d61a76c5f7915a182976b2a1f3d990705f9a8433",
+    "sha256_lf": "761234ca4d54bf06c3028ff7d61a76c5f7915a182976b2a1f3d990705f9a8433"
+  },
+  {
+    "id": "0b7ad45ec086",
+    "path": "photonic_kernel/experiment.py",
+    "absolute": "D:\\Projects\\QML\\photonic_kernel\\experiment.py",
+    "sha256": "b30ea38918a0eb9ffa6431cdad08cd4f6e0a634f0b122bc0e457fa86384d0c5f",
+    "sha256_lf": "b30ea38918a0eb9ffa6431cdad08cd4f6e0a634f0b122bc0e457fa86384d0c5f"
+  },
+  {
+    "id": "870959327c7e",
+    "path": "photonic_kernel/robustness.py",
+    "absolute": "D:\\Projects\\QML\\photonic_kernel\\robustness.py",
+    "sha256": "e489b814ee2b986630bf9d75bb5775f1f1d0792d97ec3cdd8efeb0c07755a629",
+    "sha256_lf": "e489b814ee2b986630bf9d75bb5775f1f1d0792d97ec3cdd8efeb0c07755a629"
+  },
+  {
+    "id": "cae5563cb056",
+    "path": "photonic_kernel/strawberry_fields_robustness.py",
+    "absolute": "D:\\Projects\\QML\\photonic_kernel\\strawberry_fields_robustness.py",
+    "sha256": "63942e70bbfbfd4da6fe91ea69dbe56ff5d2f0342e779aa55be89178d9ef7465",
+    "sha256_lf": "63942e70bbfbfd4da6fe91ea69dbe56ff5d2f0342e779aa55be89178d9ef7465"
+  },
+  {
+    "id": "8719a744e86b",
+    "path": "photonic_kernel/xanadu_x8.py",
+    "absolute": "D:\\Projects\\QML\\photonic_kernel\\xanadu_x8.py",
+    "sha256": "d4a2b087976881e9c35006204f3f698e1d0c5320eb8d7459064308a60030e510",
+    "sha256_lf": "d4a2b087976881e9c35006204f3f698e1d0c5320eb8d7459064308a60030e510"
+  },
+  {
+    "id": "533fd7d5fef1",
+    "path": "qml_algorithms_data.js",
+    "absolute": "D:\\Projects\\QML\\qml_algorithms_data.js",
+    "sha256": "bdde82c50fb6748e2a8de224e8f981c49b9fbadc6191ad2178542b6d0a59b5f3",
+    "sha256_lf": "bdde82c50fb6748e2a8de224e8f981c49b9fbadc6191ad2178542b6d0a59b5f3"
+  },
+  {
+    "id": "61c7889efae7",
+    "path": "qml_model_modules/00_INDEX.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\00_INDEX.md",
+    "sha256": "a2cd8c03c78b1220ee7b646aad651471b37b305311b05d0b322476cb89da3896",
+    "sha256_lf": "a2cd8c03c78b1220ee7b646aad651471b37b305311b05d0b322476cb89da3896"
+  },
+  {
+    "id": "22d9f5d43b51",
+    "path": "qml_model_modules/01_QSVM.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\01_QSVM.md",
+    "sha256": "989a61ad4fbf9ca3fcf82d829f3aaa0a9265ea53dc160a107aa0ea268eb60c2c",
+    "sha256_lf": "989a61ad4fbf9ca3fcf82d829f3aaa0a9265ea53dc160a107aa0ea268eb60c2c"
+  },
+  {
+    "id": "bd58451d4cbe",
+    "path": "qml_model_modules/02_VQC.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\02_VQC.md",
+    "sha256": "7ca67631827313e342e63f9066d1a35469d740d49f483ad8f7d4c6eac2011398",
+    "sha256_lf": "7ca67631827313e342e63f9066d1a35469d740d49f483ad8f7d4c6eac2011398"
+  },
+  {
+    "id": "1e606b0b0f03",
+    "path": "qml_model_modules/03_QNN_PQC.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\03_QNN_PQC.md",
+    "sha256": "06174f6633c639ef7a8995825328c3de9759575d287a566b0f65ad951ec11c57",
+    "sha256_lf": "06174f6633c639ef7a8995825328c3de9759575d287a566b0f65ad951ec11c57"
+  },
+  {
+    "id": "b6503ab423d6",
+    "path": "qml_model_modules/04_HYBRID_QNN.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\04_HYBRID_QNN.md",
+    "sha256": "f9d18122a182f624d7fdacc1248e85d52cdb8b26a942c45c2de89c54db81e3bb",
+    "sha256_lf": "f9d18122a182f624d7fdacc1248e85d52cdb8b26a942c45c2de89c54db81e3bb"
+  },
+  {
+    "id": "3e9c14c69eaf",
+    "path": "qml_model_modules/05_QGAN.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\05_QGAN.md",
+    "sha256": "dde661cad8ef304ea7ceb1f4ad16e45a76ed9ff2951e26d9bca052e35cac5739",
+    "sha256_lf": "dde661cad8ef304ea7ceb1f4ad16e45a76ed9ff2951e26d9bca052e35cac5739"
+  },
+  {
+    "id": "513ed2309e41",
+    "path": "qml_model_modules/06_QCBM.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\06_QCBM.md",
+    "sha256": "7af70cd03a481225aa36325ae175e8a701031e478f0d83d430d5c7087e484875",
+    "sha256_lf": "7af70cd03a481225aa36325ae175e8a701031e478f0d83d430d5c7087e484875"
+  },
+  {
+    "id": "01c762e4f5b4",
+    "path": "qml_model_modules/07_QBM.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\07_QBM.md",
+    "sha256": "87b4d0fd33ee584e7f5e077aa760a2cf2b0c7b53a93d85d0487f45b1263ac504",
+    "sha256_lf": "87b4d0fd33ee584e7f5e077aa760a2cf2b0c7b53a93d85d0487f45b1263ac504"
+  },
+  {
+    "id": "975ea56ae296",
+    "path": "qml_model_modules/08_QCNN.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\08_QCNN.md",
+    "sha256": "0c01f0fd85515270eeaa9b6e400a450203d74e7f21744cbe7fe119ac71b972cc",
+    "sha256_lf": "0c01f0fd85515270eeaa9b6e400a450203d74e7f21744cbe7fe119ac71b972cc"
+  },
+  {
+    "id": "a5229a549833",
+    "path": "qml_model_modules/09_QUANTUM_AUTOENCODER.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\09_QUANTUM_AUTOENCODER.md",
+    "sha256": "becb045674813c346be67834f08063e788fefcc74d3fe96ec0fd23b6a108e7f8",
+    "sha256_lf": "becb045674813c346be67834f08063e788fefcc74d3fe96ec0fd23b6a108e7f8"
+  },
+  {
+    "id": "201b90449de7",
+    "path": "qml_model_modules/10_QUANTUM_TRANSFORMER.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\10_QUANTUM_TRANSFORMER.md",
+    "sha256": "65c5201c0c99b636528214184b10d6e9422ffecf7989d3ad4249864040974e49",
+    "sha256_lf": "65c5201c0c99b636528214184b10d6e9422ffecf7989d3ad4249864040974e49"
+  },
+  {
+    "id": "2bc1888e103b",
+    "path": "qml_model_modules/11_HHL.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\11_HHL.md",
+    "sha256": "9fc58834aa5d629cad891a58fcce84de2abe0b06719295be09813437017318a8",
+    "sha256_lf": "9fc58834aa5d629cad891a58fcce84de2abe0b06719295be09813437017318a8"
+  },
+  {
+    "id": "a8972383dd9f",
+    "path": "qml_model_modules/12_QSVT.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\12_QSVT.md",
+    "sha256": "243460e8e52c7c66201c5f87862012a8cfbac9a192c913ec20099d228b356be7",
+    "sha256_lf": "243460e8e52c7c66201c5f87862012a8cfbac9a192c913ec20099d228b356be7"
+  },
+  {
+    "id": "d7669b98bd2b",
+    "path": "qml_model_modules/13_QPCA.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\13_QPCA.md",
+    "sha256": "297eea78e4b5042e1e817837775027e0e237e1224e6fc1509abfc1fc40dc53a2",
+    "sha256_lf": "297eea78e4b5042e1e817837775027e0e237e1224e6fc1509abfc1fc40dc53a2"
+  },
+  {
+    "id": "5807dfc4fd19",
+    "path": "qml_model_modules/14_QUANTUM_CLUSTERING.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\14_QUANTUM_CLUSTERING.md",
+    "sha256": "acd883c23683faf34afeb3fe13c60d56236521fdae66849ffd40a85ce4cda9c9",
+    "sha256_lf": "acd883c23683faf34afeb3fe13c60d56236521fdae66849ffd40a85ce4cda9c9"
+  },
+  {
+    "id": "37958c0e9775",
+    "path": "qml_model_modules/15_QRL.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\15_QRL.md",
+    "sha256": "ea5fb7ddd2bf1e827e8bb3932e104aaf0d86aca728f856b5955f5c1d62eac8c1",
+    "sha256_lf": "ea5fb7ddd2bf1e827e8bb3932e104aaf0d86aca728f856b5955f5c1d62eac8c1"
+  },
+  {
+    "id": "05b21e62df3c",
+    "path": "qml_model_modules/16_QAOA.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\16_QAOA.md",
+    "sha256": "43850a7ce3e4d3786bf276984f3e5de8430407c10beb8bc65b760e4759fb5723",
+    "sha256_lf": "43850a7ce3e4d3786bf276984f3e5de8430407c10beb8bc65b760e4759fb5723"
+  },
+  {
+    "id": "ea285c9604c7",
+    "path": "qml_model_modules/17_QUANTUM_ANNEALING.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\17_QUANTUM_ANNEALING.md",
+    "sha256": "840e40ea6f8c966d6bf75923192a761c6bcb26317ff763f2131ab0ec6235b165",
+    "sha256_lf": "840e40ea6f8c966d6bf75923192a761c6bcb26317ff763f2131ab0ec6235b165"
+  },
+  {
+    "id": "f4528e822e2f",
+    "path": "qml_model_modules/18_VQE.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\18_VQE.md",
+    "sha256": "f8923eb2bfbce7a6e9989ba72596ef20dbaadf483654b57fad766082cbe81936",
+    "sha256_lf": "f8923eb2bfbce7a6e9989ba72596ef20dbaadf483654b57fad766082cbe81936"
+  },
+  {
+    "id": "4d9a1b0f383c",
+    "path": "qml_model_modules/19_GAS.md",
+    "absolute": "D:\\Projects\\QML\\qml_model_modules\\19_GAS.md",
+    "sha256": "3c02bd158c46d10d43b73f4fd6390b89cbe49af0372aa3a847299196838d011c",
+    "sha256_lf": "3c02bd158c46d10d43b73f4fd6390b89cbe49af0372aa3a847299196838d011c"
+  },
+  {
+    "id": "37269b264c56",
+    "path": "qml_relation_metrics.md",
+    "absolute": "D:\\Projects\\QML\\qml_relation_metrics.md",
+    "sha256": "55921eb3eedcaf1c0f2b923de83e2ccef82e0c2d6bfca63cf3da68add37cd002",
+    "sha256_lf": "55921eb3eedcaf1c0f2b923de83e2ccef82e0c2d6bfca63cf3da68add37cd002"
+  },
+  {
+    "id": "8578b9b93c9f",
+    "path": "quantum_reservoir/__init__.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\__init__.py",
+    "sha256": "3d86bca3c36864499e1af7e3bbb217a537a2c2792f2d6e19007c74f1bc4422d7",
+    "sha256_lf": "3d86bca3c36864499e1af7e3bbb217a537a2c2792f2d6e19007c74f1bc4422d7"
+  },
+  {
+    "id": "8458305e2d4c",
+    "path": "quantum_reservoir/benchmarks.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\benchmarks.py",
+    "sha256": "0afabcd135052a8bdd53bc9afb085a57689a3cec7c6791afd27a9f5f28efc676",
+    "sha256_lf": "0afabcd135052a8bdd53bc9afb085a57689a3cec7c6791afd27a9f5f28efc676"
+  },
+  {
+    "id": "72058a2e96ad",
+    "path": "quantum_reservoir/core.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\core.py",
+    "sha256": "6f9810be93c091cf0daeaf2f7dccb42cc5b305ff6c306764b512df2b00aee5c8",
+    "sha256_lf": "6f9810be93c091cf0daeaf2f7dccb42cc5b305ff6c306764b512df2b00aee5c8"
+  },
+  {
+    "id": "55dd9617beb1",
+    "path": "quantum_reservoir/experiment.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\experiment.py",
+    "sha256": "2909a7d3095416d8f1367b773a45246d1003b5224cff982b0adeceece0009c83",
+    "sha256_lf": "2909a7d3095416d8f1367b773a45246d1003b5224cff982b0adeceece0009c83"
+  },
+  {
+    "id": "4518d1dd2c7c",
+    "path": "quantum_reservoir/h3_memory_study.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\h3_memory_study.py",
+    "sha256": "3b479267c930c697ef475d6f47bd5223e80db1504bbae407833fb42735958b3b",
+    "sha256_lf": "3b479267c930c697ef475d6f47bd5223e80db1504bbae407833fb42735958b3b"
+  },
+  {
+    "id": "ff69a77c46e8",
+    "path": "quantum_reservoir/h3_noise_diagnostics.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\h3_noise_diagnostics.py",
+    "sha256": "3021d259be2cbcc0851b9dba240039c052a7f06fee94b661a28d2e5bd291c4e8",
+    "sha256_lf": "3021d259be2cbcc0851b9dba240039c052a7f06fee94b661a28d2e5bd291c4e8"
+  },
+  {
+    "id": "0a4949f8aa24",
+    "path": "quantum_reservoir/h3_noise_report.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\h3_noise_report.py",
+    "sha256": "48c5c0e7c307269656df05365471816a05277f929e017ba5b79d47384420cef8",
+    "sha256_lf": "48c5c0e7c307269656df05365471816a05277f929e017ba5b79d47384420cef8"
+  },
+  {
+    "id": "f13d6fb1dc3d",
+    "path": "quantum_reservoir/h3_noise_study.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\h3_noise_study.py",
+    "sha256": "248b0bc25c69fbdee12ebc4dee5c3048a0ec563a65901882aab03b57919a90d0",
+    "sha256_lf": "248b0bc25c69fbdee12ebc4dee5c3048a0ec563a65901882aab03b57919a90d0"
+  },
+  {
+    "id": "9c5f1bc80a74",
+    "path": "quantum_reservoir/h3_readout_controls.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\h3_readout_controls.py",
+    "sha256": "8f0092bc6605e4a6022e65114a0d86019947f88b20d4e12ef37a44f4ef4cb227",
+    "sha256_lf": "8f0092bc6605e4a6022e65114a0d86019947f88b20d4e12ef37a44f4ef4cb227"
+  },
+  {
+    "id": "8c2f42e9b100",
+    "path": "quantum_reservoir/h3_report.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\h3_report.py",
+    "sha256": "c3ea1246b9ccb2068c36eb9eadd0ecc74b3600e21d48df2719d84525d07154f4",
+    "sha256_lf": "c3ea1246b9ccb2068c36eb9eadd0ecc74b3600e21d48df2719d84525d07154f4"
+  },
+  {
+    "id": "772f311bc046",
+    "path": "quantum_reservoir/h3_stationary_check.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\h3_stationary_check.py",
+    "sha256": "bc5d1c4823954787f6410686fc6b8d2d95f4368e4b933c38a1a9e704f1eadacd",
+    "sha256_lf": "bc5d1c4823954787f6410686fc6b8d2d95f4368e4b933c38a1a9e704f1eadacd"
+  },
+  {
+    "id": "92d86c43f09b",
+    "path": "quantum_reservoir/h3_washout_check.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\h3_washout_check.py",
+    "sha256": "b2ebd22491f54587506f8cad8e6fe6d18a538636e3463666bfd3c8ec801d3906",
+    "sha256_lf": "b2ebd22491f54587506f8cad8e6fe6d18a538636e3463666bfd3c8ec801d3906"
+  },
+  {
+    "id": "1b9172847223",
+    "path": "quantum_reservoir/ibm_hardware.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\ibm_hardware.py",
+    "sha256": "94113cfe89b0ff32d50ec4530c0bf66272b490fb53a5acf762fedd8393629c89",
+    "sha256_lf": "94113cfe89b0ff32d50ec4530c0bf66272b490fb53a5acf762fedd8393629c89"
+  },
+  {
+    "id": "e59ae132fe12",
+    "path": "quantum_reservoir/spectral_h1_h2_report.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\spectral_h1_h2_report.py",
+    "sha256": "ebaf3835b98148d919843bc65bccdf19e9b5664204736430c53f8236e3934d0c",
+    "sha256_lf": "ebaf3835b98148d919843bc65bccdf19e9b5664204736430c53f8236e3934d0c"
+  },
+  {
+    "id": "b39e6c960afb",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\spectral_h1_h2_study.py",
+    "sha256": "3ebdbb04ed317ceb4ba6b7453d1902f417562e01e842f7399bd2bbb782c80330",
+    "sha256_lf": "3ebdbb04ed317ceb4ba6b7453d1902f417562e01e842f7399bd2bbb782c80330"
+  },
+  {
+    "id": "a813b61d4a58",
+    "path": "scripts/select_ibm_calibration_layout.py",
+    "absolute": "D:\\Projects\\QML\\scripts\\select_ibm_calibration_layout.py",
+    "sha256": "a1946fb08d5f1050c93273353707e9eea758ca102adc98e03cb5cc83f03c90c3",
+    "sha256_lf": "a1946fb08d5f1050c93273353707e9eea758ca102adc98e03cb5cc83f03c90c3"
+  },
+  {
+    "id": "a405254d3772",
+    "path": "scripts/summarize_ibm_qpu_validation.py",
+    "absolute": "D:\\Projects\\QML\\scripts\\summarize_ibm_qpu_validation.py",
+    "sha256": "eedaa0601fd44074ecbbc9cb14d0757d93409af5cc13d913f9592be15f07eadb",
+    "sha256_lf": "eedaa0601fd44074ecbbc9cb14d0757d93409af5cc13d913f9592be15f07eadb"
+  },
+  {
+    "id": "d195e702b569",
+    "path": "tests/test_h3_memory_study.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_h3_memory_study.py",
+    "sha256": "a828364a436a3b6402bac1e77709d742347fd101fa90d0d5cc1f7b74cd0bd46f",
+    "sha256_lf": "a828364a436a3b6402bac1e77709d742347fd101fa90d0d5cc1f7b74cd0bd46f"
+  },
+  {
+    "id": "8409166d5c70",
+    "path": "tests/test_h3_noise_study.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_h3_noise_study.py",
+    "sha256": "2bb3480b185bdb154be231a7e430da1c6dab58239940a7b93588b40a219a43b4",
+    "sha256_lf": "2bb3480b185bdb154be231a7e430da1c6dab58239940a7b93588b40a219a43b4"
+  },
+  {
+    "id": "2087a3dbe9ff",
+    "path": "tests/test_hamiltonian_kernel.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_hamiltonian_kernel.py",
+    "sha256": "e1988fceda4c823192a04d4e90902618e9cedc500400ef29f6b26c1148f0a2e1",
+    "sha256_lf": "e1988fceda4c823192a04d4e90902618e9cedc500400ef29f6b26c1148f0a2e1"
+  },
+  {
+    "id": "faddc3794ce0",
+    "path": "tests/test_hamiltonian_kernel_grid.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_hamiltonian_kernel_grid.py",
+    "sha256": "7cae75b24d30ef12f8a8e45df48b0d60d86502101cec5350ded5fc6ce786cabb",
+    "sha256_lf": "7cae75b24d30ef12f8a8e45df48b0d60d86502101cec5350ded5fc6ce786cabb"
+  },
+  {
+    "id": "fc6b85cab226",
+    "path": "tests/test_hamiltonian_kernel_hardware.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_hamiltonian_kernel_hardware.py",
+    "sha256": "5540246f886644e6fdef58b3dfe2e8eeb4337ce7e8088241427781e48b21b781",
+    "sha256_lf": "5540246f886644e6fdef58b3dfe2e8eeb4337ce7e8088241427781e48b21b781"
+  },
+  {
+    "id": "5925d1612e4f",
+    "path": "tests/test_hamiltonian_kernel_protocol.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_hamiltonian_kernel_protocol.py",
+    "sha256": "245b00f4c2d78994f88a46c137ab0d7813710d321a40abbce7e5bab43acd320d",
+    "sha256_lf": "245b00f4c2d78994f88a46c137ab0d7813710d321a40abbce7e5bab43acd320d"
+  },
+  {
+    "id": "580605a50a7e",
+    "path": "tests/test_photonic_kernel.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_photonic_kernel.py",
+    "sha256": "2ed2d490f87f57927d80e8ae75758438222cec6d2a486fc2a9c403c1f2ea0201",
+    "sha256_lf": "2ed2d490f87f57927d80e8ae75758438222cec6d2a486fc2a9c403c1f2ea0201"
+  },
+  {
+    "id": "4c65f8c5ea17",
+    "path": "tests/test_photonic_kernel_experiment.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_photonic_kernel_experiment.py",
+    "sha256": "6ac6d7fac7b583dc1cc8933cbe550fa136d0323061010b01cebd44747dd6947e",
+    "sha256_lf": "6ac6d7fac7b583dc1cc8933cbe550fa136d0323061010b01cebd44747dd6947e"
+  },
+  {
+    "id": "bf511e2e1c38",
+    "path": "tests/test_publication_scope.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_publication_scope.py",
+    "sha256": "aac5d2e105a54cde304d47eb96bcd91adb9e031fa20a3ac5e851ba7dfc8a399d",
+    "sha256_lf": "e4f62d269c72fa91957d3f6c6cf33fae3f1218e450ed4ce24539a5f137fa9149"
+  },
+  {
+    "id": "279b5d49cf0e",
+    "path": "tests/test_qrc_ibm_hardware.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_qrc_ibm_hardware.py",
+    "sha256": "7dd296f0792d894c3a37a0f406c10a8d69d16c4c3ddaa4d6de5ab5ae514d5f20",
+    "sha256_lf": "7dd296f0792d894c3a37a0f406c10a8d69d16c4c3ddaa4d6de5ab5ae514d5f20"
+  },
+  {
+    "id": "dd09873b6e4e",
+    "path": "tests/test_quantum_reservoir.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_quantum_reservoir.py",
+    "sha256": "4a6a7a48b168d19dd3fad269288867baa2a473cb4396a5ea893d052c605a4fe4",
+    "sha256_lf": "4a6a7a48b168d19dd3fad269288867baa2a473cb4396a5ea893d052c605a4fe4"
+  },
+  {
+    "id": "793aa590d303",
+    "path": "tests/test_trotter_scaling.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_trotter_scaling.py",
+    "sha256": "c10c0c8e213d4a4a85fa5f6b8877261627126816a004038eeb7d4611ed8364ff",
+    "sha256_lf": "c10c0c8e213d4a4a85fa5f6b8877261627126816a004038eeb7d4611ed8364ff"
+  },
+  {
+    "id": "06c792012a30",
+    "path": "tests/test_trotter_scaling_v3.py",
+    "absolute": "D:\\Projects\\QML\\tests\\test_trotter_scaling_v3.py",
+    "sha256": "a2f529ab6a006a3c6d4b14b01774a5c5d0523e3b59cd6e9a713c456435c0543d",
+    "sha256_lf": "a2f529ab6a006a3c6d4b14b01774a5c5d0523e3b59cd6e9a713c456435c0543d"
+  },
+  {
+    "id": "2a22fce8b9bf",
+    "path": "tools/audit_documents.py",
+    "absolute": "D:\\Projects\\QML\\tools\\audit_documents.py",
+    "sha256": "9673fa1d9c0aba7903139b8f45754a303498deea51e77c288815e6b1fe6a8f29",
+    "sha256_lf": "9673fa1d9c0aba7903139b8f45754a303498deea51e77c288815e6b1fe6a8f29"
+  },
+  {
+    "id": "dd5a1e53441c",
+    "path": "tools/audit_qrc_results.py",
+    "absolute": "D:\\Projects\\QML\\tools\\audit_qrc_results.py",
+    "sha256": "6294e5708a829f78d7306702cefaf33dfeeb000d29e4f718f2ab053678292d6c",
+    "sha256_lf": "6294e5708a829f78d7306702cefaf33dfeeb000d29e4f718f2ab053678292d6c"
+  },
+  {
+    "id": "e43e655c3f95",
+    "path": "tools/build_kernel_reservoir_report.py",
+    "absolute": "D:\\Projects\\QML\\tools\\build_kernel_reservoir_report.py",
+    "sha256": "817b7a071e7001ffe5629e61242e35b72f482dd2d95a70bca4871439ba2cc365",
+    "sha256_lf": "817b7a071e7001ffe5629e61242e35b72f482dd2d95a70bca4871439ba2cc365"
+  },
+  {
+    "id": "440f56ccc2e8",
+    "path": "tools/build_mathematical_report.py",
+    "absolute": "D:\\Projects\\QML\\tools\\build_mathematical_report.py",
+    "sha256": "ad4302006f85f672ac13e67caf670191f80ca47f0ce65ea9db262bf44433b6f9",
+    "sha256_lf": "0f9d175b5f4d92fe8c68e46a3c66bf7fe763e6cb0354d6277fcdb2a44b19212d"
+  },
+  {
+    "id": "d1a1cfaff124",
+    "path": "tools/build_qml_achievements_charts.py",
+    "absolute": "D:\\Projects\\QML\\tools\\build_qml_achievements_charts.py",
+    "sha256": "c8d3fa7235f9373891ee897cc99c5f53e36a68e904b5c0d03c9464a54a7e74a3",
+    "sha256_lf": "c8d3fa7235f9373891ee897cc99c5f53e36a68e904b5c0d03c9464a54a7e74a3"
+  },
+  {
+    "id": "c5810baf1e3d",
+    "path": "tools/build_qml_achievements_report.py",
+    "absolute": "D:\\Projects\\QML\\tools\\build_qml_achievements_report.py",
+    "sha256": "43adf397a41a9ee8724fe88862655e719d9f7e5d2a48ce333e8ed1e0d3e0e63c",
+    "sha256_lf": "43adf397a41a9ee8724fe88862655e719d9f7e5d2a48ce333e8ed1e0d3e0e63c"
+  },
+  {
+    "id": "ef6ab9b7cfd6",
+    "path": "tools/build_qrc_audit_pdf.py",
+    "absolute": "D:\\Projects\\QML\\tools\\build_qrc_audit_pdf.py",
+    "sha256": "be31e493f84bde1d807190de2a00a4a11539f915699e62387e7a063fae180a03",
+    "sha256_lf": "be31e493f84bde1d807190de2a00a4a11539f915699e62387e7a063fae180a03"
+  },
+  {
+    "id": "e0eb50873c1d",
+    "path": "tools/build_qrc_trotter_notebook.py",
+    "absolute": "D:\\Projects\\QML\\tools\\build_qrc_trotter_notebook.py",
+    "sha256": "db3b39bfe6262be47fc5cf1d7421a34952cb6a6b624c24cb6b4f8a31d4d1684e",
+    "sha256_lf": "db3b39bfe6262be47fc5cf1d7421a34952cb6a6b624c24cb6b4f8a31d4d1684e"
+  },
+  {
+    "id": "df662d77c9d3",
+    "path": "tools/build_report_relations.py",
+    "absolute": "D:\\Projects\\QML\\tools\\build_report_relations.py",
+    "sha256": "65b4e3423fe060d1438c28659fd71591c19ab5ac3e2cbfcd2f2aad05e8350e55",
+    "sha256_lf": "65b4e3423fe060d1438c28659fd71591c19ab5ac3e2cbfcd2f2aad05e8350e55"
+  },
+  {
+    "id": "f22e0593c5d1",
+    "path": "tools/build_report_view.py",
+    "absolute": "D:\\Projects\\QML\\tools\\build_report_view.py",
+    "sha256": "d9124a8c16895c39b6de21be02f9fcaabd6d0ea8ae6a1c553b51108d30d13a4c",
+    "sha256_lf": "d9124a8c16895c39b6de21be02f9fcaabd6d0ea8ae6a1c553b51108d30d13a4c"
+  },
+  {
+    "id": "8b247a9f9907",
+    "path": "tools/build_source_catalog.py",
+    "absolute": "D:\\Projects\\QML\\tools\\build_source_catalog.py",
+    "sha256": "1b44ffc1562579c284c715b39cefa4ff026c356c94209b0bb0aa6feef0b6c418",
+    "sha256_lf": "1b44ffc1562579c284c715b39cefa4ff026c356c94209b0bb0aa6feef0b6c418"
+  },
+  {
+    "id": "12f72afeb8ad",
+    "path": "tools/check_kernel_reservoir_comparison.py",
+    "absolute": "D:\\Projects\\QML\\tools\\check_kernel_reservoir_comparison.py",
+    "sha256": "3154fab094b582310ce8aaeecd860d7138172da63a57afa8237c05f6ce947bb1",
+    "sha256_lf": "3154fab094b582310ce8aaeecd860d7138172da63a57afa8237c05f6ce947bb1"
+  },
+  {
+    "id": "a3a622952889",
+    "path": "tools/check_publication.py",
+    "absolute": "D:\\Projects\\QML\\tools\\check_publication.py",
+    "sha256": "58056479738f5eeb0a5cb0f5159f3ce8fe148d70e5e7c44df263a46e0cf10c2b",
+    "sha256_lf": "c2fa7f216db02545c67db2f7926b15c74ebf80ee3493839d3b1d0b9ad615ef49"
+  },
+  {
+    "id": "7dc96440dd63",
+    "path": "tools/configure_ibm_quantum_account.py",
+    "absolute": "D:\\Projects\\QML\\tools\\configure_ibm_quantum_account.py",
+    "sha256": "a2d8b8dde2f90ced6d2ce274c331c3c946ce30e3e9803546d801a737810fc52e",
+    "sha256_lf": "a2d8b8dde2f90ced6d2ce274c331c3c946ce30e3e9803546d801a737810fc52e"
+  },
+  {
+    "id": "c6450766e62d",
+    "path": "tools/export_publication.py",
+    "absolute": "D:\\Projects\\QML\\tools\\export_publication.py",
+    "sha256": "f29c929880d4c6df4d0c089ca0674f1ba5233199878b04b272c85f396c859765",
+    "sha256_lf": "a49a7c3b50807827235d872b5dd796711d94dd3d7de1a64aa5d697ba53557569"
+  },
+  {
+    "id": "669ccfff9ae9",
+    "path": "tools/extract_qml_pdfs.py",
+    "absolute": "D:\\Projects\\QML\\tools\\extract_qml_pdfs.py",
+    "sha256": "04a1eb9e1c962cd85b7bf41af9e3710d6609de4797f964266a1c8729a1c297cc",
+    "sha256_lf": "04a1eb9e1c962cd85b7bf41af9e3710d6609de4797f964266a1c8729a1c297cc"
+  },
+  {
+    "id": "e0d180d686af",
+    "path": "tools/finalize_best_hpo_composer_result.py",
+    "absolute": "D:\\Projects\\QML\\tools\\finalize_best_hpo_composer_result.py",
+    "sha256": "5da300c1937e456f08ce5c639606edd5fe9cd3a31a5ec40fbdabd3ad1bad699e",
+    "sha256_lf": "5da300c1937e456f08ce5c639606edd5fe9cd3a31a5ec40fbdabd3ad1bad699e"
+  },
+  {
+    "id": "49ddb325aca9",
+    "path": "tools/generate_h2_proof_pdf.py",
+    "absolute": "D:\\Projects\\QML\\tools\\generate_h2_proof_pdf.py",
+    "sha256": "fca5acaf0f4a44e27b1376ced5e2123b76a515830c69879445a92e1f2dda34f5",
+    "sha256_lf": "fca5acaf0f4a44e27b1376ced5e2123b76a515830c69879445a92e1f2dda34f5"
+  },
+  {
+    "id": "8f5620030b39",
+    "path": "tools/h2_hardware_common.py",
+    "absolute": "D:\\Projects\\QML\\tools\\h2_hardware_common.py",
+    "sha256": "9b79770da62c90a2833c72a2b1b2d0d5e286fe4490bdefc300b888b82ed44965",
+    "sha256_lf": "9b79770da62c90a2833c72a2b1b2d0d5e286fe4490bdefc300b888b82ed44965"
+  },
+  {
+    "id": "27ca2291638b",
+    "path": "tools/h2_pennylane_xanadu.py",
+    "absolute": "D:\\Projects\\QML\\tools\\h2_pennylane_xanadu.py",
+    "sha256": "98900dbbdf38872a214ee75b1b8e9867a7cad2f0587b02899e34292ad8e5e9de",
+    "sha256_lf": "98900dbbdf38872a214ee75b1b8e9867a7cad2f0587b02899e34292ad8e5e9de"
+  },
+  {
+    "id": "498ab6a5b170",
+    "path": "tools/h2_qiskit_ibm.py",
+    "absolute": "D:\\Projects\\QML\\tools\\h2_qiskit_ibm.py",
+    "sha256": "7b7cdead246b83e1348f64ab32575909d1e7e7a814e1bacd3af216a301d5ff65",
+    "sha256_lf": "7b7cdead246b83e1348f64ab32575909d1e7e7a814e1bacd3af216a301d5ff65"
+  },
+  {
+    "id": "cbc750922a1a",
+    "path": "tools/ibm_composer_hardware_train.py",
+    "absolute": "D:\\Projects\\QML\\tools\\ibm_composer_hardware_train.py",
+    "sha256": "ca033a430235d2c294124322d6f73815caac384d0fde754965fd30f7fa4065f3",
+    "sha256_lf": "ca033a430235d2c294124322d6f73815caac384d0fde754965fd30f7fa4065f3"
+  },
+  {
+    "id": "99236803ca7c",
+    "path": "tools/package_mathematical_report.py",
+    "absolute": "D:\\Projects\\QML\\tools\\package_mathematical_report.py",
+    "sha256": "e01b458049ae43f80787c93a7a4d4b9188deecb8611b73bb3474546f1a9b701a",
+    "sha256_lf": "74d3b1e13389088fc2fe0a5a08037bc546f3082e54ca626e9fc8b17604ef919e"
+  },
+  {
+    "id": "bce3d95856f5",
+    "path": "tools/plot_scar_wine_ibm_qpu.py",
+    "absolute": "D:\\Projects\\QML\\tools\\plot_scar_wine_ibm_qpu.py",
+    "sha256": "70202d49e3385e2e30ec8e666f5903b72259d5c28cff9e51b515256a144847a7",
+    "sha256_lf": "70202d49e3385e2e30ec8e666f5903b72259d5c28cff9e51b515256a144847a7"
+  },
+  {
+    "id": "f52db9d796ef",
+    "path": "tools/prepare_best_hpo_composer_qasm.py",
+    "absolute": "D:\\Projects\\QML\\tools\\prepare_best_hpo_composer_qasm.py",
+    "sha256": "bb992c498babae45a0e2cd2327631ca6d96ab148d63cb67b5a12a4448e3e145a",
+    "sha256_lf": "bb992c498babae45a0e2cd2327631ca6d96ab148d63cb67b5a12a4448e3e145a"
+  },
+  {
+    "id": "0373d2e04669",
+    "path": "tools/prepare_math_report_assets.py",
+    "absolute": "D:\\Projects\\QML\\tools\\prepare_math_report_assets.py",
+    "sha256": "28a10a61127fed67b0238a2ad1539d71ded9e25ab86accb63f4283cfb295e205",
+    "sha256_lf": "28a10a61127fed67b0238a2ad1539d71ded9e25ab86accb63f4283cfb295e205"
+  },
+  {
+    "id": "1520c5ff3f21",
+    "path": "tools/project_inventory.py",
+    "absolute": "D:\\Projects\\QML\\tools\\project_inventory.py",
+    "sha256": "5ee97272442420469d2e196ee7ac950f9971224738afda6829657f28ef1cb52a",
+    "sha256_lf": "5ee97272442420469d2e196ee7ac950f9971224738afda6829657f28ef1cb52a"
+  },
+  {
+    "id": "9781a4270181",
+    "path": "tools/qrc_ibm_hardware.py",
+    "absolute": "D:\\Projects\\QML\\tools\\qrc_ibm_hardware.py",
+    "sha256": "d3a309022e8a101351115428e56920d250c6c8ee7e561900b7c1a275c06dc0ba",
+    "sha256_lf": "d3a309022e8a101351115428e56920d250c6c8ee7e561900b7c1a275c06dc0ba"
+  },
+  {
+    "id": "17bdd75a9390",
+    "path": "tools/run_best_hpo_ibm_qpu.py",
+    "absolute": "D:\\Projects\\QML\\tools\\run_best_hpo_ibm_qpu.py",
+    "sha256": "dcbfaa0d7f23036faf8e92c62cef480ca7ca9428612a34a967b1350561e5f8f9",
+    "sha256_lf": "dcbfaa0d7f23036faf8e92c62cef480ca7ca9428612a34a967b1350561e5f8f9"
+  },
+  {
+    "id": "bac4de4e0c10",
+    "path": "tools/scar_ibm_fez_simulated_reproduction.py",
+    "absolute": "D:\\Projects\\QML\\tools\\scar_ibm_fez_simulated_reproduction.py",
+    "sha256": "51c2b56a2db8462082fdebaf0d16d5094cc514e4956750c610102788fa1862c9",
+    "sha256_lf": "51c2b56a2db8462082fdebaf0d16d5094cc514e4956750c610102788fa1862c9"
+  },
+  {
+    "id": "bfe9559d4e3a",
+    "path": "tools/scar_measurement_mitigation.py",
+    "absolute": "D:\\Projects\\QML\\tools\\scar_measurement_mitigation.py",
+    "sha256": "6996d68d6cc790d8280391ac80ea33ecf797455056457ff40652a7f3622a6d2f",
+    "sha256_lf": "6996d68d6cc790d8280391ac80ea33ecf797455056457ff40652a7f3622a6d2f"
+  },
+  {
+    "id": "f1f84fbc1028",
+    "path": "tools/scar_physical_qpu_wine_benchmark.py",
+    "absolute": "D:\\Projects\\QML\\tools\\scar_physical_qpu_wine_benchmark.py",
+    "sha256": "24baadd872b0bc91772012b079ce849ec625dac766ac3012edc9513ea84e46c7",
+    "sha256_lf": "24baadd872b0bc91772012b079ce849ec625dac766ac3012edc9513ea84e46c7"
+  },
+  {
+    "id": "0e460b925850",
+    "path": "tools/scar_qpu_error_matrix_mitigation.py",
+    "absolute": "D:\\Projects\\QML\\tools\\scar_qpu_error_matrix_mitigation.py",
+    "sha256": "17aab3a6db9bd0ae7cc14421b9467dadeec95745669ec576ca1bf9e31d296cb1",
+    "sha256_lf": "17aab3a6db9bd0ae7cc14421b9467dadeec95745669ec576ca1bf9e31d296cb1"
+  },
+  {
+    "id": "0be046e37d4e",
+    "path": "tools/scar_rigetti_ionq_architecture.py",
+    "absolute": "D:\\Projects\\QML\\tools\\scar_rigetti_ionq_architecture.py",
+    "sha256": "36d688f33a4dd0d3c99c2f759069800a4c2244c04e31b6f77501766c4f96bebb",
+    "sha256_lf": "36d688f33a4dd0d3c99c2f759069800a4c2244c04e31b6f77501766c4f96bebb"
+  },
+  {
+    "id": "7bf01c1c89ee",
+    "path": "tools/scar_wine_ibm_qpu.py",
+    "absolute": "D:\\Projects\\QML\\tools\\scar_wine_ibm_qpu.py",
+    "sha256": "dd360ace65cd8ebf16d2a45eb9aa7233afaec3e769f139d4de24cfdee6dee9b1",
+    "sha256_lf": "dd360ace65cd8ebf16d2a45eb9aa7233afaec3e769f139d4de24cfdee6dee9b1"
+  },
+  {
+    "id": "0b92b14ce18f",
+    "path": "tools/verify_mathematical_report.py",
+    "absolute": "D:\\Projects\\QML\\tools\\verify_mathematical_report.py",
+    "sha256": "79e5d923f41fb4dddef962ed43f0298fbf926f52d0da8f3298ef80a3ef94ec31",
+    "sha256_lf": "35c8dc87effad2fc79e85aafb567d90cf5bbc5c94d91486ab1d2df3dc02dd04c"
+  },
+  {
+    "id": "fa8a6e7fbdad",
+    "path": "quantum_reservoir/RESEARCH_PROTOCOL_H1_H5.md",
+    "absolute": "D:\\Projects\\QML\\quantum_reservoir\\RESEARCH_PROTOCOL_H1_H5.md",
+    "sha256": "81bd5c70a28db71fa8ce560878c4d20c744b34ff0d934c39d37b8cd5ab28d83d",
+    "sha256_lf": "81bd5c70a28db71fa8ce560878c4d20c744b34ff0d934c39d37b8cd5ab28d83d"
+  },
+  {
+    "id": "3678af99f973",
+    "path": "results/qrc/spectral_checks.json",
+    "absolute": "D:\\Projects\\QML\\results\\qrc\\spectral_checks.json",
+    "sha256": "d239bc6a1028d659a4a59c9ff155cbcda80395a20cd410a8f1e0f2f4f32d7bee",
+    "sha256_lf": "5a472ae8f78d1cb4d66411e2b155ad04e4bd036a44d59df58459b9d32c2c7e18"
+  },
+  {
+    "id": "7a3e8acbbd08",
+    "path": "analysis_output/h2_mathematical_description_proof.md",
+    "absolute": "D:\\Projects\\QML\\analysis_output\\h2_mathematical_description_proof.md",
+    "sha256": "af26697f9a6aca8f859164ca53ada5291a7c84a674d37e6278dab42b4163cf98",
+    "sha256_lf": "af26697f9a6aca8f859164ca53ada5291a7c84a674d37e6278dab42b4163cf98"
+  },
+  {
+    "id": "457a20eee1ca",
+    "path": "analysis_output/scar_wine_ibm_qpu_report.md",
+    "absolute": "D:\\Projects\\QML\\analysis_output\\scar_wine_ibm_qpu_report.md",
+    "sha256": "b685cf4ebcbdae54f43676ad3824c0364636dd75b2c71472c786abee89a09f47",
+    "sha256_lf": "b685cf4ebcbdae54f43676ad3824c0364636dd75b2c71472c786abee89a09f47"
+  },
+  {
+    "id": "577419feb464",
+    "path": "results/hamiltonian/publication_summary.csv",
+    "absolute": "D:\\Projects\\QML\\results\\hamiltonian\\publication_summary.csv",
+    "sha256": "d5fbc0c6c17e07964177109e6ba4195df3bf3277d1ef1c702614ccf6963d3025",
+    "sha256_lf": "285e61f1fd3fc3fd1faca94cf8f074980f13d31a7ea0bf633d2b45a31836b6ab"
+  },
+  {
+    "id": "35d728997df3",
+    "path": "results/legacy/iterative_qsvm_summary.csv",
+    "absolute": "D:\\Projects\\QML\\results\\legacy\\iterative_qsvm_summary.csv",
+    "sha256": "225193f3879126a16652e83e4c5a053152db77b81a3b0a2a547b954604f8df45",
+    "sha256_lf": "e4f374d7ea4ddd0c266361521344f3d8c343c543331ad642d5bccd5e2ac725c1"
+  },
+  {
+    "id": "967db5906c84",
+    "path": "analysis_output/qrc_spectral_h1_h2/qubit_summary.csv",
+    "absolute": "D:\\Projects\\QML\\analysis_output\\qrc_spectral_h1_h2\\qubit_summary.csv",
+    "sha256": "8ca84eb4eb8569c7082842b301ddbf710d559d0e4bdb946d769a5f7eb7c6e426",
+    "sha256_lf": "d3ae940ba7cd9a3d36875df4f2e515892bb19ac1ee54a5a543a43c6a1433a6cf"
+  },
+  {
+    "id": "6cbfc023a68e",
+    "path": "results/qrc/noise_paired_contrasts.csv",
+    "absolute": "D:\\Projects\\QML\\results\\qrc\\noise_paired_contrasts.csv",
+    "sha256": "85fb7cccfd3f05f3fb45897a340c2f7f4d91c0b0bacb51dde45840ec2e5eeda4",
+    "sha256_lf": "72320af812a8c5b9e82bc9521c2d9086097cfa37b9e4111126fbdf977bca23cc"
+  },
+  {
+    "id": "3b41cf002612",
+    "path": "analysis_output/qrc_h3_memory/h3_contrasts.csv",
+    "absolute": "D:\\Projects\\QML\\analysis_output\\qrc_h3_memory\\h3_contrasts.csv",
+    "sha256": "dba2ba35487e3916d389d01aa8a7f97334f79e8d56689b3fd3f3c65123168fbe",
+    "sha256_lf": "a079c669cce27c0c48d3ffb0314a11c4944776fa6189deac9da016bd1e0403f4"
+  },
+  {
+    "id": "b62efb4526ea",
+    "path": "analysis_output/qrc_h3_memory/profile_summaries.csv",
+    "absolute": "D:\\Projects\\QML\\analysis_output\\qrc_h3_memory\\profile_summaries.csv",
+    "sha256": "73321088ca2a3e42ede58704287c08fd635db84e08b05d4e70fff86507e21a67",
+    "sha256_lf": "d96973ad4a38fe2cb0bb32770c7a13d4f6556a5d5ecc62a9352e120f357213fc"
+  }
+]

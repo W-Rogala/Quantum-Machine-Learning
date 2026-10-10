@@ -1,0 +1,1672 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Graf algorytmow QML</title>
+  <script src="qml_algorithms_data.js"></script>
+  <style>
+    :root {
+      --bg: #f6f7f8;
+      --ink: #172026;
+      --muted: #65717a;
+      --line: #d7dde2;
+      --panel: #ffffff;
+      --panel-2: #eef2f4;
+      --teal: #0f766e;
+      --blue: #2563eb;
+      --rose: #be123c;
+      --green: #2f7d32;
+      --amber: #b7791f;
+      --slate: #475569;
+      --focus: #111827;
+      --shadow: 0 14px 34px rgba(15, 23, 42, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    button,
+    select,
+    input {
+      font: inherit;
+      letter-spacing: 0;
+    }
+
+    .app {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      height: 100vh;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: center;
+      padding: 16px 20px 14px;
+      background: var(--panel);
+      border-bottom: 1px solid var(--line);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.15;
+      font-weight: 760;
+    }
+
+    .subtitle {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      max-width: 1120px;
+    }
+
+    .headerStats {
+      display: flex;
+      gap: 8px;
+      justify-content: end;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      display: grid;
+      gap: 2px;
+      min-width: 82px;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      background: #fbfcfd;
+      border-radius: 8px;
+    }
+
+    .stat strong {
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(270px, 340px) minmax(520px, 1fr) minmax(320px, 420px);
+      min-height: 0;
+    }
+
+    aside,
+    section {
+      min-height: 0;
+    }
+
+    .left {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      border-right: 1px solid var(--line);
+      background: var(--panel);
+    }
+
+    .controls {
+      display: grid;
+      gap: 12px;
+      padding: 16px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfd;
+      max-height: calc(100vh - 95px);
+      overflow: auto;
+    }
+
+    label {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 650;
+      text-transform: uppercase;
+    }
+
+    select,
+    input[type="search"] {
+      width: 100%;
+      color: var(--ink);
+      background: #ffffff;
+      border: 1px solid #c8d0d7;
+      border-radius: 8px;
+      padding: 9px 10px;
+      min-height: 40px;
+      outline: none;
+    }
+
+    select:focus,
+    input:focus,
+    button:focus {
+      border-color: var(--focus);
+      box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.12);
+    }
+
+    .buttonRow {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    button {
+      border: 1px solid #c8d0d7;
+      background: #ffffff;
+      color: var(--ink);
+      min-height: 38px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    button:hover {
+      background: var(--panel-2);
+    }
+
+    .visualControls {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+      overflow: hidden;
+    }
+
+    .metricGuide {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+      overflow: hidden;
+    }
+
+    .visualControls summary {
+      cursor: pointer;
+      padding: 10px 11px;
+      color: #26323b;
+      font-size: 12px;
+      font-weight: 760;
+      text-transform: uppercase;
+      list-style-position: inside;
+      background: #f2f5f7;
+    }
+
+    .metricGuide summary {
+      cursor: pointer;
+      padding: 10px 11px;
+      color: #26323b;
+      font-size: 12px;
+      font-weight: 760;
+      text-transform: uppercase;
+      list-style-position: inside;
+      background: #f2f5f7;
+    }
+
+    .metricInfo {
+      display: grid;
+      gap: 9px;
+      padding: 11px;
+      color: #334155;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .metricInfo p {
+      margin: 0;
+    }
+
+    .metricFormula {
+      display: block;
+      overflow: auto;
+      border: 1px solid #d9e2ec;
+      border-radius: 8px;
+      background: #f8fafc;
+      padding: 8px;
+      color: #18212f;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 11px;
+      white-space: pre;
+    }
+
+    .metricInfo ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .metricInfo li {
+      margin: 5px 0;
+    }
+
+    .visualGrid {
+      display: grid;
+      gap: 10px;
+      padding: 11px;
+    }
+
+    .sliderField {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 650;
+      text-transform: uppercase;
+    }
+
+    .sliderField span {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .sliderField output {
+      color: var(--ink);
+      font-variant-numeric: tabular-nums;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--teal);
+    }
+
+    .checkField {
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      align-items: center;
+      gap: 8px;
+      color: #26323b;
+      font-size: 12px;
+      font-weight: 650;
+      text-transform: none;
+    }
+
+    .checkField input {
+      width: 16px;
+      height: 16px;
+      accent-color: var(--teal);
+    }
+
+    .legend {
+      display: grid;
+      gap: 8px;
+      padding-top: 2px;
+    }
+
+    .legendItem {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.2);
+      flex: 0 0 auto;
+    }
+
+    .list {
+      overflow: auto;
+      padding: 10px;
+    }
+
+    .nodeItem {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 12px 1fr;
+      gap: 10px;
+      align-items: start;
+      text-align: left;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      background: transparent;
+      padding: 9px 8px;
+      min-height: 54px;
+    }
+
+    .nodeItem:hover,
+    .nodeItem.active {
+      background: #eef2f4;
+      border-color: #d4dbe1;
+      box-shadow: none;
+    }
+
+    .nodeItem strong {
+      display: block;
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    .nodeItem span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+      font-weight: 500;
+      text-transform: none;
+    }
+
+    .graphWrap {
+      position: relative;
+      min-height: 0;
+      background: #eef1f3;
+    }
+
+    .graphToolbar {
+      position: absolute;
+      inset: 14px 14px auto 14px;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      pointer-events: none;
+    }
+
+    .pill {
+      max-width: min(680px, 76vw);
+      padding: 8px 10px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(203, 213, 225, 0.9);
+      border-radius: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+      pointer-events: auto;
+    }
+
+    .pill strong {
+      color: var(--ink);
+    }
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 100%;
+      touch-action: none;
+      background:
+        linear-gradient(#d8dde2 1px, transparent 1px),
+        linear-gradient(90deg, #d8dde2 1px, transparent 1px);
+      background-size: 34px 34px;
+    }
+
+    .edge {
+      stroke: #8fa0ad;
+      stroke-opacity: 0.42;
+      stroke-linecap: round;
+    }
+
+    .edge.active {
+      stroke: #111827;
+      stroke-opacity: 0.8;
+    }
+
+    .edgeLabel {
+      fill: #42515c;
+      font-size: 10px;
+      paint-order: stroke;
+      stroke: rgba(255, 255, 255, 0.86);
+      stroke-width: 4px;
+      stroke-linejoin: round;
+      pointer-events: none;
+    }
+
+    .node circle {
+      stroke: #ffffff;
+      stroke-width: 3px;
+      filter: drop-shadow(0 7px 13px rgba(15, 23, 42, 0.18));
+      cursor: grab;
+    }
+
+    .node:active circle {
+      cursor: grabbing;
+    }
+
+    .node.dim {
+      opacity: 0.22;
+    }
+
+    .node text {
+      fill: #13202a;
+      font-size: 11px;
+      font-weight: 760;
+      text-anchor: middle;
+      paint-order: stroke;
+      stroke: rgba(255, 255, 255, 0.92);
+      stroke-width: 5px;
+      stroke-linejoin: round;
+      pointer-events: none;
+    }
+
+    .node.selected circle {
+      stroke: #111827;
+      stroke-width: 4px;
+    }
+
+    .node.pinned circle {
+      stroke: #111827;
+      stroke-dasharray: 4 3;
+    }
+
+    .right {
+      display: grid;
+      grid-template-rows: 1fr auto;
+      border-left: 1px solid var(--line);
+      background: var(--panel);
+      min-height: 0;
+    }
+
+    .details {
+      overflow: auto;
+      padding: 18px;
+    }
+
+    .details h2 {
+      margin: 0 0 8px;
+      font-size: 22px;
+      line-height: 1.15;
+    }
+
+    .details .short {
+      color: var(--muted);
+      line-height: 1.45;
+      margin: 0 0 14px;
+      font-size: 14px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0 16px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      background: #f7f9fa;
+      color: #26323b;
+      border-radius: 999px;
+      padding: 5px 8px;
+      font-size: 12px;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .sectionBlock {
+      padding: 12px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .sectionBlock h3 {
+      margin: 0 0 8px;
+      color: #1f2933;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    .sectionBlock ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .sectionBlock p {
+      margin: 0 0 9px;
+      color: #334155;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .sectionBlock li {
+      margin: 6px 0;
+      color: #25313a;
+      font-size: 13px;
+      line-height: 1.42;
+    }
+
+    .codeBlock pre {
+      margin: 0;
+      max-height: 420px;
+      overflow: auto;
+      border: 1px solid #d9e2ec;
+      border-radius: 8px;
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 12px;
+      font-size: 12px;
+      line-height: 1.45;
+      tab-size: 2;
+      white-space: pre;
+    }
+
+    .codeBlock code {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    .moduleLink {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      color: #114f8c;
+      background: #f7fbff;
+      font-size: 13px;
+      font-weight: 720;
+      text-decoration: none;
+    }
+
+    .moduleLink:hover {
+      border-color: #9cc2e5;
+      background: #eef7ff;
+    }
+
+    .critical {
+      border: 1px solid #d9c17a;
+      background: #fff8e1;
+      color: #4f3c05;
+      border-radius: 8px;
+      padding: 11px 12px;
+      line-height: 1.45;
+      font-size: 13px;
+    }
+
+    .sources {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .tablePanel {
+      max-height: 34vh;
+      overflow: auto;
+      border-top: 1px solid var(--line);
+      background: #fbfcfd;
+    }
+
+    .tablePanel.hidden {
+      display: none;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    th,
+    td {
+      vertical-align: top;
+      padding: 9px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      background: #eef2f4;
+      color: #33414b;
+      font-size: 11px;
+      text-transform: uppercase;
+      z-index: 1;
+    }
+
+    tr:hover {
+      background: #f2f5f7;
+    }
+
+    .empty {
+      padding: 18px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    @media (max-width: 1120px) {
+      body {
+        overflow: auto;
+      }
+
+      .app {
+        height: auto;
+        min-height: 100vh;
+      }
+
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .left,
+      .right {
+        border: 0;
+      }
+
+      .list {
+        max-height: 240px;
+      }
+
+      .graphWrap {
+        height: 72vh;
+        min-height: 560px;
+      }
+    }
+
+    @media (max-width: 720px) {
+      header {
+        grid-template-columns: 1fr;
+      }
+
+      .headerStats {
+        justify-content: start;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      .graphWrap {
+        min-height: 520px;
+      }
+
+      .graphToolbar {
+        position: static;
+        padding: 10px;
+        background: #eef1f3;
+      }
+
+      .pill {
+        max-width: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div>
+        <h1>Interaktywny graf algorytmow kwantowego uczenia maszynowego</h1>
+        <div class="subtitle" id="subtitle"></div>
+      </div>
+      <div class="headerStats">
+        <div class="stat"><strong id="nodeCount">0</strong><span>wezly</span></div>
+        <div class="stat"><strong id="edgeCount">0</strong><span>relacje</span></div>
+        <div class="stat"><strong id="docCount">0</strong><span>zrodla</span></div>
+      </div>
+    </header>
+
+    <main>
+      <aside class="left">
+        <div class="controls">
+          <label>
+            Cecha relacji
+            <select id="facetSelect"></select>
+          </label>
+          <details class="metricGuide" open>
+            <summary>Metryka relacji</summary>
+            <div class="metricInfo" id="metricInfo"></div>
+          </details>
+          <label>
+            Szukaj algorytmu lub zastosowania
+            <input id="searchBox" type="search" placeholder="np. QSVM, finance, barren plateaus" />
+          </label>
+          <div class="buttonRow">
+            <button id="resetBtn" type="button" title="Przywroc widok i zaznaczenie">Reset</button>
+            <button id="tableBtn" type="button" title="Pokaz lub ukryj tabele porownawcza">Tabela</button>
+          </div>
+          <details class="visualControls" open>
+            <summary>Parametry wizualizacji</summary>
+            <div class="visualGrid">
+              <label>
+                Preset ukladu
+                <select id="presetSelect">
+                  <option value="balanced">Zrownowazony</option>
+                  <option value="spread">Rozsuniety</option>
+                  <option value="dense">Gesty</option>
+                  <option value="labels">Czytelne etykiety</option>
+                </select>
+              </label>
+              <label class="sliderField">
+                <span>Odpychanie <output id="repelValue"></output></span>
+                <input id="repelRange" type="range" min="1800" max="10000" step="200" />
+              </label>
+              <label class="sliderField">
+                <span>Dlugosc krawedzi <output id="linkDistanceValue"></output></span>
+                <input id="linkDistanceRange" type="range" min="90" max="260" step="5" />
+              </label>
+              <label class="sliderField">
+                <span>Sila krawedzi <output id="linkStrengthValue"></output></span>
+                <input id="linkStrengthRange" type="range" min="5" max="35" step="1" />
+              </label>
+              <label class="sliderField">
+                <span>Przyciaganie centrum <output id="centerValue"></output></span>
+                <input id="centerRange" type="range" min="0" max="35" step="1" />
+              </label>
+              <label class="sliderField">
+                <span>Rozmiar wezlow <output id="nodeSizeValue"></output></span>
+                <input id="nodeSizeRange" type="range" min="16" max="34" step="1" />
+              </label>
+              <label class="sliderField">
+                <span>Rozmiar etykiet <output id="labelSizeValue"></output></span>
+                <input id="labelSizeRange" type="range" min="9" max="15" step="1" />
+              </label>
+              <label class="sliderField">
+                <span>Limit relacji <output id="edgeLimitValue"></output></span>
+                <input id="edgeLimitRange" type="range" min="20" max="100" step="2" />
+              </label>
+              <label class="checkField">
+                <input id="edgeLabelsCheck" type="checkbox" />
+                <span>Etykiety krawedzi</span>
+              </label>
+              <label class="checkField">
+                <input id="dimCheck" type="checkbox" />
+                <span>Przyciemniaj niepowiazane</span>
+              </label>
+              <label class="checkField">
+                <input id="pinCheck" type="checkbox" />
+                <span>Blokuj wezly po przeciagnieciu</span>
+              </label>
+              <div class="buttonRow">
+                <button id="relayoutBtn" type="button" title="Losowo przelicz pozycje wezlow">Przelicz</button>
+                <button id="releaseBtn" type="button" title="Odblokuj recznie przypiete wezly">Odblokuj</button>
+              </div>
+            </div>
+          </details>
+          <div class="legend" id="legend"></div>
+        </div>
+        <div class="list" id="nodeList"></div>
+      </aside>
+
+      <section class="graphWrap">
+        <div class="graphToolbar">
+          <div class="pill" id="facetInfo"></div>
+        </div>
+        <svg id="graph" role="img" aria-label="Graf relacji algorytmow QML"></svg>
+      </section>
+
+      <aside class="right">
+        <div class="details" id="details"></div>
+        <div class="tablePanel" id="tablePanel"></div>
+      </aside>
+    </main>
+  </div>
+
+  <script>
+    const data = window.QML_DATA;
+    const nodes = data.nodes.map((node, index) => ({ ...node, index }));
+    let selectedId = "quantum_kernels";
+    let currentFacet = "curated";
+    let searchTerm = "";
+    let tableVisible = true;
+    let width = 1000;
+    let height = 720;
+    let edges = [];
+    let raf = null;
+    let dragging = null;
+    let viz = {
+      repel: 5400,
+      linkDistance: 165,
+      linkStrength: 14,
+      center: 12,
+      nodeSize: 22,
+      labelSize: 11,
+      edgeLimit: 58,
+      edgeLabels: true,
+      dimUnrelated: true,
+      pinOnDrag: false
+    };
+
+    const svg = document.getElementById("graph");
+    const facetSelect = document.getElementById("facetSelect");
+    const searchBox = document.getElementById("searchBox");
+    const details = document.getElementById("details");
+    const nodeList = document.getElementById("nodeList");
+    const tablePanel = document.getElementById("tablePanel");
+    const edgeCount = document.getElementById("edgeCount");
+    const nodeCount = document.getElementById("nodeCount");
+    const docCount = document.getElementById("docCount");
+    const subtitle = document.getElementById("subtitle");
+    const facetInfo = document.getElementById("facetInfo");
+    const metricInfo = document.getElementById("metricInfo");
+    const resetBtn = document.getElementById("resetBtn");
+    const tableBtn = document.getElementById("tableBtn");
+    const legend = document.getElementById("legend");
+    const presetSelect = document.getElementById("presetSelect");
+    const repelRange = document.getElementById("repelRange");
+    const linkDistanceRange = document.getElementById("linkDistanceRange");
+    const linkStrengthRange = document.getElementById("linkStrengthRange");
+    const centerRange = document.getElementById("centerRange");
+    const nodeSizeRange = document.getElementById("nodeSizeRange");
+    const labelSizeRange = document.getElementById("labelSizeRange");
+    const edgeLimitRange = document.getElementById("edgeLimitRange");
+    const edgeLabelsCheck = document.getElementById("edgeLabelsCheck");
+    const dimCheck = document.getElementById("dimCheck");
+    const pinCheck = document.getElementById("pinCheck");
+    const relayoutBtn = document.getElementById("relayoutBtn");
+    const releaseBtn = document.getElementById("releaseBtn");
+
+    const vizOutputs = {
+      repel: document.getElementById("repelValue"),
+      linkDistance: document.getElementById("linkDistanceValue"),
+      linkStrength: document.getElementById("linkStrengthValue"),
+      center: document.getElementById("centerValue"),
+      nodeSize: document.getElementById("nodeSizeValue"),
+      labelSize: document.getElementById("labelSizeValue"),
+      edgeLimit: document.getElementById("edgeLimitValue")
+    };
+
+    const familyColors = [
+      { match: "Metody jadrowe", color: "#0f766e", label: "metody jadrowe" },
+      { match: "QNN", color: "#2563eb", label: "QNN i obwody" },
+      { match: "Generatywne", color: "#be123c", label: "generatywne" },
+      { match: "Linear algebra", color: "#b7791f", label: "linear algebra" },
+      { match: "Optymalizacja", color: "#2f7d32", label: "optymalizacja" },
+      { match: "RL", color: "#475569", label: "emerging/RL" }
+    ];
+
+    const vizPresets = {
+      balanced: {
+        repel: 5400,
+        linkDistance: 165,
+        linkStrength: 14,
+        center: 12,
+        nodeSize: 22,
+        labelSize: 11,
+        edgeLimit: 58,
+        edgeLabels: true,
+        dimUnrelated: true,
+        pinOnDrag: false
+      },
+      spread: {
+        repel: 8200,
+        linkDistance: 215,
+        linkStrength: 10,
+        center: 7,
+        nodeSize: 22,
+        labelSize: 11,
+        edgeLimit: 48,
+        edgeLabels: false,
+        dimUnrelated: true,
+        pinOnDrag: false
+      },
+      dense: {
+        repel: 3200,
+        linkDistance: 118,
+        linkStrength: 22,
+        center: 18,
+        nodeSize: 19,
+        labelSize: 10,
+        edgeLimit: 82,
+        edgeLabels: false,
+        dimUnrelated: true,
+        pinOnDrag: false
+      },
+      labels: {
+        repel: 7600,
+        linkDistance: 205,
+        linkStrength: 12,
+        center: 9,
+        nodeSize: 26,
+        labelSize: 13,
+        edgeLimit: 42,
+        edgeLabels: true,
+        dimUnrelated: false,
+        pinOnDrag: true
+      }
+    };
+
+    const facetMetricDescriptions = {
+      curated: {
+        basis: "Relacje eksperckie nie sa liczone z overlapu atrybutow. To recznie dobrane krawedzie wynikajace z analizy materialow zrodlowych i roli algorytmow w ekosystemie QML.",
+        signal: "Waga 1-5 oznacza sile zwiazku merytorycznego: 1 posredni kontekst, 2 relacja pomocnicza, 3 wspolna rama lub podprogram, 4 silne wspolne mechanizmy, 5 zaleznosc definicyjna albo bezposrednie uzycie."
+      },
+      family: {
+        basis: "Laczy modele nalezace do tej samej rodziny algorytmicznej, np. QNN, VQA, metody jadrowe, generatywne, linear algebra lub optymalizacja.",
+        signal: "Dobra do mapowania genealogii metod: ktore algorytmy sa wariantami tej samej klasy, a ktore tylko korzystaja z podobnego aparatu."
+      },
+      learning: {
+        basis: "Laczy modele wedlug typu uczenia: nadzorowane, nienadzorowane, generatywne, regresja, reinforcement, optymalizacja lub subroutine.",
+        signal: "Dobra do sprawdzenia, ktore algorytmy rozwiazuja podobny problem ML, nawet jesli ich fizyczna implementacja jest inna."
+      },
+      era: {
+        basis: "Laczy modele wedlug realnego rezimu sprzetowego: NISQ, FTQC, annealing albo podejscie teoretyczne.",
+        signal: "Dobra do odroznienia metod uruchamialnych jako prototypy od metod wymagajacych komputerow odpornych na bledy."
+      },
+      computing: {
+        basis: "Laczy modele przez model obliczen: bramkowy, hybrydowy, annealer, block encoding, QPE, QSVT lub sampling.",
+        signal: "Dobra do wskazania wspolnej infrastruktury wykonawczej i podobnych kosztow implementacji."
+      },
+      encoding: {
+        basis: "Laczy modele uzywajace podobnego kodowania danych lub problemu: feature map, angle encoding, amplitude encoding, Hamiltonian, QUBO/Ising, block encoding.",
+        signal: "Dobra do analizy kosztu read-in oraz zgodnosci danych z danym algorytmem."
+      },
+      training: {
+        basis: "Laczy modele przez mechanizm uczenia/optymalizacji: klasyczny optimizer, parameter shift, kernel estimation, minimax, sampling, QPE lub amplitude amplification.",
+        signal: "Dobra do wyszukiwania wspolnych problemow treningowych, takich jak barren plateaus, liczba shotow lub koszt oracle."
+      },
+      advantage: {
+        basis: "Laczy modele wedlug deklarowanego zrodla potencjalnej przewagi: ekspresyjne przestrzenie cech, probkowanie, block encoding, speedup algebraiczny, tunelowanie lub akceleracja search.",
+        signal: "Dobra do krytycznej analizy: podobne obietnice przewagi zwykle maja podobne zalozenia i slabe punkty."
+      },
+      limitations: {
+        basis: "Laczy modele przez wspolne ograniczenia: szum, koszt pomiarow, state preparation, read-out, barren plateaus, topologia sprzetu, koszt oracle.",
+        signal: "Dobra do projektowania benchmarkow i identyfikacji waskich gardel."
+      },
+      applications: {
+        basis: "Laczy modele przez zastosowania: klasyfikacja, regresja, obrazy, finanse, chemia, logistyka, portfolio, generowanie danych, routing.",
+        signal: "Dobra do wyszukiwania alternatywnych algorytmow dla tego samego obszaru problemowego."
+      }
+    };
+
+    function colorFor(node) {
+      const family = node.family || [];
+      const found = familyColors.find(item => family.includes(item.match));
+      return found ? found.color : "#475569";
+    }
+
+    function arr(value) {
+      return Array.isArray(value) ? value : value ? [value] : [];
+    }
+
+    function commonValues(a, b, key) {
+      const left = new Set(arr(a[key]).map(x => x.toLowerCase()));
+      return arr(b[key]).filter(x => left.has(String(x).toLowerCase()));
+    }
+
+    function makeEdges(facetKey) {
+      if (facetKey === "curated") {
+        return data.curatedEdges.map(edge => ({
+          ...edge,
+          sourceNode: nodes.find(n => n.id === edge.source),
+          targetNode: nodes.find(n => n.id === edge.target)
+        }));
+      }
+
+      const counts = {};
+      nodes.forEach(node => {
+        arr(node[facetKey]).forEach(value => {
+          const key = value.toLowerCase();
+          counts[key] = (counts[key] || 0) + 1;
+        });
+      });
+
+      const computed = [];
+      for (let i = 0; i < nodes.length; i += 1) {
+        for (let j = i + 1; j < nodes.length; j += 1) {
+          const common = commonValues(nodes[i], nodes[j], facetKey);
+          if (!common.length) continue;
+          const score = common.reduce((sum, value) => sum + 1 / Math.max(1, counts[value.toLowerCase()] || 1), 0);
+          computed.push({
+            source: nodes[i].id,
+            target: nodes[j].id,
+            sourceNode: nodes[i],
+            targetNode: nodes[j],
+            label: common.slice(0, 3).join(", "),
+            weight: Math.max(1, Math.min(5, 1 + score * 5)),
+            score
+          });
+        }
+      }
+
+      return computed
+        .sort((a, b) => b.score - a.score)
+        .slice(0, Math.max(20, Math.min(100, viz.edgeLimit)));
+    }
+
+    function matchesSearch(node) {
+      if (!searchTerm) return true;
+      const haystack = [
+        node.label,
+        node.short,
+        node.critical,
+        node.maturity,
+        ...arr(node.family),
+        ...arr(node.learning),
+        ...arr(node.era),
+        ...arr(node.computing),
+        ...arr(node.encoding),
+        ...arr(node.training),
+        ...arr(node.advantage),
+        ...arr(node.limitations),
+        ...arr(node.applications)
+      ].join(" ").toLowerCase();
+      return haystack.includes(searchTerm.toLowerCase());
+    }
+
+    function selectedNode() {
+      return nodes.find(node => node.id === selectedId) || nodes[0];
+    }
+
+    function initPositions(randomize = false) {
+      const cx = width / 2;
+      const cy = height / 2;
+      nodes.forEach((node, index) => {
+        const ring = index % 2 === 0 ? 0.38 : 0.25;
+        const jitter = randomize ? (Math.random() - 0.5) * 0.75 : 0;
+        const angle = (Math.PI * 2 * index) / nodes.length + (index % 2) * 0.16 + jitter;
+        const radius = Math.min(width, height) * ring;
+        const spread = randomize ? 38 : 18;
+        node.x = cx + Math.cos(angle) * radius + ((index % 3) - 1) * spread;
+        node.y = cy + Math.sin(angle) * radius + ((index % 4) - 1.5) * (spread * 0.75);
+        node.vx = 0;
+        node.vy = 0;
+        node.fx = null;
+        node.fy = null;
+      });
+    }
+
+    function runForces(iterations = 1) {
+      const centerStrength = viz.center / 1000;
+      const repel = viz.repel;
+      const linkStrength = viz.linkStrength / 1000;
+      const desiredBase = viz.linkDistance + (currentFacet === "curated" ? 18 : 0);
+
+      for (let step = 0; step < iterations; step += 1) {
+        nodes.forEach(node => {
+          node.vx += (width / 2 - node.x) * centerStrength;
+          node.vy += (height / 2 - node.y) * centerStrength;
+        });
+
+        for (let i = 0; i < nodes.length; i += 1) {
+          for (let j = i + 1; j < nodes.length; j += 1) {
+            const a = nodes[i];
+            const b = nodes[j];
+            let dx = a.x - b.x;
+            let dy = a.y - b.y;
+            let dist2 = dx * dx + dy * dy + 0.01;
+            let force = repel / dist2;
+            let dist = Math.sqrt(dist2);
+            dx /= dist;
+            dy /= dist;
+            a.vx += dx * force;
+            a.vy += dy * force;
+            b.vx -= dx * force;
+            b.vy -= dy * force;
+          }
+        }
+
+        edges.forEach(edge => {
+          const a = edge.sourceNode;
+          const b = edge.targetNode;
+          let dx = b.x - a.x;
+          let dy = b.y - a.y;
+          let dist = Math.sqrt(dx * dx + dy * dy) || 1;
+          const desired = desiredBase - Math.min(44, edge.weight * 8);
+          const force = (dist - desired) * linkStrength * edge.weight;
+          dx /= dist;
+          dy /= dist;
+          if (a.fx == null) {
+            a.vx += dx * force;
+            a.vy += dy * force;
+          }
+          if (b.fx == null) {
+            b.vx -= dx * force;
+            b.vy -= dy * force;
+          }
+        });
+
+        nodes.forEach(node => {
+          if (node.fx != null) {
+            node.x = node.fx;
+            node.y = node.fy;
+            node.vx = 0;
+            node.vy = 0;
+            return;
+          }
+          node.vx *= 0.84;
+          node.vy *= 0.84;
+          node.x = Math.max(54, Math.min(width - 54, node.x + node.vx));
+          node.y = Math.max(54, Math.min(height - 54, node.y + node.vy));
+        });
+      }
+    }
+
+    function svgEl(name, attrs = {}) {
+      const el = document.createElementNS("http://www.w3.org/2000/svg", name);
+      Object.entries(attrs).forEach(([key, value]) => el.setAttribute(key, value));
+      return el;
+    }
+
+    function splitLabel(label) {
+      const parts = label.split(" ");
+      const lines = [];
+      let current = "";
+      parts.forEach(part => {
+        const next = current ? current + " " + part : part;
+        if (next.length > 16 && current) {
+          lines.push(current);
+          current = part;
+        } else {
+          current = next;
+        }
+      });
+      if (current) lines.push(current);
+      return lines.slice(0, 3);
+    }
+
+    function relatedIds(id) {
+      const ids = new Set([id]);
+      edges.forEach(edge => {
+        if (edge.source === id) ids.add(edge.target);
+        if (edge.target === id) ids.add(edge.source);
+      });
+      return ids;
+    }
+
+    function renderGraph() {
+      svg.innerHTML = "";
+      svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+
+      const selected = selectedNode();
+      const visible = new Set(nodes.filter(matchesSearch).map(n => n.id));
+      const related = relatedIds(selected.id);
+
+      const edgeLayer = svgEl("g");
+      const labelLayer = svgEl("g");
+      const nodeLayer = svgEl("g");
+      svg.append(edgeLayer, labelLayer, nodeLayer);
+
+      edges.forEach(edge => {
+        if (!visible.has(edge.source) || !visible.has(edge.target)) return;
+        const active = edge.source === selected.id || edge.target === selected.id;
+        const line = svgEl("line", {
+          x1: edge.sourceNode.x,
+          y1: edge.sourceNode.y,
+          x2: edge.targetNode.x,
+          y2: edge.targetNode.y,
+          class: "edge" + (active ? " active" : ""),
+          "stroke-width": 1.0 + edge.weight * 0.42,
+          style: `stroke-opacity:${active ? 0.82 : 0.36}`
+        });
+        edgeLayer.append(line);
+
+        if (viz.edgeLabels && (active || currentFacet === "curated")) {
+          const tx = (edge.sourceNode.x + edge.targetNode.x) / 2;
+          const ty = (edge.sourceNode.y + edge.targetNode.y) / 2;
+          const text = svgEl("text", {
+            x: tx,
+            y: ty - 4,
+            class: "edgeLabel",
+            "text-anchor": "middle",
+            style: `font-size:${Math.max(9, viz.labelSize - 1)}px`
+          });
+          text.textContent = edge.label;
+          labelLayer.append(text);
+        }
+      });
+
+      nodes.forEach(node => {
+        if (!visible.has(node.id)) return;
+        const group = svgEl("g", {
+          class: [
+            "node",
+            node.id === selected.id ? "selected" : "",
+            node.fx != null ? "pinned" : "",
+            viz.dimUnrelated && !related.has(node.id) && selected.id !== node.id ? "dim" : ""
+          ].filter(Boolean).join(" "),
+          transform: `translate(${node.x},${node.y})`,
+          "data-id": node.id
+        });
+        const radius = node.id === selected.id ? viz.nodeSize + 4 : viz.nodeSize;
+        group.append(svgEl("circle", {
+          r: radius,
+          fill: colorFor(node)
+        }));
+        if (viz.labelSize > 0) {
+          const text = svgEl("text", { y: radius + 15, style: `font-size:${viz.labelSize}px` });
+          splitLabel(node.label).forEach((line, index) => {
+            const tspan = svgEl("tspan", {
+              x: 0,
+              dy: index === 0 ? 0 : Math.max(11, viz.labelSize + 2)
+            });
+            tspan.textContent = line;
+            text.append(tspan);
+          });
+          group.append(text);
+        }
+        group.addEventListener("pointerdown", event => startDrag(event, node));
+        group.addEventListener("click", () => selectNode(node.id));
+        nodeLayer.append(group);
+      });
+    }
+
+    function tick() {
+      runForces(1);
+      renderGraph();
+      raf = requestAnimationFrame(tick);
+    }
+
+    function stopTickSoon() {
+      clearTimeout(stopTickSoon.timer);
+      stopTickSoon.timer = setTimeout(() => {
+        if (!dragging && raf) {
+          cancelAnimationFrame(raf);
+          raf = null;
+        }
+      }, 1800);
+    }
+
+    function restartSimulation() {
+      if (!raf) raf = requestAnimationFrame(tick);
+      stopTickSoon();
+    }
+
+    function selectNode(id) {
+      selectedId = id;
+      renderDetails();
+      renderList();
+      renderTable();
+      renderGraph();
+    }
+
+    function startDrag(event, node) {
+      event.preventDefault();
+      dragging = node;
+      node.fx = node.x;
+      node.fy = node.y;
+      svg.setPointerCapture(event.pointerId);
+      restartSimulation();
+    }
+
+    svg.addEventListener("pointermove", event => {
+      if (!dragging) return;
+      const point = svgPoint(event);
+      dragging.fx = Math.max(54, Math.min(width - 54, point.x));
+      dragging.fy = Math.max(54, Math.min(height - 54, point.y));
+    });
+
+    svg.addEventListener("pointerup", event => {
+      if (!dragging) return;
+      dragging.x = dragging.fx;
+      dragging.y = dragging.fy;
+      if (!viz.pinOnDrag) {
+        dragging.fx = null;
+        dragging.fy = null;
+      }
+      dragging = null;
+      try { svg.releasePointerCapture(event.pointerId); } catch (_) {}
+      stopTickSoon();
+    });
+
+    function svgPoint(event) {
+      const rect = svg.getBoundingClientRect();
+      return {
+        x: ((event.clientX - rect.left) / rect.width) * width,
+        y: ((event.clientY - rect.top) / rect.height) * height
+      };
+    }
+
+    function renderDetails() {
+      const node = selectedNode();
+      const meta = [
+        ...arr(node.family),
+        ...arr(node.learning),
+        ...arr(node.era),
+        node.maturity
+      ].filter(Boolean);
+
+      details.innerHTML = `
+        <h2>${escapeHtml(node.label)}</h2>
+        <p class="short">${escapeHtml(node.short)}</p>
+        <div class="chips">${meta.map(value => `<span class="chip">${escapeHtml(value)}</span>`).join("")}</div>
+        <div class="critical"><strong>Ocena krytyczna:</strong> ${escapeHtml(node.critical)}</div>
+        ${moduleSection(node)}
+        ${paragraphSection("Rozszerzony opis teoretyczny", node.theoryExtended)}
+        ${codeSection("Implementacja w Pythonie", node.pythonImplementation)}
+        ${section("Specyfikacja", node.specs)}
+        ${section("Zalety", node.strengths)}
+        ${section("Ograniczenia", node.weaknesses)}
+        ${section("Zastosowania", node.applications)}
+        ${section("Kodowanie i trening", [...arr(node.encoding), ...arr(node.training)])}
+        <div class="sectionBlock">
+          <h3>Zrodla w analizowanych dokumentach</h3>
+          <div class="sources">${node.sources.map(escapeHtml).join("<br>")}</div>
+        </div>
+      `;
+    }
+
+    function moduleSection(node) {
+      if (!node.derivationModule) return "";
+      return `
+        <div class="sectionBlock">
+          <h3>Modul wyprowadzenia</h3>
+          <a class="moduleLink" href="${escapeHtml(node.derivationModule)}" target="_blank" rel="noopener">Otworz modul matematyczno-fizyczny</a>
+        </div>
+      `;
+    }
+
+    function paragraphSection(title, items) {
+      const values = arr(items);
+      if (!values.length) return "";
+      return `
+        <div class="sectionBlock">
+          <h3>${escapeHtml(title)}</h3>
+          ${values.map(item => `<p>${escapeHtml(item)}</p>`).join("")}
+        </div>
+      `;
+    }
+
+    function codeSection(title, code) {
+      if (!code) return "";
+      return `
+        <div class="sectionBlock codeBlock">
+          <h3>${escapeHtml(title)}</h3>
+          <pre><code>${escapeHtml(code.trim())}</code></pre>
+        </div>
+      `;
+    }
+
+    function section(title, items) {
+      return `
+        <div class="sectionBlock">
+          <h3>${escapeHtml(title)}</h3>
+          <ul>${arr(items).map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+        </div>
+      `;
+    }
+
+    function renderList() {
+      const filtered = nodes.filter(matchesSearch);
+      if (!filtered.length) {
+        nodeList.innerHTML = `<div class="empty">Brak wynikow dla aktualnego wyszukiwania.</div>`;
+        return;
+      }
+      nodeList.innerHTML = filtered.map(node => `
+        <button class="nodeItem ${node.id === selectedId ? "active" : ""}" type="button" data-id="${node.id}">
+          <span class="dot" style="background:${colorFor(node)}"></span>
+          <span><strong>${escapeHtml(node.label)}</strong><span>${escapeHtml(node.short)}</span></span>
+        </button>
+      `).join("");
+      nodeList.querySelectorAll(".nodeItem").forEach(button => {
+        button.addEventListener("click", () => selectNode(button.dataset.id));
+      });
+    }
+
+    function renderTable() {
+      tablePanel.classList.toggle("hidden", !tableVisible);
+      if (!tableVisible) return;
+      const filtered = nodes.filter(matchesSearch);
+      tablePanel.innerHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th>Algorytm</th>
+              <th>Typ</th>
+              <th>Najwieksza zaleta</th>
+              <th>Glowny hamulec</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${filtered.map(node => `
+              <tr data-id="${node.id}">
+                <td><strong>${escapeHtml(node.label)}</strong></td>
+                <td>${escapeHtml(arr(node.learning).slice(0, 3).join(", "))}</td>
+                <td>${escapeHtml(arr(node.strengths)[0] || "")}</td>
+                <td>${escapeHtml(arr(node.weaknesses)[0] || "")}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      `;
+      tablePanel.querySelectorAll("tr[data-id]").forEach(row => {
+        row.addEventListener("click", () => selectNode(row.dataset.id));
+      });
+    }
+
+    function syncVisualControls() {
+      repelRange.value = viz.repel;
+      linkDistanceRange.value = viz.linkDistance;
+      linkStrengthRange.value = viz.linkStrength;
+      centerRange.value = viz.center;
+      nodeSizeRange.value = viz.nodeSize;
+      labelSizeRange.value = viz.labelSize;
+      edgeLimitRange.value = viz.edgeLimit;
+      edgeLabelsCheck.checked = viz.edgeLabels;
+      dimCheck.checked = viz.dimUnrelated;
+      pinCheck.checked = viz.pinOnDrag;
+
+      vizOutputs.repel.textContent = viz.repel;
+      vizOutputs.linkDistance.textContent = viz.linkDistance;
+      vizOutputs.linkStrength.textContent = (viz.linkStrength / 1000).toFixed(3);
+      vizOutputs.center.textContent = (viz.center / 1000).toFixed(3);
+      vizOutputs.nodeSize.textContent = viz.nodeSize;
+      vizOutputs.labelSize.textContent = viz.labelSize;
+      vizOutputs.edgeLimit.textContent = viz.edgeLimit;
+    }
+
+    function applyViz(partial, options = {}) {
+      viz = { ...viz, ...partial };
+      syncVisualControls();
+      if (options.refreshEdges) {
+        refreshEdges();
+      } else {
+        renderGraph();
+        restartSimulation();
+      }
+    }
+
+    function applyPreset(name) {
+      const preset = vizPresets[name] || vizPresets.balanced;
+      viz = { ...preset };
+      presetSelect.value = name;
+      syncVisualControls();
+      refreshEdges();
+      initPositions(name === "spread" || name === "dense");
+      restartSimulation();
+    }
+
+    function releasePinnedNodes() {
+      nodes.forEach(node => {
+        node.fx = null;
+        node.fy = null;
+      });
+      renderGraph();
+      restartSimulation();
+    }
+
+    function bindVisualControls() {
+      syncVisualControls();
+      presetSelect.addEventListener("change", () => applyPreset(presetSelect.value));
+      repelRange.addEventListener("input", () => applyViz({ repel: Number(repelRange.value) }));
+      linkDistanceRange.addEventListener("input", () => applyViz({ linkDistance: Number(linkDistanceRange.value) }));
+      linkStrengthRange.addEventListener("input", () => applyViz({ linkStrength: Number(linkStrengthRange.value) }));
+      centerRange.addEventListener("input", () => applyViz({ center: Number(centerRange.value) }));
+      nodeSizeRange.addEventListener("input", () => applyViz({ nodeSize: Number(nodeSizeRange.value) }));
+      labelSizeRange.addEventListener("input", () => applyViz({ labelSize: Number(labelSizeRange.value) }));
+      edgeLimitRange.addEventListener("input", () => applyViz({ edgeLimit: Number(edgeLimitRange.value) }, { refreshEdges: true }));
+      edgeLabelsCheck.addEventListener("change", () => applyViz({ edgeLabels: edgeLabelsCheck.checked }));
+      dimCheck.addEventListener("change", () => applyViz({ dimUnrelated: dimCheck.checked }));
+      pinCheck.addEventListener("change", () => applyViz({ pinOnDrag: pinCheck.checked }));
+      relayoutBtn.addEventListener("click", () => {
+        initPositions(true);
+        restartSimulation();
+      });
+      releaseBtn.addEventListener("click", releasePinnedNodes);
+    }
+
+    function renderLegend() {
+      legend.innerHTML = familyColors.map(item => `
+        <div class="legendItem"><span class="dot" style="background:${item.color}"></span>${item.label}</div>
+      `).join("");
+    }
+
+    function renderFacetInfo() {
+      const facet = data.relationFacets.find(item => item.key === currentFacet);
+      const selected = selectedNode();
+      const connected = edges.filter(edge => edge.source === selected.id || edge.target === selected.id).length;
+      facetInfo.innerHTML = `<strong>${escapeHtml(facet.label)}:</strong> ${edges.length} relacji, ${connected} relacji dla zaznaczonego wezla.`;
+      edgeCount.textContent = edges.length;
+      renderMetricInfo();
+    }
+
+    function facetValueStats(facetKey) {
+      const counts = {};
+      nodes.forEach(node => {
+        arr(node[facetKey]).forEach(value => {
+          const key = String(value).toLowerCase();
+          counts[key] = {
+            label: value,
+            count: (counts[key]?.count || 0) + 1
+          };
+        });
+      });
+      const values = Object.values(counts).sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+      return {
+        unique: values.length,
+        mostCommon: values.slice(0, 4)
+      };
+    }
+
+    function renderMetricInfo() {
+      const facet = data.relationFacets.find(item => item.key === currentFacet);
+      const description = facetMetricDescriptions[currentFacet] || {};
+      if (currentFacet === "curated") {
+        const weights = edges.map(edge => edge.weight || 1);
+        const minWeight = Math.min(...weights);
+        const maxWeight = Math.max(...weights);
+        metricInfo.innerHTML = `
+          <p><strong>${escapeHtml(facet.label)}.</strong> ${escapeHtml(description.basis)}</p>
+          <p>${escapeHtml(description.signal)}</p>
+          <p><a class="moduleLink" href="qml_relation_metrics.md" target="_blank" rel="noopener">Pelny opis metryki relacji</a></p>
+          <code class="metricFormula">edge.weight = reczna ocena ekspercka z zakresu 1..5
+strokeWidth = 1 + 0.42 * edge.weight
+force = (dist - desired) * linkStrength * edge.weight</code>
+          <ul>
+            <li>Aktualnie: ${edges.length} relacji eksperckich.</li>
+            <li>Zakres wag w tej warstwie: ${minWeight}-${maxWeight}.</li>
+            <li>Limit krawedzi nie filtruje relacji eksperckich; pokazana jest cala kuracja.</li>
+          </ul>
+        `;
+        return;
+      }
+
+      const stats = facetValueStats(currentFacet);
+      const strongest = edges[0];
+      const topValues = stats.mostCommon
+        .map(item => `${escapeHtml(item.label)} (${item.count})`)
+        .join(", ");
+      metricInfo.innerHTML = `
+        <p><strong>${escapeHtml(facet.label)}.</strong> ${escapeHtml(description.basis)}</p>
+        <p>${escapeHtml(description.signal)}</p>
+        <p><a class="moduleLink" href="qml_relation_metrics.md" target="_blank" rel="noopener">Pelny opis metryki relacji</a></p>
+        <code class="metricFormula">C(A,B) = values(A,f) intersect values(B,f)
+df(v) = liczba modeli zawierajacych wartosc v
+score(A,B|f) = sum_{v in C(A,B)} 1 / df(v)
+weight = clamp(1 + 5 * score, 1, 5)</code>
+        <ul>
+          <li>Krawedz powstaje tylko wtedy, gdy dwa modele maja co najmniej jedna wspolna wartosc tej cechy.</li>
+          <li>Rzadsze wspolne wartosci sa silniejsze, bo 1/df(v) jest wieksze.</li>
+          <li>Relacje sa sortowane malejaco po score; suwak limitu pokazuje najwyzej ${viz.edgeLimit} najmocniejszych krawedzi.</li>
+          <li>Unikalne wartosci tej cechy: ${stats.unique}${topValues ? `; najczestsze: ${topValues}.` : "."}</li>
+          <li>Najmocniejsza aktualna relacja: ${strongest ? `${escapeHtml(strongest.sourceNode.label)} - ${escapeHtml(strongest.targetNode.label)}; score=${strongest.score.toFixed(3)}, weight=${strongest.weight.toFixed(2)}.` : "brak."}</li>
+        </ul>
+      `;
+    }
+
+    function refreshEdges() {
+      edges = makeEdges(currentFacet);
+      renderFacetInfo();
+      restartSimulation();
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function resize() {
+      const rect = svg.getBoundingClientRect();
+      width = Math.max(620, Math.floor(rect.width || 1000));
+      height = Math.max(520, Math.floor(rect.height || 720));
+      const anyPosition = nodes.some(node => Number.isFinite(node.x));
+      if (!anyPosition) initPositions();
+      nodes.forEach(node => {
+        node.x = Math.max(54, Math.min(width - 54, node.x || width / 2));
+        node.y = Math.max(54, Math.min(height - 54, node.y || height / 2));
+      });
+      renderGraph();
+      restartSimulation();
+    }
+
+    function init() {
+      subtitle.textContent = "Synteza czterech PDF-ow: taksonomia, ograniczenia, zastosowania i relacje przeliczane wedlug wybranej cechy.";
+      nodeCount.textContent = nodes.length;
+      docCount.textContent = Object.keys(data.documents).length;
+      data.relationFacets.forEach(facet => {
+        const option = document.createElement("option");
+        option.value = facet.key;
+        option.textContent = facet.label;
+        facetSelect.append(option);
+      });
+      facetSelect.value = currentFacet;
+      facetSelect.addEventListener("change", () => {
+        currentFacet = facetSelect.value;
+        refreshEdges();
+      });
+      searchBox.addEventListener("input", () => {
+        searchTerm = searchBox.value.trim();
+        if (!nodes.some(node => node.id === selectedId && matchesSearch(node))) {
+          const first = nodes.find(matchesSearch);
+          if (first) selectedId = first.id;
+        }
+        renderList();
+        renderTable();
+        renderGraph();
+      });
+      resetBtn.addEventListener("click", () => {
+        searchBox.value = "";
+        searchTerm = "";
+        selectedId = "quantum_kernels";
+        viz = { ...vizPresets.balanced };
+        presetSelect.value = "balanced";
+        syncVisualControls();
+        initPositions();
+        refreshEdges();
+        renderDetails();
+        renderList();
+        renderTable();
+        renderFacetInfo();
+        restartSimulation();
+      });
+      tableBtn.addEventListener("click", () => {
+        tableVisible = !tableVisible;
+        renderTable();
+      });
+      bindVisualControls();
+      renderLegend();
+      refreshEdges();
+      renderDetails();
+      renderList();
+      renderTable();
+      resize();
+      window.addEventListener("resize", resize);
+    }
+
+    init();
+  </script>
+</body>
+</html>

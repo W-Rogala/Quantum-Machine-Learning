@@ -1,0 +1,828 @@
+[
+  {
+    "chapter": "chapter-02",
+    "path": "experiments/legacy/qml_hypothesis_experiment.py",
+    "sourceId": "1ea94d82b52e",
+    "start": 237,
+    "end": 256
+  },
+  {
+    "chapter": "chapter-02",
+    "path": "experiments/legacy/qsvm_hypothesis_experiment.py",
+    "sourceId": "c352500a3bbf",
+    "start": 189,
+    "end": 203
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 49,
+    "end": 59
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 37,
+    "end": 46
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 62,
+    "end": 74
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/publication_benchmark.py",
+    "sourceId": "07e48f13ff00",
+    "start": 54,
+    "end": 90
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 124,
+    "end": 144
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 98,
+    "end": 121
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 77,
+    "end": 95
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 203,
+    "end": 209
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 62,
+    "end": 74
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 111,
+    "end": 120
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 156,
+    "end": 159
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 162,
+    "end": 186
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 189,
+    "end": 200
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/estimation.py",
+    "sourceId": "1f768d7aaafe",
+    "start": 165,
+    "end": 184
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/estimation.py",
+    "sourceId": "1f768d7aaafe",
+    "start": 268,
+    "end": 335
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/learning.py",
+    "sourceId": "8e802a211944",
+    "start": 125,
+    "end": 130
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/estimation.py",
+    "sourceId": "1f768d7aaafe",
+    "start": 93,
+    "end": 117
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/learning.py",
+    "sourceId": "8e802a211944",
+    "start": 133,
+    "end": 143
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/estimation.py",
+    "sourceId": "1f768d7aaafe",
+    "start": 192,
+    "end": 215
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/estimation.py",
+    "sourceId": "1f768d7aaafe",
+    "start": 238,
+    "end": 248
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/publication_benchmark.py",
+    "sourceId": "07e48f13ff00",
+    "start": 451,
+    "end": 473
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/learning.py",
+    "sourceId": "8e802a211944",
+    "start": 6,
+    "end": 26
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 407,
+    "end": 424
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 459,
+    "end": 480
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/publication_benchmark.py",
+    "sourceId": "07e48f13ff00",
+    "start": 268,
+    "end": 310
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 392,
+    "end": 435
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 578,
+    "end": 599
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 751,
+    "end": 773
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/estimation.py",
+    "sourceId": "1f768d7aaafe",
+    "start": 120,
+    "end": 136
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/estimation.py",
+    "sourceId": "1f768d7aaafe",
+    "start": 297,
+    "end": 308
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/estimation.py",
+    "sourceId": "1f768d7aaafe",
+    "start": 73,
+    "end": 90
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 359,
+    "end": 366
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 604,
+    "end": 612
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 289,
+    "end": 312
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/core.py",
+    "sourceId": "f0e8c0e56bf4",
+    "start": 212,
+    "end": 222
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/universal_hamiltonian.py",
+    "sourceId": "1b5559de9558",
+    "start": 365,
+    "end": 395
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_full.py",
+    "sourceId": "0ae54cf2f9a0",
+    "start": 425,
+    "end": 447
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_full.py",
+    "sourceId": "0ae54cf2f9a0",
+    "start": 467,
+    "end": 496
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/universal_hamiltonian.py",
+    "sourceId": "1b5559de9558",
+    "start": 285,
+    "end": 314
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/universal_hamiltonian.py",
+    "sourceId": "1b5559de9558",
+    "start": 267,
+    "end": 282
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/universal_hamiltonian.py",
+    "sourceId": "1b5559de9558",
+    "start": 317,
+    "end": 340
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 150,
+    "end": 188
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3.py",
+    "sourceId": "7a91398da1b7",
+    "start": 315,
+    "end": 389
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/trotter_scaling_v3_summary.py",
+    "sourceId": "19c152c09921",
+    "start": 99,
+    "end": 159
+  },
+  {
+    "chapter": "chapter-03",
+    "path": "hamiltonian_kernel/protocol.py",
+    "sourceId": "d968fae0fa2e",
+    "start": 212,
+    "end": 307
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 64,
+    "end": 72
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/ibm_hardware.py",
+    "sourceId": "1b9172847223",
+    "start": 59,
+    "end": 63
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 16,
+    "end": 43
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 74,
+    "end": 96
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 99,
+    "end": 128
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/h3_memory_study.py",
+    "sourceId": "4518d1dd2c7c",
+    "start": 48,
+    "end": 59
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 167,
+    "end": 193
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 228,
+    "end": 241
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 173,
+    "end": 186
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 189,
+    "end": 193
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 234,
+    "end": 240
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/h3_memory_study.py",
+    "sourceId": "4518d1dd2c7c",
+    "start": 117,
+    "end": 127
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 156,
+    "end": 162
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/core.py",
+    "sourceId": "72058a2e96ad",
+    "start": 195,
+    "end": 208
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/experiment.py",
+    "sourceId": "55dd9617beb1",
+    "start": 116,
+    "end": 123
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/h3_noise_study.py",
+    "sourceId": "f13d6fb1dc3d",
+    "start": 203,
+    "end": 208
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/h3_memory_study.py",
+    "sourceId": "4518d1dd2c7c",
+    "start": 31,
+    "end": 45
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/h3_noise_study.py",
+    "sourceId": "f13d6fb1dc3d",
+    "start": 104,
+    "end": 144
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/h3_noise_study.py",
+    "sourceId": "f13d6fb1dc3d",
+    "start": 124,
+    "end": 134
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/h3_noise_study.py",
+    "sourceId": "f13d6fb1dc3d",
+    "start": 191,
+    "end": 202
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/experiment.py",
+    "sourceId": "55dd9617beb1",
+    "start": 65,
+    "end": 86
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/h3_memory_study.py",
+    "sourceId": "4518d1dd2c7c",
+    "start": 87,
+    "end": 114
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/experiment.py",
+    "sourceId": "55dd9617beb1",
+    "start": 125,
+    "end": 135
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 62,
+    "end": 73
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/h3_memory_study.py",
+    "sourceId": "4518d1dd2c7c",
+    "start": 97,
+    "end": 106
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 334,
+    "end": 353
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/ibm_hardware.py",
+    "sourceId": "1b9172847223",
+    "start": 109,
+    "end": 141
+  },
+  {
+    "chapter": "chapter-04",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 94,
+    "end": 118
+  },
+  {
+    "chapter": "chapter-04b",
+    "path": "quantum_reservoir/h3_memory_study.py",
+    "sourceId": "4518d1dd2c7c",
+    "start": 75,
+    "end": 84
+  },
+  {
+    "chapter": "chapter-04b",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 75,
+    "end": 91
+  },
+  {
+    "chapter": "chapter-04b",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 26,
+    "end": 32
+  },
+  {
+    "chapter": "chapter-04b",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 44,
+    "end": 72
+  },
+  {
+    "chapter": "chapter-04b",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 219,
+    "end": 226
+  },
+  {
+    "chapter": "chapter-04b",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 334,
+    "end": 353
+  },
+  {
+    "chapter": "chapter-04b",
+    "path": "quantum_reservoir/spectral_h1_h2_study.py",
+    "sourceId": "b39e6c960afb",
+    "start": 267,
+    "end": 291
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/xanadu_x8.py",
+    "sourceId": "8719a744e86b",
+    "start": 220,
+    "end": 239
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/xanadu_x8.py",
+    "sourceId": "8719a744e86b",
+    "start": 100,
+    "end": 197
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 126,
+    "end": 160
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 163,
+    "end": 191
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 221,
+    "end": 270
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "tests/test_photonic_kernel.py",
+    "sourceId": "580605a50a7e",
+    "start": 55,
+    "end": 69
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 392,
+    "end": 423
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 437,
+    "end": 476
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "audits/photonic_kernel_audit.py",
+    "sourceId": "13e6af63cee8",
+    "start": 54,
+    "end": 96
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "audits/photonic_kernel_audit.py",
+    "sourceId": "13e6af63cee8",
+    "start": 187,
+    "end": 205
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 299,
+    "end": 322
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 325,
+    "end": 351
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 579,
+    "end": 580
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 479,
+    "end": 565
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 426,
+    "end": 453
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 568,
+    "end": 587
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 354,
+    "end": 371
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 374,
+    "end": 389
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/robustness.py",
+    "sourceId": "870959327c7e",
+    "start": 45,
+    "end": 77
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/strawberry_fields_robustness.py",
+    "sourceId": "cae5563cb056",
+    "start": 70,
+    "end": 98
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 299,
+    "end": 322
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/robustness.py",
+    "sourceId": "870959327c7e",
+    "start": 92,
+    "end": 143
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/robustness.py",
+    "sourceId": "870959327c7e",
+    "start": 80,
+    "end": 89
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/experiment.py",
+    "sourceId": "0b7ad45ec086",
+    "start": 578,
+    "end": 585
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/core.py",
+    "sourceId": "ae3d908ac93f",
+    "start": 273,
+    "end": 285
+  },
+  {
+    "chapter": "chapter-05",
+    "path": "photonic_kernel/experiment.py",
+    "sourceId": "0b7ad45ec086",
+    "start": 161,
+    "end": 328
+  },
+  {
+    "chapter": "chapter-06",
+    "path": "qml_algorithms_data.js",
+    "sourceId": "533fd7d5fef1",
+    "start": 1043,
+    "end": 1054
+  },
+  {
+    "chapter": "chapter-06",
+    "path": "qml_algorithms_data.js",
+    "sourceId": "533fd7d5fef1",
+    "start": 1063,
+    "end": 1075
+  },
+  {
+    "chapter": "chapter-06",
+    "path": "experiments/legacy/vqe_scar_ansatz_experiment.py",
+    "sourceId": "0a8d35d35fec",
+    "start": 145,
+    "end": 199
+  },
+  {
+    "chapter": "chapter-07",
+    "path": "experiments/legacy/qml_iterative_hypothesis_experiment.py",
+    "sourceId": "76735b21793a",
+    "start": 29,
+    "end": 81
+  },
+  {
+    "chapter": "chapter-07",
+    "path": "experiments/legacy/vqe_scar_ansatz_experiment.py",
+    "sourceId": "0a8d35d35fec",
+    "start": 51,
+    "end": 74
+  },
+  {
+    "chapter": "chapter-07",
+    "path": "tools/scar_wine_ibm_qpu.py",
+    "sourceId": "7bf01c1c89ee",
+    "start": 57,
+    "end": 72
+  },
+  {
+    "chapter": "chapter-07",
+    "path": "tools/scar_wine_ibm_qpu.py",
+    "sourceId": "7bf01c1c89ee",
+    "start": 117,
+    "end": 132
+  },
+  {
+    "chapter": "chapter-07",
+    "path": "experiments/legacy/vqe_scar_ansatz_experiment.py",
+    "sourceId": "0a8d35d35fec",
+    "start": 133,
+    "end": 174
+  },
+  {
+    "chapter": "chapter-07",
+    "path": "tools/scar_measurement_mitigation.py",
+    "sourceId": "bfe9559d4e3a",
+    "start": 8,
+    "end": 38
+  },
+  {
+    "chapter": "chapter-07",
+    "path": "tools/run_best_hpo_ibm_qpu.py",
+    "sourceId": "17bdd75a9390",
+    "start": 184,
+    "end": 225
+  }
+]

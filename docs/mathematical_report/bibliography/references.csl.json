@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "arrazola2021",
+    "type": "article-journal",
+    "title": "Quantum circuits with many photons on a programmable nanophotonic chip",
+    "author": [
+      {
+        "literal": "Arrazola, J. M."
+      },
+      {
+        "literal": "Bergholm, V."
+      },
+      {
+        "literal": "Brádler, K."
+      },
+      {
+        "literal": "Bromley, T. R."
+      },
+      {
+        "literal": "Collins, M. J."
+      },
+      {
+        "literal": "Dhand, I."
+      },
+      {
+        "literal": "Fumagalli, A."
+      },
+      {
+        "literal": "Gerrits, T."
+      },
+      {
+        "literal": "Goussev, A."
+      },
+      {
+        "literal": "Helt, L. G."
+      },
+      {
+        "literal": "Hundal, J."
+      },
+      {
+        "literal": "Isacsson, T."
+      },
+      {
+        "literal": "Israel, R. B."
+      },
+      {
+        "literal": "Izaac, J."
+      },
+      {
+        "literal": "Jahangiri, S."
+      },
+      {
+        "literal": "Janik, R."
+      },
+      {
+        "literal": "Killoran, N."
+      },
+      {
+        "literal": "Kumar, S. P."
+      },
+      {
+        "literal": "Lavoie, J."
+      },
+      {
+        "literal": "Lita, A. E."
+      },
+      {
+        "literal": "Mahler, D. H."
+      },
+      {
+        "literal": "Menotti, M."
+      },
+      {
+        "literal": "Morrison, B."
+      },
+      {
+        "literal": "Nam, S. W."
+      },
+      {
+        "literal": "Neuhaus, L."
+      },
+      {
+        "literal": "Qi, H. Y."
+      },
+      {
+        "literal": "Quesada, N."
+      },
+      {
+        "literal": "Repingon, A."
+      },
+      {
+        "literal": "Sabapathy, K. K."
+      },
+      {
+        "literal": "Schuld, M."
+      },
+      {
+        "literal": "Su, D."
+      },
+      {
+        "literal": "Swinarton, J."
+      },
+      {
+        "literal": "Száva, A."
+      },
+      {
+        "literal": "Tan, K."
+      },
+      {
+        "literal": "Tan, P."
+      },
+      {
+        "literal": "Vaidya, V. D."
+      },
+      {
+        "literal": "Vernon, Z."
+      },
+      {
+        "literal": "Zabaneh, Z."
+      },
+      {
+        "literal": "Zhang, Y."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2103.02109",
+    "DOI": "10.48550/arXiv.2103.02109"
+  },
+  {
+    "id": "bartlett2002",
+    "type": "article-journal",
+    "title": "Rademacher and Gaussian Complexities: Risk Bounds and Structural Results",
+    "author": [
+      {
+        "literal": "Peter L. Bartlett"
+      },
+      {
+        "literal": "Shahar Mendelson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "URL": "https://jmlr.org/papers/v3/bartlett02a.html",
+    "DOI": ""
+  },
+  {
+    "id": "benedetti2019",
+    "type": "article-journal",
+    "title": "Parameterized quantum circuits as machine learning models",
+    "author": [
+      {
+        "literal": "Benedetti, Marcello"
+      },
+      {
+        "literal": "Lloyd, Erika"
+      },
+      {
+        "literal": "Sack, Stefan"
+      },
+      {
+        "literal": "Fiorentini, Mattia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1906.07682",
+    "DOI": "10.48550/arXiv.1906.07682"
+  },
+  {
+    "id": "cawley2010",
+    "type": "article-journal",
+    "title": "On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation",
+    "author": [
+      {
+        "literal": "Gavin C. Cawley"
+      },
+      {
+        "literal": "Nicola L. C. Talbot"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "URL": "https://www.jmlr.org/papers/v11/cawley10a.html",
+    "DOI": ""
+  },
+  {
+    "id": "childs2021",
+    "type": "article-journal",
+    "title": "A Theory of Trotter Error",
+    "author": [
+      {
+        "literal": "Childs, Andrew M."
+      },
+      {
+        "literal": "Su, Yuan"
+      },
+      {
+        "literal": "Tran, Minh C."
+      },
+      {
+        "literal": "Wiebe, Nathan"
+      },
+      {
+        "literal": "Zhu, Shuchen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1912.08854",
+    "DOI": "10.48550/arXiv.1912.08854"
+  },
+  {
+    "id": "cong2019",
+    "type": "article-journal",
+    "title": "Quantum Convolutional Neural Networks",
+    "author": [
+      {
+        "literal": "Cong, Iris"
+      },
+      {
+        "literal": "Choi, Soonwon"
+      },
+      {
+        "literal": "Lukin, Mikhail D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1810.03787",
+    "DOI": "10.48550/arXiv.1810.03787"
+  },
+  {
+    "id": "cortes2010",
+    "type": "article-journal",
+    "title": "On the Impact of Kernel Approximation on Learning Accuracy",
+    "author": [
+      {
+        "literal": "Corinna Cortes"
+      },
+      {
+        "literal": "Mehryar Mohri"
+      },
+      {
+        "literal": "Ameet Talwalkar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "URL": "https://proceedings.mlr.press/v9/cortes10a.html",
+    "DOI": ""
+  },
+  {
+    "id": "cortes2012",
+    "type": "article-journal",
+    "title": "Algorithms for Learning Kernels Based on Centered Alignment",
+    "author": [
+      {
+        "literal": "Corinna Cortes"
+      },
+      {
+        "literal": "Mehryar Mohri"
+      },
+      {
+        "literal": "Afshin Rostamizadeh"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "URL": "https://www.jmlr.org/papers/v13/cortes12a.html",
+    "DOI": ""
+  },
+  {
+    "id": "dambre2012",
+    "type": "article-journal",
+    "title": "Information Processing Capacity of Dynamical Systems",
+    "author": [
+      {
+        "literal": "Joni Dambre"
+      },
+      {
+        "literal": "David Verstraeten"
+      },
+      {
+        "literal": "Benjamin Schrauwen"
+      },
+      {
+        "literal": "Serge Massar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "URL": "https://www.nature.com/articles/srep00514",
+    "DOI": "10.1038/srep00514"
+  },
+  {
+    "id": "dunjko2016",
+    "type": "article-journal",
+    "title": "Quantum-enhanced machine learning",
+    "author": [
+      {
+        "literal": "Dunjko, Vedran"
+      },
+      {
+        "literal": "Taylor, Jacob M."
+      },
+      {
+        "literal": "Briegel, Hans J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1610.08251",
+    "DOI": "10.48550/arXiv.1610.08251"
+  },
+  {
+    "id": "durr1996",
+    "type": "article-journal",
+    "title": "A Quantum Algorithm for Finding the Minimum",
+    "author": [
+      {
+        "literal": "Durr, Christoph"
+      },
+      {
+        "literal": "Hoyer, Peter"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/quant-ph/9607014",
+    "DOI": "10.48550/arXiv.quant-ph/9607014"
+  },
+  {
+    "id": "eckart1936",
+    "type": "article-journal",
+    "title": "The approximation of one matrix by another of lower rank",
+    "author": [
+      {
+        "literal": "Carl Eckart"
+      },
+      {
+        "literal": "Gale Young"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1936
+        ]
+      ]
+    },
+    "URL": "https://link.springer.com/article/10.1007/BF02288367",
+    "DOI": "10.1007/BF02288367"
+  },
+  {
+    "id": "efron1993",
+    "type": "book",
+    "title": "An Introduction to the Bootstrap",
+    "author": [
+      {
+        "literal": "Bradley Efron"
+      },
+      {
+        "literal": "Robert J. Tibshirani"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "URL": "https://www.routledge.com/An-Introductionto-the-Bootstrap/Efron-Tibshirani/p/book/9780412042317",
+    "DOI": ""
+  },
+  {
+    "id": "farhi2014",
+    "type": "article-journal",
+    "title": "A Quantum Approximate Optimization Algorithm",
+    "author": [
+      {
+        "literal": "Farhi, Edward"
+      },
+      {
+        "literal": "Goldstone, Jeffrey"
+      },
+      {
+        "literal": "Gutmann, Sam"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1411.4028",
+    "DOI": "10.48550/arXiv.1411.4028"
+  },
+  {
+    "id": "fujii2017",
+    "type": "article-journal",
+    "title": "Harnessing disordered quantum dynamics for machine learning",
+    "author": [
+      {
+        "literal": "Fujii, Keisuke"
+      },
+      {
+        "literal": "Nakajima, Kohei"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1602.08159",
+    "DOI": "10.48550/arXiv.1602.08159"
+  },
+  {
+    "id": "gilyen2019",
+    "type": "article-journal",
+    "title": "Quantum singular value transformation and beyond: exponential improvements for quantum matrix arithmetics",
+    "author": [
+      {
+        "literal": "Gilyén, András"
+      },
+      {
+        "literal": "Su, Yuan"
+      },
+      {
+        "literal": "Low, Guang Hao"
+      },
+      {
+        "literal": "Wiebe, Nathan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1806.01838",
+    "DOI": "10.48550/arXiv.1806.01838"
+  },
+  {
+    "id": "grover1996",
+    "type": "article-journal",
+    "title": "A fast quantum mechanical algorithm for database search",
+    "author": [
+      {
+        "literal": "Grover, Lov K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/quant-ph/9605043",
+    "DOI": "10.48550/arXiv.quant-ph/9605043"
+  },
+  {
+    "id": "hamilton2017",
+    "type": "article-journal",
+    "title": "Gaussian Boson Sampling",
+    "author": [
+      {
+        "literal": "Hamilton, Craig S."
+      },
+      {
+        "literal": "Kruse, Regina"
+      },
+      {
+        "literal": "Sansoni, Linda"
+      },
+      {
+        "literal": "Barkhofen, Sonja"
+      },
+      {
+        "literal": "Silberhorn, Christine"
+      },
+      {
+        "literal": "Jex, Igor"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1612.01199",
+    "DOI": "10.48550/arXiv.1612.01199"
+  },
+  {
+    "id": "harrow2009",
+    "type": "article-journal",
+    "title": "Quantum algorithm for solving linear systems of equations",
+    "author": [
+      {
+        "literal": "Harrow, Aram W."
+      },
+      {
+        "literal": "Hassidim, Avinatan"
+      },
+      {
+        "literal": "Lloyd, Seth"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/0811.3171",
+    "DOI": "10.48550/arXiv.0811.3171"
+  },
+  {
+    "id": "havlicek2019",
+    "type": "article-journal",
+    "title": "Supervised learning with quantum enhanced feature spaces",
+    "author": [
+      {
+        "literal": "Havlicek, Vojtech"
+      },
+      {
+        "literal": "Córcoles, Antonio D."
+      },
+      {
+        "literal": "Temme, Kristan"
+      },
+      {
+        "literal": "Harrow, Aram W."
+      },
+      {
+        "literal": "Kandala, Abhinav"
+      },
+      {
+        "literal": "Chow, Jerry M."
+      },
+      {
+        "literal": "Gambetta, Jay M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1804.11326",
+    "DOI": "10.48550/arXiv.1804.11326"
+  },
+  {
+    "id": "higham1988",
+    "type": "article-journal",
+    "title": "Computing a nearest symmetric positive semidefinite matrix",
+    "author": [
+      {
+        "literal": "Nicholas J. Higham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1988
+        ]
+      ]
+    },
+    "URL": "https://nhigham.com/wp-content/uploads/2023/10/high88d.pdf",
+    "DOI": "10.1016/0024-3795(88)90223-6"
+  },
+  {
+    "id": "hoeffding1963",
+    "type": "article-journal",
+    "title": "Probability Inequalities for Sums of Bounded Random Variables",
+    "author": [
+      {
+        "literal": "Wassily Hoeffding"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1963
+        ]
+      ]
+    },
+    "URL": "https://www.jstor.org/stable/2282952",
+    "DOI": "10.1080/01621459.1963.10500830"
+  },
+  {
+    "id": "holm1979",
+    "type": "article-journal",
+    "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+    "author": [
+      {
+        "literal": "Sture Holm"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "URL": "https://www.jstor.org/stable/4615733",
+    "DOI": ""
+  },
+  {
+    "id": "huang2021",
+    "type": "article-journal",
+    "title": "Power of data in quantum machine learning",
+    "author": [
+      {
+        "literal": "Huang, Hsin-Yuan"
+      },
+      {
+        "literal": "Broughton, Michael"
+      },
+      {
+        "literal": "Mohseni, Masoud"
+      },
+      {
+        "literal": "Babbush, Ryan"
+      },
+      {
+        "literal": "Boixo, Sergio"
+      },
+      {
+        "literal": "Neven, Hartmut"
+      },
+      {
+        "literal": "McClean, Jarrod R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2011.01938",
+    "DOI": "10.48550/arXiv.2011.01938"
+  },
+  {
+    "id": "jaeger2001",
+    "type": "article-journal",
+    "title": "The echo state approach to analysing and training recurrent neural networks",
+    "author": [
+      {
+        "literal": "Herbert Jaeger"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "URL": "https://www.ai.rug.nl/minds/uploads/EchoStatesTechRep.pdf",
+    "DOI": ""
+  },
+  {
+    "id": "kadowaki1998",
+    "type": "article-journal",
+    "title": "Quantum Annealing in the Transverse Ising Model",
+    "author": [
+      {
+        "literal": "Kadowaki, Tadashi"
+      },
+      {
+        "literal": "Nishimori, Hidetoshi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/cond-mat/9804280",
+    "DOI": "10.48550/arXiv.cond-mat/9804280"
+  },
+  {
+    "id": "kerenidis2022",
+    "type": "article-journal",
+    "title": "Quantum Vision Transformers",
+    "author": [
+      {
+        "literal": "Cherrat, El Amine"
+      },
+      {
+        "literal": "Kerenidis, Iordanis"
+      },
+      {
+        "literal": "Mathur, Natansh"
+      },
+      {
+        "literal": "Landman, Jonas"
+      },
+      {
+        "literal": "Strahm, Martin"
+      },
+      {
+        "literal": "Li, Yun Yvonna"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2209.08167",
+    "DOI": "10.48550/arXiv.2209.08167"
+  },
+  {
+    "id": "killoran2019",
+    "type": "article-journal",
+    "title": "Strawberry Fields: A Software Platform for Photonic Quantum Computing",
+    "author": [
+      {
+        "literal": "Killoran, Nathan"
+      },
+      {
+        "literal": "Izaac, Josh"
+      },
+      {
+        "literal": "Quesada, Nicolás"
+      },
+      {
+        "literal": "Bergholm, Ville"
+      },
+      {
+        "literal": "Amy, Matthew"
+      },
+      {
+        "literal": "Weedbrook, Christian"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1804.03159",
+    "DOI": "10.48550/arXiv.1804.03159"
+  },
+  {
+    "id": "lloyd2014",
+    "type": "article-journal",
+    "title": "Quantum principal component analysis",
+    "author": [
+      {
+        "literal": "Lloyd, Seth"
+      },
+      {
+        "literal": "Mohseni, Masoud"
+      },
+      {
+        "literal": "Rebentrost, Patrick"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1307.0401",
+    "DOI": "10.48550/arXiv.1307.0401"
+  },
+  {
+    "id": "lloyd2018",
+    "type": "article-journal",
+    "title": "Quantum generative adversarial learning",
+    "author": [
+      {
+        "literal": "Lloyd, Seth"
+      },
+      {
+        "literal": "Weedbrook, Christian"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1804.09139",
+    "DOI": "10.48550/arXiv.1804.09139"
+  },
+  {
+    "id": "peruzzo2014",
+    "type": "article-journal",
+    "title": "A variational eigenvalue solver on a quantum processor",
+    "author": [
+      {
+        "literal": "Peruzzo, Alberto"
+      },
+      {
+        "literal": "McClean, Jarrod"
+      },
+      {
+        "literal": "Shadbolt, Peter"
+      },
+      {
+        "literal": "Yung, Man-Hong"
+      },
+      {
+        "literal": "Zhou, Xiao-Qi"
+      },
+      {
+        "literal": "Love, Peter J."
+      },
+      {
+        "literal": "Aspuru-Guzik, Alán"
+      },
+      {
+        "literal": "O'Brien, Jeremy L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1304.3061",
+    "DOI": "10.48550/arXiv.1304.3061"
+  },
+  {
+    "id": "rasmussen2006",
+    "type": "book",
+    "title": "Gaussian Processes for Machine Learning",
+    "author": [
+      {
+        "literal": "Carl Edward Rasmussen"
+      },
+      {
+        "literal": "Christopher K. I. Williams"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "URL": "https://gaussianprocess.org/gpml/chapters/",
+    "DOI": ""
+  },
+  {
+    "id": "romero2017",
+    "type": "article-journal",
+    "title": "Quantum autoencoders for efficient compression of quantum data",
+    "author": [
+      {
+        "literal": "Romero, Jonathan"
+      },
+      {
+        "literal": "Olson, Jonathan P."
+      },
+      {
+        "literal": "Aspuru-Guzik, Alan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1612.02806",
+    "DOI": "10.48550/arXiv.1612.02806"
+  },
+  {
+    "id": "schuld2019shift",
+    "type": "article-journal",
+    "title": "Evaluating analytic gradients on quantum hardware",
+    "author": [
+      {
+        "literal": "Schuld, Maria"
+      },
+      {
+        "literal": "Bergholm, Ville"
+      },
+      {
+        "literal": "Gogolin, Christian"
+      },
+      {
+        "literal": "Izaac, Josh"
+      },
+      {
+        "literal": "Killoran, Nathan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1811.11184",
+    "DOI": "10.48550/arXiv.1811.11184"
+  },
+  {
+    "id": "schuld2021",
+    "type": "article-journal",
+    "title": "Supervised quantum machine learning models are kernel methods",
+    "author": [
+      {
+        "literal": "Schuld, Maria"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2101.11020",
+    "DOI": "10.48550/arXiv.2101.11020"
+  },
+  {
+    "id": "sim2019",
+    "type": "article-journal",
+    "title": "Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms",
+    "author": [
+      {
+        "literal": "Sim, Sukin"
+      },
+      {
+        "literal": "Johnson, Peter D."
+      },
+      {
+        "literal": "Aspuru-Guzik, Alan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1905.10876",
+    "DOI": "10.1002/qute.201900070"
+  },
+  {
+    "id": "suzuki1990",
+    "type": "article-journal",
+    "title": "Fractal decomposition of exponential operators with applications to many-body theories and Monte Carlo simulations",
+    "author": [
+      {
+        "literal": "Masuo Suzuki"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1990
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1016/0375-9601(90)90962-N",
+    "DOI": "10.1016/0375-9601(90)90962-N"
+  },
+  {
+    "id": "transformer2024",
+    "type": "article-journal",
+    "title": "Quantum Transformer: Accelerating model inference via quantum linear algebra",
+    "author": [
+      {
+        "literal": "Guo, Naixu"
+      },
+      {
+        "literal": "Yu, Zhan"
+      },
+      {
+        "literal": "Choi, Matthew"
+      },
+      {
+        "literal": "Han, Yizhan"
+      },
+      {
+        "literal": "Agrawal, Aman"
+      },
+      {
+        "literal": "Nakaji, Kouhei"
+      },
+      {
+        "literal": "Aspuru-Guzik, Alán"
+      },
+      {
+        "literal": "Rebentrost, Patrick"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/2402.16714",
+    "DOI": "10.48550/arXiv.2402.16714"
+  },
+  {
+    "id": "ucioptdigits",
+    "type": "article-journal",
+    "title": "Optical Recognition of Handwritten Digits",
+    "author": [
+      {
+        "literal": "E. Alpaydin"
+      },
+      {
+        "literal": "C. Kaynak"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "URL": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "DOI": "10.24432/C50P49"
+  },
+  {
+    "id": "verdon2018",
+    "type": "article-journal",
+    "title": "A Universal Training Algorithm for Quantum Deep Learning",
+    "author": [
+      {
+        "literal": "Verdon, Guillaume"
+      },
+      {
+        "literal": "Pye, Jason"
+      },
+      {
+        "literal": "Broughton, Michael"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "URL": "https://arxiv.org/abs/1806.09729",
+    "DOI": "10.48550/arXiv.1806.09729"
+  },
+  {
+    "id": "watrous2018",
+    "type": "book",
+    "title": "The Theory of Quantum Information",
+    "author": [
+      {
+        "literal": "John Watrous"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "URL": "https://cs.uwaterloo.ca/~watrous/TQI/",
+    "DOI": ""
+  },
+  {
+    "id": "wilson1927",
+    "type": "article-journal",
+    "title": "Probable Inference, the Law of Succession, and Statistical Inference",
+    "author": [
+      {
+        "literal": "Edwin B. Wilson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1927
+        ]
+      ]
+    },
+    "URL": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1927.10502953",
+    "DOI": "10.1080/01621459.1927.10502953"
+  }
+]

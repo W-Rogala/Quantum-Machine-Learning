@@ -64,3 +64,4 @@ Nie ma tutaj klasycznej funkcji generujacej jawnie wartosc `z`. Zrodlem probki j
 - Pelny rozklad rosnie jak `2^n`, wiec ocena straty moze byc kosztowna.
 - Trening dziedziczy problemy QNN: shot noise, szum sprzetu i barren plateaus.
 - QMLB, s. 186 klasyfikuje QCBM jako architekture generatywna, ale nie podaje gwarancji praktycznej przewagi.
+

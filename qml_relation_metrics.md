@@ -163,3 +163,4 @@ Metryka nie mierzy:
 - poziomu dojrzalosci technologicznej.
 
 Jest to metryka strukturalnej bliskosci opisow algorytmow, przydatna do eksploracji mapy metod QML.
+

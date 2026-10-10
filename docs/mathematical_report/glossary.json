@@ -1,0 +1,1657 @@
+[
+  {
+    "id": "qml",
+    "term": "QML",
+    "short": "Quantum Machine Learning: uczenie maszynowe wykorzystujące stany, obwody lub algorytmy kwantowe.",
+    "long": "Kwantowa część może przygotowywać cechy, estymować kernel albo być modelem wariacyjnym. O przewadze decyduje cały protokół, łącznie z danymi i odczytem.",
+    "chapter": "chapter-00",
+    "aliases": [
+      "QML"
+    ]
+  },
+  {
+    "id": "qpu",
+    "term": "QPU",
+    "short": "Quantum Processing Unit: fizyczny procesor kwantowy.",
+    "long": "Od wykonania QPU odróżniamy statevector, symulator kanałów i scenariusz efektywnego tłumienia. Zasoby sprzętowe obejmują routing, kalibrację, czas i shots.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "QPU"
+    ]
+  },
+  {
+    "id": "nisq",
+    "term": "NISQ",
+    "short": "Noisy Intermediate-Scale Quantum: urządzenia o ograniczonym rozmiarze i istotnym szumie.",
+    "long": "Nie mają pełnej korekcji błędów logicznych. Płytki obwód może ograniczać ekspozycję na błędy, ale sam rozmiar nie gwarantuje jakości.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "NISQ"
+    ]
+  },
+  {
+    "id": "ftqc",
+    "term": "FTQC",
+    "short": "Fault-Tolerant Quantum Computing: obliczenia z korekcją błędów.",
+    "long": "Twierdzenia o HHL/QSVT mogą zakładać kontrolowane koherentne oracle i głębokie obwody logiczne; nie są automatycznie procedurami NISQ.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "FTQC"
+    ]
+  },
+  {
+    "id": "cptp",
+    "term": "CPTP",
+    "short": "Całkowicie dodatnie odwzorowanie zachowujące ślad.",
+    "long": "Kanał musi zachować dodatniość także po dołączeniu ancilla. Przedstawienie Krausa oraz warunek sumy K†K=I dają jawny dowód. Reset i pooling są kanałami.",
+    "chapter": "chapter-01",
+    "aliases": [
+      "CPTP"
+    ]
+  },
+  {
+    "id": "psd",
+    "term": "PSD",
+    "short": "Positive Semidefinite: dodatnio półokreślona macierz.",
+    "long": "Hermitowska K jest PSD, gdy c†Kc≥0 dla każdego c. Gram cech ma tę własność; niezależny szum wpisów może ją zniszczyć.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "PSD"
+    ]
+  },
+  {
+    "id": "rkhs",
+    "term": "RKHS",
+    "short": "Reproducing Kernel Hilbert Space: przestrzeń Hilberta z jądrem reprodukującym.",
+    "long": "Norma RKHS jest karą w standardowym kernel ridge. Jej konstrukcja wymaga dodatniego kernela, a nie tylko odwracalnej macierzy.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "RKHS"
+    ]
+  },
+  {
+    "id": "krr",
+    "term": "KRR",
+    "short": "Kernel Ridge Regression: regresja grzbietowa w przestrzeni kernela.",
+    "long": "Rozwiązanie ma postać α=(K+λI)⁻¹y przy zadeklarowanym skalowaniu straty. Raw indefinite K wymaga osobnej interpretacji.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "KRR"
+    ]
+  },
+  {
+    "id": "rbf",
+    "term": "RBF",
+    "short": "Radial Basis Function: tu gaussowskie jądro exp(−γ‖x−z‖²).",
+    "long": "Parametr γ zależy od jednostki cech. PSD można wyprowadzić przez nieskończony szereg tensorowych cech. Źródło cech może być klasyczne lub kwantowe.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "RBF"
+    ]
+  },
+  {
+    "id": "pca",
+    "term": "PCA",
+    "short": "Principal Component Analysis: analiza głównych składowych.",
+    "long": "Wybiera kierunki maksymalnej wariancji i minimalnego liniowego błędu rekonstrukcji. Zachowana wariancja nie gwarantuje zachowania informacji o etykiecie.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "PCA"
+    ]
+  },
+  {
+    "id": "svd",
+    "term": "SVD",
+    "short": "Singular Value Decomposition: rozkład na wartości singularne.",
+    "long": "A=UΣV† określa lewe i prawe wektory singularne. Ich przestrzenie trzeba odróżniać w QSVT, a nie utożsamiać z jednym eigenbasis.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "SVD"
+    ]
+  },
+  {
+    "id": "qsvm",
+    "term": "QSVM",
+    "short": "Quantum Support Vector Machine: rodzina klasyfikacji z kwantowym kernelem.",
+    "long": "W projekcie nazwa historyczna obejmuje także LS-SVM i kernel ridge classification. Cele optymalizacji tych metod są różne.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "QSVM"
+    ]
+  },
+  {
+    "id": "svm",
+    "term": "SVM",
+    "short": "Support Vector Machine: klasyfikator maksymalnego marginesu.",
+    "long": "Standardowy cel używa hinge loss i regularizacji normy. Nie jest identyczny z kwadratową stratą LS-SVM lub ridge.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "SVM"
+    ]
+  },
+  {
+    "id": "ls-svm",
+    "term": "LS-SVM",
+    "short": "Least-Squares SVM: wariant z kwadratową stratą i układem liniowym.",
+    "long": "Binarna wersja ma bias oraz mnożniki związane z etykietami. Wieloklasowy ridge na one-hot nie jest automatycznie tą samą konstrukcją.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "LS-SVM"
+    ]
+  },
+  {
+    "id": "qrc",
+    "term": "QRC",
+    "short": "Quantum Reservoir Computing: ustalona dynamika kwantowa i uczony odczyt.",
+    "long": "Dynamika aktualizuje stan zależny od historii wejścia. Koszt reset-injection, replay i obserwabli jest częścią definicji eksperymentu.",
+    "chapter": "chapter-04",
+    "aliases": [
+      "QRC"
+    ]
+  },
+  {
+    "id": "esp",
+    "term": "ESP",
+    "short": "Echo State Property: asymptotyczne zapominanie inicjalizacji przy wspólnym wejściu.",
+    "long": "Potrzebne są warunki dla dozwolonej rodziny wejść. Skończony washout oraz promień jednego zamrożonego kanału nie dowodzą jednostajnej ESP.",
+    "chapter": "chapter-04",
+    "aliases": [
+      "ESP"
+    ]
+  },
+  {
+    "id": "ipc",
+    "term": "IPC",
+    "short": "Information Processing Capacity: zdolność rekonstrukcji ortogonalnych celów.",
+    "long": "Populacyjna teoria obejmuje odpowiednią rodzinę funkcji i readout. Suma kilku opóźnień linear/product nie stanowi pełnej IPC.",
+    "chapter": "chapter-04b",
+    "aliases": [
+      "IPC"
+    ]
+  },
+  {
+    "id": "esn",
+    "term": "ESN",
+    "short": "Echo State Network: klasyczny rezerwuar z uczonym readoutem.",
+    "long": "Porównanie wymaga jawnej dynamiki, liczby jednostek, leak, radius i budżetu strojenia. Nie ma obowiązku zrównywać liczby cech do kubitów.",
+    "chapter": "chapter-04b",
+    "aliases": [
+      "ESN"
+    ]
+  },
+  {
+    "id": "nrmse",
+    "term": "NRMSE",
+    "short": "Normalized Root Mean Square Error: RMSE podzielone przez określoną skalę celu.",
+    "long": "W tym projekcie skala to populacyjne odchylenie celu w segmencie oceny. Stały cel powoduje degenerację. Niższy wynik oznacza lepszą predykcję.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "NRMSE"
+    ]
+  },
+  {
+    "id": "rmse",
+    "term": "RMSE",
+    "short": "Root Mean Square Error: pierwiastek średniego błędu kwadratowego.",
+    "long": "Ma jednostkę celu, w przeciwieństwie do bezwymiarowego NRMSE. Jest wrażliwy na duże błędy.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "RMSE"
+    ]
+  },
+  {
+    "id": "mse",
+    "term": "MSE",
+    "short": "Mean Square Error: średni kwadrat błędu.",
+    "long": "Konwencja sumy albo średniej zmienia liczbową interpretację regularizacji λ o czynnik liczby próbek.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "MSE"
+    ]
+  },
+  {
+    "id": "mae",
+    "term": "MAE",
+    "short": "Mean Absolute Error: średnia wartości bezwzględnych błędu.",
+    "long": "Ma jednostkę celu i inną wrażliwość na duże odchylenia niż RMSE. Nie zastępuje zarejestrowanej głównej miary po obejrzeniu wyniku.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "MAE"
+    ]
+  },
+  {
+    "id": "ba",
+    "term": "BA",
+    "short": "Balanced Accuracy: średni recall po klasach.",
+    "long": "Przy nierównych klasach różni się od accuracy. Różnicę 0.01 raportujemy jako jeden punkt procentowy, a nie jeden procent względny.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "BA"
+    ]
+  },
+  {
+    "id": "ci",
+    "term": "CI",
+    "short": "Confidence Interval: przedział ufności.",
+    "long": "W raporcie rozróżniamy percentylowy bootstrap, przedział t i Wilson. Opisowy 95% CI nie jest automatycznie jednoczesną granicą po korekcie Holma.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "CI"
+    ]
+  },
+  {
+    "id": "sd",
+    "term": "SD",
+    "short": "Standard Deviation: odchylenie standardowe obserwacji.",
+    "long": "Nie jest błędem standardowym średniej. Dzielenie SD przez √N wymaga właściwej jednostki niezależności, której nie spełniają wszystkie wiersze CV.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "SD"
+    ]
+  },
+  {
+    "id": "se",
+    "term": "SE",
+    "short": "Standard Error: błąd standardowy estymatora.",
+    "long": "Dla średniej iid to SD/√N. Współdzielone splity i zależne chwile wymagają modelu zależności lub agregacji blokowej.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "SE"
+    ]
+  },
+  {
+    "id": "hpo",
+    "term": "HPO",
+    "short": "Hyperparameter Optimization: dobór hiperparametrów.",
+    "long": "Powinien używać train/validation wewnątrz development. Późniejszy wybór architektury po testowym wyniku odbiera testowi niezależność.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "HPO"
+    ]
+  },
+  {
+    "id": "cv",
+    "term": "CV",
+    "short": "Cross-validation albo Continuous Variables; znaczenie zależy od miejsca.",
+    "long": "W benchmarkach oznacza walidację krzyżową. W części optycznej i spektralnej oznacza zmienne ciągłe q,p. Każdy rozdział wskazuje właściwy sens.",
+    "chapter": "chapter-04b",
+    "aliases": [
+      "CV"
+    ]
+  },
+  {
+    "id": "fwer",
+    "term": "FWER",
+    "short": "Family-Wise Error Rate: prawdopodobieństwo choć jednego fałszywego odrzucenia.",
+    "long": "Korekta Holma kontroluje tę wielkość bez wymagania niezależności p-values. Rodzina testów musi być określona przed analizą.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "FWER"
+    ]
+  },
+  {
+    "id": "iut",
+    "term": "IUT",
+    "short": "Intersection–Union Test: test tezy wymagającej spełnienia wszystkich warunków.",
+    "long": "Dla H5 sukces jakości i kosztu wymaga odrzucenia obu składowych null. Złożone p-value jest maksimum, nie minimum.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "IUT"
+    ]
+  },
+  {
+    "id": "gbs",
+    "term": "GBS",
+    "short": "Gaussian Boson Sampling: próbkowanie fotonów ze stanów gaussowskich.",
+    "long": "Dla czystych nieprzesuniętych stanów amplitudy wzorców są wyrażane przez hafnian macierzy z powtórzonymi indeksami. Straty wymagają innego modelu stanu.",
+    "chapter": "chapter-05",
+    "aliases": [
+      "GBS"
+    ]
+  },
+  {
+    "id": "tmsv",
+    "term": "TMSV",
+    "short": "Two-Mode Squeezed Vacuum: dwumodowa ściśnięta próżnia.",
+    "long": "Stan ma parzystą całkowitą liczbę fotonów i skorelowane obsadzenia obu modów. Parametr tanh(r) kontroluje geometryczny ogon.",
+    "chapter": "chapter-05",
+    "aliases": [
+      "TMSV"
+    ]
+  },
+  {
+    "id": "pnr",
+    "term": "PNR",
+    "short": "Photon-Number Resolving: detektor rozróżniający liczbę fotonów.",
+    "long": "Threshold zwraca tylko zero/click. Strata przed progowaniem nie jest równoważna odrzucaniu już uzyskanych clicków.",
+    "chapter": "chapter-05",
+    "aliases": [
+      "PNR"
+    ]
+  },
+  {
+    "id": "qnn",
+    "term": "QNN",
+    "short": "Quantum Neural Network: szeroka rodzina modeli z parametryczną częścią kwantową.",
+    "long": "Nazwa nie określa jednoznacznie ansatzu, kodowania ani straty. W projekcie głowica softmax i parametry obwodu mają osobne gradienty.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QNN"
+    ]
+  },
+  {
+    "id": "pqc",
+    "term": "PQC",
+    "short": "Parameterized Quantum Circuit: obwód z regulowanymi parametrami.",
+    "long": "Reprezentacja, możliwość optymalizacji i generalizacja są trzema osobnymi pytaniami. Większa ekspresywność losowego ansatzu nie dowodzi lepszego wyniku.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "PQC"
+    ]
+  },
+  {
+    "id": "vqc",
+    "term": "VQC",
+    "short": "Variational Quantum Classifier: klasyfikator z optymalizowanym obwodem.",
+    "long": "Uczy parametry pod stratę klasyfikacji. Może korzystać z parameter shift przy spełnieniu warunków generatora.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "VQC"
+    ]
+  },
+  {
+    "id": "qgan",
+    "term": "QGAN",
+    "short": "Quantum Generative Adversarial Network: kwantowy model uczony w grze generator–dyskryminator.",
+    "long": "Trzeba odróżnić grę na rozkładach klasycznych od gry rozróżniania stanów kwantowych. Ograniczony dyskryminator nie certyfikuje równości stanów.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QGAN"
+    ]
+  },
+  {
+    "id": "qcbm",
+    "term": "QCBM",
+    "short": "Quantum Circuit Born Machine: generator rozkładu pomiaru obwodu.",
+    "long": "Strata może być estymowana z próbek, np. MMD. Odczyt całego rozkładu z 2^n zdarzeń jest innym kosztem niż pojedyncze próbkowanie.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QCBM"
+    ]
+  },
+  {
+    "id": "qbm",
+    "term": "QBM",
+    "short": "Quantum Boltzmann Machine: model oparty na stanie termicznym.",
+    "long": "Niekomutujący Hamiltonian wymaga odpowiedniego gradientu macierzowej wykładniczej. Przygotowanie Gibbsa jest osobnym zadaniem obliczeniowym.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QBM"
+    ]
+  },
+  {
+    "id": "qcnn",
+    "term": "QCNN",
+    "short": "Quantum Convolutional Neural Network: hierarchiczna architektura lokalnych operacji.",
+    "long": "Pooling z pomiarem lub usunięciem kubitów jest kanałem, nie odwracalnym unitary. Quanvolution na klasycznych patchach to inna konstrukcja.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QCNN"
+    ]
+  },
+  {
+    "id": "hhl",
+    "term": "HHL",
+    "short": "Algorytm Harrowa–Hassidima–Lloyda dla układów liniowych.",
+    "long": "Wyjściem jest stan proporcjonalny rozwiązaniu, nie lista wszystkich współrzędnych. Koszt zależy od oracle, uwarunkowania, dokładności i odczytu.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "HHL"
+    ]
+  },
+  {
+    "id": "qsvt",
+    "term": "QSVT",
+    "short": "Quantum Singular Value Transformation: transformacja wartości singularnych zakodowanego bloku.",
+    "long": "Wymaga warunków wielomianu, normy i parzystości. Nieparzysta i parzysta transformacja działają na odpowiednich różnych przestrzeniach.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QSVT"
+    ]
+  },
+  {
+    "id": "qpca",
+    "term": "QPCA",
+    "short": "Quantum Principal Component Analysis: spektralna analiza stanu danych.",
+    "long": "Normalizacja macierzy gęstości i model dostępu do jej kopii są częścią algorytmu. Nie jest to lokalne numpy PCA.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QPCA"
+    ]
+  },
+  {
+    "id": "qrl",
+    "term": "QRL",
+    "short": "Quantum Reinforcement Learning: rodzina metod uczenia ze wzmocnieniem z elementem kwantowym.",
+    "long": "Klasyczne środowisko z mierzoną polityką i koherentny oracle środowiska mają odmienne możliwości i koszty.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QRL"
+    ]
+  },
+  {
+    "id": "qaoa",
+    "term": "QAOA",
+    "short": "Quantum Approximate Optimization Algorithm: wariacyjne naprzemienne bloki cost i mixer.",
+    "long": "Kąty są optymalizowane pod cel. To inne zadanie niż dobieranie kroku Trottera do stałego Hamiltonianu, mimo wspólnej struktury bramek.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QAOA"
+    ]
+  },
+  {
+    "id": "vqe",
+    "term": "VQE",
+    "short": "Variational Quantum Eigensolver: minimalizacja oczekiwanej energii.",
+    "long": "Zasada wariacyjna daje E(θ)≥E₀. Deskryptory ansatzu bez Hamiltonianu celu nie stanowią eksperymentu VQE.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "VQE"
+    ]
+  },
+  {
+    "id": "gas",
+    "term": "GAS",
+    "short": "Grover Adaptive Search: adaptacyjne przeszukiwanie z progiem kosztu.",
+    "long": "Wymaga odwracalnego oracle obliczającego funkcję i porównanie. Przyspieszenie liczby zapytań nie pomija kosztu arytmetyki oracle.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "GAS"
+    ]
+  },
+  {
+    "id": "qubo",
+    "term": "QUBO",
+    "short": "Quadratic Unconstrained Binary Optimization: kwadratowy cel na bitach.",
+    "long": "Podstawienie bitu przez (1−Z)/2 daje Hamiltonian diagonalny Isinga. Nie gwarantuje łatwego znalezienia minimum na QPU.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "QUBO"
+    ]
+  },
+  {
+    "id": "scar",
+    "term": "SCAR",
+    "short": "Skew-Chiral Amplitude Router: nazwa lokalnej parametrycznej bramki wymiany.",
+    "long": "Macierz odpowiada XY z chiralną fazą i ZZ. Raport wyprowadza unitarność i lokalną równoważność fazy, bez deklaracji nowości.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "SCAR"
+    ]
+  },
+  {
+    "id": "mlp",
+    "term": "MLP",
+    "short": "Multi-Layer Perceptron: klasyczna sieć warstwowa.",
+    "long": "Równość liczby parametrów MLP i QNN nie oznacza równości pojemności ani kosztu optymalizacji. Porównanie wymaga jawnego protokołu.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "MLP"
+    ]
+  },
+  {
+    "id": "spsa",
+    "term": "SPSA",
+    "short": "Simultaneous Perturbation Stochastic Approximation: estymacja gradientu dwoma losowymi perturbacjami.",
+    "long": "Oszczędza liczbę ewaluacji na krok, kosztem wariancji i błędu aproksymacji. Nie jest analitycznym parameter shift.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "SPSA"
+    ]
+  },
+  {
+    "id": "kl",
+    "term": "KL",
+    "short": "Kullback–Leibler divergence: względna entropia dwóch rozkładów.",
+    "long": "Nie jest metryką symetryczną. Przy histogramach zależy od koszyków i smoothingu; małe KL do Haar nie dowodzi generalizacji.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "KL"
+    ]
+  },
+  {
+    "id": "mmd",
+    "term": "MMD",
+    "short": "Maximum Mean Discrepancy: odległość rozkładów w przestrzeni cech kernela.",
+    "long": "MMD²=E k(X,X′)+E k(Y,Y′)−2E k(X,Y). Rozróżnianie wszystkich rozkładów wymaga właściwego, charakterystycznego kernela.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "MMD"
+    ]
+  },
+  {
+    "id": "bch",
+    "term": "BCH",
+    "short": "Baker–Campbell–Hausdorff: rozwinięcie logarytmu iloczynu wykładniczych.",
+    "long": "Znaki komutatorów zależą od kolejności czynników. Lokalny logarytm ma ograniczoną dziedzinę i nie jest globalnym dowodem stabilności.",
+    "chapter": "chapter-03",
+    "aliases": [
+      "BCH"
+    ]
+  },
+  {
+    "id": "isa",
+    "term": "ISA",
+    "short": "Instruction Set Architecture: natywna reprezentacja obwodu po kompilacji.",
+    "long": "Głębia i liczba 2Q po routingu mogą być większe niż logiczne. Koszt logiczny nie jest czasem QPU.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "ISA"
+    ]
+  },
+  {
+    "id": "sse",
+    "term": "SSE",
+    "short": "Sum of Squared Errors: suma kwadratów błędów.",
+    "long": "Jest licznikiem R² i sumową wersją celu ridge. Podział przez N daje MSE.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "SSE"
+    ]
+  },
+  {
+    "id": "sst",
+    "term": "SST",
+    "short": "Total Sum of Squares: suma kwadratów odchyleń celu od średniej.",
+    "long": "Jest mianownikiem R². Gdy SST=0, wynik wymaga specjalnego oznaczenia degeneracji.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "SST"
+    ]
+  },
+  {
+    "id": "tp",
+    "term": "TP",
+    "short": "True Positive: poprawnie przewidziana klasa dodatnia.",
+    "long": "W wieloklasowych miarach liczymy one-vs-rest osobno dla każdej klasy. TP wchodzi do recall i F1.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "TP"
+    ]
+  },
+  {
+    "id": "fn",
+    "term": "FN",
+    "short": "False Negative: pominięta rzeczywista klasa dodatnia.",
+    "long": "Recall=TP/(TP+FN). Brak danej klasy w teście oznacza zerowy mianownik wymagający konwencji.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "FN"
+    ]
+  },
+  {
+    "id": "fp",
+    "term": "FP",
+    "short": "False Positive: błędnie przewidziana klasa dodatnia.",
+    "long": "Precision=TP/(TP+FP). W Macro F1 liczymy miary osobno dla klas, nie po uśrednieniu liczników.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "FP"
+    ]
+  },
+  {
+    "id": "povm",
+    "term": "POVM",
+    "short": "Positive Operator-Valued Measure: ogólny pomiar kwantowy.",
+    "long": "Efekty M_a są PSD i sumują się do I. Prawdopodobieństwo wynosi Tr(M_aρ); state update wymaga dodatkowego instrumentu.",
+    "chapter": "chapter-01",
+    "aliases": [
+      "POVM"
+    ]
+  },
+  {
+    "id": "hamiltonian",
+    "term": "Hamiltonian",
+    "short": "Hermitowski operator określający energię i generator ewolucji.",
+    "long": "W skończonym wymiarze U(t)=exp(−itH) jest unitarny. W nieskończonej przestrzeni trzeba uwzględnić samosprzężoność i domenę.",
+    "chapter": "chapter-01",
+    "aliases": [
+      "Hamiltonian",
+      "Hamiltonianu",
+      "Hamiltonianem",
+      "Hamiltonowskie",
+      "Hamiltonowski"
+    ]
+  },
+  {
+    "id": "trotter",
+    "term": "Trotter",
+    "short": "Przybliżenie ewolucji przez iloczyn ewolucji części Hamiltonianu.",
+    "long": "Błąd zależy od komutatorów, czasu i liczby kroków. Przy częściowych generatorach komutujących rozkład jest dokładny.",
+    "chapter": "chapter-03",
+    "aliases": [
+      "Trotter",
+      "Trottera",
+      "Trotteryzacja",
+      "Trotteryzacji"
+    ]
+  },
+  {
+    "id": "strang",
+    "term": "Strang",
+    "short": "Symetryczna formuła produktowa drugiego rzędu.",
+    "long": "A/2–B–A/2 usuwa wyraz lokalny drugiego stopnia. Globalny błąd przy stałym czasie ma rząd r⁻² z zależną od generatorów stałą.",
+    "chapter": "chapter-03",
+    "aliases": [
+      "Strang"
+    ]
+  },
+  {
+    "id": "komutator",
+    "term": "komutator",
+    "short": "[A,B]=AB−BA: miara nieprzemienności operatorów.",
+    "long": "Jest źródłem błędu formuł produktowych. Komutatory zagnieżdżone określają kolejne rzędy rozwinięcia.",
+    "chapter": "chapter-03",
+    "aliases": [
+      "komutator",
+      "komutatory",
+      "komutatorów"
+    ]
+  },
+  {
+    "id": "fidelity",
+    "term": "fidelity",
+    "short": "Miara podobieństwa stanów; dla czystych kwadrat modułu overlapu.",
+    "long": "Dla stanów mieszanych trzeba rozróżnić fidelity Uhlmanna i Tr(ρσ). Ten drugi jest PSD kernelem, ale nie tą samą miarą.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "fidelity"
+    ]
+  },
+  {
+    "id": "kernel",
+    "term": "kernel",
+    "short": "Funkcja podobieństwa interpretowana jako iloczyn cech.",
+    "long": "Poprawny dodatni kernel daje PSD Gram dla każdego skończonego zbioru. Symetryczna tabela podobieństwa nie musi mieć tej własności.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "kernel",
+      "kernela",
+      "kernele",
+      "kerneli",
+      "kernelami",
+      "kerneli"
+    ]
+  },
+  {
+    "id": "gram",
+    "term": "Gram",
+    "short": "Macierz iloczynów skalarnych między reprezentacjami próbek.",
+    "long": "Jej dodatniość wynika z normy liniowej kombinacji cech. Widmo wpływa na stabilność ridge; shot noise może wytworzyć ujemne eigenvalues.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "Gram",
+      "Grama",
+      "Gramach"
+    ]
+  },
+  {
+    "id": "alignment",
+    "term": "alignment",
+    "short": "Znormalizowany iloczyn Frobeniusa centrowanych kerneli.",
+    "long": "Wyznacza zgodność geometrii treningowej z etykietami. Near-best 95% nie jest argmax i nie gwarantuje jakości holdoutu.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "alignment",
+      "alignmentu"
+    ]
+  },
+  {
+    "id": "ridge",
+    "term": "ridge",
+    "short": "Regresja z kwadratową karą normy współczynników.",
+    "long": "λ stabilizuje układ i zmienia bias. Intercept może pozostać bez kary; standaryzacja i konwencja sumy/średniej muszą być spójne.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "ridge",
+      "Ridge"
+    ]
+  },
+  {
+    "id": "statevector",
+    "term": "statevector",
+    "short": "Jednostkowy wektor amplitud stanu czystego.",
+    "long": "Dla n kubitów ma 2^n liczb zespolonych. Zależność fazy globalnej znika w macierzy gęstości. Stan mieszany wymaga innej reprezentacji.",
+    "chapter": "chapter-01",
+    "aliases": [
+      "statevector",
+      "statevectors",
+      "statevectorów",
+      "statevectoru"
+    ]
+  },
+  {
+    "id": "macierz-g-sto-ci",
+    "term": "macierz gęstości",
+    "short": "PSD hermitowski operator śladu jeden opisujący stan.",
+    "long": "Może reprezentować stan czysty lub mieszaninę. Jest konieczna po częściowym resecie i w modelach kanałów szumu.",
+    "chapter": "chapter-01",
+    "aliases": [
+      "macierz gęstości",
+      "macierzy gęstości",
+      "macierzami gęstości"
+    ]
+  },
+  {
+    "id": "lad-cz-ciowy",
+    "term": "ślad częściowy",
+    "short": "Usunięcie podukładu z opisu przez sumę po jego bazie.",
+    "long": "Daje zredukowany stan, zachowuje ślad i dodatniość, ale jest wiele-do-jednego. Reset QRC używa go do usunięcia starego wejścia.",
+    "chapter": "chapter-04",
+    "aliases": [
+      "ślad częściowy",
+      "śladu częściowego"
+    ]
+  },
+  {
+    "id": "ancilla",
+    "term": "ancilla",
+    "short": "Pomocniczy rejestr kwantowy.",
+    "long": "Umożliwia dilatację kanału, block encoding i oracle. Jego przygotowanie, uncompute i odczyt są częścią zasobów.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "ancilla",
+      "ancilli"
+    ]
+  },
+  {
+    "id": "hafnian",
+    "term": "hafnian",
+    "short": "Suma iloczynów wag wszystkich doskonałych skojarzeń par indeksów.",
+    "long": "Dla czystego nieprzesuniętego GBS określa amplitudę wzorca fotonowego. Nie jest determinantem ani permanentem.",
+    "chapter": "chapter-05",
+    "aliases": [
+      "hafnian",
+      "hafnianu",
+      "hafnianowy"
+    ]
+  },
+  {
+    "id": "cutoff",
+    "term": "cutoff",
+    "short": "Granica obcięcia nieskończonej przestrzeni Focka lub alfabetu wyników.",
+    "long": "Zmienia relacje operatorowe na granicy. Trzeba kontrolować tail mass oraz zgodność oczekiwań wraz ze zwiększaniem cutoffu.",
+    "chapter": "chapter-04b",
+    "aliases": [
+      "cutoff",
+      "cutoffem",
+      "cutoffu",
+      "cutoffów"
+    ]
+  },
+  {
+    "id": "overflow",
+    "term": "overflow",
+    "short": "Osobny koszyk na zdarzenia poza analizowanym oknem.",
+    "long": "Zachowuje informację o masie ogona. Renormalizacja warunkowa usuwa tę masę i definiuje inny kernel.",
+    "chapter": "chapter-05",
+    "aliases": [
+      "overflow"
+    ]
+  },
+  {
+    "id": "threshold",
+    "term": "threshold",
+    "short": "Detekcja progowa: zero fotonów albo co najmniej jeden click.",
+    "long": "Przy sprawności η i n fotonach click ma prawdopodobieństwo 1−(1−η)^n. Strata musi poprzedzać progowanie.",
+    "chapter": "chapter-05",
+    "aliases": [
+      "threshold"
+    ]
+  },
+  {
+    "id": "shots",
+    "term": "shots",
+    "short": "Liczba powtórzeń przygotowania i pomiaru obwodu.",
+    "long": "Wariancja średnich maleje zwykle jak 1/S. Shots, circuit-shots i 2Q-gate-shots mają różne denominatory.",
+    "chapter": "chapter-01",
+    "aliases": [
+      "shots"
+    ]
+  },
+  {
+    "id": "washout",
+    "term": "washout",
+    "short": "Początkowe kroki odrzucane przed dopasowaniem readoutu.",
+    "long": "Jest ustawieniem procedury. Samo odrzucenie 200 kroków nie dowodzi zaniku wpływu dowolnej inicjalizacji.",
+    "chapter": "chapter-04",
+    "aliases": [
+      "washout"
+    ]
+  },
+  {
+    "id": "readout",
+    "term": "readout",
+    "short": "Uczona głowica odczytująca cechy dynamiki.",
+    "long": "W QRC jest zwykle ridge na oczekiwaniach obserwabli. Pamięć dostępna dla readoutu nie jest całą informacją stanu.",
+    "chapter": "chapter-04",
+    "aliases": [
+      "readout",
+      "readoutu",
+      "readoutem"
+    ]
+  },
+  {
+    "id": "promie-spektralny",
+    "term": "promień spektralny",
+    "short": "Maksymalny moduł wartości własnych macierzy.",
+    "long": "Dla stałej skończonej mapy ρ(M)<1 daje asymptotyczny zanik. Zmienne wejścia wymagają kontroli iloczynów, a nie jednego radius.",
+    "chapter": "chapter-04b",
+    "aliases": [
+      "promień spektralny"
+    ]
+  },
+  {
+    "id": "symplektyczny",
+    "term": "symplektyczny",
+    "short": "Zachowujący formę kanoniczną J dla kwadratur q,p.",
+    "long": "Dla jednego modu SᵀJS=J odpowiada detS=1. Nie gwarantuje stabilności: eigenvalues mogą być wzajemnie odwrotne i rzeczywiste.",
+    "chapter": "chapter-04b",
+    "aliases": [
+      "symplektyczny",
+      "symplektyczne",
+      "symplektyczna",
+      "symplektyczną"
+    ]
+  },
+  {
+    "id": "bootstrap",
+    "term": "bootstrap",
+    "short": "Resampling pozwalający przybliżyć rozkład estymatora.",
+    "long": "Blokowy bootstrap zachowuje zależności wewnątrz bloku. Losowanie każdej chwili iid przy szeregu czasowym tworzy pseudoreplikację.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "bootstrap",
+      "bootstrapu"
+    ]
+  },
+  {
+    "id": "non-inferiority",
+    "term": "non-inferiority",
+    "short": "Test, czy pogorszenie jest mniejsze od ustalonego marginesu.",
+    "long": "Odróżniamy go od braku istotnej różnicy względem zera. H1 QRC używa marginesu 2% NRMSE.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "non-inferiority"
+    ]
+  },
+  {
+    "id": "mitygacja",
+    "term": "mitygacja",
+    "short": "Korekcja estymat błędów bez pełnej korekcji kwantowej.",
+    "long": "Odwracanie macierzy readout może wzmacniać wariancję i dawać ujemne quasi-prawdopodobieństwa. Kalibracja jest osobnym kosztem.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "mitygacja",
+      "mitygacji"
+    ]
+  },
+  {
+    "id": "parameter-shift",
+    "term": "parameter-shift",
+    "short": "Dokładna reguła różniczkowania oczekiwania przez przesunięcia parametru.",
+    "long": "Dla generatora z eigenvalues ±r pochodna jest r[f(θ+π/(4r))−f(θ−π/(4r))]. Współdzielone parametry wymagają chain rule.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "parameter-shift",
+      "parameter shift"
+    ]
+  },
+  {
+    "id": "block-encoding",
+    "term": "block encoding",
+    "short": "Zakodowanie macierzy jako określonego bloku większej unitary.",
+    "long": "Normalizacja α i projektory wejściowe/wyjściowe należą do definicji. QSVT potrzebuje dostępu do tej unitary i jej odwrotności.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "block encoding",
+      "block-encoding"
+    ]
+  },
+  {
+    "id": "oracle",
+    "term": "oracle",
+    "short": "Zadeklarowany mechanizm dostępu do danych albo sprawdzania warunku.",
+    "long": "W algorytmie kwantowym zwykle musi być koherentny i odwracalny. Koszt oracle nie znika w złożoności liczby zapytań.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "oracle"
+    ]
+  },
+  {
+    "id": "postselekcja",
+    "term": "postselekcja",
+    "short": "Warunkowanie na zaakceptowanym wyniku pomiaru.",
+    "long": "Zmienia normalizację rozkładu i efektywną liczbę próbek. Przy acceptance a potrzeba średnio S/a surowych prób na S zaakceptowanych.",
+    "chapter": "chapter-05",
+    "aliases": [
+      "postselekcja",
+      "postselekcji"
+    ]
+  },
+  {
+    "id": "haar",
+    "term": "Haar",
+    "short": "Jednostajna miara niezmiennicza na unitary lub stanach.",
+    "long": "Daje referencyjny rozkład overlapów w deskryptorach. Zbliżenie histogramu do Haar nie jest testem generalizacji.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "Haar"
+    ]
+  },
+  {
+    "id": "softmax",
+    "term": "softmax",
+    "short": "Normalizacja dodatnich exp(logit) do prawdopodobieństw klas.",
+    "long": "Odczyt amplitud kwantowych daje Born squared amplitudes, a nie automatycznie softmax tokenów. Te mapy muszą być odróżnione.",
+    "chapter": "chapter-06",
+    "aliases": [
+      "softmax",
+      "softmaxem"
+    ]
+  },
+  {
+    "id": "cross-entropy",
+    "term": "cross-entropy",
+    "short": "Strata −log prawdopodobieństwa prawidłowej klasy.",
+    "long": "Dla softmax gradient względem logits to p−one-hot(y). Estymacja cech QPU może wprowadzać wariancję do całego gradientu.",
+    "chapter": "chapter-07",
+    "aliases": [
+      "cross-entropy"
+    ]
+  },
+  {
+    "id": "uwarunkowanie",
+    "term": "uwarunkowanie",
+    "short": "Wrażliwość rozwiązania na perturbacje danych lub macierzy.",
+    "long": "Dla układu liniowego wiąże się z ilorazem największej i najmniejszej singular value. Regularizacja stabilizuje, ale wprowadza bias.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "uwarunkowanie",
+      "uwarunkowania"
+    ]
+  },
+  {
+    "id": "regularizacja",
+    "term": "regularizacja",
+    "short": "Dodatkowa kara lub ograniczenie stabilizujące dopasowanie.",
+    "long": "Jej interpretacja zależy od normy, skalowania straty i preprocessingu. λ nie porównuje się bezpośrednio między odmiennymi celami.",
+    "chapter": "chapter-02",
+    "aliases": [
+      "regularizacja",
+      "regularizacji"
+    ]
+  },
+  {
+    "id": "estymand",
+    "term": "estymand",
+    "short": "Ściśle określona wielkość, którą ma szacować analiza.",
+    "long": "Średnia ilorazów, iloraz średnich i geometryczna średnia są odmiennymi estymandami. Split definiuje populację generalizacji.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "estymand",
+      "estymandu"
+    ]
+  },
+  {
+    "id": "pseudoreplikacja",
+    "term": "pseudoreplikacja",
+    "short": "Traktowanie zależnych pomiarów jako niezależnych replik.",
+    "long": "Shots, foldy i chwile współdzielące dynamikę nie są automatycznie osobnymi eksperymentami. Analiza ma używać właściwej jednostki blokowej.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "pseudoreplikacja"
+    ]
+  },
+  {
+    "id": "doi",
+    "term": "DOI",
+    "short": "Digital Object Identifier: trwały identyfikator publikacji.",
+    "long": "Metadane DOI są offline, lecz otwarcie wydawcy wymaga sieci. Sam DOI nie dowodzi, że źródło wspiera daną tezę.",
+    "chapter": "bibliography",
+    "aliases": [
+      "DOI"
+    ]
+  },
+  {
+    "id": "bibtex",
+    "term": "BibTeX",
+    "short": "Format rekordów bibliograficznych używany w LaTeX.",
+    "long": "Pakiet zawiera klucze identyczne z cytowaniami raportu. Ułatwia ponowne użycie bibliografii bez przepisywania metadanych.",
+    "chapter": "bibliography",
+    "aliases": [
+      "BibTeX"
+    ]
+  },
+  {
+    "id": "sqlite",
+    "term": "SQLite",
+    "short": "Lokalna relacyjna baza danych w pojedynczym pliku.",
+    "long": "Baza łączy źródła, cytowania, fragmenty kodu, słownik, hipotezy i relacje grafowe. Nie wymaga serwera.",
+    "chapter": "bibliography",
+    "aliases": [
+      "SQLite"
+    ]
+  },
+  {
+    "id": "sha-256",
+    "term": "SHA-256",
+    "short": "Kryptograficzny skrót treści pliku.",
+    "long": "Hash określa wersję źródła i pozwala wykryć zmianę. Zgodność hashy potwierdza integralność, nie prawdziwość naukową wyniku.",
+    "chapter": "code-browser",
+    "aliases": [
+      "SHA-256"
+    ]
+  },
+  {
+    "id": "html",
+    "term": "HTML",
+    "short": "Format samodzielnej strony raportu.",
+    "long": "Wyeksportowany plik zawiera skrypt, dane, wzory i fonty lokalnie. Nie wymaga localhost ani CDN.",
+    "chapter": "chapter-10",
+    "aliases": [
+      "HTML"
+    ]
+  },
+  {
+    "id": "json",
+    "term": "JSON",
+    "short": "Tekstowy format danych strukturalnych.",
+    "long": "Używany do bibliografii i metadanych. Liczby, źródła oraz statusy pozostają oddzielone od prezentacji.",
+    "chapter": "chapter-10",
+    "aliases": [
+      "JSON"
+    ]
+  },
+  {
+    "id": "csv",
+    "term": "CSV",
+    "short": "Tekstowa tabela z kolumnami rozdzielonymi separatorem.",
+    "long": "Źródła wykresów mają zachowane nagłówki i oryginalne wiersze. Agregacja i jednostki są udokumentowane.",
+    "chapter": "chapter-08",
+    "aliases": [
+      "CSV"
+    ]
+  },
+  {
+    "id": "pdf",
+    "term": "PDF",
+    "short": "Przenośny format dokumentu o stałym układzie.",
+    "long": "Publikacje mogą być dostępne jako PDF, ale pakiet raportu zawiera przede wszystkim metadane i uprawnione materiały lokalne.",
+    "chapter": "bibliography",
+    "aliases": [
+      "PDF"
+    ]
+  },
+  {
+    "id": "api",
+    "term": "API",
+    "short": "Interfejs programistyczny udostępniający funkcje usługi.",
+    "long": "Integracja z dostawcą może pobierać dane albo zlecać zadania. W tej pracy nie wysłano nowych zadań QPU.",
+    "chapter": "chapter-10",
+    "aliases": [
+      "API"
+    ]
+  },
+  {
+    "id": "hermitowski",
+    "term": "hermitowski",
+    "aliases": [
+      "hermitowski",
+      "hermitowska",
+      "hermitowskie",
+      "hermitowskiego",
+      "hermitowskiej",
+      "hermitowskich"
+    ],
+    "short": "Operator równy swojemu sprzężeniu hermitowskiemu: A=A†.",
+    "long": "Ma rzeczywiste wartości własne i ortonormalną bazę wektorów własnych. Hamiltoniany i obserwable są hermitowskie. Dodatniość wymaga dodatkowo nieujemnego widma.",
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "unitarny",
+    "term": "unitarny",
+    "aliases": [
+      "unitarny",
+      "unitarna",
+      "unitarne",
+      "unitarnych",
+      "unitarność",
+      "unitarności",
+      "unitarnej",
+      "unitarną",
+      "unitary"
+    ],
+    "short": "Operator zachowujący iloczyn skalarny: U†U=UU†=I.",
+    "long": "Ewolucja zamkniętego układu jest odwracalna i zachowuje normę stanu. Pooling z usunięciem rejestru nie jest unitarny na zachowanym układzie, mimo że ma unitarną realizację z otoczeniem.",
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "kraus",
+    "term": "Kraus",
+    "aliases": [
+      "Kraus",
+      "Krausa"
+    ],
+    "short": "Operatory opisujące kanał przez sumę KₐρKₐ†.",
+    "long": "Warunek sumy Kₐ†Kₐ=I zapewnia zachowanie śladu; forma sumy zapewnia całkowitą dodatniość. Odrzucenie wyniku pomiaru sumuje gałęzie, a postselekcja warunkuje na jednej gałęzi.",
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "born",
+    "term": "Born",
+    "aliases": [
+      "Born",
+      "Borna"
+    ],
+    "short": "Reguła prawdopodobieństw pomiaru: p(a)=Tr(Mₐρ).",
+    "long": "Dla czystego stanu i pomiaru bazowego daje kwadraty modułów amplitud. Użycie amplitud logitów wymaga przygotowania właściwego stanu; pomiar nie stosuje automatycznie softmax.",
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "observable",
+    "term": "obserwabla",
+    "aliases": [
+      "obserwabla",
+      "obserwabli",
+      "obserwable",
+      "observable",
+      "obserwablami"
+    ],
+    "short": "Hermitowski operator opisujący mierzoną wielkość.",
+    "long": "Średnia pomiarów wynosi Tr(Oρ). W QRC wybór lokalnych X,Z,ZZ ogranicza readout do wybranej części informacji stanu. Wspólne bitstringi w grupie obserwabli tworzą kowariancje estymatorów.",
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "hilbert",
+    "term": "Hilbert",
+    "aliases": [
+      "Hilbert",
+      "Hilberta",
+      "Hilberta–Schmidta",
+      "Hilberta-Schmidta",
+      "Hilbert–Schmidt",
+      "HS"
+    ],
+    "short": "Przestrzeń z iloczynem skalarnym; Hilbert–Schmidt dotyczy operatorów.",
+    "long": "Dla operatorów iloczyn wynosi Tr(A†B). Stany jako wektory tej przestrzeni tworzą PSD Gram. Duży wymiar przestrzeni nie stanowi samodzielnej gwarancji generalizacji.",
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "trace-distance",
+    "term": "trace distance",
+    "aliases": [
+      "trace distance",
+      "odległość śladowa",
+      "odległości śladowej",
+      "norma śladowa",
+      "normy śladowej"
+    ],
+    "short": "Odległość stanów D(ρ,σ)=‖ρ−σ‖₁/2.",
+    "long": "Ma interpretację optymalnego rozróżniania stanów i nie rośnie pod wspólnym kanałem CPTP. Kontrakcja niewłaściwej normy współrzędnych nie zastępuje tej fizycznej własności.",
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "pauli",
+    "term": "Pauli",
+    "aliases": [
+      "Pauli",
+      "Paulich",
+      "Pauliego",
+      "Pauliego"
+    ],
+    "short": "Macierze X,Y,Z oraz ich iloczyny tensorowe.",
+    "long": "Tworzą ortogonalną bazę operatorów kubitowych; pełne współczynniki rekonstruują stan. Antykomutujące stringi generują komutatory ważne dla błędu Trottera.",
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "schwarz",
+    "term": "Cauchy–Schwarz",
+    "aliases": [
+      "Cauchy–Schwarz",
+      "Cauchy'ego–Schwarza",
+      "Cauchy-Schwarz",
+      "Cauchy’ego–Schwarza"
+    ],
+    "short": "Nierówność |⟨x,y⟩|≤‖x‖‖y‖.",
+    "long": "Ogranicza cross-kernel, błąd predykcji i złożoność modeli. W raporcie stosuje się ją w jawnie zadeklarowanej przestrzeni, z odpowiednią normą cech.",
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "bessel",
+    "term": "Bessel",
+    "aliases": [
+      "Bessel",
+      "Bessela"
+    ],
+    "short": "Suma kwadratów rzutów na ortonormalną rodzinę nie przekracza normy wektora.",
+    "long": "Pozwala ograniczyć populacyjną sumę capacities przez rząd podprzestrzeni odczytu. Nie dotyczy automatycznie testowych wartości R², które mogą być ujemne.",
+    "chapter": "chapter-04b"
+  },
+  {
+    "id": "fock",
+    "term": "Fock",
+    "aliases": [
+      "Fock",
+      "Focka",
+      "Fockowej"
+    ],
+    "short": "Baza stanów o określonej liczbie fotonów.",
+    "long": "Przestrzeń bosonowa jest nieskończenie wymiarowa. Cutoff usuwa wysokie obsadzenia i zmienia komutator na granicy; należy kontrolować ogon i odpowiednie momenty.",
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "foton",
+    "term": "foton",
+    "aliases": [
+      "foton",
+      "fotony",
+      "fotonów",
+      "fotonu"
+    ],
+    "short": "Kwant wzbudzenia modu pola elektromagnetycznego.",
+    "long": "Obsadzenie n może być mierzone jako PNR albo tylko zero/click. Przy stratach każde wzbudzenie przechodzi niezależne rozrzedzanie w modelu kanału liniowego.",
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "binomial",
+    "term": "dwumianowy",
+    "aliases": [
+      "dwumianowy",
+      "dwumianu",
+      "dwumianowe",
+      "binomial",
+      "Bernoulli",
+      "Bernoulliego"
+    ],
+    "short": "Liczba sukcesów w niezależnych próbach o wspólnej szansie sukcesu.",
+    "long": "Opisuje marginalne zliczanie wyników i utratę fotonów w zadeklarowanym modelu. Wspólna próba kilku obserwabli wymaga dodatkowo kowariancji.",
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "multinomial",
+    "term": "multinomial",
+    "aliases": [
+      "multinomial",
+      "multinomialny",
+      "wielomianowy rozkład",
+      "wielomianowego rozkładu"
+    ],
+    "short": "Wspólne zliczanie rozłącznych koszyków w ustalonej liczbie prób.",
+    "long": "Dla histogramu kowariancja estymat wynosi (diag(p)−ppᵀ)/S. Koszyki są zależne, ponieważ liczby zliczeń sumują się do S; niezależne binomiale zmieniają estymator.",
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "nystrom",
+    "term": "Nyström",
+    "aliases": [
+      "Nyström",
+      "Nyströma",
+      "Nystrom",
+      "Nyströmowy"
+    ],
+    "short": "Aproksymacja kernela przez mniejszy zbiór landmarków.",
+    "long": "Przy PSD bloku W cechy mogą mieć postać C W^{+1/2}. Threshold i dobór landmarków zmieniają geometrię; train oraz cross muszą używać tej samej mapy.",
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "centering",
+    "term": "centrowanie",
+    "aliases": [
+      "centrowanie",
+      "centrowania",
+      "wycentrowaniu",
+      "centered"
+    ],
+    "short": "Odjęcie średniej dopasowanej na właściwym zbiorze.",
+    "long": "Dla Gram operacja CKC odpowiada centrowaniu cech, C=I−11ᵀ/N. Cross-kernel na nowych danych wymaga zachowania średnich train, a nie niezależnego centrowania testu.",
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "normalizacja",
+    "term": "normalizacja",
+    "aliases": [
+      "normalizacja",
+      "normalizacji",
+      "normalizację",
+      "normalizacją"
+    ],
+    "short": "Przeskalowanie do zadeklarowanej normy lub sumy.",
+    "long": "Normalizacja stanu, diagonali kernela i histogramu to różne operacje. Postselekcja przez warunkowe sumowanie tworzy inną cechę niż dodanie overflow.",
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "svd-pseudoinverse",
+    "term": "pseudoodwrotność",
+    "aliases": [
+      "pseudoodwrotność",
+      "pseudoodwrotności",
+      "pseudoodwrotnośći"
+    ],
+    "short": "Odwrócenie niezerowych wartości singularnych z zerem na pozostałym nośniku.",
+    "long": "Jest operatorem Moore'a–Penrose'a. Używana w populacyjnym readout i Nyström; nie zastępuje kontroli małych wartości singularnych i regularizacji.",
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "bch-lie",
+    "term": "Lie",
+    "aliases": [
+      "Lie",
+      "Liego",
+      "Lie–Trotter",
+      "Lie-Trotter"
+    ],
+    "short": "Pierwszy rząd rozszczepienia wykładniczej na kolejne części.",
+    "long": "Przy niekomutujących częściach lokalny błąd jest rzędu h², a przy ustalonym czasie globalny zwykle rzędu 1/r. Nazwa nie oznacza, że każdy schemat w kodzie ma ten sam porządek bloków.",
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "iid",
+    "term": "iid",
+    "aliases": [
+      "iid",
+      "i.i.d."
+    ],
+    "short": "Independent and identically distributed: niezależne obserwacje o tym samym rozkładzie.",
+    "long": "Założenie dotyczy właściwej jednostki analizy. Kolejne chwile reservoiru, foldy tej samej bazy i wspólne shots nie muszą spełniać tego warunku.",
+    "chapter": "chapter-08"
+  },
+  {
+    "id": "jacobian",
+    "term": "Jacobian",
+    "aliases": [
+      "Jacobian",
+      "Jacobianu",
+      "jakobian"
+    ],
+    "short": "Macierz pochodnych wektora wyjścia względem wektora wejścia.",
+    "long": "W hybrydzie quantum-classical umożliwia chain rule przez cechy kwantowe. Jeśli wejście określa kąty obwodu, oszacowanie tej macierzy również wymaga ocen kwantowej części.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "gibbs",
+    "term": "Gibbs",
+    "aliases": [
+      "Gibbs",
+      "Gibbsa"
+    ],
+    "short": "Stan termiczny e^(−βH)/Tr(e^(−βH)).",
+    "long": "Dla niekomutujących generatorów gradient wykładniczej wymaga całki operatorowej. Uczenie QBM musi uwzględnić przygotowanie stanu i estymację oczekiwań.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "annealing",
+    "term": "annealing",
+    "aliases": [
+      "annealing",
+      "annealingu",
+      "wyżarzanie"
+    ],
+    "short": "Ewolucja harmonogramu Hamiltonianu w kierunku problemu optymalizacji.",
+    "long": "Adiabatyczność zależy od luki widmowej, pochodnych harmonogramu i czasu. Stan końcowy rzeczywistego annealera nie jest automatycznie dokładnym stanem podstawowym ani termicznym QBM.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "centroid",
+    "term": "centroid",
+    "aliases": [
+      "centroid",
+      "centroidy",
+      "centroidu",
+      "centroidów"
+    ],
+    "short": "Średnia reprezentantów klas w określonej przestrzeni.",
+    "long": "Średnia wektorów x i średnia stanów ρ(x) różnią się dla nieliniowego kodowania. Atlas musi zadeklarować, który centroid ma być przygotowany i mierzony.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "qpe",
+    "term": "QPE",
+    "aliases": [
+      "QPE"
+    ],
+    "short": "Quantum Phase Estimation: koherentna estymacja fazy wartości własnej unitary.",
+    "long": "W HHL rozróżnia wartości własne przez fazy ewolucji. Precyzja, kontrolowane potęgi i koherentny uncompute należą do kosztu.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "qsp",
+    "term": "QSP",
+    "aliases": [
+      "QSP"
+    ],
+    "short": "Quantum Signal Processing: składanie sekwencji faz i sygnału w transformację wielomianową.",
+    "long": "Jest składnikiem konstrukcji QSVT. Ograniczenie na [-1,1], parzystość i przestrzenie projektorów są niezbędne, a nie dekoracyjne.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "rl",
+    "term": "RL",
+    "aliases": [
+      "RL"
+    ],
+    "short": "Reinforcement Learning: uczenie decyzji przez nagrody w środowisku.",
+    "long": "Kwantowy wariant może wymagać koherentnego dostępu do całych epizodów. Zwykły interfejs wysyłający klasyczne obserwacje nie zapewnia takiego oracle.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "mdp",
+    "term": "MDP",
+    "aliases": [
+      "MDP"
+    ],
+    "short": "Markov Decision Process: model stanów, akcji, przejść i nagród.",
+    "long": "Opisuje klasyczne środowisko RL. Kwantowe przyspieszenie zależy od konkretnego modelu dostępu do przejść; nazwa QRL nie wystarcza do jego uzyskania.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "gan",
+    "term": "GAN",
+    "aliases": [
+      "GAN"
+    ],
+    "short": "Generative Adversarial Network: gra ucząca generator i dyskryminator.",
+    "long": "QGAN może dotyczyć klasycznych rozkładów albo stanów kwantowych. Optymalny dowolny pomiar jest mocniejszym dyskryminatorem niż lokalna, ograniczona rodzina obwodów.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "sf",
+    "term": "SF",
+    "aliases": [
+      "SF",
+      "Strawberry Fields"
+    ],
+    "short": "Strawberry Fields: platforma modelowania obwodów fotonicznych.",
+    "long": "Raport bada kod przez jego rzeczywiste operacje i reprezentację stanu. Obecność biblioteki nie certyfikuje poprawności modelu strat lub kolejności detektora.",
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "mg",
+    "term": "MG",
+    "aliases": [
+      "MG",
+      "MG5",
+      "Mackey–Glass",
+      "Mackey-Glass"
+    ],
+    "short": "Mackey–Glass: nieliniowy szereg z opóźnieniem użyty jako benchmark predykcji.",
+    "long": "MG5 oznacza cel o horyzoncie pięciu kroków. Trzeba rozdzielić czas wejścia, dostępność celu, scaler dopasowany na train i luki temporalne.",
+    "chapter": "chapter-04b"
+  },
+  {
+    "id": "narma",
+    "term": "NARMA10",
+    "aliases": [
+      "NARMA10",
+      "NARMA"
+    ],
+    "short": "Nieliniowy autoregresyjny benchmark z pamięcią rzędu dziesięć.",
+    "long": "Służy do oceny odczytu rezerwuaru. Przewaga na tym syntetycznym zadaniu jest wynikiem dla jego rozkładu i protokołu, a nie uniwersalnym twierdzeniem o pamięci.",
+    "chapter": "chapter-04b"
+  },
+  {
+    "id": "r-squared",
+    "term": "R²",
+    "aliases": [
+      "R²",
+      "R^2"
+    ],
+    "short": "Współczynnik 1−SSE/SST; na teście może być ujemny.",
+    "long": "Mierzy błąd względem przewidywania średniej w segmencie oceny. Nie jest ogólnie kwadratem korelacji. Pamięć C(d) w archiwach jest testowym R².",
+    "chapter": "chapter-08"
+  },
+  {
+    "id": "f1",
+    "term": "F1",
+    "aliases": [
+      "F1",
+      "Macro F1",
+      "macro-F1"
+    ],
+    "short": "Średnia harmoniczna precision i recall jednej klasy.",
+    "long": "Macro F1 to średnia F1 obliczonego osobno dla każdej klasy. Nie jest równe F1 uśrednionych precision i recall.",
+    "chapter": "chapter-08"
+  },
+  {
+    "id": "accuracy",
+    "term": "accuracy",
+    "aliases": [
+      "accuracy",
+      "Accuracy"
+    ],
+    "short": "Odsetek wszystkich poprawnych klasyfikacji.",
+    "long": "Przy nierównych licznościach klas różni się od balanced accuracy. Porównanie par modeli na tych samych próbkach wymaga uwzględnienia parowania błędów.",
+    "chapter": "chapter-08"
+  },
+  {
+    "id": "recall",
+    "term": "recall",
+    "aliases": [
+      "recall"
+    ],
+    "short": "Udział poprawnie rozpoznanych elementów danej klasy: TP/(TP+FN).",
+    "long": "BA uśrednia recall po klasach. Brak klasy w segmencie wymaga jawnej konwencji i nie jest obserwacją recall równego zero.",
+    "chapter": "chapter-08"
+  },
+  {
+    "id": "precision",
+    "term": "precision",
+    "aliases": [
+      "precision"
+    ],
+    "short": "Udział poprawnych wśród predykcji danej klasy: TP/(TP+FP).",
+    "long": "Zależy od częstości klas i progu modelu. W kontekście symulacji angielskie precision może też oznaczać dokładność numeryczną; znaczenie wskazuje otoczenie.",
+    "chapter": "chapter-08"
+  },
+  {
+    "id": "ab",
+    "term": "AB/BAB",
+    "aliases": [
+      "AB",
+      "ABA",
+      "BAB",
+      "AB_r1",
+      "BAB_r1"
+    ],
+    "short": "Kolejność bloków rozszczepienia Hamiltonianu w QRC.",
+    "long": "A i B są jawnie zdefiniowanymi częściami Hamiltonianu. AB to pierwszy rząd, ABA/BAB symetryczne schematy drugiego rzędu; zastosowanie macierzy do ketów czyta kolejność od prawej.",
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "swap",
+    "term": "SWAP",
+    "aliases": [
+      "SWAP"
+    ],
+    "short": "Bramka zamieniająca dwa rejestry.",
+    "long": "W qPCA częściowy SWAP z kopiami ρ przybliża ewolucję e^(−itρ). Kopie wejściowego stanu, precyzja i odczyt są zasobami tej procedury.",
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "rademacher",
+    "term": "Rademacher",
+    "aliases": [
+      "Rademacher",
+      "Rademachera"
+    ],
+    "short": "Symetryczna zmienna ±1 używana do oceny złożoności klasy funkcji.",
+    "long": "Empiryczna złożoność Rademachera ogranicza dopasowanie przypadkowych znaków przez klasę modeli. Granica w raporcie zależy od normy wag i cech, nie tylko wymiaru Hilberta.",
+    "chapter": "chapter-07"
+  },
+  {
+    "id": "lyapunov",
+    "term": "Lyapunov",
+    "aliases": [
+      "Lyapunov",
+      "Lyapunova"
+    ],
+    "short": "Równanie kowariancji V=MVMᵀ+Q dla liniowej dynamiki z szumem.",
+    "long": "Przy promieniu spektralnym M mniejszym od jedności ma jednoznaczne rozwiązanie przez zbieżny szereg. Nie stanowi uniwersalnego warunku dla wszystkich wejść nieliniowego QRC.",
+    "chapter": "chapter-04b"
+  },
+  {
+    "id": "norm-frobenius",
+    "term": "Frobenius",
+    "aliases": [
+      "Frobenius",
+      "Frobeniusa"
+    ],
+    "short": "Norma macierzy: pierwiastek sumy kwadratów modułów wpisów.",
+    "long": "W tej normie obcięcie ujemnego widma daje najbliższą PSD macierz hermitowską. Najbliższość w tej normie nie gwarantuje optymalnej predykcji.",
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "holdout",
+    "term": "holdout",
+    "aliases": [
+      "holdout",
+      "holdoutu",
+      "holdoutem"
+    ],
+    "short": "Odłożony zbiór służący końcowej ocenie po zamrożeniu wyborów.",
+    "long": "Jeśli wybiera się przypadek lub architekturę po jego wynikach, holdout staje się danymi development. Rzetelna potwierdzająca ocena wymaga nowego niezależnego testu.",
+    "chapter": "chapter-07"
+  },
+  {
+    "id": "ast",
+    "term": "AST",
+    "aliases": [
+      "AST"
+    ],
+    "short": "Abstract Syntax Tree: struktura składniowa kodu.",
+    "long": "Indeks raportu korzysta z parsowania Python, aby związać funkcje i klasy z liniami. Poprawność składni nie dowodzi poprawności matematycznej obliczeń.",
+    "chapter": "chapter-10"
+  },
+  {
+    "id": "http",
+    "term": "HTTP",
+    "aliases": [
+      "HTTP",
+      "localhost",
+      "CDN"
+    ],
+    "short": "Protokół pobierania zasobów strony; localhost odnosi się do własnego komputera.",
+    "long": "Podgląd korzysta z lokalnego serwera, lecz przenośny HTML zawiera wszystkie dane i fonty. CDN jest zewnętrznym dostawcą zasobów i nie jest potrzebny do działania gotowego raportu.",
+    "chapter": "chapter-10"
+  },
+  {
+    "id": "uci",
+    "term": "UCI",
+    "aliases": [
+      "UCI"
+    ],
+    "short": "Repozytorium zbiorów danych University of California, Irvine.",
+    "long": "Opis OptDigits wskazuje odrębne grupy autorów pisma w oryginalnych zbiorach train/test. Losowe splity po połączeniu tych części odpowiadają innemu pytaniu o generalizację.",
+    "chapter": "chapter-07"
+  }
+]

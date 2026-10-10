@@ -1,0 +1,250 @@
+flowchart LR
+  n0["analysis_output.ansatz_hardware_dataset_benchmark"]
+  n1["analysis_output.generate_scar_circuit_visualization_png"]
+  n2["analysis_output.qml_hypothesis_experiment"]
+  n3["analysis_output.qml_iterative_hypothesis_experiment"]
+  n4["analysis_output.qml_nisq_hypothesis_experiment"]
+  n5["analysis_output.qsvm_hypothesis_experiment"]
+  n6["analysis_output.scar_wine_qnn_benchmark"]
+  n7["analysis_output.vqe_scar_ansatz_experiment"]
+  n8["audits.hamiltonian_kernel_grid_output_audit"]
+  n9["audits.hamiltonian_kernel_hardware_audit"]
+  n10["audits.hamiltonian_kernel_stage1_audit"]
+  n11["audits.photonic_kernel_audit"]
+  n12["audits.project_review_checks"]
+  n13["audits.resource_aware_benchmark_audit"]
+  n14["audits.trotter_scaling_full_audit"]
+  n15["audits.trotter_scaling_output_audit"]
+  n16["audits.trotter_scaling_v3_audit"]
+  n17["experiments.__init__"]
+  n18["experiments.legacy.__init__"]
+  n19["experiments.legacy.ansatz_hardware_dataset_benchmark"]
+  n20["experiments.legacy.generate_scar_circuit_visualization_png"]
+  n21["experiments.legacy.qml_hypothesis_experiment"]
+  n22["experiments.legacy.qml_iterative_hypothesis_experiment"]
+  n23["experiments.legacy.qml_nisq_hypothesis_experiment"]
+  n24["experiments.legacy.qsvm_hypothesis_experiment"]
+  n25["experiments.legacy.scar_wine_qnn_benchmark"]
+  n26["experiments.legacy.vqe_scar_ansatz_experiment"]
+  n27["hamiltonian_kernel.__init__"]
+  n28["hamiltonian_kernel.core"]
+  n29["hamiltonian_kernel.correct_resource_costs"]
+  n30["hamiltonian_kernel.data"]
+  n31["hamiltonian_kernel.estimation"]
+  n32["hamiltonian_kernel.experiment"]
+  n33["hamiltonian_kernel.grid_experiment"]
+  n34["hamiltonian_kernel.hardware_circuits"]
+  n35["hamiltonian_kernel.hardware_experiment"]
+  n36["hamiltonian_kernel.hardware_providers"]
+  n37["hamiltonian_kernel.learning"]
+  n38["hamiltonian_kernel.protocol"]
+  n39["hamiltonian_kernel.publication_benchmark"]
+  n40["hamiltonian_kernel.trotter_scaling"]
+  n41["hamiltonian_kernel.trotter_scaling_full"]
+  n42["hamiltonian_kernel.trotter_scaling_summary"]
+  n43["hamiltonian_kernel.trotter_scaling_v3"]
+  n44["hamiltonian_kernel.trotter_scaling_v3_ibm"]
+  n45["hamiltonian_kernel.trotter_scaling_v3_summary"]
+  n46["hamiltonian_kernel.universal_hamiltonian"]
+  n47["photonic_kernel.__init__"]
+  n48["photonic_kernel.core"]
+  n49["photonic_kernel.experiment"]
+  n50["photonic_kernel.robustness"]
+  n51["photonic_kernel.strawberry_fields_robustness"]
+  n52["photonic_kernel.xanadu_x8"]
+  n53["quantum_reservoir.__init__"]
+  n54["quantum_reservoir.benchmarks"]
+  n55["quantum_reservoir.core"]
+  n56["quantum_reservoir.experiment"]
+  n57["quantum_reservoir.h3_memory_study"]
+  n58["quantum_reservoir.h3_noise_diagnostics"]
+  n59["quantum_reservoir.h3_noise_report"]
+  n60["quantum_reservoir.h3_noise_study"]
+  n61["quantum_reservoir.h3_readout_controls"]
+  n62["quantum_reservoir.h3_report"]
+  n63["quantum_reservoir.h3_stationary_check"]
+  n64["quantum_reservoir.h3_washout_check"]
+  n65["quantum_reservoir.ibm_hardware"]
+  n66["quantum_reservoir.spectral_h1_h2_report"]
+  n67["quantum_reservoir.spectral_h1_h2_study"]
+  n68["scripts.select_ibm_calibration_layout"]
+  n69["scripts.summarize_ibm_qpu_validation"]
+  n70["tests.test_h3_memory_study"]
+  n71["tests.test_h3_noise_study"]
+  n72["tests.test_hamiltonian_kernel"]
+  n73["tests.test_hamiltonian_kernel_grid"]
+  n74["tests.test_hamiltonian_kernel_hardware"]
+  n75["tests.test_hamiltonian_kernel_protocol"]
+  n76["tests.test_photonic_kernel"]
+  n77["tests.test_photonic_kernel_experiment"]
+  n78["tests.test_qrc_ibm_hardware"]
+  n79["tests.test_quantum_reservoir"]
+  n80["tests.test_trotter_scaling"]
+  n81["tests.test_trotter_scaling_v3"]
+  n82["tools.audit_documents"]
+  n83["tools.audit_qrc_results"]
+  n84["tools.build_kernel_reservoir_report"]
+  n85["tools.build_qml_achievements_charts"]
+  n86["tools.build_qml_achievements_report"]
+  n87["tools.build_qrc_audit_pdf"]
+  n88["tools.build_qrc_trotter_notebook"]
+  n89["tools.build_source_catalog"]
+  n90["tools.check_kernel_reservoir_comparison"]
+  n91["tools.check_publication"]
+  n92["tools.configure_ibm_quantum_account"]
+  n93["tools.export_publication"]
+  n94["tools.extract_qml_pdfs"]
+  n95["tools.finalize_best_hpo_composer_result"]
+  n96["tools.generate_h2_proof_pdf"]
+  n97["tools.h2_hardware_common"]
+  n98["tools.h2_pennylane_xanadu"]
+  n99["tools.h2_qiskit_ibm"]
+  n100["tools.ibm_composer_hardware_train"]
+  n101["tools.plot_scar_wine_ibm_qpu"]
+  n102["tools.prepare_best_hpo_composer_qasm"]
+  n103["tools.project_inventory"]
+  n104["tools.qrc_ibm_hardware"]
+  n105["tools.run_best_hpo_ibm_qpu"]
+  n106["tools.scar_ibm_fez_simulated_reproduction"]
+  n107["tools.scar_measurement_mitigation"]
+  n108["tools.scar_physical_qpu_wine_benchmark"]
+  n109["tools.scar_qpu_error_matrix_mitigation"]
+  n110["tools.scar_rigetti_ionq_architecture"]
+  n111["tools.scar_wine_ibm_qpu"]
+  n9 --> n34
+  n11 --> n49
+  n12 --> n26
+  n12 --> n31
+  n12 --> n43
+  n12 --> n55
+  n13 --> n38
+  n16 --> n43
+  n22 --> n21
+  n23 --> n21
+  n23 --> n22
+  n25 --> n26
+  n27 --> n28
+  n27 --> n46
+  n29 --> n28
+  n29 --> n38
+  n31 --> n28
+  n32 --> n28
+  n32 --> n30
+  n32 --> n37
+  n33 --> n28
+  n33 --> n30
+  n33 --> n31
+  n33 --> n37
+  n34 --> n28
+  n34 --> n31
+  n34 --> n37
+  n35 --> n28
+  n35 --> n30
+  n35 --> n34
+  n35 --> n36
+  n35 --> n38
+  n36 --> n34
+  n39 --> n28
+  n39 --> n30
+  n39 --> n31
+  n39 --> n33
+  n39 --> n37
+  n39 --> n38
+  n40 --> n28
+  n40 --> n30
+  n40 --> n37
+  n40 --> n46
+  n41 --> n28
+  n41 --> n31
+  n41 --> n37
+  n41 --> n40
+  n41 --> n46
+  n42 --> n41
+  n43 --> n28
+  n43 --> n31
+  n43 --> n37
+  n43 --> n40
+  n43 --> n41
+  n43 --> n46
+  n44 --> n36
+  n44 --> n41
+  n44 --> n43
+  n45 --> n43
+  n47 --> n48
+  n49 --> n30
+  n49 --> n37
+  n49 --> n48
+  n50 --> n48
+  n51 --> n48
+  n51 --> n50
+  n52 --> n48
+  n52 --> n49
+  n53 --> n54
+  n53 --> n55
+  n53 --> n65
+  n56 --> n54
+  n56 --> n55
+  n57 --> n55
+  n57 --> n67
+  n58 --> n60
+  n59 --> n67
+  n60 --> n55
+  n60 --> n57
+  n60 --> n67
+  n61 --> n55
+  n61 --> n57
+  n61 --> n67
+  n62 --> n67
+  n63 --> n55
+  n63 --> n57
+  n63 --> n67
+  n64 --> n55
+  n64 --> n57
+  n64 --> n67
+  n65 --> n55
+  n66 --> n67
+  n67 --> n54
+  n67 --> n55
+  n67 --> n65
+  n70 --> n55
+  n70 --> n57
+  n70 --> n67
+  n71 --> n55
+  n71 --> n57
+  n71 --> n60
+  n72 --> n28
+  n72 --> n37
+  n73 --> n28
+  n73 --> n31
+  n73 --> n33
+  n74 --> n28
+  n74 --> n34
+  n74 --> n35
+  n74 --> n36
+  n74 --> n38
+  n75 --> n29
+  n75 --> n38
+  n75 --> n39
+  n76 --> n48
+  n76 --> n50
+  n77 --> n30
+  n77 --> n48
+  n77 --> n49
+  n77 --> n52
+  n78 --> n55
+  n78 --> n65
+  n79 --> n54
+  n79 --> n55
+  n79 --> n56
+  n80 --> n28
+  n80 --> n40
+  n80 --> n41
+  n80 --> n46
+  n81 --> n40
+  n81 --> n41
+  n81 --> n43
+  n83 --> n55
+  n83 --> n57
+  n104 --> n54
+  n104 --> n55
+  n104 --> n65

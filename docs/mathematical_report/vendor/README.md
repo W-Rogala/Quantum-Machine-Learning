@@ -1,0 +1,1 @@
+KaTeX 0.16.22, MIT License. Distribution and font files from https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/ . KaTeX official documentation: https://katex.org/docs/node . Mathematical HTML generated locally; offline CSS embeds WOFF2. No remote runtime request.

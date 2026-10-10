@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "archive_sha256": "9460c56b018b962123c0851257edc63a1a8f090935566b65bf4f054d42df0de8",
+  "files": 295,
+  "sha256_checked": true,
+  "git_lf_normalization_checked": true,
+  "checks": [
+    {
+      "command": [
+        "tools/verify_mathematical_report.py"
+      ],
+      "returncode": 0,
+      "summary": "{\"status\": \"PASS\", \"checks\": 22}\n"
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "summary": "terScalingV3Tests.test_fresh_seeds_and_factorial_budgets) ... ok\ntest_frozen_protocol_detects_modification (test_trotter_scaling_v3.TrotterScalingV3Tests.test_frozen_protocol_detects_modification) ... ok\ntest_full_circuit_compilation_counts_entire_sequence (test_trotter_scaling_v3.TrotterScalingV3Tests.test_full_circuit_compilation_counts_entire_sequence) ... ok\ntest_resource_axes_are_independent (test_trotter_scaling_v3.TrotterScalingV3Tests.test_resource_axes_are_independent) ... ok\ntest_shortlist_balances_orders_and_classical_trials (test_trotter_scaling_v3.TrotterScalingV3Tests.test_shortlist_balances_orders_and_classical_trials) ... ok\n\n----------------------------------------------------------------------\nRan 109 tests in 31.806s\n\nOK\n"
+    }
+  ]
+}

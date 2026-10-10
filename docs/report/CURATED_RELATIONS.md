@@ -1,0 +1,25 @@
+# Wszystkie relacje kuratorskie oryginalnego atlasu
+
+Stan źródeł: audyt 22.09.2026, objaśnienia 23.09.2026. Krawędzie są opisem zasobów i pojęć, nie nowymi wynikami eksperymentalnymi.
+
+| ID | Od | Do | Waga kuratorska | Rodzaj | Znaczenie | Granica interpretacji | Źródło |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C01 | QSVM | Quantum Kernel Methods | 5 | definicyjna w wariancie kernelowym | QSVM używa macierzy kernela estymowanej z map kwantowych. | Nie obejmuje bez rozróżnienia wszystkich algorytmów nazywanych FTQC QSVM. | qml_algorithms_data.js:curatedEdges |
+| C02 | VQC | QNN / PQC | 5 | przynależność rodziny | VQC to model klasyfikacyjny z rodziny modeli obwodowych QNN. | Nie każda QNN jest klasyfikatorem. | qml_algorithms_data.js:curatedEdges |
+| C03 | Hybrid QNN | QNN / PQC | 4 | kompozycja | Model hybrydowy zawiera kwantową warstwę uczoną lub parametryzowaną. | Wynik może być zdominowany przez część klasyczną; potrzebna ablacja. | qml_algorithms_data.js:curatedEdges |
+| C04 | QGAN | QNN / PQC | 4 | możliwa implementacja | Generator lub dyskryminator może być obwodem QNN. | Krawędź nie oznacza, że oba elementy każdego QGAN są kwantowe. | qml_algorithms_data.js:curatedEdges |
+| C05 | QCBM | QNN / PQC | 3 | wspólny obwód | Obwód parametryzowany uczy rozkładu Borna. | Funkcja celu generatywna różni się od klasyfikacji VQC. | qml_algorithms_data.js:curatedEdges |
+| C06 | Quantum Boltzmann Machine | Quantum Annealing | 3 | warunkowe próbkowanie | Oba podejścia operują na modelach energetycznych, np. Ising. | Annealer nie zapewnia automatycznie dokładnego samplera stanu Gibbsa. | qml_algorithms_data.js:curatedEdges |
+| C07 | QCNN / Quanvolution | QNN / PQC | 3 | architektura | QCNN jest ustrukturyzowanym modelem obwodowym z redukcją rejestru. | Pooling wymaga kanałów; nie jest synonimem quanvolution. | qml_algorithms_data.js:curatedEdges |
+| C08 | Quantum Autoencoder | QNN / PQC | 3 | architektura | Autoenkoder używa uczonej transformacji stanu. | Nie daje bezstratnej kompresji dowolnej rodziny stanów. | qml_algorithms_data.js:curatedEdges |
+| C09 | Quantum Transformer | QSVT | 5 | podprogram wybranej konstrukcji | Opisywany model FTQC korzysta z block encoding i przekształceń singularnych. | Nie jest to definicja wszystkich quantum transformers; odczyt tokenów wymaga osobnej konstrukcji. | qml_algorithms_data.js:curatedEdges |
+| C10 | HHL / Quantum Linear Algebra | QSVT | 4 | pokrewieństwo algorytmiczne | Obie rodziny umożliwiają operacje algebry liniowej; QSVT pozwala budować nowoczesne solvery. | Oryginalny HHL nie wywołuje QSVT. Strzałka nie powinna oznaczać zależności implementacyjnej. | qml_algorithms_data.js:curatedEdges |
+| C11 | qPCA | HHL / Quantum Linear Algebra | 4 | pokrewieństwo algebry liniowej | Metody wymagają kontrolowanego dostępu do operatorów i informacji spektralnej. | HHL nie jest obowiązkowym etapem qPCA. Zalecana relacja nieskierowana: wspólna rodzina. | qml_algorithms_data.js:curatedEdges |
+| C12 | QSVM | HHL / Quantum Linear Algebra | 2 | podprogram wariantu FTQC | Niektóre liniowo-algebraiczne konstrukcje LS-SVM używają solwera układu. | Kernelowy QSVM z klasycznym solverem w tym projekcie nie wymaga HHL. | qml_algorithms_data.js:curatedEdges |
+| C13 | Quantum Clustering / q-k-means | Quantum Kernel Methods | 3 | możliwa geometria | Overlapy lub kernel mogą określać podobieństwo i odległości klastrów. | Średnia w przestrzeni danych nie musi być centroidem przestrzeni cech. | qml_algorithms_data.js:curatedEdges |
+| C14 | QAOA | Quantum Annealing | 5 | inspiracja i związek graniczny | Naprzemienne operacje mają związek z dyskretyzacją pewnych ścieżek Hamiltonianowych. | Waga 5 jest oceną kuratorską; małe p i dowolne kąty nie dają ogólnej równoważności z annealingiem. | qml_algorithms_data.js:curatedEdges |
+| C15 | QAOA | VQE | 4 | wspólna rama wariacyjna | Oba podejścia dobierają parametry przez klasyczną optymalizację wartości oczekiwanej. | Inne są typowe ansatze, problemy i funkcje celu. | qml_algorithms_data.js:curatedEdges |
+| C16 | GAS / Grover Adaptive Search | QAOA | 2 | alternatywy zadaniowe | Obie rodziny mogą służyć do wybranych problemów optymalizacji dyskretnej. | GAS nie używa QAOA jako obowiązkowego podprogramu. | qml_algorithms_data.js:curatedEdges |
+| C17 | GAS / Grover Adaptive Search | HHL / Quantum Linear Algebra | 1 | luźna analogia zasobowa | Porównanie wskazuje znaczenie kosztownych podprogramów, przygotowania danych i arytmetyki. | Nie ma tu konkretnej zależności GAS od HHL. Rozważyć usunięcie krawędzi albo oznaczenie jej wyłącznie jako analogii. | qml_algorithms_data.js:curatedEdges |
+| C18 | VQE | QNN / PQC | 3 | wspólne narzędzia | PQC, pomiary i optymalizator występują w obu rodzinach. | VQE optymalizuje energię; nie musi wykonywać zadania uczenia z etykietami. | qml_algorithms_data.js:curatedEdges |
+| C19 | Quantum Reinforcement Learning | GAS / Grover Adaptive Search | 2 | wybrany wariant | W pewnych konstrukcjach można rozważać Grover-like wyszukiwanie akcji. | Nie jest to zależność ogólnej polityki QRL; potrzebne założenia oracle i kosztów. | qml_algorithms_data.js:curatedEdges |

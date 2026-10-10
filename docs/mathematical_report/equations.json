@@ -1,0 +1,7094 @@
+[
+  {
+    "id": "eq-chapter-01-0001",
+    "latex": "n",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0002",
+    "latex": "\\mathcal H=(\\mathbb C^2)^{\\otimes n}",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0003",
+    "latex": "d=2^n",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0004",
+    "latex": "\\dagger",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0005",
+    "latex": "U_2U_1|\\psi\\rangle",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0006",
+    "latex": "U_1",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0007",
+    "latex": "U_2",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0008",
+    "latex": "\\langle u,v\\rangle=u^\\dagger v,\\qquad\n\\|A\\|_2=\\sup_{\\|v\\|=1}\\|Av\\|,\\qquad\n\\|A\\|_F=\\sqrt{\\operatorname{Tr}(A^\\dagger A)},\\qquad\n\\|A\\|_1=\\operatorname{Tr}\\sqrt{A^\\dagger A}.",
+    "display": true,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0009",
+    "latex": "d\\times d",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0010",
+    "latex": "\\|A\\|_2\\le\\|A\\|_F\\le\\sqrt d\\|A\\|_2",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0011",
+    "latex": "|\\psi\\rangle",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0012",
+    "latex": "\\rho=|\\psi\\rangle\\langle\\psi|",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0013",
+    "latex": "e^{i\\alpha}",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0014",
+    "latex": "\\rho",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0015",
+    "latex": "p_j\\ge0",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0016",
+    "latex": "\\sum_jp_j=1",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0017",
+    "latex": "\\rho=\\sum_jp_j|\\psi_j\\rangle\\langle\\psi_j|,\n\\qquad \\rho=\\rho^\\dagger,\\quad \\rho\\succeq0,\\quad\\operatorname{Tr}\\rho=1.",
+    "display": true,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0018",
+    "latex": "v",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0019",
+    "latex": "v^\\dagger\\rho v=\\sum_jp_j|\\langle\\psi_j|v\\rangle|^2\\ge0",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0020",
+    "latex": "\\sum_jp_j=1",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0021",
+    "latex": "p_j",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0022",
+    "latex": "H",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0023",
+    "latex": "\\hbar=1",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0024",
+    "latex": "t",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0025",
+    "latex": "U(t)=\\exp(-itH)",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0026",
+    "latex": "H=V\\Lambda V^\\dagger",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0027",
+    "latex": "U=V\\operatorname{diag}(e^{-it\\lambda_j})V^\\dagger",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0028",
+    "latex": "U^\\dagger U=I",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0029",
+    "latex": "\\rho",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0030",
+    "latex": "\\rho\\mapsto U\\rho U^\\dagger",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0031",
+    "latex": "P",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0032",
+    "latex": "P^2=I",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0033",
+    "latex": "e^{-i\\theta P/2}\n=\\sum_{k\\ge0}\\frac{(-i\\theta/2)^{2k}}{(2k)!}I\n+\\sum_{k\\ge0}\\frac{(-i\\theta/2)^{2k+1}}{(2k+1)!}P\n=\\cos(\\theta/2)I-i\\sin(\\theta/2)P.",
+    "display": true,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0034",
+    "latex": "2tJ",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0035",
+    "latex": "\\exp(-itJ Z\\otimes Z)",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0036",
+    "latex": "|00\\rangle",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0037",
+    "latex": "|11\\rangle",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0038",
+    "latex": "Z\\otimes Z",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0039",
+    "latex": "+1",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0040",
+    "latex": "|01\\rangle",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0041",
+    "latex": "|10\\rangle",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0042",
+    "latex": "-1",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0043",
+    "latex": "e^{-itJ}",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0044",
+    "latex": "e^{itJ}",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0045",
+    "latex": "\\mathcal E(\\rho)=\\sum_a K_a\\rho K_a^\\dagger,\n\\qquad \\sum_aK_a^\\dagger K_a=I.",
+    "display": true,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0046",
+    "latex": "X",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0047",
+    "latex": "\\sum_a(K_a\\otimes I)X(K_a^\\dagger\\otimes I)",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0048",
+    "latex": "\\operatorname{Tr}(\\sum_aK_a^\\dagger K_a\\rho)=\\operatorname{Tr}\\rho",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0049",
+    "latex": "K=U",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0050",
+    "latex": "L_bK_a",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0051",
+    "latex": "\\operatorname{Var}(\\widehat\\mu)=\\frac{1-\\mu^2}{S}\\le\\frac1S.",
+    "display": true,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0052",
+    "latex": "U\\rho U^\\dagger-V\\rho V^\\dagger\n=(U-V)\\rho U^\\dagger+V\\rho(U^\\dagger-V^\\dagger).",
+    "display": true,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0053",
+    "latex": "\\|AXB\\|_1\\le\\|A\\|_2\\|X\\|_1\\|B\\|_2",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0054",
+    "latex": "\\|\\rho\\|_1=1",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0055",
+    "latex": "\\|U\\rho U^\\dagger-V\\rho V^\\dagger\\|_1\\le2\\|U-V\\|_2",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0056",
+    "latex": "\\|O\\|_2\\le1",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0057",
+    "latex": "|\\operatorname{Tr}[O(\\rho-\\sigma)]|\n\\le\\|O\\|_2\\|\\rho-\\sigma\\|_1\n=2\\|O\\|_2D(\\rho,\\sigma),\\qquad\nD(\\rho,\\sigma)=\\tfrac12\\|\\rho-\\sigma\\|_1.",
+    "display": true,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0058",
+    "latex": "m",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0059",
+    "latex": "\\le1",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0060",
+    "latex": "\\|f(\\rho)-f(\\sigma)\\|_2\\le2\\sqrt m D",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0061",
+    "latex": "w",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0062",
+    "latex": "|w^T\\Delta f|\\le\\|w\\|_2\\|\\Delta f\\|_2",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-01-0063",
+    "latex": "w",
+    "display": false,
+    "chapter": "chapter-01"
+  },
+  {
+    "id": "eq-chapter-02-0064",
+    "latex": "\\Phi:\\mathcal X\\to\\mathcal V",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0065",
+    "latex": "k(x,z)=\\langle\\Phi(x),\\Phi(z)\\rangle",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0066",
+    "latex": "x_1,\\ldots,x_N",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0067",
+    "latex": "c\\in\\mathbb C^N",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0068",
+    "latex": "c^\\dagger Kc\n=\\sum_{i,j}\\overline{c_i}c_j\\langle\\Phi(x_i),\\Phi(x_j)\\rangle\n=\\left\\|\\sum_jc_j\\Phi(x_j)\\right\\|^2\\ge0.",
+    "display": true,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0069",
+    "latex": "f=\\sum_i a_i k(x_i,\\cdot)",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0070",
+    "latex": "\\langle f,g\\rangle=\\sum_{i,j}a_i b_jk(x_i,z_j)",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0071",
+    "latex": "\\langle f,k(x,\\cdot)\\rangle=f(x)",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0072",
+    "latex": "P_a",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0073",
+    "latex": "a=0,\\ldots,4^n-1",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0074",
+    "latex": "\\operatorname{Tr}(P_aP_b)=d\\delta_{ab}",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0075",
+    "latex": "P_0=I",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0076",
+    "latex": "\\rho=\\frac1d\\sum_a r_aP_a,\\qquad r_a=\\operatorname{Tr}(P_a\\rho),\\qquad\n\\operatorname{Tr}(\\rho_x\\rho_z)=\\frac1d\\sum_a r_a(x)r_a(z).",
+    "display": true,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0077",
+    "latex": "f,g\\in\\mathbb R^m",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0078",
+    "latex": "\\gamma\\ge0",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0079",
+    "latex": "e^{-\\gamma\\|f-g\\|^2}\n=e^{-\\gamma\\|f\\|^2}e^{-\\gamma\\|g\\|^2}\n\\sum_{k=0}^{\\infty}\\frac{(2\\gamma)^k}{k!}\\langle f^{\\otimes k},g^{\\otimes k}\\rangle.",
+    "display": true,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0080",
+    "latex": "\\Phi_{\\rm RBF}(f)",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0081",
+    "latex": "e^{-\\gamma\\|f\\|^2}\\sqrt{(2\\gamma)^k/k!}\\,f^{\\otimes k}",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0082",
+    "latex": "e^{-2\\gamma\\|f\\|^2}e^{2\\gamma\\|f\\|^2}=1",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0083",
+    "latex": "X\\in\\mathbb R^{N\\times m}",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0084",
+    "latex": "y\\in\\mathbb R^N",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0085",
+    "latex": "\\lambda>0",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0086",
+    "latex": "L(w)=\\|y-Xw\\|^2+\\lambda\\|w\\|^2",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0087",
+    "latex": "-2X^T(y-Xw)+2\\lambda w",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0088",
+    "latex": "2(X^TX+\\lambda I)",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0089",
+    "latex": "w=(X^TX+\\lambda I)^{-1}X^Ty\n=X^T(XX^T+\\lambda I)^{-1}y.",
+    "display": true,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0090",
+    "latex": "(X^TX+\\lambda I)X^T=X^T(XX^T+\\lambda I)",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0091",
+    "latex": "f(x)^Tw",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0092",
+    "latex": "k(x,X)(K+\\lambda I)^{-1}y",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0093",
+    "latex": "\\|y-f(X)\\|^2+\\lambda\\|f\\|^2",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0094",
+    "latex": "f=f_\\parallel+f_\\perp",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0095",
+    "latex": "\\operatorname{span}\\{k(x_i,\\cdot)\\}",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0096",
+    "latex": "f_\\perp(x_i)=\\langle f_\\perp,k(x_i,\\cdot)\\rangle=0",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0097",
+    "latex": "f",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0098",
+    "latex": "f_\\parallel",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0099",
+    "latex": "\\|f\\|^2=\\|f_\\parallel\\|^2+\\|f_\\perp\\|^2",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0100",
+    "latex": "\\lambda>0",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0101",
+    "latex": "f_\\perp=0",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0102",
+    "latex": "\\begin{bmatrix}0&y^T\\\\y&YKY+\\gamma^{-1}I\\end{bmatrix}\n\\begin{bmatrix}b\\\\\\alpha\\end{bmatrix}\n=\\begin{bmatrix}0\\\\\\mathbf1\\end{bmatrix},\\qquad Y=\\operatorname{diag}(y).",
+    "display": true,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0103",
+    "latex": "A(K,T)=\\frac{\\langle K_c,T_c\\rangle_F}{\\|K_c\\|_F\\|T_c\\|_F}.",
+    "display": true,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0104",
+    "latex": "K\\succeq0",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0105",
+    "latex": "\\widetilde K=K+E",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0106",
+    "latex": "E",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0107",
+    "latex": "\\|E\\|_2=\\varepsilon<\\lambda",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0108",
+    "latex": "\\widetilde K+\\lambda I",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0109",
+    "latex": "\\lambda-\\varepsilon",
+    "display": false,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-02-0110",
+    "latex": "(\\widetilde K+\\lambda I)^{-1}-(K+\\lambda I)^{-1}\n=-(\\widetilde K+\\lambda I)^{-1}E(K+\\lambda I)^{-1},\n\\qquad \\|\\widetilde\\alpha-\\alpha\\|_2\n\\le\\frac{\\varepsilon\\|y\\|_2}{\\lambda(\\lambda-\\varepsilon)}.",
+    "display": true,
+    "chapter": "chapter-02"
+  },
+  {
+    "id": "eq-chapter-03-0111",
+    "latex": "2^n",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0112",
+    "latex": "n\\in\\mathbb N",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0113",
+    "latex": "n\\geq1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0114",
+    "latex": "\\mathcal H_n=(\\mathbb C^2)^{\\otimes n}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0115",
+    "latex": "\\|\\cdot\\|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0116",
+    "latex": "\\|\\cdot\\|_F",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0117",
+    "latex": "\\dagger",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0118",
+    "latex": "X=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix},\\qquad\nY=\\begin{pmatrix}0&-i\\\\i&0\\end{pmatrix},\\qquad\nZ=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0119",
+    "latex": "Z_j",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0120",
+    "latex": "Z",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0121",
+    "latex": "j",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0122",
+    "latex": "0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0123",
+    "latex": "b",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0124",
+    "latex": "Z_j",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0125",
+    "latex": "1-2b_j",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0126",
+    "latex": "|+_n\\rangle=|+\\rangle^{\\otimes n}\n=2^{-n/2}\\sum_{b=0}^{2^n-1}|b\\rangle.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0127",
+    "latex": "x\\in\\mathbb R^n",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0128",
+    "latex": "G=(V,E)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0129",
+    "latex": "H(x)=A(x)+B,\\qquad\nA(x)=\\sum_{j=0}^{n-1}x_jZ_j+J\\sum_{\\{j,k\\}\\in E}Z_jZ_k,\n\\qquad B=g\\sum_{j=0}^{n-1}X_j,",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0130",
+    "latex": "J,g\\in\\mathbb R",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0131",
+    "latex": "n",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0132",
+    "latex": "n=2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0133",
+    "latex": "[-1,1]",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0134",
+    "latex": "n",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0135",
+    "latex": "x,J,g",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0136",
+    "latex": "t",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0137",
+    "latex": "H(x)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0138",
+    "latex": "U_x(t)=e^{-itH(x)}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0139",
+    "latex": "|\\psi_x\\rangle=U_x(t)|+_n\\rangle",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0140",
+    "latex": "Z_jZ_k",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0141",
+    "latex": "H=V\\Lambda V^\\dagger",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0142",
+    "latex": "V",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0143",
+    "latex": "\\Lambda",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0144",
+    "latex": "U=Ve^{-it\\Lambda}V^\\dagger",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0145",
+    "latex": "U^\\dagger U=I",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0146",
+    "latex": "\\langle+_n|+_n\\rangle=2^{-n}2^n=1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0147",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0148",
+    "latex": "d=2^n",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0149",
+    "latex": "O(d^2)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0150",
+    "latex": "d",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0151",
+    "latex": "n",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0152",
+    "latex": "x",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0153",
+    "latex": "A=A(x)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0154",
+    "latex": "r\\geq1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0155",
+    "latex": "h=t/r>0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0156",
+    "latex": "S_1(h)=e^{-ihB}e^{-ihA},\\qquad\nS_2(h)=e^{-ihA/2}e^{-ihB}e^{-ihA/2},\n\\qquad U_{p,r}(t)=S_p(h)^r.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0157",
+    "latex": "X",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0158",
+    "latex": "e^{-ihA}e^{-ihB}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0159",
+    "latex": "A",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0160",
+    "latex": "e^{-ihA}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0161",
+    "latex": "Z",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0162",
+    "latex": "ZZ",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0163",
+    "latex": "B",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0164",
+    "latex": "e^{-ihB}=\\prod_j e^{-ihgX_j}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0165",
+    "latex": "e^{-i\\theta X}=\\cos\\theta I-i\\sin\\theta X",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0166",
+    "latex": "A,B",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0167",
+    "latex": "|h|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0168",
+    "latex": "\\log S_1(h)\n=-ih(A+B)+\\frac{h^2}{2}[A,B]+O(h^3),",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0169",
+    "latex": "\\log S_2(h)\n=-ih(A+B)-ih^3\\left(\n\\frac1{24}[A,[A,B]]+\\frac1{12}[B,[A,B]]\n\\right)+O(h^5).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0170",
+    "latex": "P=-ihB",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0171",
+    "latex": "Q=-ihA",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0172",
+    "latex": "\\log(e^Pe^Q)=P+Q+\\tfrac12[P,Q]+O(h^3)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0173",
+    "latex": "[P,Q]=h^2[A,B]",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0174",
+    "latex": "e^{P/2}e^Qe^{P/2}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0175",
+    "latex": "P=-ihA",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0176",
+    "latex": "Q=-ihB",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0177",
+    "latex": "P+Q-\\frac1{24}[P,[P,Q]]+\\frac1{12}[Q,[Q,P]]+O(h^5).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0178",
+    "latex": "S_2(-h)=S_2(h)^{-1}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0179",
+    "latex": "\\log(I+W)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0180",
+    "latex": "h",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0181",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0182",
+    "latex": "h^2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0183",
+    "latex": "h^3",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0184",
+    "latex": "t",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0185",
+    "latex": "r^{-1}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0186",
+    "latex": "r^{-2}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0187",
+    "latex": "O(\\cdot)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0188",
+    "latex": "A,B",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0189",
+    "latex": "t\\geq0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0190",
+    "latex": "r\\in\\mathbb N",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0191",
+    "latex": "\\left\\|e^{-it(A+B)}-S_1(t/r)^r\\right\\|\n\\leq\\frac{t^2}{2r}\\|[A,B]\\|.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0192",
+    "latex": "W(s)=e^{-isB}e^{-isA}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0193",
+    "latex": "W'(s)=-i\\bigl(B+e^{-isB}Ae^{isB}\\bigr)W(s).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0194",
+    "latex": "e^{-isB}Ae^{isB}-A\n=-i\\int_0^s e^{-iuB}[B,A]e^{iuB}\\,du,",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0195",
+    "latex": "s\\|[A,B]\\|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0196",
+    "latex": "\\|W(h)-e^{-ih(A+B)}\\|\\leq\\int_0^h s\\,ds\\,\\|[A,B]\\|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0197",
+    "latex": "U,V",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0198",
+    "latex": "U^r-V^r=\\sum_{k=0}^{r-1}U^{r-1-k}(U-V)V^k",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0199",
+    "latex": "\\|U^r-V^r\\|\\leq r\\|U-V\\|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0200",
+    "latex": "h=t/r",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0201",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0202",
+    "latex": "\\left\\|e^{-it(A+B)}-S_2(t/r)^r\\right\\|\n\\leq\\frac{t^3}{r^2}\n\\left(\\frac{\\|[A,[A,B]]\\|}{24}\n+\\frac{\\|[B,[A,B]]\\|}{12}\\right).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0203",
+    "latex": "X=-iA",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0204",
+    "latex": "Y=-iB",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0205",
+    "latex": "C=[X,Y]",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0206",
+    "latex": "\\operatorname{Ad}_{e^{sX}}T=e^{sX}Te^{-sX}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0207",
+    "latex": "S(s)=e^{sX/2}e^{sY}e^{sX/2}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0208",
+    "latex": "D(s)=S'(s)S(s)^{-1}-(X+Y)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0209",
+    "latex": "D(s)=\\int_0^{s/2}\\operatorname{Ad}_{e^{uX}}C\\,du\n-\\frac12\\operatorname{Ad}_{e^{sX/2}}\n\\int_0^s\\operatorname{Ad}_{e^{vY}}C\\,dv.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0210",
+    "latex": "(s/2)\\operatorname{Ad}_{e^{sX/2}}C",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0211",
+    "latex": "\\|D(s)\\|\n\\leq\\int_0^{s/2}(s/2-u)\\,du\\,\\|[X,C]\\|\n+\\frac12\\int_0^s v\\,dv\\,\\|[Y,C]\\|\n=\\frac{s^2}{8}\\|[X,C]\\|+\\frac{s^2}{4}\\|[Y,C]\\|.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0212",
+    "latex": "e^{uX},e^{vY}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0213",
+    "latex": "0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0214",
+    "latex": "h",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0215",
+    "latex": "h^3\\|[X,C]\\|/24+h^3\\|[Y,C]\\|/12",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0216",
+    "latex": "A,B",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0217",
+    "latex": "i",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0218",
+    "latex": "r",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0219",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0220",
+    "latex": "[Z,X]=2iY",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0221",
+    "latex": "[A,B]=2ig\\left(\n\\sum_jx_jY_j+J\\sum_{\\{j,k\\}\\in E}(Y_jZ_k+Z_jY_k)\n\\right).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0222",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0223",
+    "latex": "|x_j|\\leq M",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0224",
+    "latex": "\\|A\\|\\leq nM+|J||E|=:a,\\qquad\n\\|B\\|\\leq n|g|=:b,",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0225",
+    "latex": "\\|[A,B]\\|\\leq2|g|(nM+2|J||E|)=:c.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0226",
+    "latex": "\\|[P,Q]\\|\\leq2\\|P\\|\\|Q\\|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0227",
+    "latex": "\\|e^{-itH}-S_2(t/r)^r\\|\n\\leq\\frac{t^3c}{r^2}\\left(\\frac a{12}+\\frac b6\\right).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0228",
+    "latex": "n",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0229",
+    "latex": "|E|=n-1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0230",
+    "latex": "|E|=n(n-1)/2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0231",
+    "latex": "2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0232",
+    "latex": "U_x,\\widetilde U_x",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0233",
+    "latex": "\\|U_x-\\widetilde U_x\\|\\leq\\varepsilon_x",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0234",
+    "latex": "1-|\\langle\\psi_x|\\widetilde\\psi_x\\rangle|^2\\leq\\varepsilon_x^2,",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0235",
+    "latex": "\\left||\\langle\\psi_x|\\psi_y\\rangle|^2-\n|\\langle\\widetilde\\psi_x|\\widetilde\\psi_y\\rangle|^2\\right|\n\\leq2(\\varepsilon_x+\\varepsilon_y).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0236",
+    "latex": "\\varepsilon_x",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0237",
+    "latex": "z=\\langle\\psi_x|\\widetilde\\psi_x\\rangle",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0238",
+    "latex": "1-|z|^2\\leq2(1-|z|)\\leq2(1-\\operatorname{Re}z)=\\|\\psi_x-\\widetilde\\psi_x\\|^2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0239",
+    "latex": "\\varepsilon_x+\\varepsilon_y",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0240",
+    "latex": "\\langle\\widetilde\\psi_x|\\psi_y\\rangle",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0241",
+    "latex": "u,v",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0242",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0243",
+    "latex": "||u|^2-|v|^2|\\leq2|u-v|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0244",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0245",
+    "latex": "\\varepsilon",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0246",
+    "latex": "N",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0247",
+    "latex": "\\|K-\\widetilde K\\|_F\\leq4N\\varepsilon",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0248",
+    "latex": "N^2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0249",
+    "latex": "4\\varepsilon",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0250",
+    "latex": "J,g,G,t",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0251",
+    "latex": "k_1(x,y)=\\prod_{j=0}^{n-1}\\cos^2\\bigl(t(x_j-y_j)\\bigr).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0252",
+    "latex": "J",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0253",
+    "latex": "g",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0254",
+    "latex": "G",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0255",
+    "latex": "|\\psi_x\\rangle=e^{-itB}e^{-itA(x)}|+_n\\rangle",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0256",
+    "latex": "e^{-itB}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0257",
+    "latex": "A(x),A(y)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0258",
+    "latex": "J\\sum Z_jZ_k",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0259",
+    "latex": "\\langle\\psi_y|\\psi_x\\rangle\n=\\langle+_n|e^{-it\\sum_j(x_j-y_j)Z_j}|+_n\\rangle\n=\\prod_j\\langle+|e^{-it(x_j-y_j)Z}|+\\rangle\n=\\prod_j\\cos\\bigl(t(x_j-y_j)\\bigr).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0260",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0261",
+    "latex": "O(n)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0262",
+    "latex": "ZZ",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0263",
+    "latex": "k_F(x,y)=|\\langle\\psi_x|\\psi_y\\rangle|^2\n=\\operatorname{Tr}(\\rho_x\\rho_y),\\qquad\n\\rho_x=|\\psi_x\\rangle\\langle\\psi_x|.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0264",
+    "latex": "\\operatorname{Tr}(\\rho\\sigma)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0265",
+    "latex": "K_{ij}=k_F(x_i,x_j)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0266",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0267",
+    "latex": "c\\in\\mathbb C^N",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0268",
+    "latex": "R=\\sum_jc_j\\rho_j",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0269",
+    "latex": "c^\\dagger Kc=\\operatorname{Tr}(R^\\dagger R)=\\|R\\|_F^2\\geq0.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0270",
+    "latex": "\\rho_i^2=\\rho_i",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0271",
+    "latex": "\\operatorname{Tr}\\rho_i=1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0272",
+    "latex": "K_{ii}=1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0273",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0274",
+    "latex": "d^2=4^n",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0275",
+    "latex": "\\operatorname{rank}K\\leq\\min(N,4^n)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0276",
+    "latex": "K",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0277",
+    "latex": "N",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0278",
+    "latex": "\\rho_{x,j}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0279",
+    "latex": "\\rho_{x,j}=\\frac12\\left(I+r_{x,j}^{(X)}X+r_{x,j}^{(Y)}Y+r_{x,j}^{(Z)}Z\\right),\n\\qquad r_{x,j}^{(a)}=\\langle\\psi_x|\\sigma_j^{(a)}|\\psi_x\\rangle.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0280",
+    "latex": "Y",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0281",
+    "latex": "\\overline\\psi_0\\psi_1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0282",
+    "latex": "r_x\\in\\mathbb R^{3n}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0283",
+    "latex": "\\operatorname{Tr}(\\sigma_a\\sigma_b)=2\\delta_{ab}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0284",
+    "latex": "\\|\\rho_{x,j}-\\rho_{y,j}\\|_F^2\n=\\frac12\\|r_{x,j}-r_{y,j}\\|_2^2.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0285",
+    "latex": "\\tfrac12\\sum_a(r_x^{(a)}-r_y^{(a)})\\sigma_a",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0286",
+    "latex": "k_P(x,y)=\\exp\\left(-\\gamma\\sum_j\\|\\rho_{x,j}-\\rho_{y,j}\\|_F^2\\right)\n=\\exp\\left(-\\frac\\gamma2\\|r_x-r_y\\|_2^2\\right),\\qquad\\gamma>0.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0287",
+    "latex": "r_1,\\ldots,r_N",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0288",
+    "latex": "\\gamma>0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0289",
+    "latex": "e^{-\\gamma\\|u-v\\|^2/2}\n=e^{-\\gamma\\|u\\|^2/2}e^{-\\gamma\\|v\\|^2/2}\n\\sum_{m=0}^\\infty\\frac{\\gamma^m}{m!}\\langle u,v\\rangle^m.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0290",
+    "latex": "m",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0291",
+    "latex": "\\langle u,v\\rangle^m",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0292",
+    "latex": "u^{\\otimes m},v^{\\otimes m}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0293",
+    "latex": "u",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0294",
+    "latex": "v",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0295",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0296",
+    "latex": "|\\Phi^+\\rangle",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0297",
+    "latex": "|\\Phi^-\\rangle",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0298",
+    "latex": "I/2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0299",
+    "latex": "0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0300",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0301",
+    "latex": "|00\\rangle\\langle11|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0302",
+    "latex": "|11\\rangle\\langle00|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0303",
+    "latex": "s\\geq1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0304",
+    "latex": "B\\sim\\operatorname{Binomial}(s,k_F)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0305",
+    "latex": "\\widehat k_F=B/s",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0306",
+    "latex": "\\mathbb E\\widehat k_F=k_F,\\qquad\n\\operatorname{Var}(\\widehat k_F)=\\frac{k_F(1-k_F)}s\\leq\\frac1{4s}.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0307",
+    "latex": "s",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0308",
+    "latex": "p(1-p)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0309",
+    "latex": "[0,1]",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0310",
+    "latex": "1/4",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0311",
+    "latex": "X",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0312",
+    "latex": "Y",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0313",
+    "latex": "Z",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0314",
+    "latex": "Y",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0315",
+    "latex": "HS^\\dagger",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0316",
+    "latex": "Z",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0317",
+    "latex": "z_j\\in\\{-1,1\\}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0318",
+    "latex": "s",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0319",
+    "latex": "a",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0320",
+    "latex": "\\widehat r_j^{(a)}=\\frac1s\\sum_{\\ell=1}^s z_{j,\\ell},\\quad\n\\operatorname{Var}(\\widehat r_j^{(a)})=\\frac{1-(r_j^{(a)})^2}s,",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0321",
+    "latex": "\\operatorname{Cov}(\\widehat r_j^{(a)},\\widehat r_k^{(a)})\n=\\frac{\\langle\\sigma_j^{(a)}\\sigma_k^{(a)}\\rangle-r_j^{(a)}r_k^{(a)}}s.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0322",
+    "latex": "z_j^2=1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0323",
+    "latex": "1-(\\mathbb Ez_j)^2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0324",
+    "latex": "\\mathbb E(z_jz_k)=\\langle\\sigma_j\\sigma_k\\rangle",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0325",
+    "latex": "s^2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0326",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0327",
+    "latex": "\\mathbb E\\|\\widehat r_x-\\widehat r_y\\|^2=\\|r_x-r_y\\|^2+\\operatorname{Tr}\\operatorname{Cov}(\\widehat r_x)+\\operatorname{Tr}\\operatorname{Cov}(\\widehat r_y)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0328",
+    "latex": "\\|\\widehat r_{x,j}\\|>1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0329",
+    "latex": "W=V\\operatorname{diag}(\\lambda_i)V^\\top",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0330",
+    "latex": "W_+=V\\operatorname{diag}(\\max(\\lambda_i,0))V^\\top,\n\\qquad\nW_\\tau=V\\operatorname{diag}(\\lambda_i\\mathbf1_{\\lambda_i>\\tau})V^\\top,",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0331",
+    "latex": "\\tau=\\max(10^{-12},\\lambda_{\\max}(W_+)\\cdot\\texttt{relative\\_threshold})",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0332",
+    "latex": "W",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0333",
+    "latex": "W_+",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0334",
+    "latex": "\\|W-X\\|_F",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0335",
+    "latex": "X\\succeq0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0336",
+    "latex": "Y=V^\\top XV\\succeq0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0337",
+    "latex": "\\|W-X\\|_F^2=\\sum_i(\\lambda_i-Y_{ii})^2+\\sum_{i\\ne j}Y_{ij}^2.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0338",
+    "latex": "Y",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0339",
+    "latex": "Y_{ii}\\geq0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0340",
+    "latex": "\\lambda_i",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0341",
+    "latex": "[0,\\infty)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0342",
+    "latex": "Y=\\operatorname{diag}(\\max(\\lambda_i,0))",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0343",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0344",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0345",
+    "latex": "W_+",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0346",
+    "latex": "C",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0347",
+    "latex": "F=CV_R\\Lambda_R^{-1/2},\\qquad\nR=\\{i:\\lambda_i>\\tau\\}.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0348",
+    "latex": "f_x\\ne0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0349",
+    "latex": "\\bar f_x=f_x\\sqrt{d_x}/\\|f_x\\|",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0350",
+    "latex": "d_x",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0351",
+    "latex": "\\bar F\\bar F^\\top",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0352",
+    "latex": "\\bar F_{\\rm test}\\bar F_{\\rm train}^\\top",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0353",
+    "latex": "v",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0354",
+    "latex": "v^\\top\\bar F\\bar F^\\top v=\\|\\bar F^\\top v\\|^2\\geq0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0355",
+    "latex": "V_R,\\Lambda_R",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0356",
+    "latex": "C_x",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0357",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0358",
+    "latex": "F_{\\rm train}F_{\\rm train}^\\top=W_\\tau",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0359",
+    "latex": "DW_\\tau D",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0360",
+    "latex": "W_\\tau",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0361",
+    "latex": "0{,}4510499440",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0362",
+    "latex": "N",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0363",
+    "latex": "q",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0364",
+    "latex": "Y\\in\\mathbb R^{N\\times q}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0365",
+    "latex": "+1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0366",
+    "latex": "-1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0367",
+    "latex": "\\min_{f_1,\\ldots,f_q\\in\\mathcal H_k}\n\\sum_{i=1}^N\\sum_{c=1}^q(f_c(x_i)-Y_{ic})^2\n+\\lambda\\sum_{c=1}^q\\|f_c\\|_{\\mathcal H_k}^2,\\qquad\\lambda>0.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0368",
+    "latex": "N",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0369",
+    "latex": "N\\lambda I",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0370",
+    "latex": "\\Alpha=(K+\\lambda I)^{-1}Y,\\qquad\n\\widehat y(x)=\\arg\\max_c\\,[k(x,X)\\Alpha]_c.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0371",
+    "latex": "K",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0372",
+    "latex": "\\lambda>0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0373",
+    "latex": "f",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0374",
+    "latex": "k(x_i,\\cdot)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0375",
+    "latex": "x_i",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0376",
+    "latex": "f=\\sum_i\\alpha_i k(x_i,\\cdot)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0377",
+    "latex": "\\|K\\alpha-y\\|^2+\\lambda\\alpha^\\top K\\alpha",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0378",
+    "latex": "K",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0379",
+    "latex": "\\mu",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0380",
+    "latex": "\\alpha_\\mu=y_\\mu/(\\mu+\\lambda)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0381",
+    "latex": "\\mu=0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0382",
+    "latex": "(K+\\lambda I)^{-1}y",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0383",
+    "latex": "K+\\lambda I",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0384",
+    "latex": "\\lambda",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0385",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0386",
+    "latex": "K=\\begin{pmatrix}1&0.9&0.9\\\\0.9&1&0\\\\0.9&0&1\\end{pmatrix}.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0387",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0388",
+    "latex": "1+0.9\\sqrt2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0389",
+    "latex": "1-0.9\\sqrt2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0390",
+    "latex": "-0.2727922061",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0391",
+    "latex": "(0,1,-1)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0392",
+    "latex": "(\\pm\\sqrt2,1,1)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0393",
+    "latex": "|\\psi_1\\rangle=|0\\rangle",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0394",
+    "latex": "|\\psi_{2,3}\\rangle=\\sqrt{0.9}|0\\rangle\\pm\\sqrt{0.1}|1\\rangle",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0395",
+    "latex": "(0.9,0.9,0.64)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0396",
+    "latex": "(9,9,0)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0397",
+    "latex": "\\lambda=0.9\\sqrt2-1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0398",
+    "latex": "K+\\lambda I",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0399",
+    "latex": "\\lambda=0.1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0400",
+    "latex": "K",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0401",
+    "latex": "\\|K\\alpha-y\\|^2+\\lambda\\alpha^\\top K\\alpha",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0402",
+    "latex": "\\mu<0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0403",
+    "latex": "\\mu(\\mu+\\lambda)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0404",
+    "latex": "\\lambda=0.3",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0405",
+    "latex": "\\mu+\\lambda>0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0406",
+    "latex": "\\mu(\\mu+\\lambda)<0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0407",
+    "latex": "K+\\lambda I",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0408",
+    "latex": "\\alpha^\\top K\\alpha",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0409",
+    "latex": "K,\\widetilde K\\succeq0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0410",
+    "latex": "E=\\widetilde K-K",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0411",
+    "latex": "\\lambda>0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0412",
+    "latex": "Y",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0413",
+    "latex": "\\|\\widetilde\\Alpha-\\Alpha\\|_F\n\\leq\\frac{\\|E\\|}{\\lambda^2}\\|Y\\|_F.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0414",
+    "latex": "(\\widetilde K+\\lambda I)^{-1}-(K+\\lambda I)^{-1}\n=-(\\widetilde K+\\lambda I)^{-1}E(K+\\lambda I)^{-1}.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0415",
+    "latex": "1/\\lambda",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0416",
+    "latex": "Y",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0417",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0418",
+    "latex": "k_x",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0419",
+    "latex": "\\widetilde k_x",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0420",
+    "latex": "\\|\\widetilde k_x\\widetilde\\Alpha-k_x\\Alpha\\|_2\n\\leq\\|\\widetilde k_x-k_x\\|_2\\frac{\\|Y\\|_F}{\\lambda}\n+\\|k_x\\|_2\\frac{\\|E\\|\\|Y\\|_F}{\\lambda^2}.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0421",
+    "latex": "k_x\\widetilde\\Alpha",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0422",
+    "latex": "\\lambda",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0423",
+    "latex": "\\lambda",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0424",
+    "latex": "f",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0425",
+    "latex": "c",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0426",
+    "latex": "X\\mid Y=c",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0427",
+    "latex": "f",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0428",
+    "latex": "f",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0429",
+    "latex": "\\mathbf1\\{f(X)=c\\}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0430",
+    "latex": "c",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0431",
+    "latex": "r_c=\\Pr(f(X)=c\\mid Y=c)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0432",
+    "latex": "r_c",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0433",
+    "latex": "q^{-1}\\sum_cr_c",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0434",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0435",
+    "latex": "N",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0436",
+    "latex": "M",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0437",
+    "latex": "s",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0438",
+    "latex": "C_F=\\frac{N(N+1)}2+MN+M.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0439",
+    "latex": "C_P=3(N+M)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0440",
+    "latex": "S",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0441",
+    "latex": "S=Cq+r",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0442",
+    "latex": "0\\leq r<C",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0443",
+    "latex": "q",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0444",
+    "latex": "r",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0445",
+    "latex": "S",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0446",
+    "latex": "S\\geq C",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0447",
+    "latex": "C_F",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0448",
+    "latex": "C_P",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0449",
+    "latex": "L",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0450",
+    "latex": "P=\\frac{N(N+1)}2,\\qquad T=NM,\\qquad C=LP+T,",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0451",
+    "latex": "g_\\ell",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0452",
+    "latex": "\\ell",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0453",
+    "latex": "G_{\\rm reserve}=2s\\left(P\\sum_{\\ell=1}^L g_\\ell+T\\max_\\ell g_\\ell\\right).",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0454",
+    "latex": "\\ell_*",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0455",
+    "latex": "G_{\\rm selected}=2s\\left(P\\sum_{\\ell=1}^L g_\\ell+Tg_{\\ell_*}\\right),\n\\qquad\nG_{\\rm reserve}-G_{\\rm selected}\n=2sT(\\max_\\ell g_\\ell-g_{\\ell_*})\\geq0.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0456",
+    "latex": "g_1=1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0457",
+    "latex": "g_2=10",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0458",
+    "latex": "P=3",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0459",
+    "latex": "T=4",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0460",
+    "latex": "s=68",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0461",
+    "latex": "9928",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0462",
+    "latex": "5032",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0463",
+    "latex": "H(x)=\\sum_{\\ell=1}^m c_\\ell(x)P_\\ell,\n\\qquad c_\\ell(x)=b_\\ell+w_\\ell^\\top x,",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0464",
+    "latex": "P_\\ell",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0465",
+    "latex": "P_\\ell^2=I",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0466",
+    "latex": "e^{-i\\theta P_\\ell}=\\cos\\theta I-i\\sin\\theta P_\\ell",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0467",
+    "latex": "k",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0468",
+    "latex": "0,\\pm e_j",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0469",
+    "latex": "x\\in[-1,1]^d",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0470",
+    "latex": "S_4(h)=S_2(ph)^2S_2((1-4p)h)S_2(ph)^2,\n\\qquad p=\\frac1{4-4^{1/3}}.",
+    "display": true,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0471",
+    "latex": "\\log S_2(h)=hL+h^3E+O(h^5)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0472",
+    "latex": "4p+(1-4p)=1",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0473",
+    "latex": "4p^3+(1-4p)^3=0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0474",
+    "latex": "L",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0475",
+    "latex": "hL+O(h^5)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0476",
+    "latex": "O(r^{-4})",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0477",
+    "latex": "t",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0478",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0479",
+    "latex": "1-4p",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0480",
+    "latex": "n\\in\\{2,3,4,5,6\\}",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0481",
+    "latex": "(1,2,4)",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0482",
+    "latex": "0.01,\\ldots,1.00",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0483",
+    "latex": "n",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0484",
+    "latex": "J,g,x,G,t",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0485",
+    "latex": "\\log\\delta_t",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0486",
+    "latex": "\\log_2p",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0487",
+    "latex": "n-4",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0488",
+    "latex": "n-4",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0489",
+    "latex": "\\log_2p",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0490",
+    "latex": "0,1,2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0491",
+    "latex": "\\alpha/14",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0492",
+    "latex": "\\alpha",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0493",
+    "latex": "E_j",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0494",
+    "latex": "\\Pr(\\bigcup_jE_j)\\leq\\sum_j\\Pr(E_j)\\leq14\\alpha/14=\\alpha",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0495",
+    "latex": "\\square",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0496",
+    "latex": "\\mathbb E\\Delta\\leq0",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0497",
+    "latex": "1/2",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0498",
+    "latex": "0.95892",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0499",
+    "latex": "0.87336",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0500",
+    "latex": "0.97754",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-03-0501",
+    "latex": "10^6",
+    "display": false,
+    "chapter": "chapter-03"
+  },
+  {
+    "id": "eq-chapter-04-0502",
+    "latex": "I",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0503",
+    "latex": "M",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0504",
+    "latex": "\\mathcal H=\\mathcal H_I\\otimes\\mathcal H_M,\\qquad\n\\mathcal H_I=\\mathbb C^2,\\quad\n\\mathcal H_M=(\\mathbb C^2)^{\\otimes(n-1)}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0505",
+    "latex": "D=2^n",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0506",
+    "latex": "d_M=2^{n-1}",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0507",
+    "latex": "\\rho=\\rho^\\dagger,\\rho\\succeq0,\\operatorname{Tr}\\rho=1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0508",
+    "latex": "\\hbar=1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0509",
+    "latex": "H=A+B,\\qquad\nA=\\sum_i h_iZ_i+J\\sum_{(i,j)\\in E}Z_iZ_j,\\qquad\nB=g\\sum_iX_i.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0510",
+    "latex": "h_i",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0511",
+    "latex": "n=4,\\tau=0.8,g=0.9,J=0.7",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0512",
+    "latex": "h_i\\sim U[-0.5,0.5]",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0513",
+    "latex": "A",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0514",
+    "latex": "B",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0515",
+    "latex": "[A,B]\\ne0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0516",
+    "latex": "U=e^{-i\\tau H}",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0517",
+    "latex": "H=V\\Lambda V^\\dagger",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0518",
+    "latex": "U=V\\operatorname{diag}(e^{-i\\tau\\lambda_j})V^\\dagger.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0519",
+    "latex": "U^\\dagger U=I",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0520",
+    "latex": "h=\\tau/r",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0521",
+    "latex": "U_{1,r}=(e^{-ihB}e^{-ihA})^r,\\qquad\nU_{2,r}=(e^{-ihA/2}e^{-ihB}e^{-ihA/2})^r.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0522",
+    "latex": "U_BU_A",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0523",
+    "latex": "\\tau",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0524",
+    "latex": "r",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0525",
+    "latex": "u\\in[0,1]",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0526",
+    "latex": "|\\psi(u)\\rangle=\\sqrt{1-u}|0\\rangle+\\sqrt u|1\\rangle,\\qquad\n\\eta_u=|\\psi(u)\\rangle\\langle\\psi(u)|.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0527",
+    "latex": "1-u+u=1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0528",
+    "latex": "\\mathcal R_u(\\rho)=\\eta_u\\otimes\\operatorname{Tr}_I\\rho,\\qquad\n\\mathcal F_u(\\rho)=U\\mathcal R_u(\\rho)U^\\dagger,\\qquad\n\\rho_t=\\mathcal F_{u_t}(\\rho_{t-1}).",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0529",
+    "latex": "[0,1]",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0530",
+    "latex": "\\rho=\\begin{pmatrix}\\rho_{00}&\\rho_{01}\\\\\\rho_{10}&\\rho_{11}\\end{pmatrix},\n\\qquad \\rho_{ab}\\in\\mathbb C^{d_M\\times d_M},",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0531",
+    "latex": "(\\operatorname{Tr}_I\\rho)_{jk}\n=\\sum_{a=0}^1\\rho_{(a,j),(a,k)}\n=(\\rho_{00}+\\rho_{11})_{jk}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0532",
+    "latex": "(2,d_M,2,d_M)",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0533",
+    "latex": "K_a=|\\psi(u)\\rangle\\langle a|\\otimes I_M",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0534",
+    "latex": "\\sum_aK_a\\rho K_a^\\dagger\n=\\eta_u\\otimes\\sum_a\\rho_{aa}=\\mathcal R_u(\\rho),\\qquad\n\\sum_aK_a^\\dagger K_a=I.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0535",
+    "latex": "Q",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0536",
+    "latex": "(K_a\\otimes I)Q(K_a^\\dagger\\otimes I)",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0537",
+    "latex": "U",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0538",
+    "latex": "u",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0539",
+    "latex": "\\rho",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0540",
+    "latex": "\\eta_u",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0541",
+    "latex": "|0\\rangle^{\\otimes n}",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0542",
+    "latex": "E_u(\\sigma)=U(\\eta_u\\otimes\\sigma)U^\\dagger,\\qquad\nP(\\rho)=\\operatorname{Tr}_I\\rho.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0543",
+    "latex": "E_uP",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0544",
+    "latex": "\\mathcal T_u=PE_u",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0545",
+    "latex": "L_a=(\\langle a|\\otimes I_M)U(|\\psi(u)\\rangle\\otimes I_M),\\qquad\n\\mathcal T_u(\\sigma)=\\sum_aL_a\\sigma L_a^\\dagger,\n\\quad \\sum_aL_a^\\dagger L_a=I_M.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0546",
+    "latex": "\\operatorname{vec}(L_a\\sigma L_a^\\dagger)\n=(\\overline{L_a}\\otimes L_a)\\operatorname{vec}(\\sigma).",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0547",
+    "latex": "64\\times64",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0548",
+    "latex": "E_uP",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0549",
+    "latex": "PE_u",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0550",
+    "latex": "E_uPv=\\lambda v",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0551",
+    "latex": "\\lambda\\ne0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0552",
+    "latex": "Pv\\ne0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0553",
+    "latex": "PE_u(Pv)=\\lambda Pv",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0554",
+    "latex": "E_uw",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0555",
+    "latex": "\\det(I-zE_uP)=\\det(I-zPE_u)",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0556",
+    "latex": "n=3",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0557",
+    "latex": "n=4",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0558",
+    "latex": "X_i,Z_i,Z_iZ_j",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0559",
+    "latex": "m=12",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0560",
+    "latex": "f_j(t)=\\operatorname{Tr}(\\rho_tO_j),\\qquad -1\\le f_j(t)\\le1.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0561",
+    "latex": "u_t",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0562",
+    "latex": "m_{\\le2}=3n+9\\binom n2=66,\\qquad m_{\\rm full}=4^n-1=255.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0563",
+    "latex": "\\operatorname{Tr}(P_jP_k)=D\\delta_{jk}",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0564",
+    "latex": "\\rho=D^{-1}\\left(I+\\sum_j f_jP_j\\right).",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0565",
+    "latex": "s",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0566",
+    "latex": "b",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0567",
+    "latex": "p_s(b)=\\operatorname{Tr}(\\rho\\Pi_{s,b}),\\qquad \\sum_bp_s(b)=1.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0568",
+    "latex": "o_j(b)\\in\\{-1,+1\\}",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0569",
+    "latex": "S",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0570",
+    "latex": "\\widehat f_j=S^{-1}\\sum_{\\ell=1}^So_j(B_\\ell),\\quad\n\\mathbb E\\widehat f_j=f_j,\\quad\n\\operatorname{Var}(\\widehat f_j)=\\frac{1-f_j^2}{S}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0571",
+    "latex": "1-f_j^2",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0572",
+    "latex": "o_j^2=1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0573",
+    "latex": "S",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0574",
+    "latex": "\\operatorname{Cov}(\\widehat f_i,\\widehat f_j)\n=\\frac{\\mathbb E[o_i(B)o_j(B)]-f_if_j}{S}\n=\\frac{\\operatorname{Tr}(\\rho O_iO_j)-f_if_j}{S}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0575",
+    "latex": "Z_0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0576",
+    "latex": "Z_1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0577",
+    "latex": "(s,t,s+t,s+2t)",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0578",
+    "latex": "\\mathbb F_3",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0579",
+    "latex": "(s,t)",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0580",
+    "latex": "3^4=81",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0581",
+    "latex": "C=\\begin{pmatrix}1-e_{01}&e_{01}\\\\e_{10}&1-e_{10}\\end{pmatrix},\n\\qquad p'=pC^{\\otimes n}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0582",
+    "latex": "\\mathbb E[Z_{\\rm measured}]\n=(1-e_{01}-e_{10})\\langle Z\\rangle+e_{10}-e_{01}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0583",
+    "latex": "X\\in\\mathbb R^{N\\times m}",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0584",
+    "latex": "\\mu_j=N^{-1}\\sum_iX_{ij},\\quad\ns_j^2=N^{-1}\\sum_i(X_{ij}-\\mu_j)^2,\\quad\nZ_{ij}=(X_{ij}-\\mu_j)/s_j.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0585",
+    "latex": "10^{-12}",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0586",
+    "latex": "J(b,w)=\\|y-b\\mathbf1-Zw\\|_2^2+\\alpha\\|w\\|_2^2,\\qquad \\alpha>0.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0587",
+    "latex": "\\mathbf1^\\top Z=0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0588",
+    "latex": "b",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0589",
+    "latex": "b=\\bar y",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0590",
+    "latex": "w",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0591",
+    "latex": "(Z^\\top Z+\\alpha I)w=Z^\\top(y-\\bar y\\mathbf1).",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0592",
+    "latex": "v^\\top(Z^\\top Z+\\alpha I)v=\\|Zv\\|^2+\\alpha\\|v\\|^2>0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0593",
+    "latex": "v\\ne0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0594",
+    "latex": "\\widehat y(x)=\\bar y+\\sum_jw_j(x_j-\\mu_j)/s_j.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0595",
+    "latex": "\\beta_j=w_j/s_j",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0596",
+    "latex": "b_{\\rm raw}=\\bar y-\\sum_j\\beta_j\\mu_j",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0597",
+    "latex": "\\beta",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0598",
+    "latex": "w",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0599",
+    "latex": "w",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0600",
+    "latex": "N^{-1}\\|y-b\\mathbf1-Zw\\|^2+\\lambda\\|w\\|^2,",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0601",
+    "latex": "\\alpha=N\\lambda",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0602",
+    "latex": "\\alpha",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0603",
+    "latex": "\\lambda",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0604",
+    "latex": "Z^\\top Z=V\\Lambda V^\\top",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0605",
+    "latex": "w_k(\\alpha)=V(\\Lambda+\\alpha I)^{-1}V^\\top Z^\\top(Y_k-\\bar Y_k).",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0606",
+    "latex": "\\alpha",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0607",
+    "latex": "(E_{\\rm val},\\alpha)",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0608",
+    "latex": "\\alpha",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0609",
+    "latex": "(E_{\\rm val},-\\alpha)",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0610",
+    "latex": "10^{-12}",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0611",
+    "latex": "\\lambda>0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0612",
+    "latex": "\\|x_i\\|\\le R,\\|\\widetilde x_i-x_i\\|\\le\\delta,|y_i|\\le Y",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0613",
+    "latex": "G=N^{-1}X^\\top X,b=N^{-1}X^\\top y",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0614",
+    "latex": "\\|b\\|\\le RY,\\quad \\|\\widetilde b-b\\|\\le\\delta Y,\\quad\n\\|\\widetilde G-G\\|\\le2R\\delta+\\delta^2.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0615",
+    "latex": "(x_i+\\Delta_i)(x_i+\\Delta_i)^\\top",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0616",
+    "latex": "\\Delta_i\\Delta_i^\\top",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0617",
+    "latex": "\\|(G+\\lambda I)^{-1}\\|\\le1/\\lambda",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0618",
+    "latex": "\\|w\\|\\le RY/\\lambda",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0619",
+    "latex": "(\\widetilde G+\\lambda I)(\\widetilde w-w)\n=(\\widetilde b-b)-(\\widetilde G-G)w,",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0620",
+    "latex": "\\|\\widetilde w-w\\|\n\\le\\frac{\\delta Y}{\\lambda}\n+\\frac{(2R\\delta+\\delta^2)RY}{\\lambda^2}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0621",
+    "latex": "|\\widetilde x^\\top\\widetilde w-x^\\top w|\n\\le\\delta RY/\\lambda+(R+\\delta)\\|\\widetilde w-w\\|.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0622",
+    "latex": "|\\operatorname{RMSE}(\\widetilde y)-\\operatorname{RMSE}(\\widehat y)|\n\\le\\sqrt{N_{\\rm test}^{-1}\\sum_t|\\widetilde y_t-\\widehat y_t|^2}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0623",
+    "latex": "\\alpha",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0624",
+    "latex": "D_{\\rm tr}(\\rho,\\sigma)=\\tfrac12\\|\\rho-\\sigma\\|_1\\in[0,1].",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0625",
+    "latex": "\\|\\Phi(X)\\|_1\n=\\max_{-I\\preceq A\\preceq I}\\operatorname{Tr}[\\Phi^\\dagger(A)X],\n\\qquad X=X^\\dagger.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0626",
+    "latex": "I\\pm A\\succeq0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0627",
+    "latex": "I\\pm\\Phi^\\dagger(A)\\succeq0",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0628",
+    "latex": "\\|X\\|_1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0629",
+    "latex": "D_{\\rm tr}(\\Phi(\\rho),\\Phi(\\sigma))\\le D_{\\rm tr}(\\rho,\\sigma)",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0630",
+    "latex": "q<1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0631",
+    "latex": "|a\\rangle,|b\\rangle",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0632",
+    "latex": "\\rho=|0\\rangle\\langle0|\\otimes|a\\rangle\\langle a|,\\qquad\n\\sigma=|0\\rangle\\langle0|\\otimes|b\\rangle\\langle b|.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0633",
+    "latex": "\\eta_u",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0634",
+    "latex": "U",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0635",
+    "latex": "u,U,n\\ge2",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0636",
+    "latex": "1.000000000000001",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0637",
+    "latex": "L\\in\\mathbb N",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0638",
+    "latex": "0\\le q<1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0639",
+    "latex": "L",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0640",
+    "latex": "D_{\\rm tr}(\\mathcal F_{u_L}\\cdots\\mathcal F_{u_1}(\\rho),\n\\mathcal F_{u_L}\\cdots\\mathcal F_{u_1}(\\sigma))\n\\le qD_{\\rm tr}(\\rho,\\sigma).\n\\tag{QRC-C}",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0641",
+    "latex": "W",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0642",
+    "latex": "W=kL+s",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0643",
+    "latex": "0\\le s<L",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0644",
+    "latex": "k",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0645",
+    "latex": "D_{\\rm tr}(\\rho_t,\\rho_t^{(W)})\\le q^{\\lfloor W/L\\rfloor}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0646",
+    "latex": "|f_j(t)-f_j^{(W)}(t)|\\le2q^{\\lfloor W/L\\rfloor}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0647",
+    "latex": "|\\widehat y_t-\\widehat y_t^{(W)}|\n\\le2\\|\\beta\\|_1q^{\\lfloor W/L\\rfloor}\n\\le2\\sqrt m\\|\\beta\\|_2q^{\\lfloor W/L\\rfloor}.",
+    "display": true,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0648",
+    "latex": "0<q<1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0649",
+    "latex": "k\\ge\\log(2\\|\\beta\\|_1/\\varepsilon_y)/(-\\log q)",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0650",
+    "latex": "W-1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0651",
+    "latex": "W\\ge t+1",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04-0652",
+    "latex": "u=0.5",
+    "display": false,
+    "chapter": "chapter-04"
+  },
+  {
+    "id": "eq-chapter-04b-0653",
+    "latex": "\\Sigma_f=\\mathbb E[ff^T],\\quad c=\\mathbb E[fy],\\quad\nw^*=\\Sigma_f^+c,\\qquad\nC_{\\rm pop}=\\frac{c^T\\Sigma_f^+c}{\\mathbb E[y^2]}.",
+    "display": true,
+    "chapter": "chapter-04b"
+  },
+  {
+    "id": "eq-chapter-04b-0654",
+    "latex": "e_t\\le qe_{t-1}+\\varepsilon,\n\\qquad e_t\\le q^te_0+\\varepsilon\\frac{1-q^t}{1-q}.",
+    "display": true,
+    "chapter": "chapter-04b"
+  },
+  {
+    "id": "eq-chapter-04b-0655",
+    "latex": "S_{\\rm ex}(h)=\\begin{bmatrix}\n\\cos(\\omega h)&\\sin(\\omega h)/\\omega\\\\\n-\\omega\\sin(\\omega h)&\\cos(\\omega h)\n\\end{bmatrix}.",
+    "display": true,
+    "chapter": "chapter-04b"
+  },
+  {
+    "id": "eq-chapter-04b-0656",
+    "latex": "S_2(h)=\\begin{bmatrix}\n1-\\omega^2h^2/2&h(1-\\omega^2h^2/4)\\\\\n-\\omega^2h&1-\\omega^2h^2/2\n\\end{bmatrix},\\quad\n\\det S_2=1,\\quad\\operatorname{Tr}S_2=2-\\omega^2h^2.",
+    "display": true,
+    "chapter": "chapter-04b"
+  },
+  {
+    "id": "eq-chapter-04b-0657",
+    "latex": "V_* = \\sum_{k=0}^{\\infty}M^k\\frac{1-\\eta}{2}I(M^T)^k.",
+    "display": true,
+    "chapter": "chapter-04b"
+  },
+  {
+    "id": "eq-chapter-05-0658",
+    "latex": "m",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0659",
+    "latex": "[a_j,a_k^\\dagger]=\\delta_{jk}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0660",
+    "latex": "q_j=\\frac{a_j+a_j^\\dagger}{\\sqrt2},\\qquad\np_j=\\frac{a_j-a_j^\\dagger}{i\\sqrt2},\\qquad\nR=(q_1,p_1,\\ldots,q_m,p_m)^T.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0661",
+    "latex": "[R_j,R_k]=i\\Omega_{jk}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0662",
+    "latex": "I_{2m}/2",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0663",
+    "latex": "\\rho\\succeq0",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0664",
+    "latex": "\\operatorname{Tr}\\rho=1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0665",
+    "latex": "d=\\operatorname{Tr}(\\rho R)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0666",
+    "latex": "V_{jk}=\\frac12\\operatorname{Tr}\\rho\\{R_j-d_j,R_k-d_k\\}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0667",
+    "latex": "\\chi_\\rho(t)=\\operatorname{Tr}[\\rho e^{it^TR}],\\qquad\n\\chi_\\rho(t)=\\exp\\left(it^Td-\\frac12t^TVt\\right)\n\\quad\\text{dla stanu gaussowskiego}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0668",
+    "latex": "V+i\\Omega/2\\succeq0",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0669",
+    "latex": "V",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0670",
+    "latex": "\\rho=\\sum_\\lambda w_\\lambda\\rho_\\lambda",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0671",
+    "latex": "w_\\lambda\\ge0",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0672",
+    "latex": "\\sum_\\lambda w_\\lambda=1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0673",
+    "latex": "\\chi_\\rho(t)=\\sum_\\lambda w_\\lambda\\chi_{\\rho_\\lambda}(t),\\qquad\np_\\rho(n)=\\sum_\\lambda w_\\lambda p_{\\rho_\\lambda}(n).",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0674",
+    "latex": "\\Phi_x(t)=\\mathbb E_x e^{it\\cdot N}\n=\\sum_{n\\in\\mathbb N^m}p(n\\mid x)e^{it\\cdot n}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0675",
+    "latex": "\\partial_{t_j}\\Phi_x(0)=i\\mathbb E N_j",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0676",
+    "latex": "\\partial_{t_j}\\partial_{t_k}\\Phi_x(0)=-\\mathbb E N_jN_k",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0677",
+    "latex": "\\Phi_x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0678",
+    "latex": "\\chi_{\\rho(x)}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0679",
+    "latex": "|\\operatorname{TMSV}(r)\\rangle\n=\\frac1{\\cosh r}\\sum_{k=0}^\\infty(\\tanh r)^k|k,k\\rangle.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0680",
+    "latex": "\\frac1{\\cosh^2r}\\sum_{k=0}^\\infty\\tanh^{2k}r\n=\\frac{1-\\tanh^2r}{1-\\tanh^2r}=1.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0681",
+    "latex": "q=\\tanh^2r",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0682",
+    "latex": "\\Pr(K=k)=(1-q)q^k",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0683",
+    "latex": "\\mathbb E K=q/(1-q)=\\sinh^2r",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0684",
+    "latex": "2K",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0685",
+    "latex": "m=8",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0686",
+    "latex": "B_0=\\begin{pmatrix}0&D_r\\\\D_r&0\\end{pmatrix},\n\\qquad D_r=\\operatorname{diag}(\\tanh r_1,\\ldots,\\tanh r_4).",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0687",
+    "latex": "U(x)=R_2\\operatorname{diag}(e^{i\\pi\\alpha x_1},\\ldots,e^{i\\pi\\alpha x_4})R_1,\n\\quad W(x)=U(x)\\oplus U(x),\\quad B(x)=W(x)B_0W(x)^T.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0688",
+    "latex": "W",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0689",
+    "latex": "B=B^T",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0690",
+    "latex": "B",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0691",
+    "latex": "B_0",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0692",
+    "latex": "\\tanh r_j",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0693",
+    "latex": "r_j",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0694",
+    "latex": "WB_0W^T",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0695",
+    "latex": "U(x+c\\mathbf1)=e^{i\\pi\\alpha c}U(x),\\qquad\nB(x+c\\mathbf1)=e^{2i\\pi\\alpha c}B(x).",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0696",
+    "latex": "p(n\\mid x+c\\mathbf1)=p(n\\mid x)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0697",
+    "latex": "|\\psi_B\\rangle=C_B\\exp\\left(\\frac12\\sum_{j,k}B_{jk}a_j^\\dagger a_k^\\dagger\\right)|0\\rangle,\n\\qquad C_B=\\det(I-BB^\\dagger)^{1/4}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0698",
+    "latex": "B=V\\operatorname{diag}(s_j)V^T",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0699",
+    "latex": "V",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0700",
+    "latex": "\\left\\|e^{s(a^\\dagger)^2/2}|0\\rangle\\right\\|^2\n=\\sum_{k\\ge0}\\frac{(2k)!}{2^{2k}(k!)^2}s^{2k}\n=(1-s^2)^{-1/2}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0701",
+    "latex": "|C_B|^2=\\prod_j\\sqrt{1-s_j^2}=\\sqrt{\\det(I-BB^\\dagger)}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0702",
+    "latex": "|n|=\\sum_jn_j=2k",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0703",
+    "latex": "B_n",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0704",
+    "latex": "j",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0705",
+    "latex": "n_j",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0706",
+    "latex": "k",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0707",
+    "latex": "2k",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0708",
+    "latex": "\\operatorname{Haf}(A)=\\sum_{\\mathcal M}\\prod_{\\{u,v\\}\\in\\mathcal M}A_{uv}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0709",
+    "latex": "2^kk!",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0710",
+    "latex": "\\sqrt{\\prod_jn_j!}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0711",
+    "latex": "\\langle n|\\psi_B\\rangle\n=\\frac{C_B\\operatorname{Haf}(B_n)}{\\sqrt{\\prod_jn_j!}},\\qquad\np(n\\mid x)=\\frac{\\sqrt{\\det(I-BB^\\dagger)}\\,|\\operatorname{Haf}(B_n)|^2}{\\prod_jn_j!}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0712",
+    "latex": "|n|",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0713",
+    "latex": "\\operatorname{Haf}(\\varnothing)=1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0714",
+    "latex": "n=(k,k)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0715",
+    "latex": "k!",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0716",
+    "latex": "(\\tanh r)^k",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0717",
+    "latex": "p(k,k)=(1-\\tanh^2r)\\tanh^{2k}r,",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0718",
+    "latex": "N_{\\mathrm{tot}}=\\sum_ja_j^\\dagger a_j",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0719",
+    "latex": "N_{\\mathrm{tot}}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0720",
+    "latex": "x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0721",
+    "latex": "\\alpha",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0722",
+    "latex": "G_{N_{\\mathrm{tot}}}(z)=\\prod_{j=1}^4\\frac{1-q_j}{1-q_jz^2},\\qquad q_j=\\tanh^2r_j.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0723",
+    "latex": "q_j=q",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0724",
+    "latex": "\\Pr(N_{\\mathrm{tot}}=2s)=\\binom{s+3}{3}(1-q)^4q^s,\n\\quad\\mathbb E N_{\\mathrm{tot}}=8\\sinh^2r.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0725",
+    "latex": "a_L(x)=\\Pr(N_{\\mathrm{tot}}\\le L\\mid x)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0726",
+    "latex": "\\Omega_L=\\{n:|n|\\le L\\}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0727",
+    "latex": "a_x=\\sum_{n\\in\\Omega_L}p_x(n)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0728",
+    "latex": "o_x=1-a_x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0729",
+    "latex": "\\bar p_x=(\\{p_x(n)\\}_{n\\in\\Omega_L},o_x),\\qquad \\sum_z\\bar p_x(z)=1.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0730",
+    "latex": "p_x^{\\mathrm{cond}}(n)=p_x(n)/a_x,\\qquad n\\in\\Omega_L,",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0731",
+    "latex": "a_x>0",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0732",
+    "latex": "k_{\\mathrm{overflow}}(x,y)\n=\\sqrt{a_xa_y}\\,k_{\\mathrm{cond}}(x,y)+\\sqrt{o_xo_y}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0733",
+    "latex": "a_x=a",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0734",
+    "latex": "ak_{\\mathrm{cond}}+(1-a)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0735",
+    "latex": "a_x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0736",
+    "latex": "n=(L+1,0,\\ldots)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0737",
+    "latex": "n=(100L,0,\\ldots)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0738",
+    "latex": "\\phi(x)_z=\\sqrt{\\bar p_x(z)}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0739",
+    "latex": "k_H(x,y)=\\langle\\phi(x),\\phi(y)\\rangle\n=\\sum_z\\sqrt{\\bar p_x(z)\\bar p_y(z)},\\qquad\n\\|\\phi(x)\\|_2=1.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0740",
+    "latex": "H^2(p,q)=\\frac12\\sum_z(\\sqrt{p_z}-\\sqrt{q_z})^2",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0741",
+    "latex": "H^2=1-k_H",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0742",
+    "latex": "0\\le k_H\\le1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0743",
+    "latex": "k_H(x,x)=1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0744",
+    "latex": "K_{ij}=k_H(x_i,x_j)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0745",
+    "latex": "c\\in\\mathbb C^n",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0746",
+    "latex": "c^\\dagger Kc=\\sum_z\\left|\\sum_ic_i\\phi(x_i)_z\\right|^2\\ge0.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0747",
+    "latex": "g_{\\mathrm{event}}(n)=(|n|,\\#\\{j:n_j>0\\})",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0748",
+    "latex": "g_{\\mathrm{orbit}}(n)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0749",
+    "latex": "u",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0750",
+    "latex": "p^g(u)=\\sum_{n:g(n)=u}p(n)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0751",
+    "latex": "\\sum_{n:g(n)=u}\\sqrt{p_nq_n}\n\\le\\sqrt{\\left(\\sum_{n:g(n)=u}p_n\\right)\\left(\\sum_{n:g(n)=u}q_n\\right)}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0752",
+    "latex": "k_H(p^g,q^g)\\ge k_H(p,q)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0753",
+    "latex": "b(n)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0754",
+    "latex": "n_j",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0755",
+    "latex": "36",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0756",
+    "latex": "n_jn_k",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0757",
+    "latex": "j\\le k",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0758",
+    "latex": "m(x)=\\left(\\sum_{n\\in\\Omega_L}p_x(n)b(n),a_x,o_x\\right)\\in\\mathbb R^{46}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0759",
+    "latex": "44",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0760",
+    "latex": "\\mathbb E b(N)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0761",
+    "latex": "\\mathbb E[N_j^2\\mathbf1_{\\Omega_L}]",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0762",
+    "latex": "\\mathbb E[N_j(N_j-1)\\mathbf1_{\\Omega_L}]",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0763",
+    "latex": "z_j(x)=\\frac{m_j(x)-\\mu_j^{\\mathrm{train}}}{s_j^{\\mathrm{train}}},\\qquad\nk_\\gamma(x,y)=\\exp[-\\gamma\\|z(x)-z(y)\\|_2^2],\\quad\\gamma>0.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0764",
+    "latex": "s_j<10^{-10}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0765",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0766",
+    "latex": "a_x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0767",
+    "latex": "o_x=1-a_x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0768",
+    "latex": "e^{-\\gamma\\|u-v\\|^2}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0769",
+    "latex": "\\omega\\sim\\mathcal N(0,2\\gamma I_d)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0770",
+    "latex": "\\mathbb E e^{i\\omega\\cdot(u-v)}=e^{-\\gamma\\|u-v\\|^2}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0771",
+    "latex": "d\\mu_\\gamma(\\omega)=(4\\pi\\gamma)^{-d/2}\n\\exp[-\\|\\omega\\|^2/(4\\gamma)]\\,d\\omega.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0772",
+    "latex": "c^\\dagger Kc=\\int|\\sum_jc_je^{i\\omega\\cdot u_j}|^2d\\mu_\\gamma(\\omega)\\ge0",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0773",
+    "latex": " (\\gamma/\\pi)^{d/2}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0774",
+    "latex": "u-v",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0775",
+    "latex": "k_{\\Phi}(x,y)=\\int\\overline{\\Phi_x(t)}\\Phi_y(t)\\,d\\mu(t).",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0776",
+    "latex": "\\mu",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0777",
+    "latex": "\\mathbb E_{N\\sim p_x,M\\sim p_y}\\widehat\\mu(M-N)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0778",
+    "latex": "k_H",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0779",
+    "latex": "\\Pi_n=|n\\rangle\\langle n|",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0780",
+    "latex": "\\Pi_0=|0\\rangle\\langle0|,\\qquad\\Pi_1=I-|0\\rangle\\langle0|.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0781",
+    "latex": "(4,0,\\ldots)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0782",
+    "latex": "T",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0783",
+    "latex": "a_{\\mathrm{out}}=\\sqrt T a+\\sqrt{1-T}e",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0784",
+    "latex": "|n\\rangle",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0785",
+    "latex": "\\Pr(M=k\\mid N=n)=\\binom nkT^k(1-T)^{n-k},\\quad0\\le k\\le n.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0786",
+    "latex": "G_M(z_1,\\ldots,z_m)=G_N(1-T_1+T_1z_1,\\ldots,1-T_m+T_mz_m).",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0787",
+    "latex": "T",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0788",
+    "latex": "\\eta",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0789",
+    "latex": "T\\eta",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0790",
+    "latex": "G",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0791",
+    "latex": "D_j\\sim\\operatorname{Poisson}(\\nu_j)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0792",
+    "latex": "\\exp[\\sum_j\\nu_j(z_j-1)]",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0793",
+    "latex": "\\Pr(C=1\\mid N=n)=1-e^{-\\nu}(1-T\\eta)^n.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0794",
+    "latex": "|2\\rangle",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0795",
+    "latex": "T=1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0796",
+    "latex": "\\eta=1/2",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0797",
+    "latex": "\\nu=0",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0798",
+    "latex": "1-(1-\\eta)^2=3/4",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0799",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0800",
+    "latex": "1/2",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0801",
+    "latex": "T\\eta",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0802",
+    "latex": "1-e^{-\\nu}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0803",
+    "latex": "x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0804",
+    "latex": "S",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0805",
+    "latex": "(C_1,\\ldots,C_D)\\sim\\operatorname{Multinomial}(S,\\bar p_x),\\qquad\n\\widehat p_j=C_j/S.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0806",
+    "latex": "\\mathbb E\\widehat p_j=p_j,\\quad\n\\operatorname{Var}(\\widehat p_j)=\\frac{p_j(1-p_j)}S,\\quad\n\\operatorname{Cov}(\\widehat p_j,\\widehat p_k)=-\\frac{p_jp_k}S\\ (j\\ne k).",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0807",
+    "latex": "(\\operatorname{diag}p-pp^T)/S",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0808",
+    "latex": "\\sum_j\\widehat p_j=1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0809",
+    "latex": "\\mathbb E\\sqrt{\\widehat p_j}\\le\\sqrt{p_j}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0810",
+    "latex": "x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0811",
+    "latex": "y",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0812",
+    "latex": "\\sum_j\\sqrt{\\widehat p_{xj}\\widehat p_{yj}}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0813",
+    "latex": "x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0814",
+    "latex": "Sp_j\\gg1",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0815",
+    "latex": "\\mathbb E\\sqrt{\\widehat p_j}\n\\approx\\sqrt{p_j}-\\frac{1-p_j}{8S\\sqrt{p_j}}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0816",
+    "latex": "S",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0817",
+    "latex": "b(N)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0818",
+    "latex": "\\widehat m=S^{-1}\\sum_sb(N_s)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0819",
+    "latex": "\\operatorname{Cov}(b(N))/S",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0820",
+    "latex": "b(N)\\mathbf1_{\\Omega_L}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0821",
+    "latex": "A\\sim\\operatorname{Binomial}(S,a_x)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0822",
+    "latex": "A>0",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0823",
+    "latex": "A",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0824",
+    "latex": "S",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0825",
+    "latex": "(1-a_x)^S",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0826",
+    "latex": "S_{\\mathrm{accepted}}",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0827",
+    "latex": "S_{\\mathrm{accepted}}/a_x",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0828",
+    "latex": "L",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0829",
+    "latex": "m",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0830",
+    "latex": "D_L=\\sum_{k=0}^L\\binom{k+m-1}{m-1}=\\binom{L+m}{m}.",
+    "display": true,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0831",
+    "latex": "m=8",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0832",
+    "latex": "D_4=495",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0833",
+    "latex": "D_6=3003",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0834",
+    "latex": "D_8=12870",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0835",
+    "latex": "O(nD_L)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0836",
+    "latex": "O(n^2D_L)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0837",
+    "latex": "k\\times k",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0838",
+    "latex": "O(k^22^k)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0839",
+    "latex": "O(2^k)",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0840",
+    "latex": "n",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0841",
+    "latex": "B",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0842",
+    "latex": "\\lfloor B/n\\rfloor",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-05-0843",
+    "latex": "\\lceil B/n\\rceil",
+    "display": false,
+    "chapter": "chapter-05"
+  },
+  {
+    "id": "eq-chapter-06-0844",
+    "latex": "\\rho\\succeq0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0845",
+    "latex": "\\operatorname{Tr}\\rho=1",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0846",
+    "latex": "y",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0847",
+    "latex": "E_y\\succeq0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0848",
+    "latex": "\\sum_yE_y=I",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0849",
+    "latex": "p(y)=\\operatorname{Tr}(E_y\\rho)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0850",
+    "latex": "E_yE_z=\\delta_{yz}E_y",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0851",
+    "latex": "2^n",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0852",
+    "latex": "2^n",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0853",
+    "latex": "x\\mapsto\\rho(x)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0854",
+    "latex": "k(x,x')=\\operatorname{Tr}[\\rho(x)\\rho(x')].",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0855",
+    "latex": "|\\langle\\phi(x)|\\phi(x')\\rangle|^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0856",
+    "latex": "\\operatorname{Tr}\\rho(x)^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0857",
+    "latex": "\\sum_{i,j}\\overline c_ic_jk(x_i,x_j)\n=\\left\\|\\sum_ic_i\\rho(x_i)\\right\\|_{\\mathrm{HS}}^2\\ge0.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0858",
+    "latex": "y_i\\in\\{-1,+1\\}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0859",
+    "latex": "C>0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0860",
+    "latex": "\\min_{w,b,\\xi\\ge0}\\frac12\\|w\\|^2+C\\sum_i\\xi_i,\n\\qquad y_i(\\langle w,\\rho(x_i)\\rangle+b)\\ge1-\\xi_i.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0861",
+    "latex": "\\alpha_i\\ge0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0862",
+    "latex": "w",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0863",
+    "latex": "b",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0864",
+    "latex": "w=\\sum_i\\alpha_iy_i\\rho(x_i)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0865",
+    "latex": "\\sum_i\\alpha_iy_i=0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0866",
+    "latex": "\\xi",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0867",
+    "latex": "\\alpha_i\\le C",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0868",
+    "latex": "\\max_\\alpha\\sum_i\\alpha_i-\\frac12\\sum_{i,j}\\alpha_i\\alpha_jy_iy_jK_{ij},\n\\quad0\\le\\alpha_i\\le C,\\quad\\sum_i\\alpha_iy_i=0.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0869",
+    "latex": "f(x)=\\sum_i\\alpha_iy_i k(x_i,x)+b",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0870",
+    "latex": "K",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0871",
+    "latex": "|\\phi(x)\\rangle=U_x|0\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0872",
+    "latex": "U_{x'}^\\dagger U_x",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0873",
+    "latex": "\\Pr(0)=k(x,x')",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0874",
+    "latex": "\\rho_\\theta(x)=U(x,\\theta)\\rho_0U(x,\\theta)^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0875",
+    "latex": "p_\\theta(y\\mid x)=\\operatorname{Tr}[E_y\\rho_\\theta(x)]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0876",
+    "latex": "\\mathcal L(\\theta)=-\\frac1N\\sum_{i=1}^N\\log p_\\theta(y_i\\mid x_i),",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0877",
+    "latex": "p_\\theta(y_i\\mid x_i)>0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0878",
+    "latex": "Z",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0879",
+    "latex": "p(0\\mid x)=(1+f_\\theta(x))/2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0880",
+    "latex": "p(1\\mid x)=(1-f_\\theta(x))/2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0881",
+    "latex": "f_\\theta(x)=\\operatorname{Tr}[Z\\rho_\\theta(x)]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0882",
+    "latex": "e^{-i\\theta G}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0883",
+    "latex": "G=G^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0884",
+    "latex": "\\operatorname{spec}G=\\{-r,+r\\}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0885",
+    "latex": "r>0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0886",
+    "latex": "\\frac{df}{d\\theta}\n=r\\left[f\\left(\\theta+\\frac\\pi{4r}\\right)-f\\left(\\theta-\\frac\\pi{4r}\\right)\\right].",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0887",
+    "latex": "G^2=r^2I",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0888",
+    "latex": "e^{-i\\theta G}=\\cos(r\\theta)I-i\\sin(r\\theta)G/r.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0889",
+    "latex": "f(\\theta)=a+b\\cos(2r\\theta)+c\\sin(2r\\theta)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0890",
+    "latex": "s",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0891",
+    "latex": "f(\\theta+s)-f(\\theta-s)\n=2\\sin(2rs)[-b\\sin(2r\\theta)+c\\cos(2r\\theta)].",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0892",
+    "latex": "2r[-b\\sin(2r\\theta)+c\\cos(2r\\theta)]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0893",
+    "latex": "s=\\pi/(4r)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0894",
+    "latex": "G=P/2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0895",
+    "latex": "P^2=I",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0896",
+    "latex": "r=1/2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0897",
+    "latex": "1/2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0898",
+    "latex": "\\pm\\pi/2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0899",
+    "latex": "G=P",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0900",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0901",
+    "latex": "\\pm\\pi/4",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0902",
+    "latex": "\\sin(2rs)\\ne0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0903",
+    "latex": "r/\\sin(2rs)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0904",
+    "latex": "\\partial_\\theta\\mathcal L\n=-\\frac1N\\sum_i\\frac{\\partial_\\theta p_\\theta(y_i\\mid x_i)}{p_\\theta(y_i\\mid x_i)}.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0905",
+    "latex": "v_\\pm/S_\\pm",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0906",
+    "latex": "r^2(v_+/S_++v_-/S_-)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0907",
+    "latex": "f_\\theta(x)=\\operatorname{Tr}\\left[M V_\\theta E_x\\rho_0E_x^\\dagger V_\\theta^\\dagger\\right]\n=\\operatorname{Tr}[M_\\theta\\rho(x)],\\qquad M_\\theta=V_\\theta^\\dagger MV_\\theta.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0908",
+    "latex": "M_\\theta",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0909",
+    "latex": "E_x",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0910",
+    "latex": "V_\\theta",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0911",
+    "latex": "M=M^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0912",
+    "latex": "\\|M\\|\\le1",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0913",
+    "latex": "[-1,1]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0914",
+    "latex": "S",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0915",
+    "latex": "1/S",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0916",
+    "latex": "f_\\theta",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0917",
+    "latex": "\\theta_0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0918",
+    "latex": "f_{\\theta_0+\\delta}(x)\\approx f_{\\theta_0}(x)+J(x)\\delta,\n\\quad K_{\\mathrm{tan}}(x,x')=J(x)J(x')^T.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0919",
+    "latex": "K_{\\mathrm{tan}}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0920",
+    "latex": "\\dot e=-K_{\\mathrm{tan}}e",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0921",
+    "latex": "z=h_\\varphi(x)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0922",
+    "latex": "q_a(z,\\theta)=\\operatorname{Tr}[M_a\\rho_\\theta(z)]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0923",
+    "latex": "F(x)=g_w(q(h_\\varphi(x),\\theta))",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0924",
+    "latex": "\\frac{\\partial\\ell}{\\partial\\varphi_j}\n=\\sum_{a,b}\\frac{\\partial\\ell}{\\partial q_a}\n\\frac{\\partial q_a}{\\partial z_b}\\frac{\\partial h_b}{\\partial\\varphi_j},\n\\qquad\n\\frac{\\partial\\ell}{\\partial\\theta_j}\n=\\sum_a\\frac{\\partial\\ell}{\\partial q_a}\\frac{\\partial q_a}{\\partial\\theta_j}.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0925",
+    "latex": "z_b",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0926",
+    "latex": "e^{-iz_bP/2}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0927",
+    "latex": "z_b",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0928",
+    "latex": "\\theta_j",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0929",
+    "latex": "\\mathbb E g(\\widehat q)=g(q)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0930",
+    "latex": "\\frac12\\operatorname{Tr}[\\nabla^2g(q)\\operatorname{Cov}(\\widehat q)]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0931",
+    "latex": "p",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0932",
+    "latex": "q_\\theta",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0933",
+    "latex": "\\min_\\theta\\max_{0<D<1}\nV(D,\\theta)=\\mathbb E_{z\\sim p}\\log D(z)+\\mathbb E_{z\\sim q_\\theta}\\log(1-D(z)).",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0934",
+    "latex": "p/D-q/(1-D)=0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0935",
+    "latex": "D^*(z)=p(z)/(p(z)+q(z))",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0936",
+    "latex": "V(D^*,\\theta)=-\\log4+2\\operatorname{JS}(p\\|q_\\theta).",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0937",
+    "latex": "-\\mathbb E_{q_\\theta}\\log D",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0938",
+    "latex": "V",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0939",
+    "latex": "\\rho",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0940",
+    "latex": "\\sigma_\\theta",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0941",
+    "latex": "0\\le E\\le I",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0942",
+    "latex": "P_{\\mathrm{succ}}(E)=\\frac12\\operatorname{Tr}(E\\rho)+\\frac12\\operatorname{Tr}[(I-E)\\sigma_\\theta]\n=\\frac12+\\frac12\\operatorname{Tr}[E(\\rho-\\sigma_\\theta)].",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0943",
+    "latex": "P^*_{\\mathrm{succ}}=1/2+\\|\\rho-\\sigma_\\theta\\|_1/4",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0944",
+    "latex": "p_\\theta(z)=|\\langle z|U_\\theta|0\\rangle|^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0945",
+    "latex": "\\operatorname{KL}(q\\|p_\\theta)=\\sum_zq(z)\\log\\frac{q(z)}{p_\\theta(z)},",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0946",
+    "latex": "q(z)>0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0947",
+    "latex": "p_\\theta(z)=0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0948",
+    "latex": "\\kappa",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0949",
+    "latex": "\\operatorname{MMD}^2(p_\\theta,q)\n=\\mathbb E_{z,z'\\sim p_\\theta}\\kappa(z,z')\n-2\\mathbb E_{z\\sim p_\\theta,w\\sim q}\\kappa(z,w)\n+\\mathbb E_{w,w'\\sim q}\\kappa(w,w').",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0950",
+    "latex": "\\|\\mathbb E_p\\phi_\\kappa-\\mathbb E_q\\phi_\\kappa\\|^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0951",
+    "latex": "\\pm r",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0952",
+    "latex": "\\partial_\\theta p_\\theta(z)=r[p_+(z)-p_-(z)]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0953",
+    "latex": "\\kappa",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0954",
+    "latex": "\\partial_\\theta\\operatorname{MMD}^2\n=2r\\big(\\mathbb E_{p_+,p_\\theta}\\kappa-\\mathbb E_{p_-,p_\\theta}\\kappa\n-\\mathbb E_{p_+,q}\\kappa+\\mathbb E_{p_-,q}\\kappa\\big).",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0955",
+    "latex": "2^n",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0956",
+    "latex": "H_\\theta",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0957",
+    "latex": "\\beta>0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0958",
+    "latex": "\\rho_\\theta=\\frac{e^{-\\beta H_\\theta}}{Z_\\theta},\\quad\nZ_\\theta=\\operatorname{Tr}e^{-\\beta H_\\theta}>0,\\quad\np_\\theta(v)=\\operatorname{Tr}[(|v\\rangle\\langle v|\\otimes I_h)\\rho_\\theta].",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0959",
+    "latex": "H_\\theta=-\\sum_{i<j}J_{ij}Z_iZ_j-\\sum_ih_iZ_i-\\sum_i\\Gamma_iX_i",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0960",
+    "latex": "\\Gamma_i=0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0961",
+    "latex": "H'=\\partial_\\theta H",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0962",
+    "latex": "\\partial_\\theta e^{-\\beta H}\n=-\\beta\\int_0^1e^{-(1-s)\\beta H}H'e^{-s\\beta H}\\,ds.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0963",
+    "latex": "H'",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0964",
+    "latex": "\\partial_\\theta\\log Z=-\\beta\\operatorname{Tr}(\\rho H')",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0965",
+    "latex": "\\Pi_v=|v\\rangle\\langle v|\\otimes I_h",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0966",
+    "latex": "\\partial_\\theta\\log p_\\theta(v)\n=-\\beta\\frac{\\int_0^1\\operatorname{Tr}[\\Pi_ve^{-(1-s)\\beta H}H'e^{-s\\beta H}]\\,ds}\n{\\operatorname{Tr}(\\Pi_ve^{-\\beta H})}\n+\\beta\\operatorname{Tr}(\\rho H').",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0967",
+    "latex": "H'",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0968",
+    "latex": "C_\\ell",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0969",
+    "latex": "B",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0970",
+    "latex": "|s\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0971",
+    "latex": "s",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0972",
+    "latex": "V_s",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0973",
+    "latex": "A",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0974",
+    "latex": "K_s=V_s(I_A\\otimes\\langle s|_B)C_\\ell",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0975",
+    "latex": "\\mathcal E_\\ell(\\rho)=\\sum_sK_s\\rho K_s^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0976",
+    "latex": "\\sum_sK_s^\\dagger K_s=C_\\ell^\\dagger IC_\\ell=I",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0977",
+    "latex": "\\rho_{\\mathrm{out}}=\\mathcal E_L\\circ\\cdots\\circ\\mathcal E_1(\\rho_{\\mathrm{in}}),\n\\quad f_\\theta=\\operatorname{Tr}(M\\rho_{\\mathrm{out}}).",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0978",
+    "latex": "\\operatorname{Tr}_B[C_\\ell\\rho C_\\ell^\\dagger]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0979",
+    "latex": "U\\rho U^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0980",
+    "latex": "\\operatorname{Tr}(K_s\\rho K_s^\\dagger)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0981",
+    "latex": "U_{\\mathrm{QCNN}}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0982",
+    "latex": "|\\psi_i\\rangle\\in\\mathcal H_A\\otimes\\mathcal H_B",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0983",
+    "latex": "U_\\theta|\\psi_i\\rangle\\approx|z_i\\rangle_A|0\\rangle_B",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0984",
+    "latex": "\\mathcal L=1-\\sum_iw_i\\operatorname{Tr}[(I_A\\otimes|0\\rangle\\langle0|)U_\\theta|\\psi_i\\rangle\\langle\\psi_i|U_\\theta^\\dagger],\n\\quad w_i\\ge0,\\quad\\sum_iw_i=1.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0985",
+    "latex": "\\mathcal S",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0986",
+    "latex": "\\dim\\mathcal S\\le\\dim\\mathcal H_A",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0987",
+    "latex": "\\mathcal S",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0988",
+    "latex": "\\mathcal H_A\\otimes|0\\rangle_B",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0989",
+    "latex": "|\\Psi\\rangle=U|\\psi\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0990",
+    "latex": "p_0=\\|(I\\otimes\\langle0|)|\\Psi\\rangle\\|^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0991",
+    "latex": "\\rho_{\\mathrm{rec}}=U^\\dagger[\\operatorname{Tr}_B|\\Psi\\rangle\\langle\\Psi|\\otimes|0\\rangle\\langle0|]U.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0992",
+    "latex": "|\\Psi\\rangle=\\sum_b|v_b\\rangle_A|b\\rangle_B",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0993",
+    "latex": "\\sum_b|\\langle v_b|v_0\\rangle|^2\\ge\\|v_0\\|^4=p_0^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0994",
+    "latex": "p_0\\ge1-\\epsilon",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0995",
+    "latex": "F(\\rho_{\\mathrm{rec}},|\\psi\\rangle)\\ge(1-\\epsilon)^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0996",
+    "latex": "S\\in\\mathbb R^{N\\times d}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0997",
+    "latex": "Q=SW_Q",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0998",
+    "latex": "K=SW_K",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-0999",
+    "latex": "V=SW_V",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1000",
+    "latex": "A_{ij}=\\frac{e^{Q_i\\cdot K_j/\\sqrt{d_k}}}{\\sum_\\ell e^{Q_i\\cdot K_\\ell/\\sqrt{d_k}}},\n\\qquad G=AV.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1001",
+    "latex": "h_i=S_i+G_i",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1002",
+    "latex": "\\operatorname{LN}(h_i)_a=\\frac{h_{ia}-\\mu_i}{\\sqrt{d^{-1}\\sum_b(h_{ib}-\\mu_i)^2+\\epsilon_{\\mathrm{LN}}}}.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1003",
+    "latex": "QK^T",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1004",
+    "latex": "N",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1005",
+    "latex": "d",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1006",
+    "latex": "|o_i\\rangle=\\sum_ao_{ia}|a\\rangle/\\|o_i\\|",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1007",
+    "latex": "\\Pr(a)=|o_{ia}|^2/\\|o_i\\|^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1008",
+    "latex": "\\ell=W_{\\mathrm{out}}o_i+b",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1009",
+    "latex": "\\Pr(\\text{token}=t)=e^{\\ell_t}/\\sum_ue^{\\ell_u}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1010",
+    "latex": "\\ell=(0,1)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1011",
+    "latex": "e^{\\ell_t/2}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1012",
+    "latex": "A=A^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1013",
+    "latex": "1/\\kappa\\le|\\lambda_j|\\le1",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1014",
+    "latex": "|b\\rangle=\\sum_j\\beta_j|u_j\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1015",
+    "latex": "e^{iAt}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1016",
+    "latex": "\\sum_j\\beta_j|u_j\\rangle|\\widetilde\\lambda_j\\rangle\n\\left(\\sqrt{1-C^2/\\widetilde\\lambda_j^2}|0\\rangle\n+\\frac{C}{\\widetilde\\lambda_j}|1\\rangle\\right),\\quad\nC\\le\\min_j|\\widetilde\\lambda_j|.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1017",
+    "latex": "1",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1018",
+    "latex": "|x\\rangle=\\frac{A^{-1}|b\\rangle}{\\|A^{-1}b\\|},\\qquad\np_{\\mathrm{succ}}=C^2\\sum_j\\frac{|\\beta_j|^2}{|\\lambda_j|^2}.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1019",
+    "latex": "C=1/\\kappa",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1020",
+    "latex": "1/\\kappa^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1021",
+    "latex": "|1/\\lambda-1/\\widetilde\\lambda|=|\\lambda-\\widetilde\\lambda|/(|\\lambda\\widetilde\\lambda|)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1022",
+    "latex": "\\mathcal A=\\begin{pmatrix}0&A\\\\A^\\dagger&0\\end{pmatrix}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1023",
+    "latex": "\\langle x|M|x\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1024",
+    "latex": "N",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1025",
+    "latex": "A:\\mathcal H_R\\to\\mathcal H_L",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1026",
+    "latex": "U",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1027",
+    "latex": "\\Pi",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1028",
+    "latex": "\\widetilde\\Pi",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1029",
+    "latex": "\\widetilde\\Pi U\\Pi",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1030",
+    "latex": "A/\\alpha",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1031",
+    "latex": "\\alpha\\ge\\|A\\|",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1032",
+    "latex": "\\|A-\\alpha\\widetilde\\Pi U\\Pi\\|\\le\\epsilon",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1033",
+    "latex": "A=\\sum_j\\sigma_j|u_j\\rangle\\langle v_j|",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1034",
+    "latex": "U",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1035",
+    "latex": "U^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1036",
+    "latex": "P",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1037",
+    "latex": "d",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1038",
+    "latex": "d\\bmod2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1039",
+    "latex": "|P(t)|\\le1",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1040",
+    "latex": "[-1,1]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1041",
+    "latex": "U,U^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1042",
+    "latex": "d",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1043",
+    "latex": "P",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1044",
+    "latex": "P^{\\mathrm{SV}}(A/\\alpha)=\\sum_jP(\\sigma_j/\\alpha)|u_j\\rangle\\langle v_j|:\n\\mathcal H_R\\to\\mathcal H_L.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1045",
+    "latex": "P",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1046",
+    "latex": "P^{\\mathrm{SV}}_R(A/\\alpha)=\\sum_{j:\\sigma_j>0}P(\\sigma_j/\\alpha)|v_j\\rangle\\langle v_j|\n+P(0)\\Pi_{\\ker A},",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1047",
+    "latex": "P(t)=t^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1048",
+    "latex": "A^\\dagger A/\\alpha^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1049",
+    "latex": "U_{\\mathrm{SVD}}\\Sigma^2V_{\\mathrm{SVD}}^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1050",
+    "latex": "|t|\\in[1/\\kappa,1]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1051",
+    "latex": "c/t",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1052",
+    "latex": "c=O(1/\\kappa)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1053",
+    "latex": "1/t",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1054",
+    "latex": "[-1,1]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1055",
+    "latex": "A^+=\\sum_j\\sigma_j^{-1}|v_j\\rangle\\langle u_j|",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1056",
+    "latex": "A",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1057",
+    "latex": "A^\\dagger",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1058",
+    "latex": "A",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1059",
+    "latex": "X\\in\\mathbb R^{N\\times d}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1060",
+    "latex": "X\\ne0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1061",
+    "latex": "\\rho=\\frac{X^TX}{\\|X\\|_F^2},\\quad\nG=\\frac{XX^T}{\\|X\\|_F^2},\\quad\nX=U\\Sigma V^T.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1062",
+    "latex": "\\rho=V\\Sigma^2V^T/\\|X\\|_F^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1063",
+    "latex": "G=U\\Sigma^2U^T/\\|X\\|_F^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1064",
+    "latex": "X",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1065",
+    "latex": "\\rho",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1066",
+    "latex": "\\rho=\\sum_{i:x_i\\ne0}\\frac{\\|x_i\\|^2}{\\|X\\|_F^2}|x_i\\rangle\\langle x_i|,\n\\qquad |x_i\\rangle=x_i/\\|x_i\\|.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1067",
+    "latex": "\\rho",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1068",
+    "latex": "S",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1069",
+    "latex": "\\operatorname{Tr}_1[e^{-i\\delta S}(\\rho\\otimes\\sigma)e^{i\\delta S}]\n=\\sigma-i\\delta[\\rho,\\sigma]+O(\\delta^2).",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1070",
+    "latex": "n",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1071",
+    "latex": "\\delta=t/n",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1072",
+    "latex": "e^{-it\\rho}\\sigma e^{it\\rho}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1073",
+    "latex": "t^2/n",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1074",
+    "latex": "\\rho=\\sum_j\\lambda_j|u_j\\rangle\\langle u_j|",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1075",
+    "latex": "j",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1076",
+    "latex": "\\lambda_j",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1077",
+    "latex": "|b\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1078",
+    "latex": "|\\langle u_j|b\\rangle|^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1079",
+    "latex": "x,c",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1080",
+    "latex": "\\|x-c\\|^2=\\|x\\|^2+\\|c\\|^2-2\\|x\\|\\|c\\|\\operatorname{Re}\\langle\\widehat x|\\widehat c\\rangle.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1081",
+    "latex": "2-2\\operatorname{Re}\\langle\\widehat x|\\widehat c\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1082",
+    "latex": "|\\langle\\widehat x|\\widehat c\\rangle|^2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1083",
+    "latex": "\\phi(x)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1084",
+    "latex": "k",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1085",
+    "latex": "C",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1086",
+    "latex": "\\mu_C=\\frac1{|C|}\\sum_{i\\in C}\\phi(x_i).",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1087",
+    "latex": "\\|\\phi(x)-\\mu_C\\|^2\n=k(x,x)-\\frac2{|C|}\\sum_{i\\in C}k(x,x_i)\n+\\frac1{|C|^2}\\sum_{i,j\\in C}k(x_i,x_j).",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1088",
+    "latex": "\\phi(\\operatorname{mean}x_i)\\ne\\mu_C",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1089",
+    "latex": "\\pi_\\theta(a\\mid s)=\\operatorname{Tr}[E_a\\rho_\\theta(s)],\\qquad\nJ(\\theta)=\\mathbb E_{\\tau\\sim P_\\theta}\\sum_{t=0}^{T-1}\\gamma^tr_t.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1090",
+    "latex": "0\\le\\gamma<1",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1091",
+    "latex": "\\theta",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1092",
+    "latex": "P_\\theta(\\tau)=\\mu(s_0)\\prod_t\\pi_\\theta(a_t\\mid s_t)P(s_{t+1}\\mid s_t,a_t)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1093",
+    "latex": "\\nabla J=\\mathbb E\\left[R(\\tau)\\sum_t\\nabla\\log\\pi_\\theta(a_t\\mid s_t)\\right],\n\\quad R(\\tau)=\\sum_t\\gamma^tr_t.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1094",
+    "latex": "R",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1095",
+    "latex": "\\nabla\\log\\pi=(\\nabla\\pi)/\\pi",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1096",
+    "latex": "\\pi",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1097",
+    "latex": "C(z)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1098",
+    "latex": "H_C=\\sum_zC(z)|z\\rangle\\langle z|",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1099",
+    "latex": "H_B=\\sum_jX_j",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1100",
+    "latex": "|s\\rangle=|+\\rangle^{\\otimes n}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1101",
+    "latex": "|\\psi_p\\rangle=e^{-i\\beta_pH_B}e^{-i\\gamma_pH_C}\\cdots\ne^{-i\\beta_1H_B}e^{-i\\gamma_1H_C}|s\\rangle,\n\\quad F_p=\\langle\\psi_p|H_C|\\psi_p\\rangle.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1102",
+    "latex": "F_p",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1103",
+    "latex": "-F_p",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1104",
+    "latex": "z_i",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1105",
+    "latex": "s_i=(-1)^{z_i}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1106",
+    "latex": "(1-s_is_j)/2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1107",
+    "latex": "H_C=\\sum_{(i,j)\\in E}\\frac{I-Z_iZ_j}{2}.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1108",
+    "latex": "\\sum X_j",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1109",
+    "latex": "F_{p+1}^*\\ge F_p^*",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1110",
+    "latex": "H(s)=A(s)H_D+B(s)H_P,\\quad H_D=-\\sum_iX_i,\n\\quad H_P=\\sum_ih_iZ_i+\\sum_{i<j}J_{ij}Z_iZ_j,\n\\quad s=t/T.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1111",
+    "latex": "H_D",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1112",
+    "latex": "|+\\rangle^{\\otimes n}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1113",
+    "latex": "f(z)=\\sum_ia_iz_i+\\sum_{i<j}b_{ij}z_iz_j",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1114",
+    "latex": "z_i=(1-Z_i)/2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1115",
+    "latex": "J_{ij}=b_{ij}/4,\\qquad h_i=-a_i/2-\\frac14\\sum_{j\\ne i}b_{\\min(i,j),\\max(i,j)},",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1116",
+    "latex": "H(s)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1117",
+    "latex": "[0,1]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1118",
+    "latex": "\\Delta_{\\min}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1119",
+    "latex": "T\\to\\infty",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1120",
+    "latex": "O(1/T)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1121",
+    "latex": "H",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1122",
+    "latex": "H(s)|0(s)\\rangle=E_0(s)|0(s)\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1123",
+    "latex": "\\langle m(s)|",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1124",
+    "latex": "m\\ne0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1125",
+    "latex": "\\langle m|\\partial_s0\\rangle=\\frac{\\langle m|\\partial_sH|0\\rangle}{E_0-E_m}.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1126",
+    "latex": "|\\langle m|\\partial_sH|0\\rangle|/(T|E_m-E_0|^2)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1127",
+    "latex": "\\dot\\rho=-i[H(t),\\rho]+\\mathcal L_t(\\rho)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1128",
+    "latex": "H=\\sum_jE_j|E_j\\rangle\\langle E_j|",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1129",
+    "latex": "\\|\\psi\\|=1",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1130",
+    "latex": "\\langle\\psi|H|\\psi\\rangle=\\sum_j|c_j|^2E_j\\ge E_0,\n\\qquad E_0=\\min_{\\|\\psi\\|=1}\\langle\\psi|H|\\psi\\rangle.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1131",
+    "latex": "|\\psi_\\theta\\rangle=U_\\theta|0\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1132",
+    "latex": "E_0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1133",
+    "latex": "\\Delta=E_1-E_0>0",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1134",
+    "latex": "E(\\theta)-E_0\\ge\\Delta(1-|\\langle E_0|\\psi_\\theta\\rangle|^2).",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1135",
+    "latex": "H=\\sum_\\ell c_\\ell P_\\ell",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1136",
+    "latex": "E=\\sum_\\ell c_\\ell\\langle P_\\ell\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1137",
+    "latex": "\\operatorname{Var}(\\widehat E)=\\sum_\\ell\\frac{c_\\ell^2(1-\\langle P_\\ell\\rangle^2)}{S_\\ell}.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1138",
+    "latex": "S=\\sum_\\ell S_\\ell",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1139",
+    "latex": "S_\\ell\\propto|c_\\ell|\\sqrt{1-\\langle P_\\ell\\rangle^2}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1140",
+    "latex": "n",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1141",
+    "latex": "2^{n+1}-2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1142",
+    "latex": "2\\cdot2^n",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1143",
+    "latex": "p",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1144",
+    "latex": "p",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1145",
+    "latex": "p",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1146",
+    "latex": "N",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1147",
+    "latex": "M\\in\\{1,\\ldots,N-1\\}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1148",
+    "latex": "|g\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1149",
+    "latex": "|b\\rangle",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1150",
+    "latex": "|s\\rangle=\\sin\\theta|g\\rangle+\\cos\\theta|b\\rangle,\n\\qquad\\sin^2\\theta=M/N.",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1151",
+    "latex": "O=I-2|g\\rangle\\langle g|",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1152",
+    "latex": "D=2|s\\rangle\\langle s|-I",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1153",
+    "latex": "G=DO",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1154",
+    "latex": "2\\theta",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1155",
+    "latex": "2\\times2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1156",
+    "latex": "k",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1157",
+    "latex": "G^k|s\\rangle=\\sin((2k+1)\\theta)|g\\rangle+\\cos((2k+1)\\theta)|b\\rangle,\n\\quad P_k=\\sin^2((2k+1)\\theta).",
+    "display": true,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1158",
+    "latex": "M\\ll N",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1159",
+    "latex": "\\theta\\approx\\sqrt{M/N}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1160",
+    "latex": "k\\approx\\pi/(4\\theta)-1/2",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1161",
+    "latex": "O(\\sqrt{N/M})",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1162",
+    "latex": "M",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1163",
+    "latex": "y",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1164",
+    "latex": "g_y(x)=\\mathbf1[f(x)<y]",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1165",
+    "latex": "f",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1166",
+    "latex": "y\\leftarrow f(x)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1167",
+    "latex": "O(\\sqrt N)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1168",
+    "latex": "C_f",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1169",
+    "latex": "C_f\\sqrt{N/M}",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-06-1170",
+    "latex": "\\sum_{v\\in V_A\\cap V_B}1/df(v)",
+    "display": false,
+    "chapter": "chapter-06"
+  },
+  {
+    "id": "eq-chapter-07-1171",
+    "latex": "c^*=\\operatorname{lexmin}_{c\\in C_{\\mathrm{near}}}\n(q_c,e_c,-A_c,\\alpha_c),\\qquad A(c^*)\\ge0.95A_{\\max}.",
+    "display": true,
+    "chapter": "chapter-07"
+  },
+  {
+    "id": "eq-chapter-07-1172",
+    "latex": "\\mathbb E\\|x-Px\\|^2\n=\\operatorname{Tr}[(I-P)\\Sigma]\n=\\operatorname{Tr}\\Sigma-\\operatorname{Tr}(P\\Sigma).",
+    "display": true,
+    "chapter": "chapter-07"
+  },
+  {
+    "id": "eq-chapter-07-1173",
+    "latex": "\\widehat{\\mathfrak R}_N\n=\\frac{B}{N}\\mathbb E_\\sigma\\left\\|\\sum_i\\sigma_i\\Phi(x_i)\\right\\|\n\\le\\frac{B}{N}\\sqrt{\\mathbb E_\\sigma\\left\\|\\sum_i\\sigma_i\\Phi(x_i)\\right\\|^2}\n=\\frac{B}{N}\\sqrt{\\operatorname{Tr}K}.",
+    "display": true,
+    "chapter": "chapter-07"
+  },
+  {
+    "id": "eq-chapter-07-1174",
+    "latex": "H_\\delta=\\tfrac12[\\cos\\delta(X\\otimes X+Y\\otimes Y)\n+\\sin\\delta(Y\\otimes X-X\\otimes Y)],\\qquad\nU_{\\mathrm{SCAR}}=e^{-i(\\phi/2)Z\\otimes Z}e^{-i\\theta H_\\delta}.",
+    "display": true,
+    "chapter": "chapter-07"
+  },
+  {
+    "id": "eq-chapter-08-1175",
+    "latex": "R=\\exp\\left(\\frac1B\\sum_{b=1}^B d_b\\right)\n=\\left(\\prod_{b=1}^B\\frac{E_{b,c}}{E_{b,r}}\\right)^{1/B}.",
+    "display": true,
+    "chapter": "chapter-08"
+  },
+  {
+    "id": "eq-chapter-09-1176",
+    "latex": "x\\ \\xrightarrow{T_{\\rm train}}\\ z\\ \\xrightarrow{\\mathcal E_z}\\rho_z\n\\ \\xrightarrow{\\mathcal M}\\ f(z)\n\\ \\xrightarrow{\\kappa}\\ K\n\\ \\xrightarrow{\\lambda,\\,\\mathrm{fit}}\\ \\widehat y.",
+    "display": true,
+    "chapter": "chapter-09"
+  },
+  {
+    "id": "eq-chapter-09-1177",
+    "latex": "\\widehat y(u_{\\le t})=\\sum_i\\alpha_i\n\\underbrace{f(u_{\\le t})^Tf(u_{\\le i})}_{k_{\\rm history}(u_{\\le t},u_{\\le i})},\n\\quad\\alpha=(K+\\lambda I)^{-1}y.",
+    "display": true,
+    "chapter": "chapter-09"
+  },
+  {
+    "id": "eq-chapter-09-1178",
+    "latex": "X",
+    "display": false,
+    "chapter": "chapter-09"
+  },
+  {
+    "id": "eq-chapter-09-1179",
+    "latex": "y",
+    "display": false,
+    "chapter": "chapter-09"
+  },
+  {
+    "id": "eq-chapter-09-1180",
+    "latex": "b=\\bar y-\\bar f^Tw",
+    "display": false,
+    "chapter": "chapter-09"
+  },
+  {
+    "id": "eq-chapter-09-1181",
+    "latex": "|\\widetilde k-k|\n\\le|\\Delta f^Tg|+|f^T\\Delta g|+|\\Delta f^T\\Delta g|\n\\le2R\\delta+\\delta^2.",
+    "display": true,
+    "chapter": "chapter-09"
+  },
+  {
+    "id": "eq-chapter-09-1182",
+    "latex": "\\|L(p-r)\\|_1\n\\le\\sum_a\\sum_bL_{ab}|p_b-r_b|\n=\\|p-r\\|_1.",
+    "display": true,
+    "chapter": "chapter-09"
+  }
+]

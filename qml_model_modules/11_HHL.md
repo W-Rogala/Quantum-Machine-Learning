@@ -70,3 +70,4 @@ W analizowanych zrodlach ten obwod nie jest rozpisany w pelni, dlatego modul tra
 - Pelny odczyt `x` jako klasycznego wektora moze usunac przewage.
 - Warunek uwarunkowania macierzy i odstep od zera jest krytyczny.
 - QMLB, s. 24-25 wskazuje, ze HHL-based QML ma silne caveats zwiazane z input model, QRAM i porownaniem z algorytmami klasycznymi.
+

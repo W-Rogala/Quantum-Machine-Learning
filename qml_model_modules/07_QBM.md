@@ -72,3 +72,4 @@ Jesli Hamiltonian zawiera tylko skladniki diagonalne `Z_i`, model jest bliski kl
 - Probkowanie z `exp(-beta H)` jest trudne i zalezy od temperatury, szumu oraz topologii sprzetu.
 - Interpretacja wynikow annealera jako idealnego rozkladu Boltzmanna jest zalozeniem, a nie automatycznym faktem.
 - QBM jest w materialach raczej kierunkiem badawczym niz gotowym pipeline ML.
+

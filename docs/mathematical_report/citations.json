@@ -1,0 +1,206 @@
+[
+  {
+    "key": "watrous2018",
+    "chapter": "chapter-01"
+  },
+  {
+    "key": "hoeffding1963",
+    "chapter": "chapter-01"
+  },
+  {
+    "key": "rasmussen2006",
+    "chapter": "chapter-02"
+  },
+  {
+    "key": "huang2021",
+    "chapter": "chapter-02"
+  },
+  {
+    "key": "schuld2021",
+    "chapter": "chapter-02"
+  },
+  {
+    "key": "cortes2012",
+    "chapter": "chapter-02"
+  },
+  {
+    "key": "havlicek2019",
+    "chapter": "chapter-03"
+  },
+  {
+    "key": "schuld2021",
+    "chapter": "chapter-03"
+  },
+  {
+    "key": "childs2021",
+    "chapter": "chapter-03"
+  },
+  {
+    "key": "havlicek2019",
+    "chapter": "chapter-03"
+  },
+  {
+    "key": "huang2021",
+    "chapter": "chapter-03"
+  },
+  {
+    "key": "higham1988",
+    "chapter": "chapter-03"
+  },
+  {
+    "key": "cortes2010",
+    "chapter": "chapter-03"
+  },
+  {
+    "key": "suzuki1990",
+    "chapter": "chapter-03"
+  },
+  {
+    "key": "jaeger2001",
+    "chapter": "chapter-04"
+  },
+  {
+    "key": "fujii2017",
+    "chapter": "chapter-04"
+  },
+  {
+    "key": "watrous2018",
+    "chapter": "chapter-04"
+  },
+  {
+    "key": "watrous2018",
+    "chapter": "chapter-04"
+  },
+  {
+    "key": "dambre2012",
+    "chapter": "chapter-04b"
+  },
+  {
+    "key": "arrazola2021",
+    "chapter": "chapter-05"
+  },
+  {
+    "key": "killoran2019",
+    "chapter": "chapter-05"
+  },
+  {
+    "key": "hamilton2017",
+    "chapter": "chapter-05"
+  },
+  {
+    "key": "havlicek2019",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "schuld2021",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "schuld2019shift",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "benedetti2019",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "verdon2018",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "lloyd2018",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "benedetti2019",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "cong2019",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "romero2017",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "kerenidis2022",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "transformer2024",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "harrow2009",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "gilyen2019",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "lloyd2014",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "dunjko2016",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "farhi2014",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "kadowaki1998",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "peruzzo2014",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "grover1996",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "durr1996",
+    "chapter": "chapter-06"
+  },
+  {
+    "key": "eckart1936",
+    "chapter": "chapter-07"
+  },
+  {
+    "key": "bartlett2002",
+    "chapter": "chapter-07"
+  },
+  {
+    "key": "sim2019",
+    "chapter": "chapter-07"
+  },
+  {
+    "key": "peruzzo2014",
+    "chapter": "chapter-07"
+  },
+  {
+    "key": "cawley2010",
+    "chapter": "chapter-07"
+  },
+  {
+    "key": "ucioptdigits",
+    "chapter": "chapter-07"
+  },
+  {
+    "key": "holm1979",
+    "chapter": "chapter-08"
+  },
+  {
+    "key": "efron1993",
+    "chapter": "chapter-08"
+  },
+  {
+    "key": "wilson1927",
+    "chapter": "chapter-08"
+  }
+]

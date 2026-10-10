@@ -1,0 +1,144 @@
+/* Publication typography. All rules stay inside the authored report. */
+.qml-math {
+  --paper-text: light-dark(#20242a, #e9e7e2);
+  --paper-muted: light-dark(#5d6268, #b7b7b3);
+  --paper-link: light-dark(#174965, #a6d7ee);
+  --paper-border: var(--border, #dedede);
+  color: var(--paper-text);
+  line-height: 1.7;
+}
+.qml-math .report-hero h1,
+.qml-math .math-chapter h1,
+.qml-math .math-chapter h2,
+.qml-math .math-chapter h3,
+.qml-math .math-chapter h4 {
+  font-family: Cambria, Georgia, "Times New Roman", serif;
+  color: var(--paper-text);
+  font-weight: 700;
+  letter-spacing: 0;
+  text-wrap: balance;
+  break-after: avoid;
+}
+.qml-math .report-hero h1 { font-size: 36px; line-height: 1.22; margin-bottom: 22px; }
+.qml-math .report-hero .rich-narrative,
+.qml-math .report-counts { color: var(--paper-muted); }
+.qml-math .math-chapter {
+  width: 100%;
+  min-width: 0;
+  font-family: Cambria, Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.72;
+  max-width: 76ch;
+  margin-inline: auto;
+  color: var(--paper-text);
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+.qml-math .math-chapter :is(.report-section, .report-narrative-section, .report-analysis, .rich-narrative, .rich-narrative-content) { min-width: 0; max-width: 100%; }
+.qml-math .math-chapter .rich-narrative-content h1 { margin: 8px 0 32px; }
+.qml-math .math-chapter .rich-narrative-content h2 { margin: 38px 0 16px; }
+.qml-math .math-chapter .rich-narrative-content h3 { margin: 28px 0 12px; }
+.qml-math .math-chapter .rich-narrative-content h4 { margin: 24px 0 10px; }
+.qml-math .math-chapter .rich-narrative,
+.qml-math .math-chapter .rich-narrative-content { color: inherit; font-family: inherit; font-size: inherit; line-height: inherit; letter-spacing: 0; }
+.qml-math .math-chapter h1 { font-size: 31px; line-height: 1.25; margin: 8px 0 32px; }
+.qml-math .math-chapter h2 { font-size: 24px; line-height: 1.3; margin: 38px 0 16px; }
+.qml-math .math-chapter h3 { font-size: 20px; line-height: 1.35; margin: 28px 0 12px; }
+.qml-math .math-chapter h4 { font-size: 18px; line-height: 1.4; margin: 24px 0 10px; }
+.qml-math .math-chapter p,
+.qml-math .math-chapter .math-paragraph {
+  font-size: 1em;
+  line-height: inherit;
+  margin-block: 0 1em;
+  text-align: justify;
+  orphans: 3;
+  widows: 3;
+}
+.qml-math .math-paragraph > .rich-narrative,
+.qml-math .math-paragraph .rich-narrative-content,
+.qml-math .math-paragraph .rich-narrative-content > p { display: inline; margin: 0; }
+.qml-math .math-chapter ul,
+.qml-math .math-chapter ol { padding-inline-start: 1.6em; margin: 12px 0 22px; }
+.qml-math .math-chapter li { margin-block: 7px; line-height: 1.65; }
+.qml-math .math-chapter blockquote {
+  border-inline-start: 2px solid var(--paper-border);
+  padding-inline-start: 20px;
+  margin: 22px 0;
+  color: var(--paper-muted);
+}
+.qml-math .math-display { margin: 22px 0 26px; padding: 8px 0; break-inside: avoid; }
+.qml-math .math-display .katex { font-size: 1.06em; }
+.qml-math .math-inline { padding-block: 0; vertical-align: -0.05em; }
+.qml-math .math-inline .katex { font-size: 1em; }
+.qml-math .equation-id { font-family: var(--font-sans); font-size: 11px; color: var(--paper-muted); }
+.qml-math .math-table { font-size: 15px; line-height: 1.5; margin: 18px 0 26px; }
+.qml-math .math-table th,
+.qml-math .math-table td { border-color: var(--paper-border); padding: 11px 12px; }
+.qml-math .math-table th { background: var(--muted); font-weight: 700; }
+.qml-math .math-table p { text-align: left; margin: 0; }
+.qml-math .math-chapter code { font-size: .84em; hyphens: none; }
+.qml-math .math-chapter a { color: var(--paper-link); }
+.qml-math .math-chapter a[href^="#code-"],
+.qml-math .math-chapter a[href^="#ref-"] { font-family: var(--font-sans); font-size: .83em; overflow-wrap: anywhere; }
+.qml-math .math-navigation,
+.qml-math .chapter-footer { font-family: var(--font-sans); font-size: 14px; border-color: var(--paper-border); }
+.qml-math .chapter-footer { margin-top: 36px; padding-block: 22px; border-top: 1px solid var(--paper-border); }
+.qml-math label { color: var(--paper-text); }
+.qml-math input,
+.qml-math select,
+.qml-math button { color: var(--paper-text); border-color: var(--paper-border); }
+.qml-math a { text-underline-offset: .2em; }
+.qml-math a[href^="#term-"],
+.qml-math a[href^="#eq-"] { border-radius: 2px; }
+.qml-math a[href^="#term-"]:hover,
+.qml-math a[href^="#term-"]:focus-visible,
+.qml-math a[href^="#eq-"]:hover,
+.qml-math a[href^="#eq-"]:focus-visible {
+  background: #143e56;
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+  box-shadow: 0 0 0 2px #143e56;
+  outline: none;
+}
+.qml-math ::selection { background: #143e56; color: #ffffff; }
+.qml-math .selected,
+.qml-math nav a.active { background: #e6eff5; color: #132d40; outline-color: #608298; }
+.qml-math .selected :is(p, a, strong, span, code, h3, h4, dt, dd) { color: #132d40; }
+.qml-math .selected a:hover,
+.qml-math .selected a:focus-visible { color: #ffffff; background: #143e56; }
+.qml-math mark { color: #312408; background: #fff0b8; }
+.qml-math .highlight-line,
+.qml-math .highlight-line code { color: #312408; background: #fff0b8; }
+.qml-math .highlight-line .line-number { color: #573e0d; }
+.qml-math .relation-detail { color: #17364b; background: #edf3f7; }
+.qml-math .relation-detail :is(p, strong, h3, a) { color: #17364b; }
+.qml-math .term-tooltip {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.55;
+  color: #172e3e;
+  background: #ffffff;
+  border-color: #658095;
+}
+.qml-math .term-tooltip :is(p, strong, button) { color: #172e3e; }
+.qml-math .term-tooltip a { color: #174965; }
+.qml-math .term-tooltip a:hover,
+.qml-math .term-tooltip a:focus-visible { color: #ffffff; }
+.qml-math .source-code { font-family: Consolas, "Courier New", monospace; }
+.qml-math .formula-bank { font-family: var(--font-sans); font-size: 14px; border-top: 1px solid var(--paper-border); padding-top: 16px; }
+@media (max-width: 640px) {
+  .qml-math .report-hero h1 { font-size: 29px; }
+  .qml-math .math-chapter { font-size: 17px; line-height: 1.65; }
+  .qml-math .math-chapter h1 { font-size: 26px; margin-bottom: 26px; }
+  .qml-math .math-chapter h2 { font-size: 22px; margin-top: 30px; }
+  .qml-math .math-chapter h3 { font-size: 19px; }
+  .qml-math .math-chapter p,
+  .qml-math .math-chapter .math-paragraph { text-align: left; }
+}
+@media print {
+  .qml-math .math-chapter { font-size: 11pt; line-height: 1.5; max-width: none; }
+  .qml-math .math-chapter h1 { font-size: 21pt; }
+  .qml-math .math-chapter h2 { font-size: 15pt; }
+  .qml-math .math-chapter h3 { font-size: 12pt; }
+  .qml-math .math-chapter a { color: #20242a; text-decoration: none; }
+}

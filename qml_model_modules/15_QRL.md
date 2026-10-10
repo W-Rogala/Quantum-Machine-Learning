@@ -73,3 +73,4 @@ Jesli srodowisko jest klasyczne, kazdy krok wymaga konwersji klasycznego stanu n
 - Brak standardowego, zrodlowo wyprowadzonego algorytmu w analizowanych PDF-ach.
 - Pomiary zwiekszaja wariancje policy gradient.
 - Porownanie z nowoczesnym deep RL wymaga bardzo ostroznych benchmarkow.
+

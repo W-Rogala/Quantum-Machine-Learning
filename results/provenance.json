@@ -1,0 +1,100 @@
+[
+  {
+    "copy": "results/hamiltonian/publication_summary.csv",
+    "original": "analysis_output/resource_aware_hamiltonian_benchmark/full_results/summary.csv",
+    "sha256": "d5fbc0c6c17e07964177109e6ba4195df3bf3277d1ef1c702614ccf6963d3025",
+    "bytes": 932,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/hamiltonian/primary_paired_deltas.csv",
+    "original": "analysis_output/resource_aware_hamiltonian_benchmark/full_results/primary_paired_deltas.csv",
+    "sha256": "d4938b335220aebc60b987ee7516ec961c7c631b98a6f835db78ca5f371cb817",
+    "bytes": 25831,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/hamiltonian/cost_correction.json",
+    "original": "analysis_output/resource_aware_hamiltonian_benchmark/full_results/outer_results_cost_corrected.manifest.json",
+    "sha256": "316d0d098e4c63ddda53c22f6a7774a8e9a1056f9726c2e0495129bc3f263303",
+    "bytes": 998,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/trotter_v3/full_summary.json",
+    "original": "analysis_output/trotter_scaling_v3_full_release_20260920/v3_summary.json",
+    "sha256": "fc1d0cf32bbd758ab8ef9288237cff0c24fb8212ee144595dde76c5076f6fb32",
+    "bytes": 962,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/trotter_v3/full_audit.json",
+    "original": "analysis_output/trotter_scaling_v3_full_release_20260920/v3_audit.json",
+    "sha256": "c685af1edce74bf907ed054f97dd257dca1c3b2365ebd314aeecc3ce426dd3f7",
+    "bytes": 242,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/trotter_v3/smoke_summary.json",
+    "original": "analysis_output/trotter_scaling_v3_smoke_release_20260920/v3_summary.json",
+    "sha256": "eb585b4fee4aced198b0d57c6ccffaf5107089c0fc962da6c32959d3edfe367b",
+    "bytes": 957,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/qrc/spectral_checks.json",
+    "original": "analysis_output/qrc_spectral_h1_h2/mathematical_checks.json",
+    "sha256": "d239bc6a1028d659a4a59c9ff155cbcda80395a20cd410a8f1e0f2f4f32d7bee",
+    "bytes": 266,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/qrc/memory_checks.json",
+    "original": "analysis_output/qrc_h3_memory/checks.json",
+    "sha256": "a8267e327943ac921dc3bf08697d84c24b766e8312aafe3e3bb778008fd28dab",
+    "bytes": 44,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/qrc/noise_paired_contrasts.csv",
+    "original": "analysis_output/qrc_h3_noise/paired_contrasts.csv",
+    "sha256": "85fb7cccfd3f05f3fb45897a340c2f7f4d91c0b0bacb51dde45840ec2e5eeda4",
+    "bytes": 672,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/qrc/kernel_reservoir_checks.json",
+    "original": "analysis_output/kernel_reservoir_comparison/mathematical_checks.json",
+    "sha256": "23c269cb945ebc40789e42fe64c451ea74bae041180329e5188035865e7a7188",
+    "bytes": 654,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/legacy/iterative_qsvm_summary.csv",
+    "original": "analysis_output/qml_iterative_hypothesis_summary.csv",
+    "sha256": "225193f3879126a16652e83e4c5a053152db77b81a3b0a2a547b954604f8df45",
+    "bytes": 3680,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/legacy/vqe_scar_descriptors.csv",
+    "original": "analysis_output/vqe_scar_ansatz_results.csv",
+    "sha256": "8b2034e4412732830ccc59444441eed5ffd378abb0882f9886d4de4d4ea70ebe",
+    "bytes": 632,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/legacy/scar_wine_benchmark.csv",
+    "original": "analysis_output/scar_wine_benchmark_results.csv",
+    "sha256": "7148019415ff75d3d1bf6809e2de56c307b6b03682f0d3fbfdcdd0b988fb5b7a",
+    "bytes": 3655,
+    "mode": "byte-identical historical subset"
+  },
+  {
+    "copy": "results/legacy/ansatz_hpo_results.csv",
+    "original": "analysis_output/ansatz_hardware_dataset_hpo_results.csv",
+    "sha256": "ba55f954ada6ad620616698cc208b6fdfa835d2fb612170147f11aac09773af7",
+    "bytes": 98518,
+    "mode": "byte-identical historical subset"
+  }
+]

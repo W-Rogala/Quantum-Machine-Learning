@@ -1,0 +1,9 @@
+# Direct dependencies observed during the audit, Python 3.12.14 / Windows.
+# This is a tested direct-dependency snapshot, not a complete transitive lock.
+numpy==2.4.6
+scipy==1.18.0
+scikit-learn==1.7.1
+matplotlib==3.11.1
+qiskit==2.5.0
+qiskit-aer==0.17.2
+qiskit-ibm-runtime==0.48.0

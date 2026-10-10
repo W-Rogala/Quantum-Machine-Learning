@@ -1,0 +1,22 @@
+{
+  "spectral_eigenvalue_label_gap": 0.45104994401100784,
+  "resource_reservation_example": {
+    "shots": 68,
+    "circuits": 10,
+    "reported_gate_shots": 9928,
+    "actual_gate_shots_if_cheaper_candidate_selected": 5032
+  },
+  "threshold_detector_two_photons_eta_half": {
+    "current_post_threshold_thinning": 0.5,
+    "physical_loss_before_threshold": 0.75
+  },
+  "reset_one_qubit_trace_distance_ratio": 1.0,
+  "scar_unitarity_max_error": 8.777083671441753e-17,
+  "even_qsvt_constant_polynomial_counterexample_error": 2.0,
+  "h2_dimension_ratio_by_allowed_qubits": {
+    "4": 0.25,
+    "6": 1.0,
+    "8": 4.0
+  },
+  "note": "Diagnostic values reproduce findings; no experiments were retrained or QPU jobs submitted."
+}

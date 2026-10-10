@@ -1,0 +1,55 @@
+# Local environments and caches
+.venv*/
+venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.matplotlib/
+*.egg-info/
+build/
+dist/
+.pnpm-store/
+node_modules/
+.agents/
+.codex/
+.DS_Store
+Thumbs.db
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*credentials*.json
+qiskit-ibm.json
+*.pem
+*.key
+
+# Local evidence; small curated summaries live in results/
+/tmp/
+/output/
+/analysis_output/*
+!/analysis_output/*.py
+!/analysis_output/README.md
+/datasets/qml_benchmarks/mnist_784/
+/*.pdf
+
+# Unrelated application, retained locally
+/personal-project-crm/
+
+# Mutable validation products
+/docs/audit/test_run*.txt
+/docs/audit/publication_check.json
+
+# Reviewed evidence required to reproduce the mathematical report
+!/analysis_output/qrc_spectral_h1_h2/
+/analysis_output/qrc_spectral_h1_h2/*
+!/analysis_output/qrc_spectral_h1_h2/qubit_summary.csv
+!/analysis_output/qrc_h3_memory/
+/analysis_output/qrc_h3_memory/*
+!/analysis_output/qrc_h3_memory/h3_contrasts.csv
+!/analysis_output/qrc_h3_memory/profile_summaries.csv
+!/analysis_output/scar_wine_ibm_qpu_report.md
+
+!/analysis_output/h2_mathematical_description_proof.md

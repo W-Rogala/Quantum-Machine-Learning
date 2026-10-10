@@ -69,3 +69,4 @@ Taki obraz jest zgodny z intuicja ukladow kwantowych: lokalne unitarne ewolucje 
 - Przy danych obrazowych klasyczne CNN sa bardzo mocnym baseline.
 - Jesli kazdy patch wymaga osobnego uruchomienia obwodu, koszt shotow szybko rosnie.
 - Wzmianka QMLB o trenowalnosci QCNN ma charakter bibliograficzny, nie jest w tych materialach pelnym dowodem.
+

@@ -75,3 +75,4 @@ PG, s. 496 podkresla, ze uczenie stanu z wielu kopii nie lamie twierdzenia o no-
 - W QGAN dochodzi shot noise i ograniczona liczba kubitow.
 - Pelny kwantowy QGAN wymaga dostepu do kwantowych danych albo architektury bez posrednich pomiarow.
 - QMLB wymienia QGAN jako architekture generatywna, ale nie daje ogolnego twierdzenia o przewadze.
+

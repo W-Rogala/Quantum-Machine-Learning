@@ -45,3 +45,4 @@ Nie dopisuje tu pelnych twierdzen, ktorych nie ma w analizowanych dokumentach. G
 17. [Quantum annealing](17_QUANTUM_ANNEALING.md)
 18. [VQE](18_VQE.md)
 19. [GAS](19_GAS.md)
+
