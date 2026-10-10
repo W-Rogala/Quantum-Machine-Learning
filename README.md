@@ -10,7 +10,35 @@ Pełne badanie Trotter v3 ma obecnie 1/1600 ukończonych warunków i status
 `not_confirmatory`. Przed dalszymi eksperymentami przeczytaj
 [audyt i rejestr poprawek](docs/audit/README.md).
 
-## Nawigacja
+## Główne osiągnięcia pracy
+
+**Najważniejszy wkład projektu to połączenie jakości predykcji, dynamiki kwantowej
+i rzeczywistego budżetu pomiarowego w jednym warsztacie badawczym.**
+
+- **Porównanie estymatorów przy ograniczonych pomiarach.** W zapisanym benchmarku
+  przy 1 mln circuit-shots średnia balanced accuracy wynosi **95,89% dla projected**
+  i **87,34% dla fidelity**: różnica **8,56 punktu procentowego**. Wynik dotyczy
+  trzech ustalonych zbiorów i symulowanych pomiarów; klasyczny SVM-RBF osiąga 97,75%.
+- **Spójny formalizm matematyczny.** Powiązano stany i kanały kwantowe, zmierzone
+  cechy, macierze Grama oraz odczyt ridge. Wyprowadzenia pokazują, które
+  transformacje zachowują informację i gdzie ograniczenie odczytu zmienia model.
+- **Kontrolowana metodologia eksperymentów.** Wprowadzono zagnieżdżoną walidację,
+  preprocessing wewnątrz foldów, równy budżet strojenia i osobny rachunek
+  circuit-shots, wykonań mapy oraz bramek dwukubitowych ważonych shots.
+- **Analiza mechanizmów pamięci rezerwuarów.** Rozdzielono pamięć stanu,
+  obserwowalność i zdolność odczytu; wskazano kontrprzykłady dla bezwarunkowej
+  kontrakcji po resecie i uniwersalnie korzystnej trotteryzacji.
+- **Porównywalne reprezentacje fotoniczne.** Z tych samych zdarzeń pomiarowych
+  budowane są różne rodziny cech, z jawnym uwzględnieniem overflow, strat i detekcji.
+- **Odtwarzalna dokumentacja i kontrola jakości.** Monografia łączy wyprowadzenia,
+  graf transformacji, bibliografię i kod. Aktualizacja przeszła **109 testów kodu**
+  i **22 kontrole matematyczne oraz integralności**.
+
+[Pełne uzasadnienie osiągnięć, dane, kod i granice wnioskowania](docs/ACHIEVEMENTS.md).
+Te osiągnięcia obejmują wynik porównawczy, analizę matematyczną i warsztat badawczy;
+nie stanowią dowodu przewagi kwantowej ani potwierdzenia wszystkich hipotez.
+
+## Nawigacja po projekcie
 
 | Część | Zawartość |
 |---|---|
