@@ -1,0 +1,611 @@
+{
+  "checked": "2026-10-10",
+  "assets": [
+    {
+      "work_id": "arxiv-1912.08854",
+      "title": "Theory of Trotter Error with Commutator Scaling",
+      "authors": [
+        "Andrew M. Childs",
+        "Yuan Su",
+        "Minh C. Tran",
+        "Nathan Wiebe",
+        "Shuchen Zhu"
+      ],
+      "path": "docs/literature/pdf/published-10-1103-PhysRevX-11-011020.pdf",
+      "source_url": "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.11.011020",
+      "landing_url": "https://doi.org/10.1103/PhysRevX.11.011020",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1103/PhysRevX.11.011020",
+        "content_version": "vor"
+      },
+      "sha256": "af3469723102ca91ca1fa3670cdfa4bc681d680f142c524761a563e91338e132",
+      "bytes": 1168592,
+      "pages": 49,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2403.07059",
+      "title": "Better than classical? The subtle art of benchmarking quantum machine learning models",
+      "authors": [
+        "Bowles, Joseph",
+        "Ahmed, Shahnawaz",
+        "Schuld, Maria"
+      ],
+      "path": "docs/literature/pdf/arxiv-2403.07059.pdf",
+      "source_url": "https://arxiv.org/pdf/2403.07059v2",
+      "landing_url": "https://arxiv.org/abs/2403.07059",
+      "version": "2403.07059v2",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/2403.07059",
+        "page_sha256": "6119c6948d125bb4c114d84477c8d33997aea249d77199cdfe4c5fce424f0f69"
+      },
+      "sha256": "19ff6f619980cbb3f450f2fd27811fa6ff792f81fdb9cf74604f8220bc02a2de",
+      "bytes": 5845730,
+      "pages": 41,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "doi-10-1186-1471-2105-7-91",
+      "title": "Bias in error estimation when using cross-validation for model selection",
+      "authors": [
+        "Sudhir Varma",
+        "Richard Simon"
+      ],
+      "path": "docs/literature/pdf/varma2006.pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/1471-2105-7-91.pdf",
+      "landing_url": "https://doi.org/10.1186/1471-2105-7-91",
+      "version": "published article",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_evidence": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1397873/",
+        "basis": "article-specific licence statement"
+      },
+      "sha256": "573198025179f340870428087dd3a980a5c2cbdab890ace3d155e0cf8fcd6e1b",
+      "bytes": 243814,
+      "pages": 8,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2407.04045",
+      "title": "Convergence Rates for the Trotter Splitting for Unbounded Operators",
+      "authors": [
+        "Becker, Simon",
+        "Galke, Niklas",
+        "Salzmann, Robert",
+        "van Luijk, Lauritz"
+      ],
+      "path": "docs/literature/pdf/arxiv-2407.04045.pdf",
+      "source_url": "https://arxiv.org/pdf/2407.04045v2",
+      "landing_url": "https://arxiv.org/abs/2407.04045",
+      "version": "2407.04045v2",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/2407.04045",
+        "page_sha256": "de1f2ab1b7024e1670b285495fc55b6b37e0cc5292fed4752c1a01bb200ce7df"
+      },
+      "sha256": "1f2124165748e0fcd49822fc0496836f5d2f46c7afcaa2d19d0630896057cd37",
+      "bytes": 1240105,
+      "pages": 54,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2407.04045",
+      "title": "Convergence Rates for the Trotter Splitting for Unbounded Operators",
+      "authors": [
+        "Simon Becker",
+        "Niklas Galke",
+        "Lauritz van Luijk",
+        "Robert Salzmann"
+      ],
+      "path": "docs/literature/pdf/published-10-1007-s10208-025-09730-w.pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10208-025-09730-w.pdf",
+      "landing_url": "https://doi.org/10.1007/s10208-025-09730-w",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1007/s10208-025-09730-w",
+        "content_version": "vor"
+      },
+      "sha256": "5a12b7d950acf7e57d05a81a7f99c82318ab4682b6ef49d0b7719de9baa89528",
+      "bytes": 1069000,
+      "pages": 54,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-1910.03193",
+      "title": "DeepONet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators",
+      "authors": [
+        "Lu, Lu",
+        "Jin, Pengzhan",
+        "Karniadakis, George Em"
+      ],
+      "path": "docs/literature/pdf/arxiv-1910.03193.pdf",
+      "source_url": "https://arxiv.org/pdf/1910.03193v3",
+      "landing_url": "https://arxiv.org/abs/1910.03193",
+      "version": "1910.03193v3",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/1910.03193",
+        "page_sha256": "32630929c84b97564bc95d1c6bc8fff4edf5a19241161769dc6c8da3b2f40c28"
+      },
+      "sha256": "4b0bea3d69cbcb044b4e6b754de87ad3dc6efe7e5f2606cb090bca0e00bbad4a",
+      "bytes": 757987,
+      "pages": 22,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2403.08729",
+      "title": "Efficient and practical Hamiltonian simulation from time-dependent product formulas",
+      "authors": [
+        "Jan Lukas Bosse",
+        "Andrew M. Childs",
+        "Charles Derby",
+        "Filippo Maria Gambetta",
+        "Ashley Montanaro",
+        "Raul A. Santos"
+      ],
+      "path": "docs/literature/pdf/published-10-1038-s41467-025-57580-5.pdf",
+      "source_url": "https://www.nature.com/articles/s41467-025-57580-5.pdf",
+      "landing_url": "https://doi.org/10.1038/s41467-025-57580-5",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1038/s41467-025-57580-5",
+        "content_version": "vor"
+      },
+      "sha256": "f84f154b032b3f9905847349ca15d3e989b0a1f87b8432d9fd9e2966b00713f4",
+      "bytes": 1357205,
+      "pages": 11,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2405.10259",
+      "title": "Energy-limited quantum dynamics",
+      "authors": [
+        "van Luijk, Lauritz"
+      ],
+      "path": "docs/literature/pdf/arxiv-2405.10259.pdf",
+      "source_url": "https://arxiv.org/pdf/2405.10259v2",
+      "landing_url": "https://arxiv.org/abs/2405.10259",
+      "version": "2405.10259v2",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/2405.10259",
+        "page_sha256": "9c27ce14c293735e12408fa91b38250e74542d01c726f4bc6bf2d0622235f647"
+      },
+      "sha256": "2b27d837cb40dda1fcc6e42b2ab46c7eaab9a2e5ab0d9236096ed70a97f4db1e",
+      "bytes": 745353,
+      "pages": 45,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2405.10259",
+      "title": "Energy-Limited Quantum Dynamics",
+      "authors": [
+        "Lauritz van Luijk"
+      ],
+      "path": "docs/literature/pdf/published-10-1007-s00220-025-05282-w.pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s00220-025-05282-w.pdf",
+      "landing_url": "https://doi.org/10.1007/s00220-025-05282-w",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1007/s00220-025-05282-w",
+        "content_version": "vor"
+      },
+      "sha256": "6483a73b78da197baa1bfc0661fb4dff0240ac1294ff47a875c12b7bf1908f11",
+      "bytes": 942023,
+      "pages": 56,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2506.07279",
+      "title": "Experimental memory control in continuous variable optical quantum reservoir computing",
+      "authors": [
+        "Paparelle, Iris",
+        "Henaff, Johan",
+        "Garcia-Beni, Jorge",
+        "Gillet, Emilie",
+        "Montesinos, Daniel",
+        "Giorgi, Gian Luca",
+        "Soriano, Miguel C.",
+        "Zambrini, Roberta",
+        "Parigi, Valentina"
+      ],
+      "path": "docs/literature/pdf/arxiv-2506.07279.pdf",
+      "source_url": "https://arxiv.org/pdf/2506.07279v3",
+      "landing_url": "https://arxiv.org/abs/2506.07279",
+      "version": "2506.07279v3",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/2506.07279",
+        "page_sha256": "fe7f9d6a50d9317700bf92ae0e0dbad4297d9c363896391eb97aa7647ba1d637"
+      },
+      "sha256": "f1505f55924e51a90e8bf865ac23dbba76bac905cd49f9d1b3c270855ebfe518",
+      "bytes": 6358657,
+      "pages": 24,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2506.07279",
+      "title": "Experimental memory control in continuous-variable optical quantum reservoir computing",
+      "authors": [
+        "Iris Paparelle",
+        "Johan Henaff",
+        "Jorge García-Beni",
+        "Émilie Gillet",
+        "Daniel Montesinos",
+        "Gian Luca Giorgi",
+        "Miguel C. Soriano",
+        "Roberta Zambrini",
+        "Valentina Parigi"
+      ],
+      "path": "docs/literature/pdf/published-10-1038-s41566-026-01880-9.pdf",
+      "source_url": "https://www.nature.com/articles/s41566-026-01880-9.pdf",
+      "landing_url": "https://doi.org/10.1038/s41566-026-01880-9",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1038/s41566-026-01880-9",
+        "content_version": "vor"
+      },
+      "sha256": "be405107aec83f0b36c0aed9cd55b3ae4376cf7d2259c7ec19a174e4c6572d43",
+      "bytes": 7016259,
+      "pages": 18,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2006.04821",
+      "title": "Gaussian states of continuous-variable quantum systems provide universal and versatile reservoir computing",
+      "authors": [
+        "Johannes Nokkala",
+        "Rodrigo Martínez-Peña",
+        "Gian Luca Giorgi",
+        "Valentina Parigi",
+        "Miguel C. Soriano",
+        "Roberta Zambrini"
+      ],
+      "path": "docs/literature/pdf/published-10-1038-s42005-021-00556-w.pdf",
+      "source_url": "https://www.nature.com/articles/s42005-021-00556-w.pdf",
+      "landing_url": "https://doi.org/10.1038/s42005-021-00556-w",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1038/s42005-021-00556-w",
+        "content_version": "vor"
+      },
+      "sha256": "f6fa3856afb7b0f4fdfdc116de5e377f96634eacb0f26f19bf6eb156b63fc941",
+      "bytes": 923667,
+      "pages": 11,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "dambre2012",
+      "title": "Information Processing Capacity of Dynamical Systems",
+      "authors": [
+        "Joni Dambre",
+        "David Verstraeten",
+        "Benjamin Schrauwen",
+        "Serge Massar"
+      ],
+      "path": "docs/literature/pdf/published-10-1038-srep00514.pdf",
+      "source_url": "https://www.nature.com/articles/srep00514.pdf",
+      "landing_url": "https://doi.org/10.1038/srep00514",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1038/srep00514",
+        "content_version": "vor"
+      },
+      "sha256": "f46dc2f45f291ce7792eb0326627eeef776c948b020e3b4405aae3c4c3b3ff56",
+      "bytes": 517426,
+      "pages": 7,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2011.01938",
+      "title": "Power of data in quantum machine learning",
+      "authors": [
+        "Hsin-Yuan Huang",
+        "Michael Broughton",
+        "Masoud Mohseni",
+        "Ryan Babbush",
+        "Sergio Boixo",
+        "Hartmut Neven",
+        "Jarrod R. McClean"
+      ],
+      "path": "docs/literature/pdf/published-10-1038-s41467-021-22539-9.pdf",
+      "source_url": "https://www.nature.com/articles/s41467-021-22539-9.pdf",
+      "landing_url": "https://doi.org/10.1038/s41467-021-22539-9",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1038/s41467-021-22539-9",
+        "content_version": "vor"
+      },
+      "sha256": "a5a1fbf20a8568195412291b87fb80e42e2082324e678f61ef91d5e431818a15",
+      "bytes": 1934084,
+      "pages": 9,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "doi-10-1038-s42005-026-02652-1",
+      "title": "Predicting chaotic dynamics on NISQ hardware with quantum reservoir networks",
+      "authors": [
+        "Erik L. Connerty",
+        "Ethan N. Evans",
+        "Gerasimos Angelatos",
+        "Vignesh Narayanan"
+      ],
+      "path": "docs/literature/pdf/published-10-1038-s42005-026-02652-1.pdf",
+      "source_url": "https://www.nature.com/articles/s42005-026-02652-1.pdf",
+      "landing_url": "https://doi.org/10.1038/s42005-026-02652-1",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1038/s42005-026-02652-1",
+        "content_version": "vor"
+      },
+      "sha256": "f3139b4c72cb04971d3b4eaf00693a32db4fb47eacc1df4aedc0e94ec3a55b6a",
+      "bytes": 5084574,
+      "pages": 8,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "quanonet2025",
+      "title": "QuanONet: Quantum Neural Operator with Application to Differential Equation",
+      "authors": [
+        "Ruocheng Wang",
+        "Zhuo Xia",
+        "Ge Yan",
+        "Junchi Yan"
+      ],
+      "path": "docs/literature/pdf/quanonet2025.pdf",
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/wang25dq/wang25dq.pdf",
+      "landing_url": "https://proceedings.mlr.press/v267/wang25dq.html",
+      "version": "published article",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://proceedings.mlr.press/pmlr-license-agreement.html",
+        "basis": "PMLR publication agreement"
+      },
+      "sha256": "5f586d8a95add30b7255773605cb9900f68ed7f2582bf0c09c8ba150ec039d18",
+      "bytes": 1954159,
+      "pages": 21,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-1801.00862",
+      "title": "Quantum Computing in the NISQ era and beyond",
+      "authors": [
+        "Preskill, John"
+      ],
+      "path": "docs/literature/pdf/arxiv-1801.00862.pdf",
+      "source_url": "https://arxiv.org/pdf/1801.00862v3",
+      "landing_url": "https://arxiv.org/abs/1801.00862",
+      "version": "1801.00862v3",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/1801.00862",
+        "page_sha256": "09e4d34fa4aed3825a28d99c460cccc770c8dd9a40c665e27b5b866fac4b4bce"
+      },
+      "sha256": "cf64a00c519e800c0753b89c243b59013a6cd777187910912e029b068e17de69",
+      "bytes": 470175,
+      "pages": 20,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2502.01146",
+      "title": "Quantum Machine Learning: A Hands-on Tutorial for Machine Learning Practitioners and Researchers",
+      "authors": [
+        "Du, Yuxuan",
+        "Wang, Xinbiao",
+        "Guo, Naixu",
+        "Yu, Zhan",
+        "Qian, Yang",
+        "Zhang, Kaining",
+        "Hsieh, Min-Hsiu",
+        "Rebentrost, Patrick",
+        "Tao, Dacheng"
+      ],
+      "path": "docs/literature/pdf/arxiv-2502.01146.pdf",
+      "source_url": "https://arxiv.org/pdf/2502.01146v1",
+      "landing_url": "https://arxiv.org/abs/2502.01146",
+      "version": "2502.01146v1",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/2502.01146",
+        "page_sha256": "3d3598ad6de2abc3c1a2e338892d97c74a1eb5f4379ddb2161b746bc3bfc3760"
+      },
+      "sha256": "6b67556fb424389ee6765006fd79ab8b46fd473ee4550ab028826228751b9535",
+      "bytes": 4564062,
+      "pages": 260,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "madouri2024",
+      "title": "Quantum Machine Learning: Algorithms, Applications, and Limitations",
+      "authors": [
+        "Mohammed Madouri",
+        "Olusoji John Samuel"
+      ],
+      "path": "docs/literature/pdf/madouri2024.pdf",
+      "source_url": "https://joster.org/index.php/joster/article/download/5/5",
+      "landing_url": "https://joster.org/index.php/joster/article/view/5",
+      "version": "published article",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://joster.org/index.php/joster/article/view/5",
+        "basis": "article-specific licence statement"
+      },
+      "sha256": "4a0ca0242a743d5954f9208c6ee0adc2b815114862327f7355321d338128b5db",
+      "bytes": 1479066,
+      "pages": 14,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2212.00396",
+      "title": "Quantum reservoir computing in finite dimensions",
+      "authors": [
+        "Martínez-Peña, Rodrigo",
+        "Ortega, Juan-Pablo"
+      ],
+      "path": "docs/literature/pdf/arxiv-2212.00396.pdf",
+      "source_url": "https://arxiv.org/pdf/2212.00396v3",
+      "landing_url": "https://arxiv.org/abs/2212.00396",
+      "version": "2212.00396v3",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/2212.00396",
+        "page_sha256": "41ddfdfaf57327da0f583b26a0760d61b13fc4da044b5f6ad0d7760832415c28"
+      },
+      "sha256": "07b1fd48d802af9e919d5a42a2c0e5b29b74aadb004bbb06bfb58e87203e512c",
+      "bytes": 784686,
+      "pages": 19,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2508.14621",
+      "title": "Quantum reservoir computing induced by controllable damping",
+      "authors": [
+        "Ricci, Emanuele",
+        "Monzani, Francesco",
+        "Nigro, Luca",
+        "Prati, Enrico"
+      ],
+      "path": "docs/literature/pdf/arxiv-2508.14621.pdf",
+      "source_url": "https://arxiv.org/pdf/2508.14621v1",
+      "landing_url": "https://arxiv.org/abs/2508.14621",
+      "version": "2508.14621v1",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/2508.14621",
+        "page_sha256": "37fb09ab121a61db7cba2c41d920b5a8b2ce5fae8af390687adcebda90d080a6"
+      },
+      "sha256": "5f5b2a1a65fb068663d603d21c7dc54515b2fa8db5b3b96b61090bd29a56e0d5",
+      "bytes": 2182695,
+      "pages": 15,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2508.14621",
+      "title": "Quantum reservoir computing induced by controllable damping",
+      "authors": [
+        "Emanuele Ricci",
+        "Francesco Monzani",
+        "Luca Nigro",
+        "Enrico Prati"
+      ],
+      "path": "docs/literature/pdf/published-10-1038-s41534-026-01229-8.pdf",
+      "source_url": "https://www.nature.com/articles/s41534-026-01229-8.pdf",
+      "landing_url": "https://doi.org/10.1038/s41534-026-01229-8",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1038/s41534-026-01229-8",
+        "content_version": "vor"
+      },
+      "sha256": "0ae0ce461895d43ed9ddd2f1faa14c7de270cbf6976eb01a22d4a31dd518ef96",
+      "bytes": 1647982,
+      "pages": 9,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2209.08167",
+      "title": "Quantum Vision Transformers",
+      "authors": [
+        "Cherrat, El Amine",
+        "Kerenidis, Iordanis",
+        "Mathur, Natansh",
+        "Landman, Jonas",
+        "Strahm, Martin",
+        "Li, Yun Yvonna"
+      ],
+      "path": "docs/literature/pdf/arxiv-2209.08167.pdf",
+      "source_url": "https://arxiv.org/pdf/2209.08167v2",
+      "landing_url": "https://arxiv.org/abs/2209.08167",
+      "version": "2209.08167v2",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/2209.08167",
+        "page_sha256": "0e80c7d56382dc5544d523efc35f0b23e4c82a0b92518ca750cabc86653645f4"
+      },
+      "sha256": "fd0e3041461be7115d1f236c5ff683dbe361fb3b6aef84865f983a4f3afc66f5",
+      "bytes": 1896764,
+      "pages": 20,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-1804.03159",
+      "title": "Strawberry Fields: A Software Platform for Photonic Quantum Computing",
+      "authors": [
+        "Killoran, Nathan",
+        "Izaac, Josh",
+        "Quesada, Nicolás",
+        "Bergholm, Ville",
+        "Amy, Matthew",
+        "Weedbrook, Christian"
+      ],
+      "path": "docs/literature/pdf/arxiv-1804.03159.pdf",
+      "source_url": "https://arxiv.org/pdf/1804.03159v2",
+      "landing_url": "https://arxiv.org/abs/1804.03159",
+      "version": "1804.03159v2",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/1804.03159",
+        "page_sha256": "579584d0710c80180e594810da4d7f2add0f72bba99580246a3ebbc328fd23f7"
+      },
+      "sha256": "920ba6c4693fc5fa7eb3647ee739951baf00afba2cac66945ce49c891076132a",
+      "bytes": 599779,
+      "pages": 27,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2101.11020",
+      "title": "Supervised quantum machine learning models are kernel methods",
+      "authors": [
+        "Schuld, Maria"
+      ],
+      "path": "docs/literature/pdf/arxiv-2101.11020.pdf",
+      "source_url": "https://arxiv.org/pdf/2101.11020v2",
+      "landing_url": "https://arxiv.org/abs/2101.11020",
+      "version": "2101.11020v2",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": {
+        "url": "https://arxiv.org/abs/2101.11020",
+        "page_sha256": "8000192c53bad80a4f591d562bea09f7d5552500a5bafa8b0a5bfe41f2f57e8f"
+      },
+      "sha256": "db5cb754b940be72e033032f375adac4c6966eb46fbf5cae0a5d5ab62a28ab8d",
+      "bytes": 5701331,
+      "pages": 25,
+      "modifications": "none; original PDF bytes"
+    },
+    {
+      "work_id": "arxiv-2205.06809",
+      "title": "Time-series quantum reservoir computing with weak and projective measurements",
+      "authors": [
+        "Pere Mujal",
+        "Rodrigo Martínez-Peña",
+        "Gian Luca Giorgi",
+        "Miguel C. Soriano",
+        "Roberta Zambrini"
+      ],
+      "path": "docs/literature/pdf/published-10-1038-s41534-023-00682-z.pdf",
+      "source_url": "https://www.nature.com/articles/s41534-023-00682-z.pdf",
+      "landing_url": "https://doi.org/10.1038/s41534-023-00682-z",
+      "version": "version of record",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_evidence": {
+        "url": "https://api.crossref.org/works/10.1038/s41534-023-00682-z",
+        "content_version": "vor"
+      },
+      "sha256": "1b8dc23ef7be754d16491a510d089322ef407656f3076057fadf5a2737934472",
+      "bytes": 1142100,
+      "pages": 10,
+      "modifications": "none; original PDF bytes"
+    }
+  ]
+}

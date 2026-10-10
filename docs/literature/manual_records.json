@@ -1,0 +1,75 @@
+[
+  {
+    "id": "madouri2024",
+    "title": "Quantum Machine Learning: Algorithms, Applications, and Limitations",
+    "authors": [
+      "Mohammed Madouri",
+      "Olusoji John Samuel"
+    ],
+    "doi": "10.64206/xkc03w12",
+    "landing_url": "https://joster.org/index.php/joster/article/view/5",
+    "pdf_url": "https://joster.org/index.php/joster/article/download/5/5",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": {
+      "url": "https://joster.org/index.php/joster/article/view/5",
+      "basis": "article-specific licence statement"
+    },
+    "redistribution_allowed": true,
+    "version": "published article",
+    "checked": "2026-10-10",
+    "sha256": "4a0ca0242a743d5954f9208c6ee0adc2b815114862327f7355321d338128b5db",
+    "bytes": 1479066,
+    "pages": 14,
+    "download_status": "included_in_repository",
+    "repository_file": "docs/literature/pdf/madouri2024.pdf"
+  },
+  {
+    "id": "quanonet2025",
+    "title": "QuanONet: Quantum Neural Operator with Application to Differential Equation",
+    "authors": [
+      "Ruocheng Wang",
+      "Zhuo Xia",
+      "Ge Yan",
+      "Junchi Yan"
+    ],
+    "landing_url": "https://proceedings.mlr.press/v267/wang25dq.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/wang25dq/wang25dq.pdf",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": {
+      "url": "https://proceedings.mlr.press/pmlr-license-agreement.html",
+      "basis": "PMLR publication agreement"
+    },
+    "redistribution_allowed": true,
+    "version": "published article",
+    "checked": "2026-10-10",
+    "sha256": "5f586d8a95add30b7255773605cb9900f68ed7f2582bf0c09c8ba150ec039d18",
+    "bytes": 1954159,
+    "pages": 21,
+    "download_status": "included_in_repository",
+    "repository_file": "docs/literature/pdf/quanonet2025.pdf"
+  },
+  {
+    "id": "varma2006",
+    "title": "Bias in error estimation when using cross-validation for model selection",
+    "authors": [
+      "Sudhir Varma",
+      "Richard Simon"
+    ],
+    "doi": "10.1186/1471-2105-7-91",
+    "landing_url": "https://doi.org/10.1186/1471-2105-7-91",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1186/1471-2105-7-91.pdf",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "license_evidence": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1397873/",
+      "basis": "article-specific licence statement"
+    },
+    "redistribution_allowed": true,
+    "version": "published article",
+    "checked": "2026-10-10",
+    "sha256": "573198025179f340870428087dd3a980a5c2cbdab890ace3d155e0cf8fcd6e1b",
+    "bytes": 243814,
+    "pages": 8,
+    "download_status": "included_in_repository",
+    "repository_file": "docs/literature/pdf/varma2006.pdf"
+  }
+]

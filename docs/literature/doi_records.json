@@ -1,0 +1,1819 @@
+[
+  {
+    "doi": "10.1002/qute.201900070",
+    "checked": "2026-10-10",
+    "title": "Expressibility and Entangling Capability of Parameterized Quantum Circuits for Hybrid Quantum‐Classical Algorithms",
+    "authors": [
+      "Sukin Sim",
+      "Peter D. Johnson",
+      "Alán Aspuru‐Guzik"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          14
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/qute.201900070",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/qute.201900070",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://advanced.onlinelibrary.wiley.com/doi/am-pdf/10.1002/qute.201900070",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/qute.201900070",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2020-10-14T00:00:00Z",
+          "timestamp": 1602633600000
+        },
+        "content-version": "am",
+        "delay-in-days": 366,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2019-10-14T00:00:00Z",
+          "timestamp": 1571011200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "source_url": "https://doi.org/10.1002/qute.201900070"
+  },
+  {
+    "doi": "10.1007/BF02288367",
+    "checked": "2026-10-10",
+    "title": "The Approximation of One Matrix by Another of Lower Rank",
+    "authors": [
+      "Carl Eckart",
+      "Gale Young"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1936,
+          9
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/BF02288367.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/BF02288367/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0033312300051085",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 32264,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "source_url": "https://doi.org/10.1007/BF02288367"
+  },
+  {
+    "doi": "10.1007/s00220-025-05282-w",
+    "checked": "2026-10-10",
+    "title": "Energy-Limited Quantum Dynamics",
+    "authors": [
+      "Lauritz van Luijk"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00220-025-05282-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s00220-025-05282-w/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00220-025-05282-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2025-05-05T00:00:00Z",
+          "timestamp": 1746403200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 4,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "source_url": "https://doi.org/10.1007/s00220-025-05282-w"
+  },
+  {
+    "doi": "10.1007/s10208-025-09730-w",
+    "checked": "2026-10-10",
+    "title": "Convergence Rates for the Trotter Splitting for Unbounded Operators",
+    "authors": [
+      "Simon Becker",
+      "Niklas Galke",
+      "Lauritz van Luijk",
+      "Robert Salzmann"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          29
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10208-025-09730-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s10208-025-09730-w",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10208-025-09730-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              29
+            ]
+          ],
+          "date-time": "2025-09-29T00:00:00Z",
+          "timestamp": 1759104000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              29
+            ]
+          ],
+          "date-time": "2025-09-29T00:00:00Z",
+          "timestamp": 1759104000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "source_url": "https://doi.org/10.1007/s10208-025-09730-w"
+  },
+  {
+    "doi": "10.1016/0024-3795(88)90223-6",
+    "checked": "2026-10-10",
+    "title": "Computing a nearest symmetric positive semidefinite matrix",
+    "authors": [
+      "Nicholas J. Higham"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1988,
+          5
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:0024379588902236?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:0024379588902236?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1988,
+              5,
+              1
+            ]
+          ],
+          "date-time": "1988-05-01T00:00:00Z",
+          "timestamp": 578448000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2013-07-17T00:00:00Z",
+          "timestamp": 1374019200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 9208,
+        "URL": "https://www.elsevier.com/open-access/userlicense/1.0/"
+      }
+    ],
+    "source_url": "https://doi.org/10.1016/0024-3795(88)90223-6"
+  },
+  {
+    "doi": "10.1016/0375-9601(90)90962-N",
+    "checked": "2026-10-10",
+    "title": "Fractal decomposition of exponential operators with applications to many-body theories and Monte Carlo simulations",
+    "authors": [
+      "Masuo Suzuki"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1990,
+          6
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:037596019090962N?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:037596019090962N?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1990,
+              6,
+              1
+            ]
+          ],
+          "date-time": "1990-06-01T00:00:00Z",
+          "timestamp": 644198400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "source_url": "https://doi.org/10.1016/0375-9601(90)90962-N"
+  },
+  {
+    "doi": "10.1038/s41467-021-22539-9",
+    "checked": "2026-10-10",
+    "title": "Power of data in quantum machine learning",
+    "authors": [
+      "Hsin-Yuan Huang",
+      "Michael Broughton",
+      "Masoud Mohseni",
+      "Ryan Babbush",
+      "Sergio Boixo",
+      "Hartmut Neven",
+      "Jarrod R. McClean"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          11
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s41467-021-22539-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-021-22539-9",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-021-22539-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              11
+            ]
+          ],
+          "date-time": "2021-05-11T00:00:00Z",
+          "timestamp": 1620691200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              11
+            ]
+          ],
+          "date-time": "2021-05-11T00:00:00Z",
+          "timestamp": 1620691200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s41467-021-22539-9"
+  },
+  {
+    "doi": "10.1038/s41467-025-57580-5",
+    "checked": "2026-10-10",
+    "title": "Efficient and practical Hamiltonian simulation from time-dependent product formulas",
+    "authors": [
+      "Jan Lukas Bosse",
+      "Andrew M. Childs",
+      "Charles Derby",
+      "Filippo Maria Gambetta",
+      "Ashley Montanaro",
+      "Raul A. Santos"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          26
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s41467-025-57580-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-025-57580-5",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-025-57580-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2025-03-26T00:00:00Z",
+          "timestamp": 1742947200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2025-03-26T00:00:00Z",
+          "timestamp": 1742947200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s41467-025-57580-5"
+  },
+  {
+    "doi": "10.1038/s41534-023-00682-z",
+    "checked": "2026-10-10",
+    "title": "Time-series quantum reservoir computing with weak and projective measurements",
+    "authors": [
+      "Pere Mujal",
+      "Rodrigo Martínez-Peña",
+      "Gian Luca Giorgi",
+      "Miguel C. Soriano",
+      "Roberta Zambrini"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          23
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s41534-023-00682-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41534-023-00682-z",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41534-023-00682-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              23
+            ]
+          ],
+          "date-time": "2023-02-23T00:00:00Z",
+          "timestamp": 1677110400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              23
+            ]
+          ],
+          "date-time": "2023-02-23T00:00:00Z",
+          "timestamp": 1677110400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s41534-023-00682-z"
+  },
+  {
+    "doi": "10.1038/s41534-026-01229-8",
+    "checked": "2026-10-10",
+    "title": "Quantum reservoir computing induced by controllable damping",
+    "authors": [
+      "Emanuele Ricci",
+      "Francesco Monzani",
+      "Luca Nigro",
+      "Enrico Prati"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          17
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s41534-026-01229-8",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41534-026-01229-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41534-026-01229-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              17
+            ]
+          ],
+          "date-time": "2026-04-17T00:00:00Z",
+          "timestamp": 1776384000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2026-07-13T00:00:00Z",
+          "timestamp": 1783900800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 87,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s41534-026-01229-8"
+  },
+  {
+    "doi": "10.1038/s41566-026-01880-9",
+    "checked": "2026-10-10",
+    "title": "Experimental memory control in continuous-variable optical quantum reservoir computing",
+    "authors": [
+      "Iris Paparelle",
+      "Johan Henaff",
+      "Jorge García-Beni",
+      "Émilie Gillet",
+      "Daniel Montesinos",
+      "Gian Luca Giorgi",
+      "Miguel C. Soriano",
+      "Roberta Zambrini",
+      "Valentina Parigi"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          17
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s41566-026-01880-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41566-026-01880-9",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41566-026-01880-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              17
+            ]
+          ],
+          "date-time": "2026-03-17T00:00:00Z",
+          "timestamp": 1773705600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              17
+            ]
+          ],
+          "date-time": "2026-03-17T00:00:00Z",
+          "timestamp": 1773705600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s41566-026-01880-9"
+  },
+  {
+    "doi": "10.1038/s41586-019-0980-2",
+    "checked": "2026-10-10",
+    "title": "Supervised learning with quantum-enhanced feature spaces",
+    "authors": [
+      "Vojtěch Havlíček",
+      "Antonio D. Córcoles",
+      "Kristan Temme",
+      "Aram W. Harrow",
+      "Abhinav Kandala",
+      "Jerry M. Chow",
+      "Jay M. Gambetta"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          13
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s41586-019-0980-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-019-0980-2",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-019-0980-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2019-03-13T00:00:00Z",
+          "timestamp": 1552435200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2019-03-13T00:00:00Z",
+          "timestamp": 1552435200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s41586-019-0980-2"
+  },
+  {
+    "doi": "10.1038/s41586-021-03202-1",
+    "checked": "2026-10-10",
+    "title": "Quantum circuits with many photons on a programmable nanophotonic chip",
+    "authors": [
+      "J. M. Arrazola",
+      "V. Bergholm",
+      "K. Brádler",
+      "T. R. Bromley",
+      "M. J. Collins",
+      "I. Dhand",
+      "A. Fumagalli",
+      "T. Gerrits",
+      "A. Goussev",
+      "L. G. Helt",
+      "J. Hundal",
+      "T. Isacsson",
+      "R. B. Israel",
+      "J. Izaac",
+      "S. Jahangiri",
+      "R. Janik",
+      "N. Killoran",
+      "S. P. Kumar",
+      "J. Lavoie",
+      "A. E. Lita",
+      "D. H. Mahler",
+      "M. Menotti",
+      "B. Morrison",
+      "S. W. Nam",
+      "L. Neuhaus",
+      "H. Y. Qi",
+      "N. Quesada",
+      "A. Repingon",
+      "K. K. Sabapathy",
+      "M. Schuld",
+      "D. Su",
+      "J. Swinarton",
+      "A. Száva",
+      "K. Tan",
+      "P. Tan",
+      "V. D. Vaidya",
+      "Z. Vernon",
+      "Z. Zabaneh",
+      "Y. Zhang"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          3
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s41586-021-03202-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-021-03202-1",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-021-03202-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              3
+            ]
+          ],
+          "date-time": "2021-03-03T00:00:00Z",
+          "timestamp": 1614729600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              3
+            ]
+          ],
+          "date-time": "2021-03-03T00:00:00Z",
+          "timestamp": 1614729600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s41586-021-03202-1"
+  },
+  {
+    "doi": "10.1038/s42005-021-00556-w",
+    "checked": "2026-10-10",
+    "title": "Gaussian states of continuous-variable quantum systems provide universal and versatile reservoir computing",
+    "authors": [
+      "Johannes Nokkala",
+      "Rodrigo Martínez-Peña",
+      "Gian Luca Giorgi",
+      "Valentina Parigi",
+      "Miguel C. Soriano",
+      "Roberta Zambrini"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          22
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s42005-021-00556-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42005-021-00556-w",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42005-021-00556-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              22
+            ]
+          ],
+          "date-time": "2021-03-22T00:00:00Z",
+          "timestamp": 1616371200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              22
+            ]
+          ],
+          "date-time": "2021-03-22T00:00:00Z",
+          "timestamp": 1616371200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s42005-021-00556-w"
+  },
+  {
+    "doi": "10.1038/s42005-026-02652-1",
+    "checked": "2026-10-10",
+    "title": "Predicting chaotic dynamics on NISQ hardware with quantum reservoir networks",
+    "authors": [
+      "Erik L. Connerty",
+      "Ethan N. Evans",
+      "Gerasimos Angelatos",
+      "Vignesh Narayanan"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          5
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s42005-026-02652-1",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42005-026-02652-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42005-026-02652-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2026-05-05T00:00:00Z",
+          "timestamp": 1777939200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              13
+            ]
+          ],
+          "date-time": "2026-08-13T00:00:00Z",
+          "timestamp": 1786579200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 100,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s42005-026-02652-1"
+  },
+  {
+    "doi": "10.1038/s42256-021-00302-5",
+    "checked": "2026-10-10",
+    "title": "Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators",
+    "authors": [
+      "Lu Lu",
+      "Pengzhan Jin",
+      "Guofei Pang",
+      "Zhongqiang Zhang",
+      "George Em Karniadakis"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          18
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s42256-021-00302-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42256-021-00302-5",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42256-021-00302-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              18
+            ]
+          ],
+          "date-time": "2021-03-18T00:00:00Z",
+          "timestamp": 1616025600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              18
+            ]
+          ],
+          "date-time": "2021-03-18T00:00:00Z",
+          "timestamp": 1616025600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s42256-021-00302-5"
+  },
+  {
+    "doi": "10.1038/s42256-026-01289-7",
+    "checked": "2026-10-10",
+    "title": "Quantum neural operators with implicit quadratic frame and expressivity advantages",
+    "authors": [
+      "Ruocheng Wang",
+      "Xiaoqiu Zhong",
+      "Zhuo Xia",
+      "Junchi Yan"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/s42256-026-01289-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42256-026-01289-7",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42256-026-01289-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              3
+            ]
+          ],
+          "date-time": "2026-09-03T00:00:00Z",
+          "timestamp": 1788393600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              3
+            ]
+          ],
+          "date-time": "2026-09-03T00:00:00Z",
+          "timestamp": 1788393600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/s42256-026-01289-7"
+  },
+  {
+    "doi": "10.1038/srep00514",
+    "checked": "2026-10-10",
+    "title": "Information Processing Capacity of Dynamical Systems",
+    "authors": [
+      "Joni Dambre",
+      "David Verstraeten",
+      "Benjamin Schrauwen",
+      "Serge Massar"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          7,
+          19
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.nature.com/articles/srep00514",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/srep00514.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/srep00514.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              19
+            ]
+          ],
+          "date-time": "2012-07-19T00:00:00Z",
+          "timestamp": 1342656000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              19
+            ]
+          ],
+          "date-time": "2012-07-19T00:00:00Z",
+          "timestamp": 1342656000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+      }
+    ],
+    "source_url": "https://doi.org/10.1038/srep00514"
+  },
+  {
+    "doi": "10.1080/01621459.1927.10502953",
+    "checked": "2026-10-10",
+    "title": "Probable Inference, the Law of Succession, and Statistical Inference",
+    "authors": [
+      "Edwin B. Wilson"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1927,
+          6
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "http://www.tandfonline.com/doi/pdf/10.1080/01621459.1927.10502953",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [],
+    "source_url": "https://doi.org/10.1080/01621459.1927.10502953"
+  },
+  {
+    "doi": "10.1080/01621459.1963.10500830",
+    "checked": "2026-10-10",
+    "title": "Probability Inequalities for Sums of Bounded Random Variables",
+    "authors": [
+      "Wassily Hoeffding"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1963,
+          3
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/01621459.1963.10500830",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [],
+    "source_url": "https://doi.org/10.1080/01621459.1963.10500830"
+  },
+  {
+    "doi": "10.1103/PhysRevA.109.042421",
+    "checked": "2026-10-10",
+    "title": "Let quantum neural networks choose their own frequencies",
+    "authors": [
+      "Ben Jaderberg",
+      "Antonio A. Gentile",
+      "Youssef Achari Berrada",
+      "Elvira Shishenina",
+      "Vincent E. Elfving"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          22
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevA.109.042421",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevA.109.042421/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              22
+            ]
+          ],
+          "date-time": "2024-04-22T00:00:00Z",
+          "timestamp": 1713744000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      }
+    ],
+    "source_url": "https://doi.org/10.1103/PhysRevA.109.042421"
+  },
+  {
+    "doi": "10.1103/PhysRevE.107.035306",
+    "checked": "2026-10-10",
+    "title": "Quantum reservoir computing in finite dimensions",
+    "authors": [
+      "Rodrigo Martínez-Peña",
+      "Juan-Pablo Ortega"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          24
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevE.107.035306",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevE.107.035306/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              24
+            ]
+          ],
+          "date-time": "2023-03-24T00:00:00Z",
+          "timestamp": 1679616000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      }
+    ],
+    "source_url": "https://doi.org/10.1103/PhysRevE.107.035306"
+  },
+  {
+    "doi": "10.1103/PhysRevLett.113.100502",
+    "checked": "2026-10-10",
+    "title": "Boson Sampling from a Gaussian State",
+    "authors": [
+      "A. P. Lund",
+      "A. Laing",
+      "S. Rahimi-Keshari",
+      "T. Rudolph",
+      "J. L. O’Brien",
+      "T. C. Ralph"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          9,
+          5
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevLett.113.100502",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.113.100502/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2014-09-05T00:00:00Z",
+          "timestamp": 1409875200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://link.aps.org/licenses/aps-default-license"
+      }
+    ],
+    "source_url": "https://doi.org/10.1103/PhysRevLett.113.100502"
+  },
+  {
+    "doi": "10.1103/PhysRevLett.119.170501",
+    "checked": "2026-10-10",
+    "title": "Gaussian Boson Sampling",
+    "authors": [
+      "Craig S. Hamilton",
+      "Regina Kruse",
+      "Linda Sansoni",
+      "Sonja Barkhofen",
+      "Christine Silberhorn",
+      "Igor Jex"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          23
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevLett.119.170501",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.119.170501/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2017-10-23T00:00:00Z",
+          "timestamp": 1508716800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      }
+    ],
+    "source_url": "https://doi.org/10.1103/PhysRevLett.119.170501"
+  },
+  {
+    "doi": "10.1103/PhysRevLett.122.040504",
+    "checked": "2026-10-10",
+    "title": "Quantum Machine Learning in Feature Hilbert Spaces",
+    "authors": [
+      "Maria Schuld",
+      "Nathan Killoran"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          1
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevLett.122.040504",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.122.040504/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2019-02-01T00:00:00Z",
+          "timestamp": 1548979200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      }
+    ],
+    "source_url": "https://doi.org/10.1103/PhysRevLett.122.040504"
+  },
+  {
+    "doi": "10.1103/PhysRevX.11.011020",
+    "checked": "2026-10-10",
+    "title": "Theory of Trotter Error with Commutator Scaling",
+    "authors": [
+      "Andrew M. Childs",
+      "Yuan Su",
+      "Minh C. Tran",
+      "Nathan Wiebe",
+      "Shuchen Zhu"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          1
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevX.11.011020",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevX.11.011020/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2021-02-01T00:00:00Z",
+          "timestamp": 1612137600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "source_url": "https://doi.org/10.1103/PhysRevX.11.011020"
+  },
+  {
+    "doi": "10.1126/science.273.5278.1073",
+    "checked": "2026-10-10",
+    "title": "Universal Quantum Simulators",
+    "authors": [
+      "Seth Lloyd"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1996,
+          8,
+          23
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://www.science.org/doi/pdf/10.1126/science.273.5278.1073",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [],
+    "source_url": "https://doi.org/10.1126/science.273.5278.1073"
+  },
+  {
+    "doi": "10.1186/1471-2105-7-91",
+    "checked": "2026-10-10",
+    "title": "Bias in error estimation when using cross-validation for model selection",
+    "authors": [
+      "Sudhir Varma",
+      "Richard Simon"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          2,
+          23
+        ]
+      ]
+    },
+    "links": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1186/1471-2105-7-91.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "licenses": [],
+    "source_url": "https://doi.org/10.1186/1471-2105-7-91"
+  },
+  {
+    "doi": "10.22331/q-2018-08-06-79",
+    "checked": "2026-10-10",
+    "title": "Quantum Computing in the NISQ era and beyond",
+    "authors": [
+      "John Preskill"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          6
+        ]
+      ]
+    },
+    "links": [],
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2018-08-06T00:00:00Z",
+          "timestamp": 1533513600000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "source_url": "https://doi.org/10.22331/q-2018-08-06-79"
+  },
+  {
+    "doi": "10.24432/C50P49",
+    "checked": "2026-10-10",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

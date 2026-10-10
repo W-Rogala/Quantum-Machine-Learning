@@ -42,6 +42,7 @@ nie stanowią dowodu przewagi kwantowej ani potwierdzenia wszystkich hipotez.
 
 | Część | Zawartość |
 |---|---|
+| [Biblioteka literatury](docs/literature/README.md) | 76 pozycji, 26 PDF-ów, wersje arXiv, autorzy, licencje i katalog offline |
 | [Mapa projektu](docs/project_map.md) | graf wszystkich gałęzi, pojęć i wyników |
 | [Szczegółowy raport całego projektu](docs/report/README.md) | 18 rozdziałów, wyjaśnienia matematyczne i katalog wszystkich relacji grafowych |
 | [Monografia matematyczna](docs/mathematical_report/README.md) | szczegółowe dowody i kontrprzykłady, hipotezy, kod, bibliografia i interaktywny raport offline |

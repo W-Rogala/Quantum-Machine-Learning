@@ -1,0 +1,299 @@
+[
+  {
+    "id": "published-10-1007-s00220-025-05282-w",
+    "doi": "10.1007/s00220-025-05282-w",
+    "title": "Energy-Limited Quantum Dynamics",
+    "authors": [
+      "Lauritz van Luijk"
+    ],
+    "landing_url": "https://doi.org/10.1007/s00220-025-05282-w",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1007/s00220-025-05282-w",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00220-025-05282-w.pdf",
+    "sha256": "6483a73b78da197baa1bfc0661fb4dff0240ac1294ff47a875c12b7bf1908f11",
+    "bytes": 942023,
+    "pages": 56,
+    "repository_file": "docs/literature/pdf/published-10-1007-s00220-025-05282-w.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1007-s10208-025-09730-w",
+    "doi": "10.1007/s10208-025-09730-w",
+    "title": "Convergence Rates for the Trotter Splitting for Unbounded Operators",
+    "authors": [
+      "Simon Becker",
+      "Niklas Galke",
+      "Lauritz van Luijk",
+      "Robert Salzmann"
+    ],
+    "landing_url": "https://doi.org/10.1007/s10208-025-09730-w",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1007/s10208-025-09730-w",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10208-025-09730-w.pdf",
+    "sha256": "5a12b7d950acf7e57d05a81a7f99c82318ab4682b6ef49d0b7719de9baa89528",
+    "bytes": 1069000,
+    "pages": 54,
+    "repository_file": "docs/literature/pdf/published-10-1007-s10208-025-09730-w.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1038-s41467-021-22539-9",
+    "doi": "10.1038/s41467-021-22539-9",
+    "title": "Power of data in quantum machine learning",
+    "authors": [
+      "Hsin-Yuan Huang",
+      "Michael Broughton",
+      "Masoud Mohseni",
+      "Ryan Babbush",
+      "Sergio Boixo",
+      "Hartmut Neven",
+      "Jarrod R. McClean"
+    ],
+    "landing_url": "https://doi.org/10.1038/s41467-021-22539-9",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1038/s41467-021-22539-9",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://www.nature.com/articles/s41467-021-22539-9.pdf",
+    "sha256": "a5a1fbf20a8568195412291b87fb80e42e2082324e678f61ef91d5e431818a15",
+    "bytes": 1934084,
+    "pages": 9,
+    "repository_file": "docs/literature/pdf/published-10-1038-s41467-021-22539-9.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1038-s41467-025-57580-5",
+    "doi": "10.1038/s41467-025-57580-5",
+    "title": "Efficient and practical Hamiltonian simulation from time-dependent product formulas",
+    "authors": [
+      "Jan Lukas Bosse",
+      "Andrew M. Childs",
+      "Charles Derby",
+      "Filippo Maria Gambetta",
+      "Ashley Montanaro",
+      "Raul A. Santos"
+    ],
+    "landing_url": "https://doi.org/10.1038/s41467-025-57580-5",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1038/s41467-025-57580-5",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://www.nature.com/articles/s41467-025-57580-5.pdf",
+    "sha256": "f84f154b032b3f9905847349ca15d3e989b0a1f87b8432d9fd9e2966b00713f4",
+    "bytes": 1357205,
+    "pages": 11,
+    "repository_file": "docs/literature/pdf/published-10-1038-s41467-025-57580-5.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1038-s41534-023-00682-z",
+    "doi": "10.1038/s41534-023-00682-z",
+    "title": "Time-series quantum reservoir computing with weak and projective measurements",
+    "authors": [
+      "Pere Mujal",
+      "Rodrigo Martínez-Peña",
+      "Gian Luca Giorgi",
+      "Miguel C. Soriano",
+      "Roberta Zambrini"
+    ],
+    "landing_url": "https://doi.org/10.1038/s41534-023-00682-z",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1038/s41534-023-00682-z",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://www.nature.com/articles/s41534-023-00682-z.pdf",
+    "sha256": "1b8dc23ef7be754d16491a510d089322ef407656f3076057fadf5a2737934472",
+    "bytes": 1142100,
+    "pages": 10,
+    "repository_file": "docs/literature/pdf/published-10-1038-s41534-023-00682-z.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1038-s41534-026-01229-8",
+    "doi": "10.1038/s41534-026-01229-8",
+    "title": "Quantum reservoir computing induced by controllable damping",
+    "authors": [
+      "Emanuele Ricci",
+      "Francesco Monzani",
+      "Luca Nigro",
+      "Enrico Prati"
+    ],
+    "landing_url": "https://doi.org/10.1038/s41534-026-01229-8",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1038/s41534-026-01229-8",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://www.nature.com/articles/s41534-026-01229-8.pdf",
+    "sha256": "0ae0ce461895d43ed9ddd2f1faa14c7de270cbf6976eb01a22d4a31dd518ef96",
+    "bytes": 1647982,
+    "pages": 9,
+    "repository_file": "docs/literature/pdf/published-10-1038-s41534-026-01229-8.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1038-s41566-026-01880-9",
+    "doi": "10.1038/s41566-026-01880-9",
+    "title": "Experimental memory control in continuous-variable optical quantum reservoir computing",
+    "authors": [
+      "Iris Paparelle",
+      "Johan Henaff",
+      "Jorge García-Beni",
+      "Émilie Gillet",
+      "Daniel Montesinos",
+      "Gian Luca Giorgi",
+      "Miguel C. Soriano",
+      "Roberta Zambrini",
+      "Valentina Parigi"
+    ],
+    "landing_url": "https://doi.org/10.1038/s41566-026-01880-9",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1038/s41566-026-01880-9",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://www.nature.com/articles/s41566-026-01880-9.pdf",
+    "sha256": "be405107aec83f0b36c0aed9cd55b3ae4376cf7d2259c7ec19a174e4c6572d43",
+    "bytes": 7016259,
+    "pages": 18,
+    "repository_file": "docs/literature/pdf/published-10-1038-s41566-026-01880-9.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1038-s42005-021-00556-w",
+    "doi": "10.1038/s42005-021-00556-w",
+    "title": "Gaussian states of continuous-variable quantum systems provide universal and versatile reservoir computing",
+    "authors": [
+      "Johannes Nokkala",
+      "Rodrigo Martínez-Peña",
+      "Gian Luca Giorgi",
+      "Valentina Parigi",
+      "Miguel C. Soriano",
+      "Roberta Zambrini"
+    ],
+    "landing_url": "https://doi.org/10.1038/s42005-021-00556-w",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1038/s42005-021-00556-w",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://www.nature.com/articles/s42005-021-00556-w.pdf",
+    "sha256": "f6fa3856afb7b0f4fdfdc116de5e377f96634eacb0f26f19bf6eb156b63fc941",
+    "bytes": 923667,
+    "pages": 11,
+    "repository_file": "docs/literature/pdf/published-10-1038-s42005-021-00556-w.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1038-s42005-026-02652-1",
+    "doi": "10.1038/s42005-026-02652-1",
+    "title": "Predicting chaotic dynamics on NISQ hardware with quantum reservoir networks",
+    "authors": [
+      "Erik L. Connerty",
+      "Ethan N. Evans",
+      "Gerasimos Angelatos",
+      "Vignesh Narayanan"
+    ],
+    "landing_url": "https://doi.org/10.1038/s42005-026-02652-1",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1038/s42005-026-02652-1",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://www.nature.com/articles/s42005-026-02652-1.pdf",
+    "sha256": "f3139b4c72cb04971d3b4eaf00693a32db4fb47eacc1df4aedc0e94ec3a55b6a",
+    "bytes": 5084574,
+    "pages": 8,
+    "repository_file": "docs/literature/pdf/published-10-1038-s42005-026-02652-1.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1038-srep00514",
+    "doi": "10.1038/srep00514",
+    "title": "Information Processing Capacity of Dynamical Systems",
+    "authors": [
+      "Joni Dambre",
+      "David Verstraeten",
+      "Benjamin Schrauwen",
+      "Serge Massar"
+    ],
+    "landing_url": "https://doi.org/10.1038/srep00514",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1038/srep00514",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://www.nature.com/articles/srep00514.pdf",
+    "sha256": "f46dc2f45f291ce7792eb0326627eeef776c948b020e3b4405aae3c4c3b3ff56",
+    "bytes": 517426,
+    "pages": 7,
+    "repository_file": "docs/literature/pdf/published-10-1038-srep00514.pdf",
+    "download_status": "included_in_repository"
+  },
+  {
+    "id": "published-10-1103-PhysRevX-11-011020",
+    "doi": "10.1103/PhysRevX.11.011020",
+    "title": "Theory of Trotter Error with Commutator Scaling",
+    "authors": [
+      "Andrew M. Childs",
+      "Yuan Su",
+      "Minh C. Tran",
+      "Nathan Wiebe",
+      "Shuchen Zhu"
+    ],
+    "landing_url": "https://doi.org/10.1103/PhysRevX.11.011020",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": {
+      "url": "https://api.crossref.org/works/10.1103/PhysRevX.11.011020",
+      "content_version": "vor"
+    },
+    "redistribution_allowed": true,
+    "version": "version of record",
+    "checked": "2026-10-10",
+    "pdf_url": "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.11.011020",
+    "sha256": "af3469723102ca91ca1fa3670cdfa4bc681d680f142c524761a563e91338e132",
+    "bytes": 1168592,
+    "pages": 49,
+    "repository_file": "docs/literature/pdf/published-10-1103-PhysRevX-11-011020.pdf",
+    "download_status": "included_in_repository"
+  }
+]
