@@ -1,11 +1,12 @@
 # Biblioteka literatury QML
 
-Stan weryfikacji: **10 października 2026**. Katalog obejmuje **76 pozycji**, wszystkie **42 identyfikatory bibliografii monografii**, jawne cytowania naukowe w dokumentacji i generatorach raportów oraz cztery źródła atlasu teorii. Nie obejmuje rekurencyjnie bibliografii wewnątrz zewnętrznych książek. Pozycja oznacza dzieło, a wersja — konkretny preprint lub wydanie wydawnicze.
+Stan weryfikacji: **12 października 2026**. Katalog obejmuje **76 pozycji**, wszystkie **42 identyfikatory bibliografii monografii**, jawne cytowania naukowe w dokumentacji i generatorach raportów oraz cztery źródła atlasu teorii. Nie obejmuje rekurencyjnie bibliografii wewnątrz zewnętrznych książek. Pozycja oznacza dzieło, a wersja — konkretny preprint lub wydanie wydawnicze.
 
 - **26 oryginalnych PDF-ów dla 22 prac** jest załączonych w `pdf/`, na potwierdzonych licencjach Creative Commons.
 - **51 rekordów arXiv** zawiera sprawdzonych autorów, identyfikatory, wersje, źródła i licencje. Część preprintów ma dodatkową otwartą wersję wydawniczą.
-- Lokalnie pobrano **80 plików PDF** (liczba obejmuje różne wersje). Pliki bez potwierdzonej zgody na redystrybucję pozostają poza publicznym repozytorium. Nowy użytkownik może pobrać dostępne teksty poniższym narzędziem.
-- Dla **5 pozycji** nie uzyskano nowego publicznego pełnego tekstu. Szczegóły: [status dostępu](ACCESS_STATUS.md). Oryginalny egzemplarz książki Combarro przekazany wcześniej przez użytkownika pozostaje materiałem lokalnym.
+- Lokalnie pobrano **85 plików PDF** (liczba obejmuje różne wersje). Pliki bez potwierdzonej zgody na redystrybucję pozostają poza publicznym repozytorium. Nowy użytkownik może pobrać dostępne teksty poniższym narzędziem.
+- Cztery dotąd brakujące pełne teksty pobrano z adresów wskazanych przez użytkownika; dla piątej pracy pobrano **suplement, nie główny artykuł**. Ich kopie pozostają lokalne, ponieważ nie potwierdzono prawa redystrybucji. [Nowe źródła i status](USER_SOURCES_20261012.md). Główny artykuł QuanONet z 2026 nadal nie został pobrany.
+- Dołączono oryginalną [migawkę kodu QuanONet](code/QuanONet-d01934380a14.zip) na licencji MIT, commit `d01934380a148c96526261ed99218b22c5097353`. Archiwum nie zostało zainstalowane ani uruchomione.
 
 ## Korzystanie offline
 

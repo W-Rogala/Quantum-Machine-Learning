@@ -3,12 +3,12 @@
   "monograph_bibliography_covered": 42,
   "pdfs_in_repository": 26,
   "works_with_repo_pdf": 22,
-  "local_pdf_files": 80,
+  "local_pdf_files": 85,
   "full_text_not_obtained": [
-    "combarro2023",
-    "efron1993",
-    "hoeffding1963",
-    "doi-10-1038-s42256-026-01289-7",
-    "eckart1936"
-  ]
+    "doi-10-1038-s42256-026-01289-7"
+  ],
+  "main_article_missing_despite_supplement": [
+    "doi-10-1038-s42256-026-01289-7"
+  ],
+  "external_code_archives": 1
 }

@@ -209,3 +209,7 @@ Autorzy: Pere Mujal; Rodrigo Martínez-Peña; Gian Luca Giorgi; Miguel C. Sorian
 [PDF](pdf/published-10-1038-s41534-023-00682-z.pdf) · [Źródło](https://www.nature.com/articles/s41534-023-00682-z.pdf) · [Licencja](https://creativecommons.org/licenses/by/4.0) · [Potwierdzenie](https://api.crossref.org/works/10.1038/s41534-023-00682-z).
 
 Wersja: `version of record`. SHA-256: `1b8dc23ef7be754d16491a510d089322ef407656f3076057fadf5a2737934472`.
+
+## Kod zewnętrzny QuanONet
+
+Autorzy praw: zapis zachowany w pliku LICENSE wewnątrz oryginalnego archiwum. Źródło: [https://github.com/Wang-Ruocheng/QuanONet](https://github.com/Wang-Ruocheng/QuanONet). Commit: `d01934380a148c96526261ed99218b22c5097353`. [Licencja MIT](https://github.com/Wang-Ruocheng/QuanONet/blob/d01934380a148c96526261ed99218b22c5097353/LICENSE). [Archiwum](code/QuanONet-d01934380a14.zip). SHA-256: `30a7af54cea36874967eeca4321ba4b8f7681b5a9777c426697a9a7f73561dd0`. Bez modyfikacji i bez wykonania kodu; materiał referencyjny. Pełny tekst licencji również w `external_code.json`.

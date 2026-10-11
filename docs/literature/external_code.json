@@ -1,0 +1,19 @@
+{
+  "checked": "2026-10-12",
+  "assets": [
+    {
+      "path": "docs/literature/code/QuanONet-d01934380a14.zip",
+      "source_url": "https://codeload.github.com/Wang-Ruocheng/QuanONet/zip/d01934380a148c96526261ed99218b22c5097353",
+      "repository_url": "https://github.com/Wang-Ruocheng/QuanONet",
+      "commit": "d01934380a148c96526261ed99218b22c5097353",
+      "sha256": "30a7af54cea36874967eeca4321ba4b8f7681b5a9777c426697a9a7f73561dd0",
+      "bytes": 1174587,
+      "license": "MIT",
+      "license_url": "https://github.com/Wang-Ruocheng/QuanONet/blob/d01934380a148c96526261ed99218b22c5097353/LICENSE",
+      "license_text": "MIT License\n\nCopyright (c) 2026 Ruocheng Wang, Zhuo Xia, Xiaoqiu Zhong, Junchi Yan\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "archive_entries": 57,
+      "modifications": "none; original GitHub source archive",
+      "execution": "not installed or executed; reference code only"
+    }
+  ]
+}

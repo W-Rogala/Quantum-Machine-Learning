@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-10",
+  "checked": "2026-10-12",
   "scope": "42 monograph bibliography entries plus explicit scholarly citations in project Markdown, BibTeX and Python report generators and the four source materials of the theory atlas. Software web documentation is a separate URL inventory. No recursive harvesting of references inside external books.",
   "works": [
     {
@@ -74,12 +74,35 @@
       ],
       "bibliography_ids": [],
       "cited_in": [
+        "docs/literature/user_supplied_sources.json",
         "qml_model_modules/00_INDEX.md"
       ],
-      "versions": [],
+      "versions": [
+        {
+          "id": "combarro2023",
+          "pdf_url": "https://quantumatlas.ir/wp-content/uploads/2025/01/A-Practival-Guide-to-Quantum-Machine-Learning-and-Quantum-Optimization.pdf",
+          "checked": "2026-10-12",
+          "download_status": "downloaded_local",
+          "bytes": 7204719,
+          "sha256": "e69d1cf1a46cf663e3719faf7b333681f6e0556b2fe164d5cdbbff26c5eb613b",
+          "pages": 680,
+          "title": "A Practical Guide to Quantum Machine Learning and Quantum Optimization",
+          "authors": [
+            "Elías F. Combarro",
+            "Samuel González-Castillo"
+          ],
+          "repository_file": null,
+          "redistribution_allowed": false,
+          "license_url": "",
+          "source_origin": "user supplied URL, verified 2026-10-12",
+          "version": "user-linked full text; title verified against PDF",
+          "resource_type": "full_text",
+          "note": "PDF explicitly reserves reproduction rights to Packt Publishing. Kept outside public repository."
+        }
+      ],
       "notes": [
         "No exact arXiv version located in the title/author search performed on 2026-10-10.",
-        "Commercial book; original user-provided source is retained locally. No public full-text download or redistribution permission found."
+        "User supplied a working PDF URL on 2026-10-12. Full text downloaded and title checked; redistribution permission not confirmed."
       ],
       "landing_url": "https://www.packtpub.com/en-us/product/a-practical-guide-to-quantum-machine-learning-and-quantum-optimization-9781804613832",
       "type": "book_or_course",
@@ -93,7 +116,7 @@
           "url": "https://arxiv.org/search/?searchtype=author&query=Samuel%20Gonz%C3%A1lez-Castillo"
         }
       ],
-      "status": "full_text_not_obtained",
+      "status": "downloaded_local_link_only",
       "arxiv_search": {
         "date": "2026-10-10",
         "query": "A Practical Guide to Quantum Machine Learning and Quantum Optimization Elías F. Combarro Samuel González-Castillo",
@@ -766,10 +789,35 @@
         "efron1993"
       ],
       "cited_in": [
+        "docs/literature/user_supplied_sources.json",
         "docs/mathematical_report/bibliography/references.json"
       ],
-      "versions": [],
-      "notes": [],
+      "versions": [
+        {
+          "id": "efron1993",
+          "pdf_url": "https://www.cmat.edu.uy/~mordecki/seminario/seminario1.pdf",
+          "checked": "2026-10-12",
+          "download_status": "downloaded_local",
+          "bytes": 21790258,
+          "sha256": "5ff22bcd8a0b3f28f170176e2eba6e68cdfd9c334d667dd5a9e30ae43fb09bde",
+          "pages": 451,
+          "title": "An Introduction to the Bootstrap",
+          "authors": [
+            "Bradley Efron",
+            "Robert J. Tibshirani"
+          ],
+          "repository_file": null,
+          "redistribution_allowed": false,
+          "license_url": "",
+          "source_origin": "user supplied URL, verified 2026-10-12",
+          "version": "user-linked full text; title verified against PDF",
+          "resource_type": "full_text",
+          "note": "Scanned commercial book marked Copyrighted Material. No redistribution license confirmed."
+        }
+      ],
+      "notes": [
+        "User supplied a working PDF URL on 2026-10-12. Full text downloaded and title checked; redistribution permission not confirmed."
+      ],
       "doi": "",
       "landing_url": "https://www.routledge.com/An-Introductionto-the-Bootstrap/Efron-Tibshirani/p/book/9780412042317",
       "type": "publication",
@@ -783,7 +831,7 @@
           "url": "https://arxiv.org/search/?searchtype=author&query=Robert%20J.%20Tibshirani"
         }
       ],
-      "status": "full_text_not_obtained",
+      "status": "downloaded_local_link_only",
       "arxiv_search": {
         "date": "2026-10-10",
         "query": "An Introduction to the Bootstrap Bradley Efron Robert J. Tibshirani",
@@ -4349,10 +4397,34 @@
         "hoeffding1963"
       ],
       "cited_in": [
+        "docs/literature/user_supplied_sources.json",
         "docs/mathematical_report/bibliography/references.json"
       ],
-      "versions": [],
-      "notes": [],
+      "versions": [
+        {
+          "id": "hoeffding1963",
+          "pdf_url": "https://userpages.cs.umbc.edu/lomonaco/f08/643/hwk643/Hoeffding.pdf",
+          "checked": "2026-10-12",
+          "download_status": "downloaded_local",
+          "bytes": 1368601,
+          "sha256": "66d9e9caff3dbc403f80dbd6304feb93cf2eb7d2d7f50e5abfa49413feccf8bd",
+          "pages": 18,
+          "title": "Probability Inequalities for Sums of Bounded Random Variables",
+          "authors": [
+            "Wassily Hoeffding"
+          ],
+          "repository_file": null,
+          "redistribution_allowed": false,
+          "license_url": "",
+          "source_origin": "user supplied URL, verified 2026-10-12",
+          "version": "user-linked full text; title verified against PDF",
+          "resource_type": "full_text",
+          "note": "Public URL verified and PDF downloaded locally. No permission to mirror this exact PDF confirmed."
+        }
+      ],
+      "notes": [
+        "User supplied a working PDF URL on 2026-10-12. Full text downloaded and title checked; redistribution permission not confirmed."
+      ],
       "doi": "10.1080/01621459.1963.10500830",
       "landing_url": "https://www.jstor.org/stable/2282952",
       "type": "publication",
@@ -4402,7 +4474,7 @@
           "url": "https://arxiv.org/search/?searchtype=author&query=Wassily%20Hoeffding"
         }
       ],
-      "status": "full_text_not_obtained",
+      "status": "downloaded_local_link_only",
       "arxiv_search": {
         "date": "2026-10-10",
         "query": "Probability Inequalities for Sums of Bounded Random Variables Wassily Hoeffding",
@@ -5918,11 +5990,37 @@
       ],
       "bibliography_ids": [],
       "cited_in": [
+        "docs/literature/user_supplied_sources.json",
         "tools/build_qml_achievements_report.py"
       ],
-      "versions": [],
+      "versions": [
+        {
+          "id": "quanonet2026-supplement",
+          "pdf_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42256-026-01289-7/MediaObjects/42256_2026_1289_MOESM1_ESM.pdf",
+          "checked": "2026-10-12",
+          "download_status": "downloaded_local",
+          "bytes": 766766,
+          "sha256": "23ef987de26e5e5bd6d52c8d0a4cb232719a44f295445fd73b86c5ef68e632bc",
+          "pages": 15,
+          "title": "Quantum neural operators with implicit quadratic frame and expressivity advantages — Supplementary information",
+          "authors": [
+            "Ruocheng Wang",
+            "Xiaoqiu Zhong",
+            "Zhuo Xia",
+            "Junchi Yan"
+          ],
+          "repository_file": null,
+          "redistribution_allowed": false,
+          "license_url": "",
+          "source_origin": "user supplied URL, verified 2026-10-12",
+          "version": "publisher supplementary information",
+          "resource_type": "supplementary_information",
+          "note": "15-page supplementary information, not the main 10-page article. No PDF redistribution license confirmed; MIT applies to code only."
+        }
+      ],
       "notes": [
-        "Publisher correction: 10.1038/s42256-026-01314-9. The open ICML 2025 QuanONet paper is a separate publication, not an identical arXiv replacement. Zenodo 21084057 archives code, not the paper."
+        "Publisher correction: 10.1038/s42256-026-01314-9. The open ICML 2025 QuanONet paper is a separate publication, not an identical arXiv replacement. Zenodo 21084057 archives code, not the paper.",
+        "Supplement downloaded 2026-10-12 from publisher. Main subscription article remains unavailable locally; official MIT code archive attached at commit d01934380a148c96526261ed99218b22c5097353."
       ],
       "doi": "10.1038/s42256-026-01289-7",
       "published_metadata": {
@@ -6019,12 +6117,29 @@
           "url": "https://arxiv.org/search/?searchtype=author&query=Junchi%20Yan"
         }
       ],
-      "status": "full_text_not_obtained",
+      "status": "partial_text_available",
       "arxiv_search": {
         "date": "2026-10-10",
         "query": "Quantum neural operators with implicit quadratic frame and expressivity advantages Ruocheng Wang Xiaoqiu Zhong",
         "result": "No exact counterpart located in searches; this is not a proof of absence."
-      }
+      },
+      "main_text_obtained": false,
+      "external_code": [
+        {
+          "path": "docs/literature/code/QuanONet-d01934380a14.zip",
+          "source_url": "https://codeload.github.com/Wang-Ruocheng/QuanONet/zip/d01934380a148c96526261ed99218b22c5097353",
+          "repository_url": "https://github.com/Wang-Ruocheng/QuanONet",
+          "commit": "d01934380a148c96526261ed99218b22c5097353",
+          "sha256": "30a7af54cea36874967eeca4321ba4b8f7681b5a9777c426697a9a7f73561dd0",
+          "bytes": 1174587,
+          "license": "MIT",
+          "license_url": "https://github.com/Wang-Ruocheng/QuanONet/blob/d01934380a148c96526261ed99218b22c5097353/LICENSE",
+          "license_text": "MIT License\n\nCopyright (c) 2026 Ruocheng Wang, Zhuo Xia, Xiaoqiu Zhong, Junchi Yan\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+          "archive_entries": 57,
+          "modifications": "none; original GitHub source archive",
+          "execution": "not installed or executed; reference code only"
+        }
+      ]
     },
     {
       "id": "arxiv-1307.0401",
@@ -7226,12 +7341,37 @@
         "eckart1936"
       ],
       "cited_in": [
+        "docs/literature/user_supplied_sources.json",
         "docs/mathematical_report/bibliography/references.bib",
         "docs/mathematical_report/bibliography/references.json",
         "tools/build_mathematical_report.py"
       ],
-      "versions": [],
-      "notes": [],
+      "versions": [
+        {
+          "id": "eckart1936",
+          "pdf_url": "https://ccrma.stanford.edu/~dattorro/eckart&young.1936.pdf",
+          "checked": "2026-10-12",
+          "download_status": "downloaded_local",
+          "bytes": 351355,
+          "sha256": "1db3812c26a0f13aa2e38a3b76cd4a8a41cd16c543ff93da4a65ed82045fdc52",
+          "pages": 8,
+          "title": "The approximation of one matrix by another of lower rank",
+          "authors": [
+            "Carl Eckart",
+            "Gale Young"
+          ],
+          "repository_file": null,
+          "redistribution_allowed": false,
+          "license_url": "",
+          "source_origin": "user supplied URL, verified 2026-10-12",
+          "version": "user-linked full text; title verified against PDF",
+          "resource_type": "full_text",
+          "note": "Public URL verified and PDF downloaded locally. No permission to mirror this exact PDF confirmed."
+        }
+      ],
+      "notes": [
+        "User supplied a working PDF URL on 2026-10-12. Full text downloaded and title checked; redistribution permission not confirmed."
+      ],
       "doi": "10.1007/BF02288367",
       "landing_url": "https://link.springer.com/article/10.1007/BF02288367",
       "type": "publication",
@@ -7309,7 +7449,7 @@
           "url": "https://arxiv.org/search/?searchtype=author&query=Gale%20Young"
         }
       ],
-      "status": "full_text_not_obtained",
+      "status": "downloaded_local_link_only",
       "arxiv_search": {
         "date": "2026-10-10",
         "query": "The approximation of one matrix by another of lower rank Carl Eckart Gale Young",

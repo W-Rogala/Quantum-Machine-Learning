@@ -1,0 +1,117 @@
+{
+  "checked": "2026-10-12",
+  "sources": [
+    {
+      "work_id": "combarro2023",
+      "id": "combarro2023",
+      "pdf_url": "https://quantumatlas.ir/wp-content/uploads/2025/01/A-Practival-Guide-to-Quantum-Machine-Learning-and-Quantum-Optimization.pdf",
+      "checked": "2026-10-12",
+      "download_status": "downloaded_local",
+      "bytes": 7204719,
+      "sha256": "e69d1cf1a46cf663e3719faf7b333681f6e0556b2fe164d5cdbbff26c5eb613b",
+      "pages": 680,
+      "title": "A Practical Guide to Quantum Machine Learning and Quantum Optimization",
+      "authors": [
+        "Elías F. Combarro",
+        "Samuel González-Castillo"
+      ],
+      "repository_file": null,
+      "redistribution_allowed": false,
+      "license_url": "",
+      "source_origin": "user supplied URL, verified 2026-10-12",
+      "version": "user-linked full text; title verified against PDF",
+      "resource_type": "full_text",
+      "note": "PDF explicitly reserves reproduction rights to Packt Publishing. Kept outside public repository."
+    },
+    {
+      "work_id": "efron1993",
+      "id": "efron1993",
+      "pdf_url": "https://www.cmat.edu.uy/~mordecki/seminario/seminario1.pdf",
+      "checked": "2026-10-12",
+      "download_status": "downloaded_local",
+      "bytes": 21790258,
+      "sha256": "5ff22bcd8a0b3f28f170176e2eba6e68cdfd9c334d667dd5a9e30ae43fb09bde",
+      "pages": 451,
+      "title": "An Introduction to the Bootstrap",
+      "authors": [
+        "Bradley Efron",
+        "Robert J. Tibshirani"
+      ],
+      "repository_file": null,
+      "redistribution_allowed": false,
+      "license_url": "",
+      "source_origin": "user supplied URL, verified 2026-10-12",
+      "version": "user-linked full text; title verified against PDF",
+      "resource_type": "full_text",
+      "note": "Scanned commercial book marked Copyrighted Material. No redistribution license confirmed."
+    },
+    {
+      "work_id": "hoeffding1963",
+      "id": "hoeffding1963",
+      "pdf_url": "https://userpages.cs.umbc.edu/lomonaco/f08/643/hwk643/Hoeffding.pdf",
+      "checked": "2026-10-12",
+      "download_status": "downloaded_local",
+      "bytes": 1368601,
+      "sha256": "66d9e9caff3dbc403f80dbd6304feb93cf2eb7d2d7f50e5abfa49413feccf8bd",
+      "pages": 18,
+      "title": "Probability Inequalities for Sums of Bounded Random Variables",
+      "authors": [
+        "Wassily Hoeffding"
+      ],
+      "repository_file": null,
+      "redistribution_allowed": false,
+      "license_url": "",
+      "source_origin": "user supplied URL, verified 2026-10-12",
+      "version": "user-linked full text; title verified against PDF",
+      "resource_type": "full_text",
+      "note": "Public URL verified and PDF downloaded locally. No permission to mirror this exact PDF confirmed."
+    },
+    {
+      "work_id": "doi-10-1038-s42256-026-01289-7",
+      "id": "quanonet2026-supplement",
+      "pdf_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42256-026-01289-7/MediaObjects/42256_2026_1289_MOESM1_ESM.pdf",
+      "checked": "2026-10-12",
+      "download_status": "downloaded_local",
+      "bytes": 766766,
+      "sha256": "23ef987de26e5e5bd6d52c8d0a4cb232719a44f295445fd73b86c5ef68e632bc",
+      "pages": 15,
+      "title": "Quantum neural operators with implicit quadratic frame and expressivity advantages — Supplementary information",
+      "authors": [
+        "Ruocheng Wang",
+        "Xiaoqiu Zhong",
+        "Zhuo Xia",
+        "Junchi Yan"
+      ],
+      "repository_file": null,
+      "redistribution_allowed": false,
+      "license_url": "",
+      "source_origin": "user supplied URL, verified 2026-10-12",
+      "version": "publisher supplementary information",
+      "resource_type": "supplementary_information",
+      "note": "15-page supplementary information, not the main 10-page article. No PDF redistribution license confirmed; MIT applies to code only."
+    },
+    {
+      "work_id": "eckart1936",
+      "id": "eckart1936",
+      "pdf_url": "https://ccrma.stanford.edu/~dattorro/eckart&young.1936.pdf",
+      "checked": "2026-10-12",
+      "download_status": "downloaded_local",
+      "bytes": 351355,
+      "sha256": "1db3812c26a0f13aa2e38a3b76cd4a8a41cd16c543ff93da4a65ed82045fdc52",
+      "pages": 8,
+      "title": "The approximation of one matrix by another of lower rank",
+      "authors": [
+        "Carl Eckart",
+        "Gale Young"
+      ],
+      "repository_file": null,
+      "redistribution_allowed": false,
+      "license_url": "",
+      "source_origin": "user supplied URL, verified 2026-10-12",
+      "version": "user-linked full text; title verified against PDF",
+      "resource_type": "full_text",
+      "note": "Public URL verified and PDF downloaded locally. No permission to mirror this exact PDF confirmed."
+    }
+  ],
+  "note": "PDF copies retained locally outside the public repository. Link files are pointers, not PDF attachments."
+}
